@@ -18,8 +18,9 @@ namespace nothing_mod.Content.Players
 
 		public override void PostUpdateEquips()
 		{
-			// UNVERIFIED: whether vanilla recalculates Player.wingTimeMax after this hook runs.
-			// If flight time does not change in game, this is the place to fix.
+			// Verified against tModLoader source: Player.wingTimeMax is a public int, and PostUpdateEquips runs
+			// right after equipment effects are applied, which is the hook meant for adjusting them.
+			// Still untested in game: if flight time does not change, this is the place to fix.
 			if (FlightTicks > 0)
 			{
 				Player.wingTimeMax = FlightTicks;

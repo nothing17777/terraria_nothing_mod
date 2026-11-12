@@ -25,7 +25,9 @@ namespace nothing_mod.Content.Items.NewWeapons
 			Item.rare = TierRarity; // UNVERIFIED: rarity per tier is a design choice, not from the wiki
 		}
 
-		// TODO: parry (200% contact damage, Striking Moment buff) is vanilla behavior of the held shield and is not
-		// implemented for the modded tiers yet. UNVERIFIED how vanilla ties it to the item, check ExampleMod/wiki.
+		// TODO: parry (200% contact damage, Striking Moment buff) and the held-shield visual are not implemented
+		// for the modded tiers. Vanilla keys them to the item number (tModLoader's Player.cs patch shows
+		// "HeldItem.type == 4760" with projectile 866), so modded tiers (different type) don't get them for free.
+		// The throw itself works because Item.shoot is cloned from the vanilla item.
 	}
 }
