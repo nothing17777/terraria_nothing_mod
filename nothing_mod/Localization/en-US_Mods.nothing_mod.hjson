@@ -476,6 +476,66 @@ Items: {
 		Tooltip: Inflicts Slimed on hit
 	}
 
+	SergeantShieldMinus2: {
+		DisplayName: Sergeant United Shield -2
+		Tooltip: A weaker Sergeant United Shield
+	}
+
+	SergeantShieldMinus1: {
+		DisplayName: Sergeant United Shield -1
+		Tooltip: A weaker Sergeant United Shield
+	}
+
+	SergeantShieldPlus1: {
+		DisplayName: Sergeant United Shield +1
+		Tooltip: An upgraded Sergeant United Shield
+	}
+
+	SergeantShieldPlus2: {
+		DisplayName: Sergeant United Shield +2
+		Tooltip: A greatly upgraded Sergeant United Shield
+	}
+
+	BladeStaffMinus2: {
+		DisplayName: Blade Staff -2
+		Tooltip: A weaker Blade Staff
+	}
+
+	BladeStaffMinus1: {
+		DisplayName: Blade Staff -1
+		Tooltip: A weaker Blade Staff
+	}
+
+	BladeStaffPlus1: {
+		DisplayName: Blade Staff +1
+		Tooltip: An upgraded Blade Staff
+	}
+
+	BladeStaffPlus2: {
+		DisplayName: Blade Staff +2
+		Tooltip: A greatly upgraded Blade Staff
+	}
+
+	FrozenWingsMinus2: {
+		DisplayName: Frozen Wings -2
+		Tooltip: Allows flight for 0.42 seconds
+	}
+
+	FrozenWingsMinus1: {
+		DisplayName: Frozen Wings -1
+		Tooltip: Allows flight for 1.67 seconds
+	}
+
+	FrozenWingsPlus1: {
+		DisplayName: Frozen Wings +1
+		Tooltip: Allows flight for 2.67 seconds
+	}
+
+	FrozenWingsPlus2: {
+		DisplayName: Frozen Wings +2
+		Tooltip: Allows flight for 3 seconds
+	}
+
 	PowerBomb: {
 		DisplayName: Power Bomb
 		Tooltip: A huge explosion that destroys even early Hardmode ores
