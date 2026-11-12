@@ -115,7 +115,8 @@ namespace nothing_mod.Content.LoL.Special
 		public override void AI() {
 			timer++;
 			if (timer == 21) { Projectile.ResetLocalNPCHitImmunity(); Projectile.netUpdate = true; }
-			if (!Returning) Projectile.velocity = Projectile.velocity.SafeNormalize(Vector2.UnitX) * (Projectile.ai[0] / 20f);
+			if (timer == 1) Projectile.ai[1] = Projectile.velocity.ToRotation(); // fixed aim, so the owner's motion added below cannot bend it
+			if (!Returning) Projectile.velocity = Vector2.UnitX.RotatedBy(Projectile.ai[1]) * (Projectile.ai[0] / 20f) + Owner.velocity; // keeps full range while Ahri moves
 			else {
 				Vector2 to = Owner.Center - Projectile.Center;
 				float speed = Math.Min(24f, 6f + (timer - 20) * 0.9f);

@@ -24,12 +24,12 @@ namespace nothing_mod.Content.LoL.Special
 						Projectile.NewProjectile(src, p.Center, Vector2.Zero, ModContent.ProjectileType<AhriFoxFire>(), (int)(dmg * 0.8f), kb, me, i);
 					return true;
 				case 2: // Charm
-					Projectile.NewProjectile(src, p.Center, dir * (range / 38f), ModContent.ProjectileType<AhriCharm>(), dmg, kb, me);
+					Projectile.NewProjectile(src, p.Center, dir * (range / 38f) + p.velocity, ModContent.ProjectileType<AhriCharm>(), dmg, kb, me);
 					return true;
 				default: { // Spirit Rush: up to 3 dashes in 10s, each fires 3 bolts
 					lp.StartDash(dir, 15f, 10);
 					for (int i = 0; i < 3; i++) {
-						Vector2 v = dir.RotatedBy((i - 1) * 0.5f) * 10f;
+						Vector2 v = dir.RotatedBy((i - 1) * 0.5f) * 10f + p.velocity;
 						Projectile.NewProjectile(src, p.Center, v, ModContent.ProjectileType<AhriSpiritBolt>(), (int)(dmg * 0.6f), kb, me);
 					}
 					if (lp.RCharges == 0) { lp.RCharges = 2; lp.RWindow = 10f; cooldown = 0.4f; }

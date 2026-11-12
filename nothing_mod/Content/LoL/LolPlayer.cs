@@ -27,7 +27,7 @@ namespace nothing_mod.Content.LoL
 	public class LolPlayer : ModPlayer
 	{
 		public float[] Cooldown = new float[4];
-		public static float RangePx(SpellDef sp) => MathHelper.Clamp(sp.Range / 4f, 120f, 700f);
+		public static float RangePx(SpellDef sp) => MathHelper.Clamp(sp.Range / 2.2f, 160f, 1200f);
 		public float[] CooldownMax = new float[4] { 1, 1, 1, 1 };
 		public float Haste;
 		public float Lifesteal;
@@ -200,7 +200,7 @@ namespace nothing_mod.Content.LoL
 					Projectile.NewProjectile(src, Player.Center, Vector2.Zero, type, dmg, kb, owner, 1f + 16f * 0, aiFlags + 0f);
 					break;
 				case 2: // cone sweep
-					Projectile.NewProjectile(src, Player.Center, dir * 6f, type, dmg, kb, owner, 3f, aiFlags);
+					Projectile.NewProjectile(src, Player.Center, dir * 6f + Player.velocity, type, dmg, kb, owner, 3f, aiFlags);
 					break;
 				case 3: // burst around self
 					Projectile.NewProjectile(src, Player.Center, Vector2.Zero, type, dmg, kb, owner, 1f, aiFlags);
@@ -215,10 +215,10 @@ namespace nothing_mod.Content.LoL
 					if (sp.Heal == 0) Player.AddBuff(BuffID.Regeneration, 60 * 6);
 					break;
 				default: { // skillshot: real missile speed and width, lifetime = range / speed
-					float v = rs != null && rs.Speed > 0 ? MathHelper.Clamp(rs.Speed / 240f, 4f, 30f) : Math.Max(4f, rangePx / 60f);
+					float v = rs != null && rs.Speed > 0 ? MathHelper.Clamp(rs.Speed / 150f, 5f, 36f) : Math.Max(4f, rangePx / 60f);
 					int life = Math.Min(999, (int)Math.Ceiling(rangePx / v));
 					int size = rs != null && rs.Width > 0 ? (int)MathHelper.Clamp(rs.Width / 4f, 16f, 120f) : 0;
-					Projectile.NewProjectile(src, Player.Center, dir * v, type, dmg, kb, owner, 0f, aiFlags, size * 1000 + life);
+					Projectile.NewProjectile(src, Player.Center, dir * v + Player.velocity, type, dmg, kb, owner, 0f, aiFlags, size * 1000 + life); // inherits the caster's motion so range holds while moving
 					break;
 				}
 			}
