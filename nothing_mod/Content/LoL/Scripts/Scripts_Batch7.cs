@@ -15,7 +15,7 @@ namespace nothing_mod.Content.LoL
 				new SpellScript(SpellShape.Beam) { Flags = 1, HealFrac = 0.05f, Note = "Q Piercing Darkness: beam through target damaging enemies and healing allies, slows enemies (real: slow comes from Q passive stacks)" },
 				new SpellScript(SpellShape.Skillshot) { Flags = 2, WidthMult = 1.3f, Note = "W Last Embrace: mist wave latches onto first enemy, roots it and nearby enemies after brief delay (delayed root not expressible)" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 6f, HitIntervalSec = 1f, InvisibleSec = 6f, SpeedBuff = true, DmgMult = 0.01f, Note = "E Curse of the Black Mist: storm around her; allies inside become unselectable wraiths with move speed (no damage; ally camouflage not expressible)" },
-				new SpellScript(SpellShape.Beam) { WidthMult = 1.5f, Shield = true, RangeMult = 3f, Note = "R Dawning Shadow: global beam, shields allies and damages enemies in the center" },
+				new SpellScript(SpellShape.Beam) { WidthMult = 1.5f, Shield = true, RangeMult = 3f, CastDelaySec = 1f, Note = "R Dawning Shadow: global beam (1s wind-up), shields allies and damages enemies in the center" },
 			};
 			t["Seraphine"] = new[] {
 				new SpellScript(SpellShape.Zone) { DurationSec = 0.2f, Note = "Q High Note: instant area damage at target location (every third basic spell recasts - not expressible)" },
@@ -24,15 +24,15 @@ namespace nothing_mod.Content.LoL
 				new SpellScript(SpellShape.Skillshot) { Pierce = true, Flags = 4, WidthMult = 1.3f, Note = "R Encore: piercing wave charming enemies; range refreshes per champion hit (range extension not expressible)" },
 			};
 			t["Sett"] = new[] {
-				new SpellScript(SpellShape.Buff) { SpeedBuff = true, Note = "Q Knuckle Down: next two attacks deal max-health damage and he gains move speed toward champions (empowered attacks not expressible)" },
+				new SpellScript(SpellShape.Buff) { SpeedBuff = true, EmpowerNextAttack = true, Note = "Q Knuckle Down: next two attacks deal max-health damage and he gains move speed toward champions (only one empowered attack)" },
 				new SpellScript(SpellShape.Cone) { Shield = true, WidthMult = 1.4f, DmgMult = 1.3f, Note = "W Haymaker: spends stored Grit for a shield, punches area (true damage center, physical sides)" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 0.3f, Flags = 2, Knockback = -8f, Note = "E Facebreaker: pulls in enemies from both sides and stuns (only slows if one side - not expressible)" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 10f, Flags = 1, Knockback = -4f, DmgMult = 1.3f, Note = "R The Show Stopper: carries an enemy champion through the air, slams them down, slows enemies near landing (carry not expressible)" },
 			};
 			t["Shaco"] = new[] {
-				new SpellScript(SpellShape.Dash) { DashTiles = 14f, InvisibleSec = 3f, Note = "Q Deceive: invisible, teleports to target location; next attack empowered, crits from behind (empowered attack not expressible)" },
+				new SpellScript(SpellShape.Dash) { DashTiles = 14f, InvisibleSec = 3f, EmpowerNextAttack = true, Note = "Q Deceive: invisible, teleports to target location; next attack empowered (back-crit not expressible)" },
 				new SpellScript(SpellShape.Zone) { DelaySec = 0.5f, DurationSec = 2f, HitIntervalSec = 0.5f, Flags = 4, Note = "W Jack In The Box: hidden box that fears and attacks nearby enemies when triggered (hidden trigger not expressible)" },
-				new SpellScript(SpellShape.Homing) { Flags = 1, PoisonSec = 4f, Note = "E Two-Shiv Poison: thrown shiv, poisons and slows, bonus damage below 30% health" },
+				new SpellScript(SpellShape.Homing) { Flags = 1, PoisonSec = 4f, LowHealthBonus = 0.5f, Note = "E Two-Shiv Poison: thrown shiv, poisons and slows, bonus damage below 30% health (bonus scales smoothly instead of a 30% threshold, value UNVERIFIED)" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 5f, HitIntervalSec = 1f, InvisibleSec = 1f, Note = "R Hallucinate: clone fights for him, explodes on death into three mini Jack in the Boxes (clone/boxes not expressible)" },
 			};
 			t["Shen"] = new[] {
@@ -42,7 +42,7 @@ namespace nothing_mod.Content.LoL
 				new SpellScript(SpellShape.Buff) { Shield = true, HealFrac = 0.1f, Note = "R Stand United: shields target ally then teleports to them (global ally targeting/teleport not expressible)" },
 			};
 			t["Shyvana"] = new[] {
-				new SpellScript(SpellShape.Cone) { WidthMult = 0.8f, Note = "Q Emberstrike: next attack hits target and surrounding area, recastable (dragon form adds a single-target recast); approximated as cone" },
+				new SpellScript(SpellShape.Cone) { WidthMult = 0.8f, EmpowerNextAttack = true, Note = "Q Emberstrike: next attack hits target and surrounding area, recastable (dragon form adds a single-target recast); empowered attack plus cone" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 0.4f, DelaySec = 0.5f, Shield = true, SpeedBuff = true, Note = "W Inferno Aegis: shield and move speed, then area detonates after short delay (heals in dragon form); delay not expressible on SelfBurst" },
 				new SpellScript(SpellShape.Skillshot) { Flags = 1, BurnSec = 3f, Note = "E Molten Burst: fireball explodes on large target and slows; in dragon form pierces and leaves fire trail" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 15f, Flags = 4, Note = "R Dragon's Descent: leaps forward, enemies along path flee, transforms into dragon (transformation not expressible)" },
@@ -55,18 +55,18 @@ namespace nothing_mod.Content.LoL
 			};
 			t["Sion"] = new[] {
 				new SpellScript(SpellShape.Cone) { Flags = 2, WidthMult = 1.3f, DmgMult = 1.3f, Note = "Q Decimating Smash: channeled swing, damage and knock-up/stun scale with charge time (charge not expressible)" },
-				new SpellScript(SpellShape.SelfBurst) { Shield = true, DurationSec = 0.4f, DelaySec = 0.5f, Note = "W Soul Furnace: shield, recast after 3s to explode for magic damage around him (recast not expressible)" },
-				new SpellScript(SpellShape.Skillshot) { Pierce = true, Flags = 1, Knockback = 6f, RangeMult = 0.8f, Note = "E Roar of the Slayer: short shockwave damages, slows and shreds armor of first enemy; hitting a minion knocks it back through all enemies" },
+				new SpellScript(SpellShape.SelfBurst) { Shield = true, DurationSec = 0.4f, DelaySec = 0.5f, RecastShape = SpellShape.SelfBurst, Note = "W Soul Furnace: shield, recast after 3s to explode for magic damage around him (recast plays a plain burst, no stored-shield scaling)" },
+				new SpellScript(SpellShape.Skillshot) { Pierce = true, Flags = 1, Knockback = 6f, RangeMult = 0.8f, ArmorShredSec = 3f, Note = "E Roar of the Slayer: short shockwave damages, slows and shreds armor of first enemy; hitting a minion knocks it back through all enemies (minion knock-back not expressible)" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 28f, Flags = 2, Note = "R Unstoppable Onslaught: charges with ramping speed, steerable, knocks up on collision by distance charged (ramp/steer not expressible)" },
 			};
 			t["Sivir"] = new[] {
 				new SpellScript(SpellShape.Boomerang) { Pierce = true, Note = "Q Boomerang Blade: crossblade thrown out and back, damaging each way" },
-				new SpellScript(SpellShape.Buff) { SpeedBuff = true, Note = "W Ricochet: next few attacks gain attack speed and bounce to nearby targets (bouncing attacks not expressible)" },
-				new SpellScript(SpellShape.Buff) { Shield = true, SpeedBuff = true, HealFrac = 0.05f, Note = "E Spell Shield: blocks one enemy ability, then grants health and move speed (spell block not expressible; approximated)" },
+				new SpellScript(SpellShape.Buff) { SpeedBuff = true, EmpowerNextAttack = true, Note = "W Ricochet: next few attacks gain attack speed and bounce to nearby targets (only one empowered attack; bouncing not expressible)" },
+				new SpellScript(SpellShape.Buff) { Shield = true, SpeedBuff = true, HealFrac = 0.05f, BlockSec = 1.5f, Note = "E Spell Shield: blocks one enemy ability, then grants health and move speed (blocks all projectiles for 1.5s instead of one ability)" },
 				new SpellScript(SpellShape.Buff) { SpeedBuff = true, Note = "R On The Hunt: team move speed surge, her attacks reduce spell cooldowns (ally buff / cooldown reduction not expressible)" },
 			};
 			t["Skarner"] = new[] {
-				new SpellScript(SpellShape.Skillshot) { Flags = 1, Pierce = true, WidthMult = 1.5f, Note = "Q Shattered Earth / Upheaval: rips a boulder that empowers attacks, recast to throw it as a powerful projectile (boulder as thrown shot)" },
+				new SpellScript(SpellShape.Skillshot) { Flags = 1, Pierce = true, WidthMult = 1.5f, RecastShape = SpellShape.Skillshot, Note = "Q Shattered Earth / Upheaval: rips a boulder that empowers attacks, recast to throw it as a powerful projectile (recast throws a second shot; attack empowerment not expressible)" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 0.4f, Shield = true, Flags = 1, Note = "W Seismic Bastion: shield and earthquake shockwave damaging and slowing foes" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 28f, Pierce = true, Flags = 2, Note = "E Ixtal's Impact: charges through terrain; champion hit is slammed into next wall for damage and stun (wall slam/terrain not expressible)" },
 				new SpellScript(SpellShape.Cone) { Flags = 2, WidthMult = 0.7f, Knockback = -3f, Note = "R Impale: tails suppress enemy champions in front and drag them along as he moves (suppress/drag not expressible)" },
@@ -92,13 +92,13 @@ namespace nothing_mod.Content.LoL
 			t["Swain"] = new[] {
 				new SpellScript(SpellShape.Cone) { Count = 3, SpreadDeg = 20f, Pierce = true, Note = "Q Death's Hand: several bolts pierce through enemies; more bolts hitting the same enemy deal more damage" },
 				new SpellScript(SpellShape.Zone) { DelaySec = 0.9f, DurationSec = 0.3f, Flags = 1, Note = "W Vision of Empire: demon eye after a delay damages and slows, reveals champions and grants Soul Fragment" },
-				new SpellScript(SpellShape.Boomerang) { Pierce = true, Flags = 2, Knockback = -3f, Note = "E Nevermove: wave goes out, returns to Swain and roots enemies it hits; recast pulls rooted champions closer" },
-				new SpellScript(SpellShape.SelfBurst) { DurationSec = 8f, HitIntervalSec = 1f, Lifesteal = 0.3f, Flags = 1, Note = "R Demonic Ascension: demon form drains health from nearby enemies; Demonflare recast novas and slows (recast not expressible)" },
+				new SpellScript(SpellShape.Boomerang) { Pierce = true, Flags = 2, Knockback = -3f, RecastShape = SpellShape.SelfBurst, Note = "E Nevermove: wave goes out, returns to Swain and roots enemies it hits; recast pulls rooted champions closer (recast is a plain burst, no pull)" },
+				new SpellScript(SpellShape.SelfBurst) { DurationSec = 8f, HitIntervalSec = 1f, Lifesteal = 0.3f, Flags = 1, RecastShape = SpellShape.SelfBurst, Note = "R Demonic Ascension: demon form drains health from nearby enemies; Demonflare recast novas and slows (demon form stat changes not expressible)" },
 			};
 			t["Sylas"] = new[] {
 				new SpellScript(SpellShape.Zone) { DelaySec = 0.6f, DurationSec = 0.3f, Flags = 1, Note = "Q Chain Lash: chains intersect at target location damaging and slowing, then energy explodes after a delay for more damage" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 8f, HealFrac = 0.1f, Note = "W Kingslayer: lunges at enemy dealing damage, heals himself more against champions (heal scales on missing health)" },
-				new SpellScript(SpellShape.Dash) { DashTiles = 8f, Note = "E Abscond: dashes to a location; recast Abduct throws chains pulling him to an enemy hit (recast not expressible)" },
+				new SpellScript(SpellShape.Dash) { DashTiles = 8f, RecastShape = SpellShape.Dash, Note = "E Abscond: dashes to a location; recast Abduct throws chains pulling him to an enemy hit (recast is a second dash, no chain)" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 14f, DmgMult = 1.5f, Note = "R Hijack: steals the targeted enemy champion's ultimate and casts it freely (stolen ultimate not expressible)" },
 			};
 			t["Syndra"] = new[] {

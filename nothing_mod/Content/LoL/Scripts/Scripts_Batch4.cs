@@ -7,7 +7,7 @@ namespace nothing_mod.Content.LoL
 		public static void Register(Dictionary<string, SpellScript[]> t) {
 			t["Karthus"] = new[] {
 				new SpellScript(SpellShape.Zone) { DelaySec = 0.9f, DurationSec = 0.2f, Note = "Q Lay Waste: delayed blast at a location (r160); more damage to isolated enemies (not modelled)" },
-				new SpellScript(SpellShape.Zone) { DelaySec = 0.25f, DurationSec = 5f, HitIntervalSec = 1f, Flags = 1, SlowSec = 1.5f, WidthMult = 2.5f, DmgMult = 0.1f, Note = "W Wall of Pain: passable screen (line) that slows and cuts magic resist; modelled as wide slow zone, MR cut and wall shape missing" },
+				new SpellScript(SpellShape.Zone) { DelaySec = 0.25f, DurationSec = 5f, HitIntervalSec = 1f, Flags = 1, SlowSec = 1.5f, ArmorShredSec = 4f, WidthMult = 2.5f, DmgMult = 0.1f, Note = "W Wall of Pain: passable screen (line) that slows and cuts magic resist; modelled as wide slow zone, wall shape missing" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 5f, HitIntervalSec = 0.5f, DmgMult = 0.6f, Note = "E Defile: toggle aura damaging nearby enemies per second, drains mana; mana gain on kill not modelled" },
 				new SpellScript(SpellShape.Zone) { DelaySec = 3f, DurationSec = 0.3f, WidthMult = 4f, Note = "R Requiem: 3s channel then damage to ALL enemy champions globally; modelled as huge delayed zone at cursor" },
 			};
@@ -24,16 +24,16 @@ namespace nothing_mod.Content.LoL
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 2.5f, HitIntervalSec = 0.2f, DmgMult = 0.25f, WidthMult = 3.5f, Note = "R Death Lotus: channel, blades hit the 3 nearest enemy champions within 550; target limit not modelled" },
 			};
 			t["Kayle"] = new[] {
-				new SpellScript(SpellShape.Skillshot) { Pierce = true, Flags = 1, SlowSec = 2f, Note = "Q Radiant Blast: portal then celestial sword piercing enemies, slow + resist shred; portal delay and shred missing" },
+				new SpellScript(SpellShape.Skillshot) { Pierce = true, Flags = 1, SlowSec = 2f, CastDelaySec = 0.5f, ArmorShredSec = 4f, Note = "Q Radiant Blast: portal then celestial sword piercing enemies, slow + resist shred (portal delay 0.5s, shred 4s UNVERIFIED)" },
 				new SpellScript(SpellShape.Buff) { HealFrac = 0.15f, SpeedBuff = true, Note = "W Celestial Blessing: heal and move speed to self and nearest ally (ally part missing)" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 5f, HitIntervalSec = 0.5f, DmgMult = 0.4f, Note = "E Starfire Spellblade: passive on-hit magic damage; active next attack smites for missing-health damage; modelled as aura" },
-				new SpellScript(SpellShape.SelfBurst) { Shield = true, DurationSec = 2.5f, HitIntervalSec = 0.5f, DmgMult = 0.4f, WidthMult = 3.5f, Note = "R Divine Judgment: ally invulnerable ~2s, holy sword rain around target (r775); modelled as invulnerability + damage aura on self, ally targeting missing" },
+				new SpellScript(SpellShape.SelfBurst) { Shield = true, InvulnSec = 2f, DurationSec = 2.5f, HitIntervalSec = 0.5f, DmgMult = 0.4f, WidthMult = 3.5f, Note = "R Divine Judgment: ally invulnerable ~2s, holy sword rain around target (r775); modelled as self invulnerability + damage aura, ally targeting missing" },
 			};
 			t["Kayn"] = new[] {
 				new SpellScript(SpellShape.Dash) { DashTiles = 22f, Note = "Q Reaping Slash: dash then slash around himself, both deal damage" },
-				new SpellScript(SpellShape.Beam) { Flags = 1, SlowSec = 1.5f, Note = "W Blade's Reach: delayed line slash (700 x 175) damaging and slowing; cast delay missing" },
+				new SpellScript(SpellShape.Beam) { Flags = 1, SlowSec = 1.5f, CastDelaySec = 0.55f, Note = "W Blade's Reach: delayed line slash (700 x 175) damaging and slowing (delay UNVERIFIED)" },
 				new SpellScript(SpellShape.Buff) { SpeedBuff = true, Note = "E Shadow Step: toggle, walk through terrain with move speed; terrain pass missing" },
-				new SpellScript(SpellShape.Dash) { DashTiles = 34f, DmgMult = 1.5f, Note = "R Umbral Trespass: hide inside enemy champion (untargetable), burst out for massive damage; untargetable/ride missing" },
+				new SpellScript(SpellShape.Dash) { DashTiles = 34f, DmgMult = 1.5f, InvulnSec = 1.5f, Note = "R Umbral Trespass: hide inside enemy champion (untargetable), burst out for massive damage; ride/delayed burst missing" },
 			};
 			t["Kennen"] = new[] {
 				new SpellScript(SpellShape.Skillshot) { Note = "Q Thundering Shuriken: fast shuriken stops at first enemy, damage + Mark of the Storm (3 marks stun, missing)" },
@@ -51,28 +51,28 @@ namespace nothing_mod.Content.LoL
 				new SpellScript(SpellShape.Dash) { DashTiles = 21f, Note = "Q Dance of Arrows: tumble 340 and shoot up to 3 arrows at nearby targets; arrows missing" },
 				new SpellScript(SpellShape.Zone) { DurationSec = 8f, HitIntervalSec = 0.7f, DmgMult = 0.4f, WidthMult = 4f, Note = "W Wolf's Frenzy: wolf zone (r800) for 8s, Wolf attacks enemies inside; Lamb heal passive missing" },
 				new SpellScript(SpellShape.Homing) { Flags = 1, SlowSec = 1.5f, Note = "E Mounting Dread: shot slows 1.5s; third attack makes Wolf pounce for massive damage (missing)" },
-				new SpellScript(SpellShape.Buff) { Shield = true, HealFrac = 0.3f, Note = "R Lamb's Respite: zone r1200, nothing inside can die, heal at end; modelled as shield + heal on caster" },
+				new SpellScript(SpellShape.Buff) { Shield = true, HealFrac = 0.3f, InvulnSec = 4f, Note = "R Lamb's Respite: zone r1200, nothing inside can die, heal at end; modelled as caster death prevention (4s UNVERIFIED) + heal, zone for allies missing" },
 			};
 			t["Kled"] = new[] {
 				new SpellScript(SpellShape.Skillshot) { Knockback = -14f, Note = "Q Bear Trap on a Rope: trap damages and hooks, if still shackled target takes extra damage and is yanked to Kled" },
 				new SpellScript(SpellShape.Cone) { DmgMult = 1.2f, Note = "W Violent Tendencies: huge attack speed for 4 attacks, 4th deals more damage; modelled as cone slashes" },
-				new SpellScript(SpellShape.Dash) { DashTiles = 34f, SpeedBuff = true, Note = "E Jousting: dash 550 damaging, short speed burst; recast dash back missing" },
+				new SpellScript(SpellShape.Dash) { DashTiles = 34f, SpeedBuff = true, RecastShape = SpellShape.Dash, Note = "E Jousting: dash 550 damaging, short speed burst; recast dashes again (real recast returns to the target, approximated)" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 70f, SpeedBuff = true, Shield = true, Note = "R Chaaaaaaaarge!!!: charge to far location (range 4500) leaving speed trail, shield, Skaarl rams first champion; trail/ram missing, distance shortened" },
 			};
 			t["KogMaw"] = new[] {
-				new SpellScript(SpellShape.Skillshot) { Note = "Q Caustic Spittle: missile stops on first enemy, magic damage + armor/MR shred, bonus attack speed; shred missing" },
+				new SpellScript(SpellShape.Skillshot) { ArmorShredSec = 4f, Note = "Q Caustic Spittle: missile stops on first enemy, magic damage + armor/MR shred, bonus attack speed; attack speed missing" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 8f, HitIntervalSec = 0.4f, DmgMult = 0.5f, Note = "W Bio-Arcane Barrage: 8s of extra attack range + % max health on-hit; modelled as aura" },
-				new SpellScript(SpellShape.Skillshot) { Pierce = true, Flags = 1, SlowSec = 2f, Note = "E Void Ooze: ooze pierces enemies, leaves slowing trail; trail missing (slow applied on hit)" },
-				new SpellScript(SpellShape.Zone) { DelaySec = 0.8f, DurationSec = 0.2f, Note = "R Living Artillery: long-range shell (1200, r240), bonus damage on low health, reveals; low-hp bonus missing" },
+				new SpellScript(SpellShape.Skillshot) { Pierce = true, Flags = 1, SlowSec = 2f, TrailSec = 3f, Note = "E Void Ooze: ooze pierces enemies, leaves slowing trail (trail duration UNVERIFIED)" },
+				new SpellScript(SpellShape.Zone) { DelaySec = 0.8f, DurationSec = 0.2f, LowHealthBonus = 1f, Note = "R Living Artillery: long-range shell (1200, r240), bonus damage on low health (scale UNVERIFIED), reveals; reveal missing" },
 			};
 			t["Leblanc"] = new[] {
 				new SpellScript(SpellShape.Homing) { Note = "Q Sigil of Malice: targeted bolt, marks 3.5s, ability hit detonates for extra damage; mark/detonate and refund missing" },
-				new SpellScript(SpellShape.Dash) { DashTiles = 37f, Note = "W Distortion: dash 600 damaging near destination; recast returns to start for 4s (missing)" },
+				new SpellScript(SpellShape.Dash) { DashTiles = 37f, RecastShape = SpellShape.Dash, Note = "W Distortion: dash 600 damaging near destination; recast dashes back (approximated as another dash toward cursor, not the start point)" },
 				new SpellScript(SpellShape.Skillshot) { Flags = 2, Note = "E Ethereal Chains: chain shackles first enemy, roots after 1.5s with extra damage; delayed root approximated as instant" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 37f, DmgMult = 1.5f, Note = "R Mimic: casts a mimicked copy of last basic spell; approximated as stronger Distortion" },
 			};
 			t["LeeSin"] = new[] {
-				new SpellScript(SpellShape.Skillshot) { Note = "Q Sonic Wave: skillshot hits first enemy; recast Resonating Strike dashes to it with missing-health damage; recast missing" },
+				new SpellScript(SpellShape.Skillshot) { RecastShape = SpellShape.Dash, Note = "Q Sonic Wave: skillshot hits first enemy; recast Resonating Strike dashes to it (missing-health damage and homing on the marked target missing)" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 44f, Shield = true, Note = "W Safeguard: rush to target ally (700), shield; Iron Will omnivamp recast missing, ally targeting missing" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 0.4f, Flags = 1, WidthMult = 3f, Note = "E Tempest: shockwave (r450) damages and reveals, Cripple recast slows (cc 4s, decaying)" },
 				new SpellScript(SpellShape.Cone) { Knockback = 18f, Note = "R Dragon's Rage: roundhouse kick launches target back, collisions deal damage and knock enemies up; collision missing" },
@@ -92,17 +92,17 @@ namespace nothing_mod.Content.LoL
 			t["Lissandra"] = new[] {
 				new SpellScript(SpellShape.Skillshot) { Pierce = true, Flags = 1, SlowSec = 1.5f, Note = "Q Ice Shard: spear shatters on first hit, shards pass through for same damage to others, slow" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 0.4f, Flags = 2, Note = "W Ring of Frost: freezes nearby enemies, damage + root 1.45s" },
-				new SpellScript(SpellShape.Skillshot) { Pierce = true, Note = "E Glacial Path: ice claw flies out (1050) damaging enemies in path; recast teleports to the claw (missing)" },
-				new SpellScript(SpellShape.SelfBurst) { DurationSec = 1.5f, HitIntervalSec = 1.5f, Flags = 1 | 2, Shield = true, HealFrac = 0.15f, WidthMult = 3f, Note = "R Frozen Tomb: stun enemy target 3s, or self-cast: heal (amount UNVERIFIED), untargetable; dark ice (r690) damages and slows; target/self split missing" },
+				new SpellScript(SpellShape.Skillshot) { Pierce = true, RecastShape = SpellShape.Dash, Note = "E Glacial Path: ice claw flies out (1050) damaging enemies in path; recast dashes toward cursor (real: teleports to the claw)" },
+				new SpellScript(SpellShape.SelfBurst) { DurationSec = 1.5f, HitIntervalSec = 1.5f, Flags = 1 | 2, Shield = true, HealFrac = 0.15f, InvulnSec = 2.5f, WidthMult = 3f, Note = "R Frozen Tomb: stun enemy target 3s, or self-cast: heal (amount UNVERIFIED), untargetable (2.5s UNVERIFIED); dark ice (r690) damages and slows; target/self split missing" },
 			};
 			t["Locke"] = new[] {
 				new SpellScript(SpellShape.Skillshot) { Count = 3, SpreadDeg = 24f, Pierce = true, Note = "Q Ritual Nails: set of Soul Nails thrown (count/spread UNVERIFIED), damage and mark enemies hit; marks consumed by attacks (missing)" },
 				new SpellScript(SpellShape.Buff) { SpeedBuff = true, HealFrac = 0.1f, Note = "W Soul Ignition: attack + move speed, Locke damages himself, heals back a portion at end; self-damage missing" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 27f, Note = "E Ashen Pursuit: teleports to location then dashes to attack next target, damaging enemies passed through; teleport split missing" },
-				new SpellScript(SpellShape.Zone) { DelaySec = 0.5f, DurationSec = 0.2f, Flags = 2, WidthMult = 1.5f, Note = "R Purgatory: binding artifact thrown (range 1000, r425), damage + execute threshold; execute and seal bonus missing" },
+				new SpellScript(SpellShape.Zone) { DelaySec = 0.5f, DurationSec = 0.2f, Flags = 2, ExecuteFrac = 0.2f, WidthMult = 1.5f, Note = "R Purgatory: binding artifact thrown (range 1000, r425), damage + execute threshold (0.2 UNVERIFIED); seal bonus missing" },
 			};
 			t["Lucian"] = new[] {
-				new SpellScript(SpellShape.Beam) { RangeMult = 2.2f, Note = "Q Piercing Light: bolt through a target, line extends past it to ~1100 (UNVERIFIED); cast delay missing" },
+				new SpellScript(SpellShape.Beam) { RangeMult = 2.2f, CastDelaySec = 0.4f, Note = "Q Piercing Light: bolt through a target, line extends past it to ~1100 (UNVERIFIED); cast delay 0.4s UNVERIFIED" },
 				new SpellScript(SpellShape.Skillshot) { WidthMult = 2f, Note = "W Ardent Blaze: missile explodes in a star on first enemy, marks and reveals; move speed when attacking marked (missing)" },
 				new SpellScript(SpellShape.Dash) { DashTiles = 28f, Note = "E Relentless Pursuit: quick dash 445 toward cursor; cooldown reduction on attacks missing" },
 				new SpellScript(SpellShape.Skillshot) { Count = 6, SpreadDeg = 4f, Pierce = true, DmgMult = 0.5f, Note = "R The Culling: 3s channel torrent of piercing shots (range 1400), steerable; modelled as one volley" },
@@ -114,10 +114,10 @@ namespace nothing_mod.Content.LoL
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 0.5f, HitIntervalSec = 4f, HealFrac = 0.2f, Flags = 1 | 2, DmgMult = 0.1f, Note = "R Wild Growth: enlarge ally, knock enemies up, bonus health, slowing aura for a few seconds; aura and ally targeting missing" },
 			};
 			t["Lux"] = new[] {
-				new SpellScript(SpellShape.Skillshot) { Pierce = true, Flags = 2, Note = "Q Light Binding: sphere roots and damages up to two enemies; pierce limit of 2 missing" },
+				new SpellScript(SpellShape.Skillshot) { Pierce = true, PierceLimit = 2, Flags = 2, Note = "Q Light Binding: sphere roots and damages up to two enemies" },
 				new SpellScript(SpellShape.Boomerang) { Shield = true, Note = "W Prismatic Barrier: wand thrown out and back, shields allies it touches; ally shield missing" },
 				new SpellScript(SpellShape.Zone) { DelaySec = 0.9f, DurationSec = 5f, HitIntervalSec = 5f, Flags = 1, Note = "E Lucent Singularity: orb flies to area, slows nearby enemies, detonates on recast or after 5s; detonate timing approximated" },
-				new SpellScript(SpellShape.Beam) { Note = "R Final Spark: after 1.375s channel, huge beam (range 3340, width 190); delay missing" },
+				new SpellScript(SpellShape.Beam) { CastDelaySec = 1.375f, Note = "R Final Spark: after 1.375s channel, huge beam (range 3340, width 190)" },
 			};
 		}
 	}
