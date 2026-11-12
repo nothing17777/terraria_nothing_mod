@@ -37,6 +37,15 @@ namespace nothing_mod.Content.LoL.Special
 			Main.EntitySpriteDraw(t, pos - Main.screenPosition, null, c, rot, t.Size() / 2f, scale, SpriteEffects.None, 0);
 		}
 
+		// Draws frame t of a League VFX sheet (tools/lol_vfx_export.py); first 10 frames are the spawn-in, the rest loops. Tip points along +x.
+		protected static void DrawVfx(string name, Vector2 pos, float rot, int t, Color c, float scale = 1f) {
+			if (!AhriVfxData.Sheets.TryGetValue(name, out VfxSheet v)) return;
+			Texture2D tex = ModContent.Request<Texture2D>("nothing_mod/Content/LoL/Special/Ahri_vfx_" + name).Value;
+			t /= 2; // sheets are 30 fps, the game ticks at 60
+			int f = t < v.Frames ? t : 10 + (t - 10) % (v.Frames - 10);
+			Main.EntitySpriteDraw(tex, pos - Main.screenPosition, new Rectangle(f * v.Cell, 0, v.Cell, v.Cell), c, rot, new Vector2(v.Cell / 2f), v.Scale * scale, SpriteEffects.None, 0);
+		}
+
 		protected static void Sparkle(Vector2 pos, int dust, Color c, int n = 1) {
 			for (int i = 0; i < n; i++) {
 				var d = Dust.NewDustPerfect(pos, dust, Main.rand.NextVector2Circular(1.2f, 1.2f), 0, c, 1.2f);
@@ -123,14 +132,8 @@ namespace nothing_mod.Content.LoL.Special
 		}
 
 		public override bool PreDraw(ref Color lightColor) {
-			// layers/colours read from Ahri_Base_Q_mis in the client's .bin: cyan orb with white rim and the real Q trail streak
-			Color tt = Returning ? new Color(190, 160, 255) : Color.White;
-			Ribbon("Ahri_trail2", 0.6f, 0f, 0.9f, tt);   // Trail2 (Q_Trail_02)
-			Ribbon("Ahri_trail", 0.6f, 37f, 0.7f, tt);   // Trail3/4 (Q_Trail_01)
-			// the orb itself: the game's Q_Sphere/Q_Swirls meshes rendered spinning (tools/lol_orb_render.py), 16 frames of 128px
-			Texture2D sheet = ModContent.Request<Texture2D>("nothing_mod/Content/LoL/Special/Ahri_orb_sheet").Value;
-			int frame = (timer / 2) % 16;
-			Main.EntitySpriteDraw(sheet, Projectile.Center - Main.screenPosition, new Rectangle(frame * 128, 0, 128, 128), Returning ? new Color(235, 215, 255) : Color.White, 0f, new Vector2(64, 64), 0.5f, SpriteEffects.None, 0);
+			// real Ahri_Base_Q_mis / Q_return VFX frames rendered from the client's .bin (see tools/lol_vfx_export.py)
+			DrawVfx(Returning ? "Qret" : "Q", Projectile.Center, Projectile.velocity.ToRotation(), Returning ? timer - 21 : timer, Color.White);
 			return false;
 		}
 	}
@@ -170,8 +173,7 @@ namespace nothing_mod.Content.LoL.Special
 		}
 
 		public override bool PreDraw(ref Color lightColor) {
-			Draw("Ahri_glow", Projectile.Center, new Color(255, 120, 170) * 0.8f, 0.35f);
-			Draw("Ahri_fox", Projectile.Center, Color.White, 0.5f, timer * 0.15f);
+			DrawVfx("W", Projectile.Center, 0f, timer, Color.White);
 			return false;
 		}
 
@@ -202,8 +204,7 @@ namespace nothing_mod.Content.LoL.Special
 		}
 
 		public override bool PreDraw(ref Color lightColor) {
-			float pulse = 0.55f + 0.08f * (float)Math.Sin(Main.GameUpdateCount * 0.3f);
-			Draw("Ahri_heart", Projectile.Center, Color.White, pulse, Projectile.rotation);
+			DrawVfx("E", Projectile.Center, Projectile.velocity.ToRotation(), (int)Projectile.localAI[0]++, Color.White);
 			return false;
 		}
 
@@ -229,8 +230,7 @@ namespace nothing_mod.Content.LoL.Special
 		}
 
 		public override bool PreDraw(ref Color lightColor) {
-			Draw("Ahri_glow", Projectile.Center, new Color(255, 140, 200) * 0.8f, 0.3f);
-			Draw("Ahri_fox", Projectile.Center, Color.White, 0.4f, Main.GameUpdateCount * 0.2f);
+			DrawVfx("R", Projectile.Center, Projectile.velocity.ToRotation(), (int)Projectile.localAI[0]++, Color.White);
 			return false;
 		}
 	}
