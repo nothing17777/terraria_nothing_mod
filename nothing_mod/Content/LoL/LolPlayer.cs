@@ -84,7 +84,7 @@ namespace nothing_mod.Content.LoL
 		void UpdateAnimation() {
 			const float CastLength = 0.55f;
 			animClock += 1f / 60f;
-			int nf = LolAnimData.Sheets.TryGetValue(ActiveAlias ?? "", out AnimDef ad) ? ad.Frames : 8;
+			int nf = LolAnimData.Sheets.TryGetValue(Active?.Name.Replace("Champion", "") ?? "", out AnimDef ad) ? ad.Frames : 8;
 			if (castTime > 0) {
 				AnimRow = castRow;
 				AnimFrame = Math.Min(nf - 1, (int)((1f - castTime / CastLength) * nf));
