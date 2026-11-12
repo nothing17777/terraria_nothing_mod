@@ -32,12 +32,15 @@ namespace nothing_mod.Content.LoL
 
 		public override void OnSpawn(Terraria.DataStructures.IEntitySource source) {
 			Projectile.DamageType = (Main.player[Projectile.owner].GetModPlayer<LolPlayer>().Active?.Item ?? Main.player[Projectile.owner].HeldItem).DamageType;
+			int packed = (int)Projectile.ai[2];  // sizePx * 1000 + lifetime ticks (0 = defaults), from the real spell data
 			switch (Style) {
 				case 0: Projectile.scale = 1.8f; Projectile.tileCollide = true; Projectile.penetrate = 3; Projectile.timeLeft = 60; break; // 60 ticks * speed (range/60) = exactly the spell range
 				case 1: ResizeCentered(150); Projectile.timeLeft = 18; break;
 				case 2: ResizeCentered(170); Projectile.timeLeft = 20; break;
 				case 3: ResizeCentered(110); Projectile.timeLeft = 20; break;
 			}
+			if (Style == 0 && packed >= 1000) { ResizeCentered(packed / 1000); Projectile.scale = Math.Max(1f, packed / 1000 / 11f); }
+			if (Style == 0 && packed % 1000 > 0) Projectile.timeLeft = packed % 1000;
 		}
 
 		void ResizeCentered(int size) {

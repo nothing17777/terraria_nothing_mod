@@ -158,9 +158,15 @@ namespace nothing_mod.Content.LoL
 			}
 		}
 
+		static RealSpell Real(LolChampionItem champ, int slot) =>
+			LolSpellData.Spells.TryGetValue(champ.Name.Replace("Champion", ""), out RealSpell[] a) && slot < a.Length ? a[slot] : null;
+
 		void Cast(LolChampionItem champ, SpellDef sp, int slot) {
 			Mod.Logger.Info($"[LoL] CAST {sp.Key} {sp.Name} arch={sp.Arch} range={sp.Range}");
-			Cooldown[slot] = CooldownMax[slot] = SpellCooldown; // every skill: 2 second cooldown
+			RealSpell rs = Real(champ, slot);
+			int ri = slot == 3 ? 1 : 2; // representative rank: Q/W/E rank 3, R rank 2 (the mod has no levelling)
+			float cd = rs != null && rs.Cd[ri] > 0 ? Math.Max(1f, rs.Cd[ri]) : SpellCooldown; // real League cooldown
+			Cooldown[slot] = CooldownMax[slot] = cd;
 			castRow = 3 + slot; castTime = 0.55f;
 
 			Vector2 mouse = Main.MouseWorld;
@@ -168,7 +174,9 @@ namespace nothing_mod.Content.LoL
 			if (dir == Vector2.Zero) dir = new Vector2(Player.direction, 0);
 			dir.Normalize();
 			float rangePx = RangePx(sp);
-			int dmg = (int)(Player.GetWeaponDamage(champ.Item) * Tier[slot]);
+			// real base damage + ratio*100 (a typical stat), relative to a 110 reference spell: keeps every spell's real strength ordering
+			float mult = rs != null && rs.Dmg[ri] + rs.Ratio * 100f > 0 ? MathHelper.Clamp((rs.Dmg[ri] + rs.Ratio * 100f) / 110f, 0.5f, 6f) : Tier[slot];
+			int dmg = (int)(Player.GetWeaponDamage(champ.Item) * mult);
 			float kb = champ.Item.knockBack;
 			float aiFlags = sp.Flags + champ.Def.Hue * 8f;
 			var src = Player.GetSource_ItemUse(champ.Item);
@@ -206,9 +214,13 @@ namespace nothing_mod.Content.LoL
 				case 5: // pure heal/shield: already applied above (Heal flag is always set for these)
 					if (sp.Heal == 0) Player.AddBuff(BuffID.Regeneration, 60 * 6);
 					break;
-				default: // skillshot
-					Projectile.NewProjectile(src, Player.Center, dir * Math.Max(4f, rangePx / 60f), type, dmg, kb, owner, 0f, aiFlags);
+				default: { // skillshot: real missile speed and width, lifetime = range / speed
+					float v = rs != null && rs.Speed > 0 ? MathHelper.Clamp(rs.Speed / 240f, 4f, 30f) : Math.Max(4f, rangePx / 60f);
+					int life = Math.Min(999, (int)Math.Ceiling(rangePx / v));
+					int size = rs != null && rs.Width > 0 ? (int)MathHelper.Clamp(rs.Width / 4f, 16f, 120f) : 0;
+					Projectile.NewProjectile(src, Player.Center, dir * v, type, dmg, kb, owner, 0f, aiFlags, size * 1000 + life);
 					break;
+				}
 			}
 			Terraria.Audio.SoundEngine.PlaySound(SoundID.Item20, Player.Center);
 		}
