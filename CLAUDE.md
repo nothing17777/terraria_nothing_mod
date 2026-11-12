@@ -42,4 +42,6 @@ Goal: bring Terraria 1.4.5.x content into this 1.4.4.9 mod. Source of truth is t
 - Void Blade: melee sword, 35 damage, fires a Void Bolt. Recipe: 8 Iron Bar + 3 Fallen Star at an Anvil.
 - Void Bolt: projectile using the vanilla Enchanted Beam sprite as a placeholder.
 - Sergeant United Shield tiers (`Content/Items/NewWeapons/SergeantShield*.cs`, recipes for the vanilla middle tier in `Content/Systems/SergeantShieldRecipes.cs`): -2 (20 dmg), -1 (40), vanilla (80), +1 (160), +2 (300). All hand-crafted, no bench. Behavior is cloned from the vanilla item. Parry is TODO. Not yet compile-checked.
+- Blade Staff tiers (`Content/Items/NewWeapons/BladeStaff*.cs`, vanilla middle tier recipes in `Content/Systems/BladeStaffRecipes.cs`): -2 (2 dmg), -1 (4), vanilla (6), +1 (10), +2 (20). Hand-crafted. Uses `ItemID.Smolstar` (UNVERIFIED internal name).
+- Frozen Wings tiers (`Content/Items/Accessories/FrozenWings*.cs`, vanilla middle tier recipes in `Content/Systems/FrozenWingsRecipes.cs`): flight 0.42 / 1.67 / 2.17 (vanilla) / 2.67 / 3 s. Flight time applied in `Content/Players/FrozenWingsPlayer.cs` (UNVERIFIED that `wingTimeMax` override in PostUpdateEquips sticks). Hand-crafted. Not yet compile-checked.
 - Item art is placeholder only. Real sprites need to come from the user.
