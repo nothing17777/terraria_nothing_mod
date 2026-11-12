@@ -536,6 +536,46 @@ Items: {
 		Tooltip: Allows flight for 3 seconds
 	}
 
+	VampireKnivesMinus2: {
+		DisplayName: Vampire Knives -2
+		Tooltip: Weaker Vampire Knives
+	}
+
+	VampireKnivesMinus1: {
+		DisplayName: Vampire Knives -1
+		Tooltip: Weaker Vampire Knives
+	}
+
+	VampireKnivesPlus1: {
+		DisplayName: Vampire Knives +1
+		Tooltip: Upgraded Vampire Knives
+	}
+
+	VampireKnivesPlus2: {
+		DisplayName: Vampire Knives +2
+		Tooltip: Greatly upgraded Vampire Knives
+	}
+
+	PiranhaGunMinus2: {
+		DisplayName: Piranha Gun -2
+		Tooltip: A weaker Piranha Gun
+	}
+
+	PiranhaGunMinus1: {
+		DisplayName: Piranha Gun -1
+		Tooltip: A weaker Piranha Gun
+	}
+
+	PiranhaGunPlus1: {
+		DisplayName: Piranha Gun +1
+		Tooltip: An upgraded Piranha Gun
+	}
+
+	PiranhaGunPlus2: {
+		DisplayName: Piranha Gun +2
+		Tooltip: A greatly upgraded Piranha Gun
+	}
+
 	PowerBomb: {
 		DisplayName: Power Bomb
 		Tooltip: A huge explosion that destroys even early Hardmode ores
