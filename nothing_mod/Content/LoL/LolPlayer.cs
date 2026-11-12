@@ -84,17 +84,18 @@ namespace nothing_mod.Content.LoL
 		void UpdateAnimation() {
 			const float CastLength = 0.55f;
 			animClock += 1f / 60f;
+			int nf = LolAnimData.Sheets.TryGetValue(ActiveAlias ?? "", out AnimDef ad) ? ad.Frames : 8;
 			if (castTime > 0) {
 				AnimRow = castRow;
-				AnimFrame = Math.Min(7, (int)((1f - castTime / CastLength) * 8f));
+				AnimFrame = Math.Min(nf - 1, (int)((1f - castTime / CastLength) * nf));
 				castTime -= 1f / 60f;
 			}
 			else if (Player.itemAnimation > 0 && Player.HeldItem.ModItem is LolChampionItem) {
 				AnimRow = 2;
-				AnimFrame = Math.Min(7, (int)((1f - Player.itemAnimation / (float)Math.Max(1, Player.itemAnimationMax)) * 8f));
+				AnimFrame = Math.Min(nf - 1, (int)((1f - Player.itemAnimation / (float)Math.Max(1, Player.itemAnimationMax)) * nf));
 			}
-			else if (Math.Abs(Player.velocity.X) > 0.3f) { AnimRow = 1; AnimFrame = (int)(animClock * 12f) % 8; }
-			else { AnimRow = 0; AnimFrame = (int)(animClock * 6f) % 8; }
+			else if (Math.Abs(Player.velocity.X) > 0.3f) { AnimRow = 1; AnimFrame = (int)(animClock * 12f * nf / 8f) % nf; }
+			else { AnimRow = 0; AnimFrame = (int)(animClock * 6f * nf / 8f) % nf; }
 		}
 
 		public override void ProcessTriggers(TriggersSet triggersSet) {

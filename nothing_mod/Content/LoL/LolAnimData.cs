@@ -16,7 +16,7 @@ namespace nothing_mod.Content.LoL
 		public static readonly Dictionary<string, AnimDef> Sheets = new()
 		{
 			["Aatrox"] = new AnimDef(230, 241, 108, 236, 8),
-			["Ahri"] = new AnimDef(235, 186, 95, 178, 8),
+			["Ahri"] = new AnimDef(234, 188, 95, 180, 16),
 			["Akali"] = new AnimDef(29, 245, 17, 40, 8),
 			["Akshan"] = new AnimDef(229, 205, 101, 199, 8),
 			["Alistar"] = new AnimDef(226, 181, 82, 162, 8),

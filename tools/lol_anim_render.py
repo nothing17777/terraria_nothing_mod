@@ -14,7 +14,7 @@ from lol_anim import Skeleton, Animation, skin_vertices
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 OUT = f'{ROOT}/nothing_mod/Content/LoL/Anim'
 META = f'{ROOT}/tools/anim_meta'
-FRAMES = 8
+FRAMES = int(os.environ.get('LOL_FRAMES', 8))
 PX_H = 128           # idle character height in pixels
 CAP = 240            # max frame width/height
 SKIP = M.SKIP_PARTS
@@ -32,7 +32,8 @@ def choose(names):
     ch = {'idle': pick(ln, 'idle', ('attack', 'spell')), 'run': pick(ln, 'run', ('attack', 'spell', 'idle')),
           'attack': pick(ln, 'attack', ('spell', 'crit', 'idle', 'run', 'ult', 'special', 'passive'))}
     for i in range(1, 5):
-        ch[f'spell{i}'] = pick(ln, f'spell{i}', ('idle', 'run', 'attack', 'east', 'west', 'north', 'south', 'ult'))
+        ch[f'spell{i}'] = (pick(ln, f'spell{i}', ('idle', 'run', 'attack', 'east', 'west', 'north', 'south', 'ult'))
+                           or pick(ln, f'spell{i}_east', ('idle', 'run', 'attack', 'ult')))  # directional casts, e.g. Ahri E
     out = {}
     for r in ROWS:
         n = ch.get(r) or (ch['attack'] if r.startswith('spell') else None) or ch['idle'] or ch['run']
@@ -97,10 +98,10 @@ def render_champion(ctx, alias):
             except Exception as e: print('  anim fail', fn, e); cache[fn] = None
         anim = cache.get(fn) if fn else None
         used[r] = fn if anim else None
-        dur = max(0.1, min(anim.duration, 2.0)) if anim else 1.0
+        dur = max(0.1, min(anim.duration, 3.0)) if anim else 1.0
         loop = r in ('idle', 'run')
         for i in range(FRAMES):
-            t = (i / FRAMES * dur) if loop else (i / (FRAMES - 1) * min(dur, 1.5) if anim else 0)
+            t = (i / FRAMES * dur) if loop else (i / (FRAMES - 1) * min(dur, 3.0) if anim else 0)
             if anim: T, S, Q = anim.sample(sk, t)
             else: T, S, Q = sk.lt, sk.ls, sk.lr
             mats = sk.skin_matrices(T, S, Q)
