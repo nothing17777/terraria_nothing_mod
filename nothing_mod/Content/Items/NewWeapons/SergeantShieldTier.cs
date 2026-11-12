@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using nothing_mod.Content.Systems;
 
 namespace nothing_mod.Content.Items.NewWeapons
 {
@@ -15,11 +16,11 @@ namespace nothing_mod.Content.Items.NewWeapons
 		protected abstract int TierRarity { get; }
 
 		// Placeholder sprite: the vanilla shield icon.
-		public override string Texture => "Terraria/Images/Item_" + ItemID.SergeantUnitedShield;
+		public override string Texture => "Terraria/Images/Item_" + VanillaItemIds.SergeantUnitedShield;
 
 		public override void SetDefaults()
 		{
-			Item.CloneDefaults(ItemID.SergeantUnitedShield);
+			Item.CloneDefaults(VanillaItemIds.SergeantUnitedShield);
 			Item.damage = TierDamage;
 			Item.rare = TierRarity; // UNVERIFIED: rarity per tier is a design choice, not from the wiki
 		}

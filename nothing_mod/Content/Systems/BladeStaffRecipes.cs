@@ -11,11 +11,11 @@ namespace nothing_mod.Content.Systems
 	{
 		public override void AddRecipes()
 		{
-			Recipe.Create(ItemID.Smolstar) // UNVERIFIED name: vanilla Blade Staff
+			Recipe.Create(VanillaItemIds.BladeStaff)
 				.AddIngredient<BladeStaffMinus1>()
 				.AddIngredient(ItemID.MythrilBar, 5)
 				.Register();
-			Recipe.Create(ItemID.Smolstar)
+			Recipe.Create(VanillaItemIds.BladeStaff)
 				.AddIngredient<BladeStaffMinus1>()
 				.AddIngredient(ItemID.OrichalcumBar, 5)
 				.Register();
