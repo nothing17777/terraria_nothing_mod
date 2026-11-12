@@ -194,21 +194,32 @@ namespace nothing_mod.Content.LoL
 				Player.AddBuff(BuffID.Ironskin, 60 * 4);
 			}
 
-			switch (sp.Arch) {
+			// real data decides the shape unless the text says dash/heal: missile -> skillshot, range+radius -> area at cursor, cone, else self burst
+			int arch = sp.Arch;
+			if (rs != null && arch != 1 && arch != 5) {
+				if (rs.Speed > 0 && rs.Range > 0 && (rs.Width > 0 || rs.CastType != 3)) arch = 0;
+				else if (rs.ConeAngle > 0 && rs.Cone > 100) arch = 2;
+				else if (rs.Range > 250 && rs.Radius > 0 && rs.Speed == 0) arch = 4;
+				else if (rs.Range <= 250 && rs.Radius > 0) arch = 3;
+			}
+			int aoe = rs != null && rs.Radius > 0 ? (int)MathHelper.Clamp(rs.Radius * 2f / 2.2f, 70f, 420f) : 0; // real area diameter in px
+			int coneSize = rs != null && rs.Cone > 100 ? (int)MathHelper.Clamp(rs.Cone / 1.5f, 90f, 420f) : 0;
+			if (rs != null && rs.CcDur > 0) aiFlags += 1000f * (int)Math.Min(90f, rs.CcDur * 10f); // real CC duration in tenths of a second
+			switch (arch) {
 				case 1: // dash
 					StartDash(dir, Math.Min(16f, rangePx / 12f + 8f), 10);
 					Projectile.NewProjectile(src, Player.Center, Vector2.Zero, type, dmg, kb, owner, 1f + 16f * 0, aiFlags + 0f);
 					break;
 				case 2: // cone sweep
-					Projectile.NewProjectile(src, Player.Center, dir * 6f + Player.velocity, type, dmg, kb, owner, 3f, aiFlags);
+					Projectile.NewProjectile(src, Player.Center, dir * 6f + Player.velocity, type, dmg, kb, owner, 3f, aiFlags, coneSize * 1000);
 					break;
 				case 3: // burst around self
-					Projectile.NewProjectile(src, Player.Center, Vector2.Zero, type, dmg, kb, owner, 1f, aiFlags);
+					Projectile.NewProjectile(src, Player.Center, Vector2.Zero, type, dmg, kb, owner, 1f, aiFlags, aoe * 1000);
 					break;
 				case 4: { // burst at cursor
 					Vector2 off = mouse - Player.Center;
 					if (off.Length() > rangePx) off = dir * rangePx;
-					Projectile.NewProjectile(src, Player.Center + off, Vector2.Zero, type, dmg, kb, owner, 2f, aiFlags);
+					Projectile.NewProjectile(src, Player.Center + off, Vector2.Zero, type, dmg, kb, owner, 2f, aiFlags, aoe * 1000);
 					break;
 				}
 				case 5: // pure heal/shield: already applied above (Heal flag is always set for these)

@@ -15,7 +15,8 @@ namespace nothing_mod.Content.LoL
 
 		int Style => (int)Projectile.ai[0];
 		int Flags => (int)Projectile.ai[1] % 8;
-		int HueIndex => (int)Projectile.ai[1] / 8;
+		float CcSeconds => (int)Projectile.ai[1] / 1000 / 10f; // real CC duration (0 = default)
+		int HueIndex => (int)Projectile.ai[1] % 1000 / 8;
 		Color Col => Main.hslToRgb(HueIndex * 10f / 360f, 0.9f, 0.6f);
 
 		public override void SetDefaults() {
@@ -39,6 +40,7 @@ namespace nothing_mod.Content.LoL
 				case 2: ResizeCentered(170); Projectile.timeLeft = 20; break;
 				case 3: ResizeCentered(110); Projectile.timeLeft = 20; break;
 			}
+			if (Style != 0 && packed >= 1000) ResizeCentered(packed / 1000); // real area size
 			if (Style == 0 && packed >= 1000) { ResizeCentered(packed / 1000); Projectile.scale = Math.Max(1f, packed / 1000 / 11f); }
 			if (Style == 0 && packed % 1000 > 0) Projectile.timeLeft = packed % 1000;
 		}
@@ -85,9 +87,9 @@ namespace nothing_mod.Content.LoL
 		}
 
 		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) {
-			if ((Flags & 1) != 0) target.AddBuff(BuffID.Slow, 120);
-			if ((Flags & 2) != 0) target.AddBuff(BuffID.Frozen, 45);   // stun/root/knock-up stand-in
-			if ((Flags & 4) != 0) target.AddBuff(BuffID.Confused, 120); // fear/charm/silence stand-in
+			if ((Flags & 1) != 0) target.AddBuff(BuffID.Slow, CcSeconds > 0 ? (int)(CcSeconds * 60) : 120);
+			if ((Flags & 2) != 0) target.AddBuff(BuffID.Frozen, CcSeconds > 0 ? (int)Math.Min(180f, CcSeconds * 60) : 45);   // stun/root/knock-up stand-in
+			if ((Flags & 4) != 0) target.AddBuff(BuffID.Confused, CcSeconds > 0 ? (int)(CcSeconds * 60) : 120); // fear/charm/silence stand-in
 		}
 
 		static void Line(Vector2 a, Vector2 b, Color c, float w) {
