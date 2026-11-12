@@ -27,7 +27,7 @@ namespace nothing_mod.Content.LoL
 	public class LolPlayer : ModPlayer
 	{
 		public float[] Cooldown = new float[4];
-		public static float RangePx(SpellDef sp) => MathHelper.Clamp(sp.Range / 2.2f, 160f, 1200f);
+		public static float RangePx(SpellDef sp) => MathHelper.Clamp(sp.Range / 1.5f, 200f, 1600f);
 		public float[] CooldownMax = new float[4] { 1, 1, 1, 1 };
 		public float Haste;
 		public float Lifesteal;
@@ -202,7 +202,7 @@ namespace nothing_mod.Content.LoL
 				else if (rs.Range > 250 && rs.Radius > 0 && rs.Speed == 0) arch = 4;
 				else if (rs.Range <= 250 && rs.Radius > 0) arch = 3;
 			}
-			int aoe = rs != null && rs.Radius > 0 ? (int)MathHelper.Clamp(rs.Radius * 2f / 2.2f, 70f, 420f) : 0; // real area diameter in px
+			int aoe = rs != null && rs.Radius > 0 ? (int)MathHelper.Clamp(rs.Radius * 2f / 1.5f, 90f, 560f) : 0; // real area diameter in px
 			int coneSize = rs != null && rs.Cone > 100 ? (int)MathHelper.Clamp(rs.Cone / 1.5f, 90f, 420f) : 0;
 			if (rs != null && rs.CcDur > 0) aiFlags += 1000f * (int)Math.Min(90f, rs.CcDur * 10f); // real CC duration in tenths of a second
 			switch (arch) {
