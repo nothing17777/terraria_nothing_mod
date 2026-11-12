@@ -1,10 +1,16 @@
+using Terraria.ID;
+
 namespace nothing_mod.Content.Systems
 {
-	// Numeric IDs for vanilla items whose ItemID.* names could not be verified.
-	// IDs come from the item pages on terraria.wiki.gg. Replace with ItemID.X once the real name is confirmed.
+	// Vanilla items whose ItemID.* names could not be used directly.
 	public static class VanillaItemIds
 	{
-		public const int SergeantUnitedShield = 4760; // wiki: Item ID 4760 (ItemID.SergeantUnitedShield does not exist: error CS0117)
-		public const int BladeStaff = 4758;           // wiki: Item ID 4758 (internal name Smolstar is UNVERIFIED)
+		// ItemID.SergeantUnitedShield does not exist (error CS0117), so the wiki item ID is used.
+		// Vanilla code itself checks this item by number (Player.cs: HeldItem.type == 4760).
+		public const int SergeantUnitedShield = 4760;
+
+		// ItemID.Smolstar is the Blade Staff. Confirmed: tModLoader's own source uses ItemID.Smolstar
+		// (ItemDropDatabase, ProjAIStyleID docs). The wiki lists it as item 4758.
+		public const int BladeStaff = ItemID.Smolstar;
 	}
 }
