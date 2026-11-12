@@ -1,1 +1,1 @@
-{"w": 240, "h": 174, "ox": 106, "fy": 164, "frames": 8, "used": {"idle": "morgana_idle1.anm", "run": "morgana_run.anm", "attack": "morgana_attack1.anm", "spell1": "morgana_spell1_0.anm", "spell2": "morgana_spell2.anm", "spell3": "morgana_spell3.anm", "spell4": "morgana_spell4.anm"}}
+{"w": 240, "h": 169, "ox": 103, "fy": 159, "frames": 16, "used": {"idle": "morgana_idle1.anm", "run": "morgana_run.anm", "attack": "morgana_attack1.anm", "spell1": "morgana_spell1_0.anm", "spell2": "morgana_spell2.anm", "spell3": "morgana_spell3.anm", "spell4": "morgana_spell4.anm"}}

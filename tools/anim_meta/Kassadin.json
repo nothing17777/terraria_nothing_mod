@@ -1,1 +1,1 @@
-{"w": 230, "h": 240, "ox": 115, "fy": 168, "frames": 8, "used": {"idle": "kassadin_idle1.anm", "run": "kassadin_run.anm", "attack": "kassadin_attack1.anm", "spell1": "kassadin_spell1.anm", "spell2": "kassadin_spell2.anm", "spell3": "kassadin_spell3.anm", "spell4": "kassadin_spell4.anm"}}
+{"w": 234, "h": 239, "ox": 113, "fy": 167, "frames": 16, "used": {"idle": "kassadin_idle1.anm", "run": "kassadin_run.anm", "attack": "kassadin_attack1.anm", "spell1": "kassadin_spell1.anm", "spell2": "kassadin_spell2.anm", "spell3": "kassadin_spell3.anm", "spell4": "kassadin_spell4.anm"}}

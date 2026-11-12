@@ -1,1 +1,1 @@
-{"w": 167, "h": 182, "ox": 97, "fy": 172, "frames": 8, "used": {"idle": "ryze_idle1.anm", "run": "ryze_idle1.anm", "attack": "ryze_attack1.anm", "spell1": "ryze_spell1.anm", "spell2": "ryze_spell2.anm", "spell3": "ryze_spell3.anm", "spell4": "ryze_spell4.anm"}}
+{"w": 183, "h": 191, "ox": 110, "fy": 178, "frames": 16, "used": {"idle": "ryze_idle1.anm", "run": "ryze_idle1.anm", "attack": "ryze_attack1.anm", "spell1": "ryze_spell1.anm", "spell2": "ryze_spell2.anm", "spell3": "ryze_spell3.anm", "spell4": "ryze_spell4.anm"}}

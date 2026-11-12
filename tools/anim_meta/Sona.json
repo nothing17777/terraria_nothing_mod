@@ -1,1 +1,1 @@
-{"w": 189, "h": 218, "ox": 86, "fy": 199, "frames": 8, "used": {"idle": "sona_idle1.anm", "run": "sona_run.anm", "attack": "sona_attack1.anm", "spell1": "sona_spell1.anm", "spell2": "sona_spell2.anm", "spell3": "sona_spell3.anm", "spell4": "sona_spell4.anm"}}
+{"w": 192, "h": 219, "ox": 89, "fy": 201, "frames": 16, "used": {"idle": "sona_idle1.anm", "run": "sona_run.anm", "attack": "sona_attack1.anm", "spell1": "sona_spell1.anm", "spell2": "sona_spell2.anm", "spell3": "sona_spell3.anm", "spell4": "sona_spell4.anm"}}

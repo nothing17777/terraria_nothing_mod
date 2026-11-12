@@ -1,1 +1,1 @@
-{"w": 242, "h": 210, "ox": 66, "fy": 193, "frames": 8, "used": {"idle": "idle.anm", "run": "run.anm", "attack": "attack1.anm", "spell1": "spell1.anm", "spell2": "spell2.anm", "spell3": "attack1.anm", "spell4": "spell4_0.anm"}}
+{"w": 243, "h": 204, "ox": 65, "fy": 188, "frames": 16, "used": {"idle": "idle.anm", "run": "run.anm", "attack": "attack1.anm", "spell1": "spell1.anm", "spell2": "spell2.anm", "spell3": "attack1.anm", "spell4": "spell4_0.anm"}}

@@ -1,1 +1,1 @@
-{"w": 206, "h": 242, "ox": 84, "fy": 230, "frames": 8, "used": {"idle": "talon_idle1.anm", "run": "talon_run.anm", "attack": "talon_attack1.anm", "spell1": "talon_spell1.anm", "spell2": "talon_spell2.anm", "spell3": "talon_spell3_jump.anm", "spell4": "talon_spell4.anm"}}
+{"w": 235, "h": 242, "ox": 88, "fy": 230, "frames": 16, "used": {"idle": "talon_idle1.anm", "run": "talon_run.anm", "attack": "talon_attack1.anm", "spell1": "talon_spell1.anm", "spell2": "talon_spell2.anm", "spell3": "talon_spell3_jump.anm", "spell4": "talon_spell4.anm"}}

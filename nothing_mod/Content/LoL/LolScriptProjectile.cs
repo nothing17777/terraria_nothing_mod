@@ -147,6 +147,7 @@ namespace nothing_mod.Content.LoL
 		}
 
 		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) {
+			if (Alias != null && Main.myPlayer == Projectile.owner) LolSound.Play(Alias, Slot, "hit", target.Center, 0.7f);
 			SpellScript sc = Script;
 			int flags = sc?.Flags ?? 0;
 			float cc = Real?.CcDur ?? 0f;

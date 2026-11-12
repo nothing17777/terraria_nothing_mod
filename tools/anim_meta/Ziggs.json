@@ -1,1 +1,1 @@
-{"w": 211, "h": 240, "ox": 90, "fy": 233, "frames": 8, "used": {"idle": "ziggs_idle1.anm", "run": "ziggs_run.anm", "attack": "ziggs_attack1.anm", "spell1": "ziggs_spell1.anm", "spell2": "ziggs_spell2.anm", "spell3": "ziggs_spell3.anm", "spell4": "ziggs_spell4.anm"}}
+{"w": 198, "h": 241, "ox": 88, "fy": 234, "frames": 16, "used": {"idle": "ziggs_idle1.anm", "run": "ziggs_run.anm", "attack": "ziggs_attack1.anm", "spell1": "ziggs_spell1.anm", "spell2": "ziggs_spell2.anm", "spell3": "ziggs_spell3.anm", "spell4": "ziggs_spell4.anm"}}

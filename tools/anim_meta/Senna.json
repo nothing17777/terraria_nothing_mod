@@ -1,1 +1,1 @@
-{"w": 241, "h": 188, "ox": 86, "fy": 175, "frames": 8, "used": {"idle": "senna_idle01.anm", "run": "senna_run01.anm", "attack": "senna_attack01.anm", "spell1": "senna_spell1.anm", "spell2": "senna_spell2.anm", "spell3": "senna_attack01.anm", "spell4": "senna_spell4.anm"}}
+{"w": 241, "h": 196, "ox": 85, "fy": 182, "frames": 16, "used": {"idle": "senna_idle01.anm", "run": "senna_run01.anm", "attack": "senna_attack01.anm", "spell1": "senna_spell1.anm", "spell2": "senna_spell2.anm", "spell3": "senna_attack01.anm", "spell4": "senna_spell4.anm"}}

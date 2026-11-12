@@ -1,1 +1,1 @@
-{"w": 232, "h": 183, "ox": 93, "fy": 172, "frames": 8, "used": {"idle": "galio_idle01.anm", "run": "galio_run.anm", "attack": "galio_attack01.anm", "spell1": "galio_spell1.anm", "spell2": "galio_spell2_tra.anm", "spell3": "galio_spell3.anm", "spell4": "galio_spell4.anm"}}
+{"w": 240, "h": 180, "ox": 104, "fy": 169, "frames": 16, "used": {"idle": "galio_idle01.anm", "run": "galio_run.anm", "attack": "galio_attack01.anm", "spell1": "galio_spell1.anm", "spell2": "galio_spell2_tra.anm", "spell3": "galio_spell3.anm", "spell4": "galio_spell4.anm"}}

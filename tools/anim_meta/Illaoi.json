@@ -1,1 +1,1 @@
-{"w": 243, "h": 166, "ox": 52, "fy": 162, "frames": 8, "used": {"idle": "illaoi_idle1.anm", "run": "illaoi_run1.anm", "attack": "illaoi_attack1.anm", "spell1": "illaoi_spell1.anm", "spell2": "illaoi_spell2.anm", "spell3": "illaoi_spell3_a.anm", "spell4": "illaoi_spell4.anm"}}
+{"w": 243, "h": 167, "ox": 52, "fy": 163, "frames": 16, "used": {"idle": "illaoi_idle1.anm", "run": "illaoi_run1.anm", "attack": "illaoi_attack1.anm", "spell1": "illaoi_spell1.anm", "spell2": "illaoi_spell2.anm", "spell3": "illaoi_spell3_a.anm", "spell4": "illaoi_spell4.anm"}}

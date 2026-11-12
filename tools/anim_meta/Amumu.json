@@ -1,1 +1,1 @@
-{"w": 217, "h": 241, "ox": 130, "fy": 234, "frames": 8, "used": {"idle": "amumu_idle1.anm", "run": "amumu_run.anm", "attack": "amumu_attack1.anm", "spell1": "amumu_spell1.anm", "spell2": "amumu_spell2.anm", "spell3": "amumu_spell3.anm", "spell4": "amumu_spell4.anm"}}
+{"w": 213, "h": 241, "ox": 116, "fy": 226, "frames": 16, "used": {"idle": "amumu_idle1.anm", "run": "amumu_run.anm", "attack": "amumu_attack1.anm", "spell1": "amumu_spell1.anm", "spell2": "amumu_spell2.anm", "spell3": "amumu_spell3.anm", "spell4": "amumu_spell4.anm"}}

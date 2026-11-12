@@ -1,1 +1,1 @@
-{"w": 11, "h": 245, "ox": 3, "fy": 3, "frames": 8, "used": {"idle": "olaf_idle1.anm", "run": "olaf_run.anm", "attack": "olaf_attack1.anm", "spell1": "olaf_spell1.anm", "spell2": "olaf_spell2.anm", "spell3": "olaf_spell3.anm", "spell4": "olaf_spell4.anm"}}
+{"w": 11, "h": 245, "ox": 3, "fy": 3, "frames": 16, "used": {"idle": "olaf_idle1.anm", "run": "olaf_run.anm", "attack": "olaf_attack1.anm", "spell1": "olaf_spell1.anm", "spell2": "olaf_spell2.anm", "spell3": "olaf_spell3.anm", "spell4": "olaf_spell4.anm"}}

@@ -1,1 +1,1 @@
-{"w": 215, "h": 242, "ox": 114, "fy": 238, "frames": 8, "used": {"idle": "lillia_idle1.anm", "run": "lillia_run2_0.anm", "attack": "lillia_attack1.anm", "spell1": "lillia_spell1.anm", "spell2": "lillia_spell2b.anm", "spell3": "lillia_spell3.anm", "spell4": "lillia_spell4.anm"}}
+{"w": 236, "h": 243, "ox": 106, "fy": 238, "frames": 16, "used": {"idle": "lillia_idle1.anm", "run": "lillia_run2_0.anm", "attack": "lillia_attack1.anm", "spell1": "lillia_spell1.anm", "spell2": "lillia_spell2b.anm", "spell3": "lillia_spell3.anm", "spell4": "lillia_spell4.anm"}}

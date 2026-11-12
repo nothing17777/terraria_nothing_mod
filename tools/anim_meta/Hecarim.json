@@ -1,1 +1,1 @@
-{"w": 242, "h": 193, "ox": 110, "fy": 176, "frames": 8, "used": {"idle": "hecarim_idle1.anm", "run": "hecarim_run.anm", "attack": "hecarim_attack1.anm", "spell1": "hecarim_spell1.anm", "spell2": "hecarim_spell2.anm", "spell3": "hecarim_spell3.anm", "spell4": "hecarim_spell4.anm"}}
+{"w": 241, "h": 213, "ox": 123, "fy": 195, "frames": 16, "used": {"idle": "hecarim_idle1.anm", "run": "hecarim_run.anm", "attack": "hecarim_attack1.anm", "spell1": "hecarim_spell1.anm", "spell2": "hecarim_spell2.anm", "spell3": "hecarim_spell3.anm", "spell4": "hecarim_spell4.anm"}}

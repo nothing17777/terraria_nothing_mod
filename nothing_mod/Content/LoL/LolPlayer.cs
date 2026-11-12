@@ -239,7 +239,8 @@ namespace nothing_mod.Content.LoL
 					break;
 				}
 			}
-			Terraria.Audio.SoundEngine.PlaySound(SoundID.Item20, Player.Center);
+			if (!LolSound.Play(champ.Name.Replace("Champion", ""), slot, "cast", Player.Center))
+				Terraria.Audio.SoundEngine.PlaySound(SoundID.Item20, Player.Center);
 		}
 
 		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => Steal(damageDone);

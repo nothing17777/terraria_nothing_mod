@@ -1,1 +1,1 @@
-{"w": 204, "h": 214, "ox": 89, "fy": 210, "frames": 8, "used": {"idle": "quinn_idle1.anm", "run": "quinn_run.anm", "attack": "quinn_attack1.anm", "spell1": "quinn_spell1.anm", "spell2": "quinn_attack1.anm", "spell3": "quinn_spell3_dash.anm", "spell4": "quinn_spell4.anm"}}
+{"w": 213, "h": 219, "ox": 89, "fy": 210, "frames": 16, "used": {"idle": "quinn_idle1.anm", "run": "quinn_run.anm", "attack": "quinn_attack1.anm", "spell1": "quinn_spell1.anm", "spell2": "quinn_attack1.anm", "spell3": "quinn_spell3_dash.anm", "spell4": "quinn_spell4.anm"}}

@@ -1,1 +1,1 @@
-{"w": 225, "h": 223, "ox": 86, "fy": 213, "frames": 8, "used": {"idle": "kogmaw_idle1.anm", "run": "kogmaw_run.anm", "attack": "kogmaw_attack1.anm", "spell1": "kogmaw_spell1.anm", "spell2": "kogmaw_spell2.anm", "spell3": "kogmaw_spell3.anm", "spell4": "kogmaw_spell4.anm"}}
+{"w": 240, "h": 202, "ox": 86, "fy": 193, "frames": 16, "used": {"idle": "kogmaw_idle1.anm", "run": "kogmaw_run.anm", "attack": "kogmaw_attack1.anm", "spell1": "kogmaw_spell1.anm", "spell2": "kogmaw_spell2.anm", "spell3": "kogmaw_spell3.anm", "spell4": "kogmaw_spell4.anm"}}

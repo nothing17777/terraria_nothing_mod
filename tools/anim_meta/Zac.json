@@ -1,1 +1,1 @@
-{"w": 150, "h": 244, "ox": 72, "fy": 187, "frames": 8, "used": {"idle": "zac_idle1.anm", "run": "zac_run.anm", "attack": "zac_attack1.anm", "spell1": "zac_spell1_b1.anm", "spell2": "zac_spell2_scale.anm", "spell3": "zac_spell3_back.anm", "spell4": "zac_spell4.anm"}}
+{"w": 149, "h": 244, "ox": 71, "fy": 187, "frames": 16, "used": {"idle": "zac_idle1.anm", "run": "zac_run.anm", "attack": "zac_attack1.anm", "spell1": "zac_spell1_b1.anm", "spell2": "zac_spell2_scale.anm", "spell3": "zac_spell3_back.anm", "spell4": "zac_spell4.anm"}}

@@ -1,1 +1,1 @@
-{"w": 223, "h": 243, "ox": 74, "fy": 230, "frames": 8, "used": {"idle": "darius_idle1.anm", "run": "darius_run.anm", "attack": "darius_attack1.anm", "spell1": "darius_spell1.anm", "spell2": "darius_spell2.anm", "spell3": "darius_spell3.anm", "spell4": "darius_spell4.anm"}}
+{"w": 218, "h": 243, "ox": 83, "fy": 224, "frames": 16, "used": {"idle": "darius_idle1.anm", "run": "darius_run.anm", "attack": "darius_attack1.anm", "spell1": "darius_spell1.anm", "spell2": "darius_spell2.anm", "spell3": "darius_spell3.anm", "spell4": "darius_spell4.anm"}}

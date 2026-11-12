@@ -1,1 +1,1 @@
-{"w": 168, "h": 243, "ox": 74, "fy": 204, "frames": 8, "used": {"idle": "yuumi_idle01.anm", "run": "yuumi_run01.anm", "attack": "yuumi_attack01.anm", "spell1": "yuumi_spell1_0.anm", "spell2": "yuumi_spell2.anm", "spell3": "yuumi_spell3_detached.anm", "spell4": "yuumi_attack01.anm"}}
+{"w": 167, "h": 243, "ox": 70, "fy": 203, "frames": 16, "used": {"idle": "yuumi_idle01.anm", "run": "yuumi_run01.anm", "attack": "yuumi_attack01.anm", "spell1": "yuumi_spell1_0.anm", "spell2": "yuumi_spell2.anm", "spell3": "yuumi_spell3_detached.anm", "spell4": "yuumi_attack01.anm"}}

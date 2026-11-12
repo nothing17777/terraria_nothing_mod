@@ -1,1 +1,1 @@
-{"w": 194, "h": 187, "ox": 74, "fy": 176, "frames": 8, "used": {"idle": "veigar_idle1.anm", "run": "veigar_run.anm", "attack": "veigar_attack1.anm", "spell1": "veigar_attack1.anm", "spell2": "veigar_spell2.anm", "spell3": "veigar_spell3.anm", "spell4": "veigar_attack1.anm"}}
+{"w": 198, "h": 188, "ox": 76, "fy": 177, "frames": 16, "used": {"idle": "veigar_idle1.anm", "run": "veigar_run.anm", "attack": "veigar_attack1.anm", "spell1": "veigar_attack1.anm", "spell2": "veigar_spell2.anm", "spell3": "veigar_spell3.anm", "spell4": "veigar_attack1.anm"}}

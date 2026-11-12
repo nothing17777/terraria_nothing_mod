@@ -1,1 +1,1 @@
-{"w": 242, "h": 206, "ox": 76, "fy": 195, "frames": 8, "used": {"idle": "rakan_idle01.anm", "run": "rakan_run.anm", "attack": "rakan_attack1.anm", "spell1": "rakan_spell1.anm", "spell2": "rakan_attack1.anm", "spell3": "rakan_attack1.anm", "spell4": "rakan_spell4_charm1.anm"}}
+{"w": 242, "h": 230, "ox": 86, "fy": 220, "frames": 16, "used": {"idle": "rakan_idle01.anm", "run": "rakan_run.anm", "attack": "rakan_attack1.anm", "spell1": "rakan_spell1.anm", "spell2": "rakan_attack1.anm", "spell3": "rakan_attack1.anm", "spell4": "rakan_spell4_charm1.anm"}}

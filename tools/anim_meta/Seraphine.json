@@ -1,1 +1,1 @@
-{"w": 207, "h": 244, "ox": 43, "fy": 162, "frames": 8, "used": {"idle": "seraphin_idle2.anm", "run": "seraphin_run.anm", "attack": "seraphin_attack1.anm", "spell1": "seraphin_spell1.anm", "spell2": "seraphin_spell2.anm", "spell3": "seraphin_spell3.anm", "spell4": "seraphin_spell4.anm"}}
+{"w": 66, "h": 244, "ox": 27, "fy": 98, "frames": 16, "used": {"idle": "seraphin_idle2.anm", "run": "seraphin_run.anm", "attack": "seraphin_attack1.anm", "spell1": "seraphin_spell1.anm", "spell2": "seraphin_spell2.anm", "spell3": "seraphin_spell3.anm", "spell4": "seraphin_spell4.anm"}}

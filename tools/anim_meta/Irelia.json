@@ -1,1 +1,1 @@
-{"w": 149, "h": 243, "ox": 73, "fy": 110, "frames": 8, "used": {"idle": "irelia_idle_01.anm", "run": "irelia_run_base.anm", "attack": "irelia_attack_01.anm", "spell1": "irelia_spell1.anm", "spell2": "irelia_spell2.anm", "spell3": "irelia_spell3.anm", "spell4": "irelia_spell4.anm"}}
+{"w": 148, "h": 243, "ox": 73, "fy": 110, "frames": 16, "used": {"idle": "irelia_idle_01.anm", "run": "irelia_run_base.anm", "attack": "irelia_attack_01.anm", "spell1": "irelia_spell1.anm", "spell2": "irelia_spell2.anm", "spell3": "irelia_spell3.anm", "spell4": "irelia_spell4.anm"}}

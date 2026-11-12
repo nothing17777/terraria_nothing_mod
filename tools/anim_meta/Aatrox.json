@@ -1,1 +1,1 @@
-{"w": 230, "h": 241, "ox": 108, "fy": 236, "frames": 8, "used": {"idle": "aatrox_idle1.anm", "run": "aatrox_ult_run.anm", "attack": "aatrox_attack1.anm", "spell1": "aatrox_attack1.anm", "spell2": "aatrox_attack1.anm", "spell3": "aatrox_spell3.anm", "spell4": "aatrox_spell4.anm"}}
+{"w": 226, "h": 241, "ox": 98, "fy": 232, "frames": 16, "used": {"idle": "aatrox_idle1.anm", "run": "aatrox_ult_run.anm", "attack": "aatrox_attack1.anm", "spell1": "aatrox_attack1.anm", "spell2": "aatrox_attack1.anm", "spell3": "aatrox_spell3.anm", "spell4": "aatrox_spell4.anm"}}

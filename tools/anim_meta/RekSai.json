@@ -1,1 +1,1 @@
-{"w": 243, "h": 199, "ox": 63, "fy": 116, "frames": 8, "used": {"idle": "reksai_idle01.anm", "run": "reksai_run.anm", "attack": "reksai_attack1.anm", "spell1": "reksai_spell1.anm", "spell2": "reksai_spell2.anm", "spell3": "reksai_spell3.anm", "spell4": "reksai_spell4.anm"}}
+{"w": 243, "h": 204, "ox": 63, "fy": 121, "frames": 16, "used": {"idle": "reksai_idle01.anm", "run": "reksai_run.anm", "attack": "reksai_attack1.anm", "spell1": "reksai_spell1.anm", "spell2": "reksai_spell2.anm", "spell3": "reksai_spell3.anm", "spell4": "reksai_spell4.anm"}}

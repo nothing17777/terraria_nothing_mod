@@ -1,1 +1,1 @@
-{"w": 162, "h": 243, "ox": 69, "fy": 231, "frames": 8, "used": {"idle": "braum_run_02.anm", "run": "braum_run_02.anm", "attack": "braum_attack_01.anm", "spell1": "braum_spell1.anm", "spell2": "braum_spell2.anm", "spell3": "braum_spell3_punch0.anm", "spell4": "braum_spell4.anm"}}
+{"w": 154, "h": 243, "ox": 68, "fy": 227, "frames": 16, "used": {"idle": "braum_run_02.anm", "run": "braum_run_02.anm", "attack": "braum_attack_01.anm", "spell1": "braum_spell1.anm", "spell2": "braum_spell2.anm", "spell3": "braum_spell3_punch0.anm", "spell4": "braum_spell4.anm"}}

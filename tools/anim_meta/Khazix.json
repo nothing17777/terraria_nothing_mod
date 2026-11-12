@@ -1,1 +1,1 @@
-{"w": 241, "h": 227, "ox": 100, "fy": 203, "frames": 8, "used": {"idle": "khazix_idle1.anm", "run": "khazix_run.anm", "attack": "khazix_attack1.anm", "spell1": "khazix_spell1.anm", "spell2": "khazix_spell2.anm", "spell3": "khazix_spell3.anm", "spell4": "khazix_attack1.anm"}}
+{"w": 242, "h": 193, "ox": 83, "fy": 173, "frames": 16, "used": {"idle": "khazix_idle1.anm", "run": "khazix_run.anm", "attack": "khazix_attack1.anm", "spell1": "khazix_spell1.anm", "spell2": "khazix_spell2.anm", "spell3": "khazix_spell3.anm", "spell4": "khazix_attack1.anm"}}

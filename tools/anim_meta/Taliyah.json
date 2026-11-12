@@ -1,1 +1,1 @@
-{"w": 141, "h": 243, "ox": 88, "fy": 220, "frames": 8, "used": {"idle": "taliyah_idle1.anm", "run": "taliyah_run1.anm", "attack": "taliyah_attack1.anm", "spell1": "spell1_b.anm", "spell2": "taliyah_spell2.anm", "spell3": "taliyah_spell3.anm", "spell4": "taliyah_spell4.anm"}}
+{"w": 243, "h": 237, "ox": 86, "fy": 215, "frames": 16, "used": {"idle": "taliyah_idle1.anm", "run": "taliyah_run1.anm", "attack": "taliyah_attack1.anm", "spell1": "spell1_b.anm", "spell2": "taliyah_spell2.anm", "spell3": "taliyah_spell3.anm", "spell4": "taliyah_spell4.anm"}}

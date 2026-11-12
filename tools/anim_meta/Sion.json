@@ -1,1 +1,1 @@
-{"w": 241, "h": 187, "ox": 106, "fy": 174, "frames": 8, "used": {"idle": "sion_idle1.anm", "run": "sion_run.anm", "attack": "sion_attack1.anm", "spell1": "sion_spell1_chrg.anm", "spell2": "sion_spell2_b.anm", "spell3": "sion_spell3.anm", "spell4": "sion_spell4_hit.anm"}}
+{"w": 241, "h": 196, "ox": 119, "fy": 177, "frames": 16, "used": {"idle": "sion_idle1.anm", "run": "sion_run.anm", "attack": "sion_attack1.anm", "spell1": "sion_spell1_chrg.anm", "spell2": "sion_spell2_b.anm", "spell3": "sion_spell3.anm", "spell4": "sion_spell4_hit.anm"}}

@@ -1,1 +1,1 @@
-{"w": 159, "h": 217, "ox": 68, "fy": 212, "frames": 8, "used": {"idle": "riven_idle1.anm", "run": "riven_run.anm", "attack": "riven_attack1.anm", "spell1": "riven_spell1a.anm", "spell2": "riven_spell2.anm", "spell3": "riven_spell3.anm", "spell4": "riven_spell4a.anm"}}
+{"w": 197, "h": 216, "ox": 76, "fy": 212, "frames": 16, "used": {"idle": "riven_idle1.anm", "run": "riven_run.anm", "attack": "riven_attack1.anm", "spell1": "riven_spell1a.anm", "spell2": "riven_spell2.anm", "spell3": "riven_spell3.anm", "spell4": "riven_spell4a.anm"}}

@@ -1,1 +1,1 @@
-{"w": 133, "h": 242, "ox": 58, "fy": 233, "frames": 8, "used": {"idle": "jhin_idle01.anm", "run": "jhin_run01.anm", "attack": "jhin_attack1.anm", "spell1": "jhin_spell1.anm", "spell2": "jhin_spell2.anm", "spell3": "jhin_spell3.anm", "spell4": "jhin_spell4_deploy.anm"}}
+{"w": 130, "h": 242, "ox": 56, "fy": 233, "frames": 16, "used": {"idle": "jhin_idle01.anm", "run": "jhin_run01.anm", "attack": "jhin_attack1.anm", "spell1": "jhin_spell1.anm", "spell2": "jhin_spell2.anm", "spell3": "jhin_spell3.anm", "spell4": "jhin_spell4_deploy.anm"}}

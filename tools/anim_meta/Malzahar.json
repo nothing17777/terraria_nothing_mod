@@ -1,1 +1,1 @@
-{"w": 179, "h": 180, "ox": 65, "fy": 174, "frames": 8, "used": {"idle": "malzahar_idle1.anm", "run": "malzahar_run.anm", "attack": "malzahar_attack1.anm", "spell1": "malzahar_spell1.anm", "spell2": "malzahar_spell2.anm", "spell3": "malzahar_spell3.anm", "spell4": "malzahar_spell4.anm"}}
+{"w": 179, "h": 192, "ox": 63, "fy": 177, "frames": 16, "used": {"idle": "malzahar_idle1.anm", "run": "malzahar_run.anm", "attack": "malzahar_attack1.anm", "spell1": "malzahar_spell1.anm", "spell2": "malzahar_spell2.anm", "spell3": "malzahar_spell3.anm", "spell4": "malzahar_spell4.anm"}}

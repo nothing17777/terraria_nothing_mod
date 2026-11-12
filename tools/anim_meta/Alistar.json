@@ -1,1 +1,1 @@
-{"w": 226, "h": 181, "ox": 82, "fy": 162, "frames": 8, "used": {"idle": "alistar_idle1.anm", "run": "alistar_run.anm", "attack": "alistar_attack1.anm", "spell1": "alistar_spell1.anm", "spell2": "alistar_spell2.anm", "spell3": "alistar_spell3.anm", "spell4": "alistar_attack1.anm"}}
+{"w": 232, "h": 199, "ox": 87, "fy": 166, "frames": 16, "used": {"idle": "alistar_idle1.anm", "run": "alistar_run.anm", "attack": "alistar_attack1.anm", "spell1": "alistar_spell1.anm", "spell2": "alistar_spell2.anm", "spell3": "alistar_spell3.anm", "spell4": "alistar_attack1.anm"}}

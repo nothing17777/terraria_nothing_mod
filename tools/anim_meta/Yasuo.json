@@ -1,1 +1,1 @@
-{"w": 233, "h": 242, "ox": 71, "fy": 198, "frames": 8, "used": {"idle": "yasuo_idle1.anm", "run": "yasuo_run1.anm", "attack": "yasuo_attack1.anm", "spell1": "yasuo_spell1a.anm", "spell2": "yasuo_spell2.anm", "spell3": "yasuo_spell3.anm", "spell4": "yasuo_spell4.anm"}}
+{"w": 184, "h": 243, "ox": 65, "fy": 206, "frames": 16, "used": {"idle": "yasuo_idle1.anm", "run": "yasuo_run1.anm", "attack": "yasuo_attack1.anm", "spell1": "yasuo_spell1a.anm", "spell2": "yasuo_spell2.anm", "spell3": "yasuo_spell3.anm", "spell4": "yasuo_spell4.anm"}}

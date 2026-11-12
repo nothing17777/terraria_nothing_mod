@@ -1,1 +1,1 @@
-{"w": 241, "h": 195, "ox": 158, "fy": 187, "frames": 8, "used": {"idle": "corki_idle1.anm", "run": "corki_run.anm", "attack": "corki_attack1.anm", "spell1": "corki_spell1.anm", "spell2": "corki_spell2.anm", "spell3": "corki_spell3.anm", "spell4": "corki_spell4.anm"}}
+{"w": 242, "h": 185, "ox": 162, "fy": 177, "frames": 16, "used": {"idle": "corki_idle1.anm", "run": "corki_run.anm", "attack": "corki_attack1.anm", "spell1": "corki_spell1.anm", "spell2": "corki_spell2.anm", "spell3": "corki_spell3.anm", "spell4": "corki_spell4.anm"}}

@@ -1,1 +1,1 @@
-{"w": 95, "h": 245, "ox": 3, "fy": 241, "frames": 8, "used": {"idle": "rumble_idle1.anm", "run": "rumble_run_60fps.anm", "attack": "rumble_attack1.anm", "spell1": "rumble_spell1_60fps.anm", "spell2": "rumble_spell2.anm", "spell3": "rumble_spell3.anm", "spell4": "rumble_spell4_60fps.anm"}}
+{"w": 101, "h": 245, "ox": 3, "fy": 241, "frames": 16, "used": {"idle": "rumble_idle1.anm", "run": "rumble_run_60fps.anm", "attack": "rumble_attack1.anm", "spell1": "rumble_spell1_60fps.anm", "spell2": "rumble_spell2.anm", "spell3": "rumble_spell3.anm", "spell4": "rumble_spell4_60fps.anm"}}
