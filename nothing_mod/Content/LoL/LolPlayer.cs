@@ -188,6 +188,12 @@ namespace nothing_mod.Content.LoL
 				return;
 			}
 
+			SpellScript script = LolScripts.Get(champ.Name.Replace("Champion", ""), slot);
+			if (script != null) { // per-champion script (Content/LoL/Scripts): shape from the script, numbers from the real spell data
+				LolScriptCaster.Cast(this, champ, script, rs, slot, dir, mouse, dmg, kb, src, rangePx);
+				return;
+			}
+
 			if (sp.Heal == 1) {
 				int heal = (int)(Player.statLifeMax2 * (slot == 3 ? 0.15f : 0.06f));
 				Player.Heal(heal);
