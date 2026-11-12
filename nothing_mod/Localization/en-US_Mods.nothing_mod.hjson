@@ -476,6 +476,26 @@ Items: {
 		Tooltip: Inflicts Slimed on hit
 	}
 
+	SergeantShieldMinus2: {
+		DisplayName: Sergeant United Shield -2
+		Tooltip: A weaker Sergeant United Shield
+	}
+
+	SergeantShieldMinus1: {
+		DisplayName: Sergeant United Shield -1
+		Tooltip: A weaker Sergeant United Shield
+	}
+
+	SergeantShieldPlus1: {
+		DisplayName: Sergeant United Shield +1
+		Tooltip: An upgraded Sergeant United Shield
+	}
+
+	SergeantShieldPlus2: {
+		DisplayName: Sergeant United Shield +2
+		Tooltip: A greatly upgraded Sergeant United Shield
+	}
+
 	PowerBomb: {
 		DisplayName: Power Bomb
 		Tooltip: A huge explosion that destroys even early Hardmode ores
