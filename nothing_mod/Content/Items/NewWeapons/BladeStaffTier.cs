@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using nothing_mod.Content.Systems;
 
 namespace nothing_mod.Content.Items.NewWeapons
 {
@@ -15,12 +16,11 @@ namespace nothing_mod.Content.Items.NewWeapons
 		protected abstract int TierRarity { get; }
 
 		// Placeholder sprite: the vanilla Blade Staff icon.
-		// UNVERIFIED: ItemID.Smolstar is the internal name of the Blade Staff (item 4758).
-		public override string Texture => "Terraria/Images/Item_" + ItemID.Smolstar;
+		public override string Texture => "Terraria/Images/Item_" + VanillaItemIds.BladeStaff;
 
 		public override void SetDefaults()
 		{
-			Item.CloneDefaults(ItemID.Smolstar);
+			Item.CloneDefaults(VanillaItemIds.BladeStaff);
 			Item.damage = TierDamage;
 			Item.rare = TierRarity; // UNVERIFIED: rarity per tier is a design choice, not from the wiki
 		}

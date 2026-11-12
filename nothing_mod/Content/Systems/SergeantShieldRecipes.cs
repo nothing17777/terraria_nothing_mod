@@ -11,11 +11,11 @@ namespace nothing_mod.Content.Systems
 	{
 		public override void AddRecipes()
 		{
-			Recipe.Create(ItemID.SergeantUnitedShield)
+			Recipe.Create(VanillaItemIds.SergeantUnitedShield)
 				.AddIngredient<SergeantShieldMinus1>()
 				.AddIngredient(ItemID.CobaltBar, 5)
 				.Register();
-			Recipe.Create(ItemID.SergeantUnitedShield)
+			Recipe.Create(VanillaItemIds.SergeantUnitedShield)
 				.AddIngredient<SergeantShieldMinus1>()
 				.AddIngredient(ItemID.PalladiumBar, 5)
 				.Register();

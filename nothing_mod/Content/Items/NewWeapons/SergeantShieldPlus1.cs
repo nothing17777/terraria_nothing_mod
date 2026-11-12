@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using nothing_mod.Content.Systems;
 
 namespace nothing_mod.Content.Items.NewWeapons
 {
@@ -13,7 +14,7 @@ namespace nothing_mod.Content.Items.NewWeapons
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-				.AddIngredient(ItemID.SergeantUnitedShield)
+				.AddIngredient(VanillaItemIds.SergeantUnitedShield)
 				.AddIngredient(ItemID.HallowedBar, 5)
 				.Register();
 		}
