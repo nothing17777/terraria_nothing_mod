@@ -1,0 +1,2877 @@
+Items: {
+	AllBuffsPotion: {
+		DisplayName: All-Buffs Potion
+		Tooltip: Grants nearly every buff potion effect for 10 minutes
+	}
+
+	VoidBlade: {
+		DisplayName: Void Blade
+		Tooltip: Fires a bolt of void energy
+	}
+
+	MagicString: {
+		DisplayName: Magic String
+		Tooltip: Allows offstring yoyo tricks
+	}
+
+	StrungCounterweight: {
+		DisplayName: Strung Counterweight
+		Tooltip:
+			'''
+			Increases yoyo range and duration
+			Throws a counterweight after hitting an enemy with a yoyo
+			'''
+	}
+
+	RollerSkates: {
+		DisplayName: Roller Skates
+		Tooltip: Coasting matches placement speed
+	}
+
+	StressBall: {
+		DisplayName: Stress Ball
+		Tooltip:
+			'''
+			Continuously use some items when not moving
+			Not functional when inventory is open
+			'''
+	}
+
+	SilverBracer: {
+		DisplayName: Silver Bracer
+		Tooltip:
+			'''
+			Increases your max number of summon tag effects by 1
+			Significantly increases the duration of your summon tag effects
+			'''
+	}
+
+	SnakeBand: {
+		DisplayName: Snake Band
+		Tooltip: Every 3 swings, joins and attacks with your second whip
+	}
+
+	MobiusStrip: {
+		DisplayName: Mobius Strip
+		Tooltip:
+			'''
+			Increases your max number of summon tag effects by 1
+			Increases whip range by 10%
+			'''
+	}
+
+	WickedArmlet: {
+		DisplayName: Wicked Armlet
+		Tooltip:
+			'''
+			Increases your max number of summon tag effects by 1
+			Increases whip knockback
+			'''
+	}
+
+	PoisonBarb: {
+		DisplayName: Poison Barb
+		Tooltip: Arrows inflict poison
+	}
+
+	HarpyCharm: {
+		DisplayName: Harpy Charm
+		Tooltip:
+			'''
+			Periodically redirects arrows towards enemies
+			+5% ranged critical strike chance
+			'''
+	}
+
+	SnappingStone: {
+		DisplayName: Snapping Stone
+		Tooltip:
+			'''
+			Periodically recharges with faint light
+			Ranged hits discharge a damaging pulse
+			'''
+	}
+
+	OuroborosRing: {
+		DisplayName: Ouroboros Ring
+		Tooltip:
+			'''
+			Increases your max number of summon tag effects by 1
+			Increases whip range by 10%
+			Every 3 swings, joins and attacks with your second whip
+			'''
+	}
+
+	TwilightGrasp: {
+		DisplayName: Twilight Grasp
+		Tooltip:
+			'''
+			Significantly increases the duration of your summon tag effects
+			Increases whip knockback
+			'''
+	}
+
+	RoyalGuardsHarness: {
+		DisplayName: Royal Guard's Harness
+		Tooltip:
+			'''
+			Walk past a sentry to carry it
+			Grants immunity to knockback
+			'''
+	}
+
+	PyroclasticStone: {
+		DisplayName: Pyroclastic Stone
+		Tooltip:
+			'''
+			Melee attacks inflict fire damage
+			Periodically recharges with faint light
+			Melee and ranged hits discharge an explosive slash
+			'''
+	}
+
+	ArmletOfRuin: {
+		DisplayName: Armlet Of Ruin
+		Tooltip:
+			'''
+			Increases your max number of summon tag effects by 1
+			Increases whip knockback
+			Periodically recharges with faint light
+			Minion tag hits discharge ancient power
+			'''
+	}
+
+	SeraphNecklace: {
+		DisplayName: Seraph Necklace
+		Tooltip:
+			'''
+			Periodically redirects arrows towards enemies
+			Increases length of invincibility after taking damage
+			'''
+	}
+
+	WickedClaws: {
+		DisplayName: Wicked Claws
+		Tooltip:
+			'''
+			Increases your max number of summon tag effects by 1
+			Increases whip knockback
+			+12% melee speed
+			Enables autoswing for melee weapons and whips
+			'''
+	}
+
+	SilverShield: {
+		DisplayName: Silver Shield
+		Tooltip:
+			'''
+			Grants immunity to knockback and fire blocks
+			Increases your max number of summon tag effects by 1
+			Significantly increases the duration of your summon tag effects
+			'''
+	}
+
+	CatalystBand: {
+		DisplayName: Catalyst Band
+		Tooltip:
+			'''
+			Reduces the cooldown of healing potions by 25%
+			Arrows inflict poison
+			Increases damage of afflictions on enemies
+			'''
+	}
+
+	CrossedHeartNecklace: {
+		DisplayName: Crossed Heart Necklace
+		Tooltip:
+			'''
+			Increases movement speed after taking damage
+			Increases length of invincibility after taking damage
+			'''
+	}
+
+	RestorationShield: {
+		DisplayName: Restoration Shield
+		Tooltip:
+			'''
+			Slowly regenerates life
+			Increases maximum mana by 40
+			Increases mana regeneration
+			Grants immunity to knockback
+			'''
+	}
+
+	MysticArtsSash: {
+		DisplayName: Mystic Arts Sash
+		Tooltip:
+			'''
+			Slowly regenerates life
+			Increases maximum mana by 40
+			Increases mana regeneration
+			10% chance to dodge an attack
+			'''
+	}
+
+	DruidicSerpentCloak: {
+		DisplayName: Druidic Serpent Cloak
+		Tooltip:
+			'''
+			Every 3 swings, joins and attacks with your second whip
+			Causes stars to fall after taking damage
+			'''
+	}
+
+	LuckyClover: {
+		DisplayName: Lucky Clover
+		Tooltip:
+			'''
+			Magically delicious! Please do not eat.
+			Increases luck slightly while in your inventory
+			'''
+	}
+
+	RavenFeather: {
+		DisplayName: Raven Feather
+		Tooltip:
+			'''
+			A passing raven chose you to carry this emblem. What manner of ill doth this portent?
+			Decreases luck while in your inventory
+			'''
+	}
+
+	JungleJuice: {
+		DisplayName: Jungle Juice
+		Tooltip: A tropical concoction with hints of Life Fruit and nutmeg
+	}
+
+	TorchGodsFlavor: {
+		DisplayName: Torch God's Flavor
+		Tooltip: Nearby torches will be converted to match the biome
+	}
+
+	PrettyMirror: {
+		DisplayName: Pretty Mirror
+		Tooltip: "'You break it, you buy it - you and all of your friends'"
+	}
+
+	BlackenedFish: {
+		DisplayName: Blackened Fish
+		Tooltip: Minor improvements to all stats
+	}
+
+	RockCandy: {
+		DisplayName: Rock Candy
+		Tooltip: Minor improvements to all stats
+	}
+
+	ProspectorHelmet: {
+		DisplayName: Prospector Helmet
+		Tooltip: Provides light when worn
+	}
+
+	ProspectorShirt: {
+		DisplayName: Prospector Shirt
+		Tooltip: 10% increased mining speed
+	}
+
+	ProspectorPants: {
+		DisplayName: Prospector Pants
+		Tooltip: 10% increased mining speed
+	}
+
+	CaptainHat: {
+		DisplayName: Captain Hat
+		Tooltip:
+			'''
+			Increases fishing power by 5
+			'You are the captain now'
+			'''
+	}
+
+	CaptainVest: {
+		DisplayName: Captain Vest
+		Tooltip: Increases fishing power by 5
+	}
+
+	CaptainPants: {
+		DisplayName: Captain Pants
+		Tooltip: Increases fishing power by 5
+	}
+
+	ChlorophyteVisor: {
+		DisplayName: Chlorophyte Visor
+		Tooltip:
+			'''
+			16% increased summon damage
+			Increases your max number of minions
+			'''
+	}
+
+	LilacDuskHairclip: {
+		DisplayName: Lilac Dusk Hairclip
+		Tooltip: ""
+	}
+
+	LilacDuskDress: {
+		DisplayName: Lilac Dusk Dress
+		Tooltip: ""
+	}
+
+	LilacDuskSkirt: {
+		DisplayName: Lilac Dusk Skirt
+		Tooltip: ""
+	}
+
+	LunasRunicPixieHood: {
+		DisplayName: Luna's Runic Pixie Hood
+		Tooltip: Great for impersonating devs!
+	}
+
+	LunasRunicPixieShirt: {
+		DisplayName: Luna's Runic Pixie Shirt
+		Tooltip: Great for impersonating devs!
+	}
+
+	LunasRunicPixiePants: {
+		DisplayName: Luna's Runic Pixie Pants
+		Tooltip: Great for impersonating devs!
+	}
+
+	HeroicisHat: {
+		DisplayName: Heroicis' Hat
+		Tooltip: Believe in yourself, and value others. Both are blessings.
+	}
+
+	HeroicisCoat: {
+		DisplayName: Heroicis' Coat
+		Tooltip: Draw wisdom from many places, lest it become stale.
+	}
+
+	HeroicisPants: {
+		DisplayName: Heroicis' Pants
+		Tooltip: True humility is the only antidote to shame.
+	}
+
+	ChippysHelmet: {
+		DisplayName: Chippy's Helmet
+		Tooltip:
+			'''
+			Great for impersonating Terraria Enthusiasts!
+			To be worn only in battle
+			'''
+	}
+
+	ChippysChestplate: {
+		DisplayName: Chippy's Chestplate
+		Tooltip:
+			'''
+			Great for impersonating Terraria Enthusiasts!
+			Stylish, and functional
+			'''
+	}
+
+	ChippysGreaves: {
+		DisplayName: Chippy's Greaves
+		Tooltip:
+			'''
+			Great for impersonating Terraria Enthusiasts!
+			Trousers, not pants
+			'''
+	}
+
+	ChickenBonesVisor: {
+		DisplayName: Chicken Bones' Visor
+		Tooltip: Great for impersonating devs!
+	}
+
+	ChickenBonesVest: {
+		DisplayName: Chicken Bones' Vest
+		Tooltip: Great for impersonating devs!
+	}
+
+	ChickenBonesPants: {
+		DisplayName: Chicken Bones' Pants
+		Tooltip: Great for impersonating devs!
+	}
+
+	KazzymodusHood: {
+		DisplayName: Kazzymodus' Hood
+		Tooltip:
+			'''
+			Great for impersonating devs!
+			'I have a cunning plan...'
+			'''
+	}
+
+	KazzymodusChestpiece: {
+		DisplayName: Kazzymodus' Chestpiece
+		Tooltip: Great for impersonating devs!
+	}
+
+	KazzymodusLeggings: {
+		DisplayName: Kazzymodus' Leggings
+		Tooltip: Great for impersonating devs!
+	}
+
+	PalMetalChestplate: {
+		DisplayName: Pal Metal Chestplate
+		Tooltip:
+			'''
+			Armor fully utilizing the latest otherworldy technology.
+			'Maybe its overwhelming defense is the pals you made along the way?'
+			'''
+	}
+
+	PalMetalLeggings: {
+		DisplayName: Pal Metal Leggings
+		Tooltip:
+			'''
+			Armor fully utilizing the latest otherworldy technology.
+			'Maybe its overwhelming defense is the pals you made along the way?'
+			'''
+	}
+
+	BeheadedHead: {
+		DisplayName: The Beheaded's Head
+		Tooltip: A mysterious dark cloud, with what appears to be a glowing crystal within...
+	}
+
+	BeheadedCuirass: {
+		DisplayName: The Beheaded's Cuirass
+		Tooltip: Helps keep the Malaise at bay
+	}
+
+	BeheadedTrousers: {
+		DisplayName: The Beheaded's Trousers
+		Tooltip: Possession is 9/10 of the law
+	}
+
+	HallowedCrown: {
+		DisplayName: Hallowed Crown
+		Tooltip: ""
+	}
+
+	BlueBikiniTop: {
+		DisplayName: Blue Bikini Top
+		Tooltip: ""
+	}
+
+	BlueBikiniBottom: {
+		DisplayName: Blue Bikini Bottom
+		Tooltip: ""
+	}
+
+	WeldingMask: {
+		DisplayName: Welding Mask
+		Tooltip: ""
+	}
+
+	AcornSlingshot: {
+		DisplayName: Acorn Slingshot
+		Tooltip: Fires acorns that plant themselves when they land
+	}
+
+	SlimeSpear: {
+		DisplayName: Slime Spear
+		Tooltip: Inflicts Slimed on hit
+	}
+
+	PowerBomb: {
+		DisplayName: Power Bomb
+		Tooltip: A huge explosion that destroys even early Hardmode ores
+	}
+
+	FreezeBomb: {
+		DisplayName: Freeze Bomb
+		Tooltip: A small explosion that will freeze water
+	}
+
+	MudBall: {
+		DisplayName: Mud Ball
+		Tooltip: Places mud where it lands
+	}
+
+	ShimmerGun: {
+		DisplayName: Shimmer Gun
+		Tooltip: Sprays Shimmer
+	}
+
+	PinkPhaseblade: {
+		DisplayName: Pink Phaseblade
+		Tooltip: ""
+	}
+
+	PinkPhasesaber: {
+		DisplayName: Pink Phasesaber
+		Tooltip: ""
+	}
+
+	RainbowGlowstick: {
+		DisplayName: Rainbow Glowstick
+		Tooltip: Works when wet
+	}
+
+	WallRacerCar: {
+		DisplayName: Wall Racer Car
+		Tooltip: Summons a small car you can drive
+	}
+
+	DaybloomStaff: {
+		DisplayName: Daybloom Staff
+		Tooltip: Full of hopes, dreams, and sticky gel!
+	}
+
+	GlacierFang: {
+		DisplayName: Glacier Fang
+		Tooltip: Launches a charged icicle lance
+	}
+
+	MysticBloom: {
+		DisplayName: Mystic Bloom
+		Tooltip: Fires three slowly homing petals
+	}
+
+	LightningStrike: {
+		DisplayName: Lightning Strike
+		Tooltip: Summons lightning strikes from the sky
+	}
+
+	ClayBudStaff: {
+		DisplayName: Clay Bud Staff
+		Tooltip: Summons a clay bud to fight for you
+	}
+
+	RuinousStaff: {
+		DisplayName: Ruinous Staff
+		Tooltip: Summons forbidden ruins to fight for you
+	}
+
+	ArcSurge: {
+		DisplayName: Arc Surge
+		Tooltip: Fires arcs of red lightning
+	}
+
+	SweetBarb: {
+		DisplayName: Sweet Barb
+		Tooltip: Releases bees and douses the user in honey when damaged
+	}
+
+	HeavySling: {
+		DisplayName: Heavy Sling
+		Tooltip: Walk past a sentry to carry it (not yet implemented)
+	}
+
+	ScoutsSling: {
+		DisplayName: Scout's Sling
+		Tooltip:
+			'''
+			5% increased damage
+			Reduces enemy aggro
+			'''
+	}
+
+	TemplarsSling: {
+		DisplayName: Templar's Sling
+		Tooltip: 10% increased summon critical strike chance
+	}
+
+	PhoenixQuiver: {
+		DisplayName: Phoenix Quiver
+		Tooltip:
+			'''
+			10% increased arrow damage and knockback
+			20% chance not to consume ammo
+			Wooden Arrows are fired as Flaming Arrows
+			'''
+	}
+
+	ChaosCylinder: {
+		DisplayName: Chaos Cylinder
+		Tooltip: 8% increased ranged damage
+	}
+
+	Cobwhip: {
+		DisplayName: Cobwhip
+		Tooltip:
+			'''
+			3 summon tag damage
+			Strike enemies to summon a tiny spider (not implemented)
+			Your summons will focus struck enemies
+			'''
+	}
+
+	SlimeWhip: {
+		DisplayName: Slime Whip
+		Tooltip:
+			'''
+			3 summon tag damage
+			Your summons will focus struck enemies
+			Whip crack can ignite enemies
+			'''
+	}
+
+	Soulscourge: {
+		DisplayName: Soulscourge
+		Tooltip:
+			'''
+			5 summon tag damage
+			Your summons will focus struck enemies
+			Lash your enemies with the remnants of evil incarnate
+			'''
+	}
+
+	Vasculash: {
+		DisplayName: Vasculash
+		Tooltip:
+			'''
+			5 summon tag damage
+			Your summons will focus struck enemies
+			Arteries, veins, and sinew!
+			'''
+	}
+
+	Starcrash: {
+		DisplayName: Starcrash
+		Tooltip:
+			'''
+			2 summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	VulgarDisplayOfFlower: {
+		DisplayName: Vulgar Display of Flower
+		Tooltip:
+			'''
+			9 summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	ElectricEel: {
+		DisplayName: Electric Eel
+		Tooltip:
+			'''
+			12 summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	Constellation: {
+		DisplayName: Constellation
+		Tooltip:
+			'''
+			15 summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	Possession: {
+		DisplayName: Possession
+		Tooltip:
+			'''
+			25 summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	AatroxChampion: {
+		DisplayName: Aatrox, the Darkin Blade
+		Tooltip: ""
+	}
+
+	AhriChampion: {
+		DisplayName: Ahri, the Nine-Tailed Fox
+		Tooltip: ""
+	}
+
+	AkaliChampion: {
+		DisplayName: Akali, the Rogue Assassin
+		Tooltip: ""
+	}
+
+	AkshanChampion: {
+		DisplayName: Akshan, the Rogue Sentinel
+		Tooltip: ""
+	}
+
+	AlistarChampion: {
+		DisplayName: Alistar, the Minotaur
+		Tooltip: ""
+	}
+
+	AmbessaChampion: {
+		DisplayName: Ambessa, Matriarch of War
+		Tooltip: ""
+	}
+
+	AmumuChampion: {
+		DisplayName: Amumu, the Sad Mummy
+		Tooltip: ""
+	}
+
+	AniviaChampion: {
+		DisplayName: Anivia, the Cryophoenix
+		Tooltip: ""
+	}
+
+	AnnieChampion: {
+		DisplayName: Annie, the Dark Child
+		Tooltip: ""
+	}
+
+	ApheliosChampion: {
+		DisplayName: Aphelios, the Weapon of the Faithful
+		Tooltip: ""
+	}
+
+	AsheChampion: {
+		DisplayName: Ashe, the Frost Archer
+		Tooltip: ""
+	}
+
+	AurelionSolChampion: {
+		DisplayName: Aurelion Sol, The Star Forger
+		Tooltip: ""
+	}
+
+	AuroraChampion: {
+		DisplayName: Aurora, the Witch Between Worlds
+		Tooltip: ""
+	}
+
+	AzirChampion: {
+		DisplayName: Azir, the Emperor of the Sands
+		Tooltip: ""
+	}
+
+	BardChampion: {
+		DisplayName: Bard, the Wandering Caretaker
+		Tooltip: ""
+	}
+
+	BelvethChampion: {
+		DisplayName: Bel'Veth, the Empress of the Void
+		Tooltip: ""
+	}
+
+	BlitzcrankChampion: {
+		DisplayName: Blitzcrank, the Great Steam Golem
+		Tooltip: ""
+	}
+
+	BrandChampion: {
+		DisplayName: Brand, the Burning Vengeance
+		Tooltip: ""
+	}
+
+	BraumChampion: {
+		DisplayName: Braum, the Heart of the Freljord
+		Tooltip: ""
+	}
+
+	BriarChampion: {
+		DisplayName: Briar, the Restrained Hunger
+		Tooltip: ""
+	}
+
+	CaitlynChampion: {
+		DisplayName: Caitlyn, the Sheriff of Piltover
+		Tooltip: ""
+	}
+
+	CamilleChampion: {
+		DisplayName: Camille, the Steel Shadow
+		Tooltip: ""
+	}
+
+	CassiopeiaChampion: {
+		DisplayName: Cassiopeia, the Serpent's Embrace
+		Tooltip: ""
+	}
+
+	ChogathChampion: {
+		DisplayName: Cho'Gath, the Terror of the Void
+		Tooltip: ""
+	}
+
+	CorkiChampion: {
+		DisplayName: Corki, the Daring Bombardier
+		Tooltip: ""
+	}
+
+	DariusChampion: {
+		DisplayName: Darius, the Hand of Noxus
+		Tooltip: ""
+	}
+
+	DianaChampion: {
+		DisplayName: Diana, Scorn of the Moon
+		Tooltip: ""
+	}
+
+	DravenChampion: {
+		DisplayName: Draven, the Glorious Executioner
+		Tooltip: ""
+	}
+
+	DrMundoChampion: {
+		DisplayName: Dr. Mundo, the Madman of Zaun
+		Tooltip: ""
+	}
+
+	EkkoChampion: {
+		DisplayName: Ekko, the Boy Who Shattered Time
+		Tooltip: ""
+	}
+
+	EliseChampion: {
+		DisplayName: Elise, the Spider Queen
+		Tooltip: ""
+	}
+
+	EvelynnChampion: {
+		DisplayName: Evelynn, Agony's Embrace
+		Tooltip: ""
+	}
+
+	EzrealChampion: {
+		DisplayName: Ezreal, the Prodigal Explorer
+		Tooltip: ""
+	}
+
+	FiddleSticksChampion: {
+		DisplayName: Fiddlesticks, the Ancient Fear
+		Tooltip: ""
+	}
+
+	FioraChampion: {
+		DisplayName: Fiora, the Grand Duelist
+		Tooltip: ""
+	}
+
+	FizzChampion: {
+		DisplayName: Fizz, the Tidal Trickster
+		Tooltip: ""
+	}
+
+	GalioChampion: {
+		DisplayName: Galio, the Colossus
+		Tooltip: ""
+	}
+
+	GangplankChampion: {
+		DisplayName: Gangplank, the Saltwater Scourge
+		Tooltip: ""
+	}
+
+	GarenChampion: {
+		DisplayName: Garen, The Might of Demacia
+		Tooltip: ""
+	}
+
+	GnarChampion: {
+		DisplayName: Gnar, the Missing Link
+		Tooltip: ""
+	}
+
+	GragasChampion: {
+		DisplayName: Gragas, the Rabble Rouser
+		Tooltip: ""
+	}
+
+	GravesChampion: {
+		DisplayName: Graves, the Outlaw
+		Tooltip: ""
+	}
+
+	GwenChampion: {
+		DisplayName: Gwen, The Hallowed Seamstress
+		Tooltip: ""
+	}
+
+	HecarimChampion: {
+		DisplayName: Hecarim, the Shadow of War
+		Tooltip: ""
+	}
+
+	HeimerdingerChampion: {
+		DisplayName: Heimerdinger, the Revered Inventor
+		Tooltip: ""
+	}
+
+	HweiChampion: {
+		DisplayName: Hwei, the Visionary
+		Tooltip: ""
+	}
+
+	IllaoiChampion: {
+		DisplayName: Illaoi, the Kraken Priestess
+		Tooltip: ""
+	}
+
+	IreliaChampion: {
+		DisplayName: Irelia, the Blade Dancer
+		Tooltip: ""
+	}
+
+	IvernChampion: {
+		DisplayName: Ivern, the Green Father
+		Tooltip: ""
+	}
+
+	JannaChampion: {
+		DisplayName: Janna, the Storm's Fury
+		Tooltip: ""
+	}
+
+	JarvanIVChampion: {
+		DisplayName: Jarvan IV, the Exemplar of Demacia
+		Tooltip: ""
+	}
+
+	JaxChampion: {
+		DisplayName: Jax, Grandmaster at Arms
+		Tooltip: ""
+	}
+
+	JayceChampion: {
+		DisplayName: Jayce, the Defender of Tomorrow
+		Tooltip: ""
+	}
+
+	JhinChampion: {
+		DisplayName: Jhin, the Virtuoso
+		Tooltip: ""
+	}
+
+	JinxChampion: {
+		DisplayName: Jinx, the Loose Cannon
+		Tooltip: ""
+	}
+
+	KaisaChampion: {
+		DisplayName: Kai'Sa, Daughter of the Void
+		Tooltip: ""
+	}
+
+	KalistaChampion: {
+		DisplayName: Kalista, the Spear of Vengeance
+		Tooltip: ""
+	}
+
+	KarmaChampion: {
+		DisplayName: Karma, the Enlightened One
+		Tooltip: ""
+	}
+
+	KarthusChampion: {
+		DisplayName: Karthus, the Deathsinger
+		Tooltip: ""
+	}
+
+	KassadinChampion: {
+		DisplayName: Kassadin, the Void Walker
+		Tooltip: ""
+	}
+
+	KatarinaChampion: {
+		DisplayName: Katarina, the Sinister Blade
+		Tooltip: ""
+	}
+
+	KayleChampion: {
+		DisplayName: Kayle, the Righteous
+		Tooltip: ""
+	}
+
+	KaynChampion: {
+		DisplayName: Kayn, the Shadow Reaper
+		Tooltip: ""
+	}
+
+	KennenChampion: {
+		DisplayName: Kennen, the Heart of the Tempest
+		Tooltip: ""
+	}
+
+	KhazixChampion: {
+		DisplayName: Kha'Zix, the Voidreaver
+		Tooltip: ""
+	}
+
+	KindredChampion: {
+		DisplayName: Kindred, The Eternal Hunters
+		Tooltip: ""
+	}
+
+	KledChampion: {
+		DisplayName: Kled, the Cantankerous Cavalier
+		Tooltip: ""
+	}
+
+	KogMawChampion: {
+		DisplayName: Kog'Maw, the Mouth of the Abyss
+		Tooltip: ""
+	}
+
+	KSanteChampion: {
+		DisplayName: K'Sante, the Pride of Nazumah
+		Tooltip: ""
+	}
+
+	LeblancChampion: {
+		DisplayName: LeBlanc, the Deceiver
+		Tooltip: ""
+	}
+
+	LeeSinChampion: {
+		DisplayName: Lee Sin, the Blind Monk
+		Tooltip: ""
+	}
+
+	LeonaChampion: {
+		DisplayName: Leona, the Radiant Dawn
+		Tooltip: ""
+	}
+
+	LilliaChampion: {
+		DisplayName: Lillia, the Bashful Bloom
+		Tooltip: ""
+	}
+
+	LissandraChampion: {
+		DisplayName: Lissandra, the Ice Witch
+		Tooltip: ""
+	}
+
+	LockeChampion: {
+		DisplayName: Locke, the Ashen Exorcist
+		Tooltip: ""
+	}
+
+	LucianChampion: {
+		DisplayName: Lucian, the Purifier
+		Tooltip: ""
+	}
+
+	LuluChampion: {
+		DisplayName: Lulu, the Fae Sorceress
+		Tooltip: ""
+	}
+
+	LuxChampion: {
+		DisplayName: Lux, the Lady of Luminosity
+		Tooltip: ""
+	}
+
+	MalphiteChampion: {
+		DisplayName: Malphite, Shard of the Monolith
+		Tooltip: ""
+	}
+
+	MalzaharChampion: {
+		DisplayName: Malzahar, the Prophet of the Void
+		Tooltip: ""
+	}
+
+	MaokaiChampion: {
+		DisplayName: Maokai, the Twisted Treant
+		Tooltip: ""
+	}
+
+	MasterYiChampion: {
+		DisplayName: Master Yi, the Wuju Bladesman
+		Tooltip: ""
+	}
+
+	MelChampion: {
+		DisplayName: Mel, the Soul's Reflection
+		Tooltip: ""
+	}
+
+	MilioChampion: {
+		DisplayName: Milio, The Gentle Flame
+		Tooltip: ""
+	}
+
+	MissFortuneChampion: {
+		DisplayName: Miss Fortune, the Bounty Hunter
+		Tooltip: ""
+	}
+
+	MonkeyKingChampion: {
+		DisplayName: Wukong, the Monkey King
+		Tooltip: ""
+	}
+
+	MordekaiserChampion: {
+		DisplayName: Mordekaiser, the Iron Revenant
+		Tooltip: ""
+	}
+
+	MorganaChampion: {
+		DisplayName: Morgana, the Fallen
+		Tooltip: ""
+	}
+
+	NaafiriChampion: {
+		DisplayName: Naafiri, the Hound of a Hundred Bites
+		Tooltip: ""
+	}
+
+	NamiChampion: {
+		DisplayName: Nami, the Tidecaller
+		Tooltip: ""
+	}
+
+	NasusChampion: {
+		DisplayName: Nasus, the Curator of the Sands
+		Tooltip: ""
+	}
+
+	NautilusChampion: {
+		DisplayName: Nautilus, the Titan of the Depths
+		Tooltip: ""
+	}
+
+	NeekoChampion: {
+		DisplayName: Neeko, the Curious Chameleon
+		Tooltip: ""
+	}
+
+	NidaleeChampion: {
+		DisplayName: Nidalee, the Bestial Huntress
+		Tooltip: ""
+	}
+
+	NilahChampion: {
+		DisplayName: Nilah, the Joy Unbound
+		Tooltip: ""
+	}
+
+	NocturneChampion: {
+		DisplayName: Nocturne, the Eternal Nightmare
+		Tooltip: ""
+	}
+
+	NunuChampion: {
+		DisplayName: Nunu & Willump, the Boy and His Yeti
+		Tooltip: ""
+	}
+
+	OlafChampion: {
+		DisplayName: Olaf, the Berserker
+		Tooltip: ""
+	}
+
+	OriannaChampion: {
+		DisplayName: Orianna, the Lady of Clockwork
+		Tooltip: ""
+	}
+
+	OrnnChampion: {
+		DisplayName: Ornn, The Fire below the Mountain
+		Tooltip: ""
+	}
+
+	PantheonChampion: {
+		DisplayName: Pantheon, the Unbreakable Spear
+		Tooltip: ""
+	}
+
+	PoppyChampion: {
+		DisplayName: Poppy, Keeper of the Hammer
+		Tooltip: ""
+	}
+
+	PykeChampion: {
+		DisplayName: Pyke, the Bloodharbor Ripper
+		Tooltip: ""
+	}
+
+	QiyanaChampion: {
+		DisplayName: Qiyana, Empress of the Elements
+		Tooltip: ""
+	}
+
+	QuinnChampion: {
+		DisplayName: Quinn, Demacia's Wings
+		Tooltip: ""
+	}
+
+	RakanChampion: {
+		DisplayName: Rakan, The Charmer
+		Tooltip: ""
+	}
+
+	RammusChampion: {
+		DisplayName: Rammus, the Armordillo
+		Tooltip: ""
+	}
+
+	RekSaiChampion: {
+		DisplayName: Rek'Sai, the Void Burrower
+		Tooltip: ""
+	}
+
+	RellChampion: {
+		DisplayName: Rell, the Iron Maiden
+		Tooltip: ""
+	}
+
+	RenataChampion: {
+		DisplayName: Renata Glasc, the Chem-Baroness
+		Tooltip: ""
+	}
+
+	RenektonChampion: {
+		DisplayName: Renekton, the Butcher of the Sands
+		Tooltip: ""
+	}
+
+	RengarChampion: {
+		DisplayName: Rengar, the Pridestalker
+		Tooltip: ""
+	}
+
+	RivenChampion: {
+		DisplayName: Riven, the Exile
+		Tooltip: ""
+	}
+
+	RumbleChampion: {
+		DisplayName: Rumble, the Mechanized Menace
+		Tooltip: ""
+	}
+
+	RyzeChampion: {
+		DisplayName: Ryze, the Rune Mage
+		Tooltip: ""
+	}
+
+	SamiraChampion: {
+		DisplayName: Samira, the Desert Rose
+		Tooltip: ""
+	}
+
+	SejuaniChampion: {
+		DisplayName: Sejuani, Fury of the North
+		Tooltip: ""
+	}
+
+	SennaChampion: {
+		DisplayName: Senna, the Redeemer
+		Tooltip: ""
+	}
+
+	SeraphineChampion: {
+		DisplayName: Seraphine, the Starry-Eyed Songstress
+		Tooltip: ""
+	}
+
+	SettChampion: {
+		DisplayName: Sett, the Boss
+		Tooltip: ""
+	}
+
+	ShacoChampion: {
+		DisplayName: Shaco, the Demon Jester
+		Tooltip: ""
+	}
+
+	ShenChampion: {
+		DisplayName: Shen, the Eye of Twilight
+		Tooltip: ""
+	}
+
+	ShyvanaChampion: {
+		DisplayName: Shyvana, the Half-Dragon
+		Tooltip: ""
+	}
+
+	SingedChampion: {
+		DisplayName: Singed, the Mad Chemist
+		Tooltip: ""
+	}
+
+	SionChampion: {
+		DisplayName: Sion, The Undead Juggernaut
+		Tooltip: ""
+	}
+
+	SivirChampion: {
+		DisplayName: Sivir, the Battle Mistress
+		Tooltip: ""
+	}
+
+	SkarnerChampion: {
+		DisplayName: Skarner, the Primordial Sovereign
+		Tooltip: ""
+	}
+
+	SmolderChampion: {
+		DisplayName: Smolder, the Fiery Fledgling
+		Tooltip: ""
+	}
+
+	SonaChampion: {
+		DisplayName: Sona, Maven of the Strings
+		Tooltip: ""
+	}
+
+	SorakaChampion: {
+		DisplayName: Soraka, the Starchild
+		Tooltip: ""
+	}
+
+	SwainChampion: {
+		DisplayName: Swain, the Noxian Grand General
+		Tooltip: ""
+	}
+
+	SylasChampion: {
+		DisplayName: Sylas, the Unshackled
+		Tooltip: ""
+	}
+
+	SyndraChampion: {
+		DisplayName: Syndra, the Dark Sovereign
+		Tooltip: ""
+	}
+
+	TahmKenchChampion: {
+		DisplayName: Tahm Kench, The River King
+		Tooltip: ""
+	}
+
+	TaliyahChampion: {
+		DisplayName: Taliyah, the Stoneweaver
+		Tooltip: ""
+	}
+
+	TalonChampion: {
+		DisplayName: Talon, the Blade's Shadow
+		Tooltip: ""
+	}
+
+	TaricChampion: {
+		DisplayName: Taric, the Shield of Valoran
+		Tooltip: ""
+	}
+
+	TeemoChampion: {
+		DisplayName: Teemo, the Swift Scout
+		Tooltip: ""
+	}
+
+	ThreshChampion: {
+		DisplayName: Thresh, the Chain Warden
+		Tooltip: ""
+	}
+
+	TristanaChampion: {
+		DisplayName: Tristana, the Yordle Gunner
+		Tooltip: ""
+	}
+
+	TrundleChampion: {
+		DisplayName: Trundle, the Troll King
+		Tooltip: ""
+	}
+
+	TryndamereChampion: {
+		DisplayName: Tryndamere, the Barbarian King
+		Tooltip: ""
+	}
+
+	TwistedFateChampion: {
+		DisplayName: Twisted Fate, the Card Master
+		Tooltip: ""
+	}
+
+	TwitchChampion: {
+		DisplayName: Twitch, the Plague Rat
+		Tooltip: ""
+	}
+
+	UdyrChampion: {
+		DisplayName: Udyr, the Spirit Walker
+		Tooltip: ""
+	}
+
+	UrgotChampion: {
+		DisplayName: Urgot, the Dreadnought
+		Tooltip: ""
+	}
+
+	VarusChampion: {
+		DisplayName: Varus, the Arrow of Retribution
+		Tooltip: ""
+	}
+
+	VayneChampion: {
+		DisplayName: Vayne, the Night Hunter
+		Tooltip: ""
+	}
+
+	VeigarChampion: {
+		DisplayName: Veigar, the Tiny Master of Evil
+		Tooltip: ""
+	}
+
+	VelkozChampion: {
+		DisplayName: Vel'Koz, the Eye of the Void
+		Tooltip: ""
+	}
+
+	VexChampion: {
+		DisplayName: Vex, the Gloomist
+		Tooltip: ""
+	}
+
+	ViChampion: {
+		DisplayName: Vi, the Piltover Enforcer
+		Tooltip: ""
+	}
+
+	ViegoChampion: {
+		DisplayName: Viego, The Ruined King
+		Tooltip: ""
+	}
+
+	ViktorChampion: {
+		DisplayName: Viktor, the Herald of the Arcane
+		Tooltip: ""
+	}
+
+	VladimirChampion: {
+		DisplayName: Vladimir, the Crimson Reaper
+		Tooltip: ""
+	}
+
+	VolibearChampion: {
+		DisplayName: Volibear, the Relentless Storm
+		Tooltip: ""
+	}
+
+	WarwickChampion: {
+		DisplayName: Warwick, the Uncaged Wrath of Zaun
+		Tooltip: ""
+	}
+
+	XayahChampion: {
+		DisplayName: Xayah, the Rebel
+		Tooltip: ""
+	}
+
+	XerathChampion: {
+		DisplayName: Xerath, the Magus Ascendant
+		Tooltip: ""
+	}
+
+	XinZhaoChampion: {
+		DisplayName: Xin Zhao, the Seneschal of Demacia
+		Tooltip: ""
+	}
+
+	YasuoChampion: {
+		DisplayName: Yasuo, the Unforgiven
+		Tooltip: ""
+	}
+
+	YoneChampion: {
+		DisplayName: Yone, the Unforgotten
+		Tooltip: ""
+	}
+
+	YorickChampion: {
+		DisplayName: Yorick, Shepherd of Souls
+		Tooltip: ""
+	}
+
+	YunaraChampion: {
+		DisplayName: Yunara, the Unbroken Faith
+		Tooltip: ""
+	}
+
+	YuumiChampion: {
+		DisplayName: Yuumi, the Magical Cat
+		Tooltip: ""
+	}
+
+	ZaahenChampion: {
+		DisplayName: Zaahen, The Unsundered
+		Tooltip: ""
+	}
+
+	ZacChampion: {
+		DisplayName: Zac, the Secret Weapon
+		Tooltip: ""
+	}
+
+	ZedChampion: {
+		DisplayName: Zed, the Master of Shadows
+		Tooltip: ""
+	}
+
+	ZeriChampion: {
+		DisplayName: Zeri, The Spark of Zaun
+		Tooltip: ""
+	}
+
+	ZiggsChampion: {
+		DisplayName: Ziggs, the Hexplosives Expert
+		Tooltip: ""
+	}
+
+	ZileanChampion: {
+		DisplayName: Zilean, the Chronokeeper
+		Tooltip: ""
+	}
+
+	ZoeChampion: {
+		DisplayName: Zoe, the Aspect of Twilight
+		Tooltip: ""
+	}
+
+	ZyraChampion: {
+		DisplayName: Zyra, Rise of the Thorns
+		Tooltip: ""
+	}
+
+	Lol1001: {
+		DisplayName: Boots
+		Tooltip: ""
+	}
+
+	Lol1004: {
+		DisplayName: Faerie Charm
+		Tooltip: ""
+	}
+
+	Lol1006: {
+		DisplayName: Rejuvenation Bead
+		Tooltip: ""
+	}
+
+	Lol1011: {
+		DisplayName: Giant's Belt
+		Tooltip: ""
+	}
+
+	Lol1018: {
+		DisplayName: Cloak of Agility
+		Tooltip: ""
+	}
+
+	Lol1026: {
+		DisplayName: Blasting Wand
+		Tooltip: ""
+	}
+
+	Lol1027: {
+		DisplayName: Sapphire Crystal
+		Tooltip: ""
+	}
+
+	Lol1028: {
+		DisplayName: Ruby Crystal
+		Tooltip: ""
+	}
+
+	Lol1029: {
+		DisplayName: Cloth Armor
+		Tooltip: ""
+	}
+
+	Lol1031: {
+		DisplayName: Chain Vest
+		Tooltip: ""
+	}
+
+	Lol1033: {
+		DisplayName: Null-Magic Mantle
+		Tooltip: ""
+	}
+
+	Lol1036: {
+		DisplayName: Long Sword
+		Tooltip: ""
+	}
+
+	Lol1037: {
+		DisplayName: Pickaxe
+		Tooltip: ""
+	}
+
+	Lol1038: {
+		DisplayName: B. F. Sword
+		Tooltip: ""
+	}
+
+	Lol1040: {
+		DisplayName: Obsidian Edge
+		Tooltip: ""
+	}
+
+	Lol1042: {
+		DisplayName: Dagger
+		Tooltip: ""
+	}
+
+	Lol1043: {
+		DisplayName: Recurve Bow
+		Tooltip: ""
+	}
+
+	Lol1052: {
+		DisplayName: Amplifying Tome
+		Tooltip: ""
+	}
+
+	Lol1053: {
+		DisplayName: Vampiric Scepter
+		Tooltip: ""
+	}
+
+	Lol1054: {
+		DisplayName: Doran's Shield
+		Tooltip: ""
+	}
+
+	Lol1055: {
+		DisplayName: Doran's Blade
+		Tooltip: ""
+	}
+
+	Lol1056: {
+		DisplayName: Doran's Ring
+		Tooltip: ""
+	}
+
+	Lol1057: {
+		DisplayName: Negatron Cloak
+		Tooltip: ""
+	}
+
+	Lol1058: {
+		DisplayName: Needlessly Large Rod
+		Tooltip: ""
+	}
+
+	Lol1082: {
+		DisplayName: Dark Seal
+		Tooltip: ""
+	}
+
+	Lol1083: {
+		DisplayName: Cull
+		Tooltip: ""
+	}
+
+	Lol1086: {
+		DisplayName: Doran's Bow
+		Tooltip: ""
+	}
+
+	Lol1101: {
+		DisplayName: Scorchclaw Pup
+		Tooltip: ""
+	}
+
+	Lol1102: {
+		DisplayName: Gustwalker Hatchling
+		Tooltip: ""
+	}
+
+	Lol1103: {
+		DisplayName: Mosstomper Seedling
+		Tooltip: ""
+	}
+
+	Lol1120: {
+		DisplayName: Doran's Helm
+		Tooltip: ""
+	}
+
+	Lol2003: {
+		DisplayName: Health Potion
+		Tooltip: ""
+	}
+
+	Lol2019: {
+		DisplayName: Steel Sigil
+		Tooltip: ""
+	}
+
+	Lol2020: {
+		DisplayName: The Brutalizer
+		Tooltip: ""
+	}
+
+	Lol2021: {
+		DisplayName: Tunneler
+		Tooltip: ""
+	}
+
+	Lol2022: {
+		DisplayName: Glowing Mote
+		Tooltip: ""
+	}
+
+	Lol2031: {
+		DisplayName: Refillable Potion
+		Tooltip: ""
+	}
+
+	Lol2049: {
+		DisplayName: Guardian's Amulet
+		Tooltip: ""
+	}
+
+	Lol2050: {
+		DisplayName: Guardian's Shroud
+		Tooltip: ""
+	}
+
+	Lol2051: {
+		DisplayName: Guardian's Horn
+		Tooltip: ""
+	}
+
+	Lol2055: {
+		DisplayName: Control Ward
+		Tooltip: ""
+	}
+
+	Lol2065: {
+		DisplayName: Shurelya's Battlesong
+		Tooltip: ""
+	}
+
+	Lol2138: {
+		DisplayName: Elixir of Iron
+		Tooltip: ""
+	}
+
+	Lol2139: {
+		DisplayName: Elixir of Sorcery
+		Tooltip: ""
+	}
+
+	Lol2140: {
+		DisplayName: Elixir of Wrath
+		Tooltip: ""
+	}
+
+	Lol2141: {
+		DisplayName: Cappa Juice
+		Tooltip: ""
+	}
+
+	Lol2142: {
+		DisplayName: Juice of Power
+		Tooltip: ""
+	}
+
+	Lol2143: {
+		DisplayName: Juice of Vitality
+		Tooltip: ""
+	}
+
+	Lol2144: {
+		DisplayName: Juice of Haste
+		Tooltip: ""
+	}
+
+	Lol2147: {
+		DisplayName: Augment Level
+		Tooltip: ""
+	}
+
+	Lol2161: {
+		DisplayName: Bandle Juice of Power
+		Tooltip: ""
+	}
+
+	Lol2162: {
+		DisplayName: Bandle Juice of Vitality
+		Tooltip: ""
+	}
+
+	Lol2163: {
+		DisplayName: Bandle Juice of Haste
+		Tooltip: ""
+	}
+
+	Lol2420: {
+		DisplayName: Seeker's Armguard
+		Tooltip: ""
+	}
+
+	Lol2421: {
+		DisplayName: Shattered Armguard
+		Tooltip: ""
+	}
+
+	Lol2501: {
+		DisplayName: Overlord's Bloodmail
+		Tooltip: ""
+	}
+
+	Lol2502: {
+		DisplayName: Unending Despair
+		Tooltip: ""
+	}
+
+	Lol2503: {
+		DisplayName: Blackfire Torch
+		Tooltip: ""
+	}
+
+	Lol2504: {
+		DisplayName: Kaenic Rookern
+		Tooltip: ""
+	}
+
+	Lol2508: {
+		DisplayName: Fated Ashes
+		Tooltip: ""
+	}
+
+	Lol2510: {
+		DisplayName: Dusk and Dawn
+		Tooltip: ""
+	}
+
+	Lol2512: {
+		DisplayName: Fiendhunter Bolts
+		Tooltip: ""
+	}
+
+	Lol2517: {
+		DisplayName: Endless Hunger
+		Tooltip: ""
+	}
+
+	Lol2520: {
+		DisplayName: Bastionbreaker
+		Tooltip: ""
+	}
+
+	Lol2522: {
+		DisplayName: Actualizer
+		Tooltip: ""
+	}
+
+	Lol2523: {
+		DisplayName: Hexoptics C44
+		Tooltip: ""
+	}
+
+	Lol2524: {
+		DisplayName: Bandlepipes
+		Tooltip: ""
+	}
+
+	Lol2525: {
+		DisplayName: Protoplasm Harness
+		Tooltip: ""
+	}
+
+	Lol2526: {
+		DisplayName: Whispering Circlet
+		Tooltip: ""
+	}
+
+	Lol3003: {
+		DisplayName: Archangel's Staff
+		Tooltip: ""
+	}
+
+	Lol3004: {
+		DisplayName: Manamune
+		Tooltip: ""
+	}
+
+	Lol3005: {
+		DisplayName: Ghostcrawlers
+		Tooltip: ""
+	}
+
+	Lol3006: {
+		DisplayName: Berserker's Greaves
+		Tooltip: ""
+	}
+
+	Lol3008: {
+		DisplayName: Gluttonous Greaves
+		Tooltip: ""
+	}
+
+	Lol3009: {
+		DisplayName: Boots of Swiftness
+		Tooltip: ""
+	}
+
+	Lol3020: {
+		DisplayName: Sorcerer's Shoes
+		Tooltip: ""
+	}
+
+	Lol3024: {
+		DisplayName: Glacial Buckler
+		Tooltip: ""
+	}
+
+	Lol3026: {
+		DisplayName: Guardian Angel
+		Tooltip: ""
+	}
+
+	Lol3031: {
+		DisplayName: Infinity Edge
+		Tooltip: ""
+	}
+
+	Lol3032: {
+		DisplayName: Yun Tal Wildarrows
+		Tooltip: ""
+	}
+
+	Lol3033: {
+		DisplayName: Mortal Reminder
+		Tooltip: ""
+	}
+
+	Lol3035: {
+		DisplayName: Last Whisper
+		Tooltip: ""
+	}
+
+	Lol3036: {
+		DisplayName: Lord Dominik's Regards
+		Tooltip: ""
+	}
+
+	Lol3039: {
+		DisplayName: Atma's Reckoning
+		Tooltip: ""
+	}
+
+	Lol3041: {
+		DisplayName: Mejai's Soulstealer
+		Tooltip: ""
+	}
+
+	Lol3044: {
+		DisplayName: Phage
+		Tooltip: ""
+	}
+
+	Lol3046: {
+		DisplayName: Phantom Dancer
+		Tooltip: ""
+	}
+
+	Lol3047: {
+		DisplayName: Plated Steelcaps
+		Tooltip: ""
+	}
+
+	Lol3050: {
+		DisplayName: Zeke's Convergence
+		Tooltip: ""
+	}
+
+	Lol3051: {
+		DisplayName: Hearthbound Axe
+		Tooltip: ""
+	}
+
+	Lol3053: {
+		DisplayName: Sterak's Gage
+		Tooltip: ""
+	}
+
+	Lol3057: {
+		DisplayName: Sheen
+		Tooltip: ""
+	}
+
+	Lol3065: {
+		DisplayName: Spirit Visage
+		Tooltip: ""
+	}
+
+	Lol3066: {
+		DisplayName: Winged Moonplate
+		Tooltip: ""
+	}
+
+	Lol3067: {
+		DisplayName: Kindlegem
+		Tooltip: ""
+	}
+
+	Lol3068: {
+		DisplayName: Sunfire Aegis
+		Tooltip: ""
+	}
+
+	Lol3070: {
+		DisplayName: Tear of the Goddess
+		Tooltip: ""
+	}
+
+	Lol3071: {
+		DisplayName: Black Cleaver
+		Tooltip: ""
+	}
+
+	Lol3072: {
+		DisplayName: Bloodthirster
+		Tooltip: ""
+	}
+
+	Lol3073: {
+		DisplayName: Experimental Hexplate
+		Tooltip: ""
+	}
+
+	Lol3074: {
+		DisplayName: Ravenous Hydra
+		Tooltip: ""
+	}
+
+	Lol3075: {
+		DisplayName: Thornmail
+		Tooltip: ""
+	}
+
+	Lol3076: {
+		DisplayName: Bramble Vest
+		Tooltip: ""
+	}
+
+	Lol3077: {
+		DisplayName: Tiamat
+		Tooltip: ""
+	}
+
+	Lol3078: {
+		DisplayName: Trinity Force
+		Tooltip: ""
+	}
+
+	Lol3082: {
+		DisplayName: Warden's Mail
+		Tooltip: ""
+	}
+
+	Lol3083: {
+		DisplayName: Warmog's Armor
+		Tooltip: ""
+	}
+
+	Lol3084: {
+		DisplayName: Heartsteel
+		Tooltip: ""
+	}
+
+	Lol3085: {
+		DisplayName: Runaan's Hurricane
+		Tooltip: ""
+	}
+
+	Lol3086: {
+		DisplayName: Zeal
+		Tooltip: ""
+	}
+
+	Lol3087: {
+		DisplayName: Statikk Shiv
+		Tooltip: ""
+	}
+
+	Lol3089: {
+		DisplayName: Rabadon's Deathcap
+		Tooltip: ""
+	}
+
+	Lol3091: {
+		DisplayName: Wit's End
+		Tooltip: ""
+	}
+
+	Lol3094: {
+		DisplayName: Rapid Firecannon
+		Tooltip: ""
+	}
+
+	Lol3095: {
+		DisplayName: Stormrazor
+		Tooltip: ""
+	}
+
+	Lol3100: {
+		DisplayName: Lich Bane
+		Tooltip: ""
+	}
+
+	Lol3102: {
+		DisplayName: Banshee's Veil
+		Tooltip: ""
+	}
+
+	Lol3105: {
+		DisplayName: Aegis of the Legion
+		Tooltip: ""
+	}
+
+	Lol3107: {
+		DisplayName: Redemption
+		Tooltip: ""
+	}
+
+	Lol3108: {
+		DisplayName: Fiendish Codex
+		Tooltip: ""
+	}
+
+	Lol3109: {
+		DisplayName: Knight's Vow
+		Tooltip: ""
+	}
+
+	Lol3110: {
+		DisplayName: Frozen Heart
+		Tooltip: ""
+	}
+
+	Lol3111: {
+		DisplayName: Mercury's Treads
+		Tooltip: ""
+	}
+
+	Lol3112: {
+		DisplayName: Guardian's Orb
+		Tooltip: ""
+	}
+
+	Lol3113: {
+		DisplayName: Aether Wisp
+		Tooltip: ""
+	}
+
+	Lol3114: {
+		DisplayName: Forbidden Idol
+		Tooltip: ""
+	}
+
+	Lol3115: {
+		DisplayName: Nashor's Tooth
+		Tooltip: ""
+	}
+
+	Lol3116: {
+		DisplayName: Rylai's Crystal Scepter
+		Tooltip: ""
+	}
+
+	Lol3118: {
+		DisplayName: Malignance
+		Tooltip: ""
+	}
+
+	Lol3119: {
+		DisplayName: Winter's Approach
+		Tooltip: ""
+	}
+
+	Lol3123: {
+		DisplayName: Executioner's Calling
+		Tooltip: ""
+	}
+
+	Lol3124: {
+		DisplayName: Guinsoo's Rageblade
+		Tooltip: ""
+	}
+
+	Lol3128: {
+		DisplayName: Deathfire Grasp
+		Tooltip: ""
+	}
+
+	Lol3131: {
+		DisplayName: Sword of the Divine
+		Tooltip: ""
+	}
+
+	Lol3133: {
+		DisplayName: Caulfield's Warhammer
+		Tooltip: ""
+	}
+
+	Lol3134: {
+		DisplayName: Serrated Dirk
+		Tooltip: ""
+	}
+
+	Lol3135: {
+		DisplayName: Void Staff
+		Tooltip: ""
+	}
+
+	Lol3137: {
+		DisplayName: Cryptbloom
+		Tooltip: ""
+	}
+
+	Lol3139: {
+		DisplayName: Mercurial Scimitar
+		Tooltip: ""
+	}
+
+	Lol3140: {
+		DisplayName: Quicksilver Sash
+		Tooltip: ""
+	}
+
+	Lol3142: {
+		DisplayName: Youmuu's Ghostblade
+		Tooltip: ""
+	}
+
+	Lol3143: {
+		DisplayName: Randuin's Omen
+		Tooltip: ""
+	}
+
+	Lol3144: {
+		DisplayName: Scout's Slingshot
+		Tooltip: ""
+	}
+
+	Lol3145: {
+		DisplayName: Hextech Alternator
+		Tooltip: ""
+	}
+
+	Lol3146: {
+		DisplayName: Hextech Gunblade
+		Tooltip: ""
+	}
+
+	Lol3147: {
+		DisplayName: Haunting Guise
+		Tooltip: ""
+	}
+
+	Lol3152: {
+		DisplayName: Hextech Rocketbelt
+		Tooltip: ""
+	}
+
+	Lol3153: {
+		DisplayName: Blade of The Ruined King
+		Tooltip: ""
+	}
+
+	Lol3155: {
+		DisplayName: Hexdrinker
+		Tooltip: ""
+	}
+
+	Lol3156: {
+		DisplayName: Maw of Malmortius
+		Tooltip: ""
+	}
+
+	Lol3157: {
+		DisplayName: Zhonya's Hourglass
+		Tooltip: ""
+	}
+
+	Lol3158: {
+		DisplayName: Ionian Boots of Lucidity
+		Tooltip: ""
+	}
+
+	Lol3161: {
+		DisplayName: Spear of Shojin
+		Tooltip: ""
+	}
+
+	Lol3165: {
+		DisplayName: Morellonomicon
+		Tooltip: ""
+	}
+
+	Lol3168: {
+		DisplayName: Immortal Path
+		Tooltip: ""
+	}
+
+	Lol3170: {
+		DisplayName: Swiftmarch
+		Tooltip: ""
+	}
+
+	Lol3171: {
+		DisplayName: Crimson Lucidity
+		Tooltip: ""
+	}
+
+	Lol3172: {
+		DisplayName: Gunmetal Greaves
+		Tooltip: ""
+	}
+
+	Lol3173: {
+		DisplayName: Chainlaced Crushers
+		Tooltip: ""
+	}
+
+	Lol3174: {
+		DisplayName: Armored Advance
+		Tooltip: ""
+	}
+
+	Lol3175: {
+		DisplayName: Spellslinger's Shoes
+		Tooltip: ""
+	}
+
+	Lol3177: {
+		DisplayName: Guardian's Blade
+		Tooltip: ""
+	}
+
+	Lol3179: {
+		DisplayName: Umbral Glaive
+		Tooltip: ""
+	}
+
+	Lol3181: {
+		DisplayName: Hullbreaker
+		Tooltip: ""
+	}
+
+	Lol3184: {
+		DisplayName: Guardian's Hammer
+		Tooltip: ""
+	}
+
+	Lol3190: {
+		DisplayName: Locket of the Iron Solari
+		Tooltip: ""
+	}
+
+	Lol3211: {
+		DisplayName: Spectre's Cowl
+		Tooltip: ""
+	}
+
+	Lol3222: {
+		DisplayName: Mikael's Blessing
+		Tooltip: ""
+	}
+
+	Lol3302: {
+		DisplayName: Terminus
+		Tooltip: ""
+	}
+
+	Lol3430: {
+		DisplayName: Rite Of Ruin
+		Tooltip: ""
+	}
+
+	Lol3504: {
+		DisplayName: Ardent Censer
+		Tooltip: ""
+	}
+
+	Lol3508: {
+		DisplayName: Essence Reaver
+		Tooltip: ""
+	}
+
+	Lol3742: {
+		DisplayName: Dead Man's Plate
+		Tooltip: ""
+	}
+
+	Lol3748: {
+		DisplayName: Titanic Hydra
+		Tooltip: ""
+	}
+
+	Lol3801: {
+		DisplayName: Crystalline Bracer
+		Tooltip: ""
+	}
+
+	Lol3802: {
+		DisplayName: Lost Chapter
+		Tooltip: ""
+	}
+
+	Lol3803: {
+		DisplayName: Catalyst of Aeons
+		Tooltip: ""
+	}
+
+	Lol3814: {
+		DisplayName: Edge of Night
+		Tooltip: ""
+	}
+
+	Lol3865: {
+		DisplayName: World Atlas
+		Tooltip: ""
+	}
+
+	Lol3869: {
+		DisplayName: Celestial Opposition
+		Tooltip: ""
+	}
+
+	Lol3870: {
+		DisplayName: Dream Maker
+		Tooltip: ""
+	}
+
+	Lol3871: {
+		DisplayName: Zaz'Zak's Realmspike
+		Tooltip: ""
+	}
+
+	Lol3876: {
+		DisplayName: Solstice Sleigh
+		Tooltip: ""
+	}
+
+	Lol3877: {
+		DisplayName: Bloodsong
+		Tooltip: ""
+	}
+
+	Lol3916: {
+		DisplayName: Oblivion Orb
+		Tooltip: ""
+	}
+
+	Lol4003: {
+		DisplayName: Lifeline
+		Tooltip: ""
+	}
+
+	Lol4004: {
+		DisplayName: Spectral Cutlass
+		Tooltip: ""
+	}
+
+	Lol4005: {
+		DisplayName: Imperial Mandate
+		Tooltip: ""
+	}
+
+	Lol4010: {
+		DisplayName: Bloodletter's Curse
+		Tooltip: ""
+	}
+
+	Lol4011: {
+		DisplayName: Sword of Blossoming Dawn
+		Tooltip: ""
+	}
+
+	Lol4012: {
+		DisplayName: Sin Eater
+		Tooltip: ""
+	}
+
+	Lol4013: {
+		DisplayName: Lightning Braid
+		Tooltip: ""
+	}
+
+	Lol4015: {
+		DisplayName: Perplexity
+		Tooltip: ""
+	}
+
+	Lol4016: {
+		DisplayName: Wordless Promise
+		Tooltip: ""
+	}
+
+	Lol4017: {
+		DisplayName: Hellfire Hatchet
+		Tooltip: ""
+	}
+
+	Lol4401: {
+		DisplayName: Force of Nature
+		Tooltip: ""
+	}
+
+	Lol4402: {
+		DisplayName: Innervating Locket
+		Tooltip: ""
+	}
+
+	Lol4403: {
+		DisplayName: The Golden Spatula
+		Tooltip: ""
+	}
+
+	Lol4628: {
+		DisplayName: Horizon Focus
+		Tooltip: ""
+	}
+
+	Lol4629: {
+		DisplayName: Cosmic Drive
+		Tooltip: ""
+	}
+
+	Lol4630: {
+		DisplayName: Blighting Jewel
+		Tooltip: ""
+	}
+
+	Lol4632: {
+		DisplayName: Verdant Barrier
+		Tooltip: ""
+	}
+
+	Lol4633: {
+		DisplayName: Riftmaker
+		Tooltip: ""
+	}
+
+	Lol4638: {
+		DisplayName: Watchful Wardstone
+		Tooltip: ""
+	}
+
+	Lol4642: {
+		DisplayName: Bandleglass Mirror
+		Tooltip: ""
+	}
+
+	Lol4643: {
+		DisplayName: Vigilant Wardstone
+		Tooltip: ""
+	}
+
+	Lol4645: {
+		DisplayName: Shadowflame
+		Tooltip: ""
+	}
+
+	Lol4646: {
+		DisplayName: Stormsurge
+		Tooltip: ""
+	}
+
+	Lol6032: {
+		DisplayName: Stat Bonus
+		Tooltip: ""
+	}
+
+	Lol6333: {
+		DisplayName: Death's Dance
+		Tooltip: ""
+	}
+
+	Lol6609: {
+		DisplayName: Chempunk Chainsword
+		Tooltip: ""
+	}
+
+	Lol6610: {
+		DisplayName: Sundered Sky
+		Tooltip: ""
+	}
+
+	Lol6616: {
+		DisplayName: Staff of Flowing Water
+		Tooltip: ""
+	}
+
+	Lol6617: {
+		DisplayName: Moonstone Renewer
+		Tooltip: ""
+	}
+
+	Lol6620: {
+		DisplayName: Echoes of Helia
+		Tooltip: ""
+	}
+
+	Lol6621: {
+		DisplayName: Dawncore
+		Tooltip: ""
+	}
+
+	Lol6631: {
+		DisplayName: Stridebreaker
+		Tooltip: ""
+	}
+
+	Lol6653: {
+		DisplayName: Liandry's Torment
+		Tooltip: ""
+	}
+
+	Lol6655: {
+		DisplayName: Luden's Echo
+		Tooltip: ""
+	}
+
+	Lol6657: {
+		DisplayName: Rod of Ages
+		Tooltip: ""
+	}
+
+	Lol6660: {
+		DisplayName: Bami's Cinder
+		Tooltip: ""
+	}
+
+	Lol6662: {
+		DisplayName: Iceborn Gauntlet
+		Tooltip: ""
+	}
+
+	Lol6664: {
+		DisplayName: Hollow Radiance
+		Tooltip: ""
+	}
+
+	Lol6665: {
+		DisplayName: Jak'Sho, The Protean
+		Tooltip: ""
+	}
+
+	Lol6670: {
+		DisplayName: Noonquiver
+		Tooltip: ""
+	}
+
+	Lol6672: {
+		DisplayName: Kraken Slayer
+		Tooltip: ""
+	}
+
+	Lol6673: {
+		DisplayName: Immortal Shieldbow
+		Tooltip: ""
+	}
+
+	Lol6675: {
+		DisplayName: Navori Flickerblade
+		Tooltip: ""
+	}
+
+	Lol6676: {
+		DisplayName: The Collector
+		Tooltip: ""
+	}
+
+	Lol6690: {
+		DisplayName: Rectrix
+		Tooltip: ""
+	}
+
+	Lol6692: {
+		DisplayName: Eclipse
+		Tooltip: ""
+	}
+
+	Lol6694: {
+		DisplayName: Serylda's Grudge
+		Tooltip: ""
+	}
+
+	Lol6695: {
+		DisplayName: Serpent's Fang
+		Tooltip: ""
+	}
+
+	Lol6696: {
+		DisplayName: Axiom Arc
+		Tooltip: ""
+	}
+
+	Lol6697: {
+		DisplayName: Hubris
+		Tooltip: ""
+	}
+
+	Lol6698: {
+		DisplayName: Profane Hydra
+		Tooltip: ""
+	}
+
+	Lol6699: {
+		DisplayName: Voltaic Cyclosword
+		Tooltip: ""
+	}
+
+	Lol8010: {
+		DisplayName: Bloodletter's Curse
+		Tooltip: ""
+	}
+
+	Lol8020: {
+		DisplayName: Abyssal Mask
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	Zapped: {
+		DisplayName: Zapped
+		Description: You feel tingly
+	}
+
+	ZappedRed: {
+		DisplayName: Zapped
+		Description: You feel tingly
+	}
+
+	ClayBudBuff: {
+		DisplayName: Clay Bud
+		Description: The clay bud will fight for you
+	}
+
+	RuinousStaffBuff: {
+		DisplayName: Forbidden Ruins
+		Description: The forbidden ruins will fight for you
+	}
+
+	CobwhipDebuff: {
+		DisplayName: Cobwhip
+		Description: Summon tag damage
+	}
+
+	SlimeWhipDebuff: {
+		DisplayName: Slime Whip
+		Description: Summon tag damage
+	}
+
+	SoulscourgeDebuff: {
+		DisplayName: Soulscourge
+		Description: Summon tag damage
+	}
+
+	VasculashDebuff: {
+		DisplayName: Vasculash
+		Description: Summon tag damage
+	}
+
+	StarcrashDebuff: {
+		DisplayName: Starcrash
+		Description: Summon tag damage
+	}
+
+	VulgarDisplayOfFlowerDebuff: {
+		DisplayName: Vulgar Display of Flower
+		Description: Summon tag damage
+	}
+
+	ElectricEelDebuff: {
+		DisplayName: Electric Eel
+		Description: Summon tag damage
+	}
+
+	ConstellationDebuff: {
+		DisplayName: Constellation
+		Description: Summon tag damage
+	}
+
+	PossessionDebuff: {
+		DisplayName: Possession
+		Description: Summon tag damage
+	}
+
+	ManaSurge: {
+		DisplayName: Mana Surge
+		Description: Mods.nothing_mod.Buffs.ManaSurge.Description
+	}
+
+	CobwhipSpiderBuff: {
+		DisplayName: Cobwhip Spider Buff
+		Description: Mods.nothing_mod.Buffs.CobwhipSpiderBuff.Description
+	}
+
+	AcceleratedAfflictions: {
+		DisplayName: Accelerated Afflictions
+		Description: Mods.nothing_mod.Buffs.AcceleratedAfflictions.Description
+	}
+
+	TorchBlessing: {
+		DisplayName: Torch Blessing
+		Description: Mods.nothing_mod.Buffs.TorchBlessing.Description
+	}
+}
+
+Projectiles: {
+	VoidBolt.DisplayName: Void Bolt
+	AcornShot.DisplayName: Acorn
+	SlimeSpearProj.DisplayName: Slime Spear
+	PowerBombProj.DisplayName: Power Bomb
+	FreezeBombProj.DisplayName: Freeze Bomb
+	MudBallProj.DisplayName: Mud Ball
+	ShimmerStream.DisplayName: Shimmer Stream
+	RainbowGlowstickProj.DisplayName: Rainbow Glowstick
+	WallRacerCarProj.DisplayName: Wall Racer Car
+	DaybloomPellet.DisplayName: Daybloom Pellet
+	GlacierIcicle.DisplayName: Glacier Fang
+	MysticPetal.DisplayName: Mystic Petal
+	LightningStrikeSpark.DisplayName: Lightning Strike
+	ArcSurgeArc.DisplayName: Arc Surge
+	ClayBudMinion.DisplayName: Clay Bud
+	ForbiddenRuinMinion.DisplayName: Forbidden Ruin
+	ForbiddenBolt.DisplayName: Forbidden Bolt
+	ForbiddenBlast.DisplayName: Forbidden Blast
+	CobwhipProjectile.DisplayName: Cobwhip Projectile
+	ConstellationProjectile.DisplayName: Constellation Projectile
+	ElectricEelProjectile.DisplayName: Electric Eel Projectile
+	PossessionProjectile.DisplayName: Possession Projectile
+	SlimeWhipProjectile.DisplayName: Slime Whip Projectile
+	SoulscourgeProjectile.DisplayName: Soulscourge Projectile
+	StarcrashProjectile.DisplayName: Starcrash Projectile
+	VasculashProjectile.DisplayName: Vasculash Projectile
+	VulgarDisplayOfFlowerProjectile.DisplayName: Vulgar Display Of Flower Projectile
+	PossessionVision.DisplayName: Possession Vision
+	AccessoryPulseProjectile.DisplayName: Accessory Pulse Projectile
+	CobwhipSpider.DisplayName: Cobwhip Spider
+	ConstellationStar.DisplayName: Constellation Star
+	StarcrashMeteor.DisplayName: Starcrash Meteor
+	VulgarDisplayPetal.DisplayName: Vulgar Display Petal
+	LolAbilityProjectile.DisplayName: Lol Ability Projectile
+	AhriCharm.DisplayName: Ahri Charm
+	AhriFoxFire.DisplayName: Ahri Fox Fire
+	AhriOrb.DisplayName: Ahri Orb
+	AhriSpiritBolt.DisplayName: Ahri Spirit Bolt
+}
+
+Keybinds: {
+	MoveMode.DisplayName: LoL Movement Mode (right-click move / WASD)
+	NextLoadout.DisplayName: Next Loadout
+	PreviousLoadout.DisplayName: Previous Loadout
+	SpellQ.DisplayName: LoL Spell 1 (Q)
+	SpellW.DisplayName: LoL Spell 2 (W)
+	SpellE.DisplayName: LoL Spell 3 (E)
+	SpellR.DisplayName: LoL Spell 4 (R)
+}
+
+Conditions.EchoCoatingStock: In the Graveyard, after Plantera or with a Mechanic in town

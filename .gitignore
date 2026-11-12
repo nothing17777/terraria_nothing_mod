@@ -1,0 +1,6 @@
+.DS_Store
+bin/
+obj/
+downloads/
+tools/xnbtool_bin/
+tModLoader.targets

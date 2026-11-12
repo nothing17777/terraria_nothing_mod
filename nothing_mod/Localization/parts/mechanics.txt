@@ -1,0 +1,13 @@
+// Merge into Localization/en-US_Mods.nothing_mod.hjson
+
+Buffs: {
+	ManaSurge: {
+		DisplayName: Mana Surge
+		Description: Increased magic damage, fading over time
+	}
+}
+
+Keybinds: {
+	NextLoadout.DisplayName: Next Loadout
+	PreviousLoadout.DisplayName: Previous Loadout
+}

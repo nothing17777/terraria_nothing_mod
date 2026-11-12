@@ -1,0 +1,23 @@
+// Merge into Localization/en-US_Mods.nothing_mod.hjson
+// (texts from the 1.4.5.8 Game.json: BuffName/BuffDescription TorchGodPotion and AcceleratePoisons)
+
+Buffs: {
+	TorchBlessing: {
+		DisplayName: Torch Blessing
+		Description: Nearby torches will be converted to match the biome
+	}
+
+	AcceleratedAfflictions: {
+		DisplayName: Accelerated Afflictions
+		Description: Makes poison more potent
+	}
+}
+
+// Projectiles section
+Projectiles: {
+	AccessoryPulseProjectile.DisplayName: Discharged Pulse
+}
+
+// Items section: Prospector / Captain tooltips are unchanged (verified against Items.json UpgradedMining*/UpgradedFishing*).
+// Item.value / rarity of the Armor items were corrected from the reference tables; Welding Mask and Prospector/Captain recipes now use
+// the Mythril-or-Orichalcum recipe group (registered in Content/Items/Armor/UpgradedArmorSets.cs, no localization needed).

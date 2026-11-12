@@ -1,0 +1,9 @@
+	CobwhipSpider.DisplayName: Cobweb Spider
+	StarcrashMeteor.DisplayName: Starcrash Meteor
+	VulgarDisplayPetal.DisplayName: Flower Petal
+	ConstellationStar.DisplayName: Constellation Star
+
+	CobwhipSpiderBuff: {
+		DisplayName: Cobweb Spider
+		Description: A spider fights for you
+	}
