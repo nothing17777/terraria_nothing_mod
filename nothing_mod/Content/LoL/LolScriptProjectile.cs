@@ -151,7 +151,29 @@ namespace nothing_mod.Content.LoL
 			SpellScript sc = Script;
 			int flags = sc?.Flags ?? 0;
 			float cc = Real?.CcDur ?? 0f;
-			if ((flags & 1) != 0) target.AddBuff(BuffID.Slow, cc > 0 ? (int)(cc * 60) : 120);
+			if (sc != null) {
+				if (sc.Knockback != 0 && !target.boss) {
+					Vector2 away = (target.Center - Owner.Center).SafeNormalize(Vector2.UnitX);
+					target.velocity = away * sc.Knockback * (target.knockBackResist > 0 ? 1f : 0f) + new Vector2(0, -1.5f * Math.Abs(sc.Knockback) * 0.15f);
+					target.netUpdate = true;
+				}
+				if (sc.BurnSec > 0) target.AddBuff(BuffID.OnFire3, (int)(sc.BurnSec * 60));
+				if (sc.PoisonSec > 0) target.AddBuff(BuffID.Venom, (int)(sc.PoisonSec * 60));
+				if (sc.BleedSec > 0) target.AddBuff(BuffID.Bleeding, (int)(sc.BleedSec * 60));
+				if (sc.Lifesteal > 0) Owner.Heal(Math.Max(1, (int)(damageDone * sc.Lifesteal)));
+				if (sc.Chain > 0 && Projectile.localAI[0] == 0) {
+					int made = 0;
+					foreach (NPC n in Main.npc) {
+						if (made >= sc.Chain) break;
+						if (!n.active || n.friendly || n.dontTakeDamage || n.whoAmI == target.whoAmI || Vector2.Distance(n.Center, target.Center) > 450f) continue;
+						int i = Projectile.NewProjectile(Projectile.GetSource_FromThis(), target.Center, (n.Center - target.Center).SafeNormalize(Vector2.UnitX) * 14f,
+							Projectile.type, (int)(Projectile.damage * 0.6f), Projectile.knockBack, Projectile.owner, (float)SpellShape.Homing, Slot, 20 * 1000 + 40);
+						Main.projectile[i].localAI[0] = 1; // marks a chain bolt: it does not chain again
+						made++;
+					}
+				}
+			}
+			if ((flags & 1) != 0) target.AddBuff(BuffID.Slow, sc != null && sc.SlowSec > 0 ? (int)(sc.SlowSec * 60) : cc > 0 ? (int)(cc * 60) : 120);
 			if ((flags & 2) != 0) target.AddBuff(BuffID.Frozen, cc > 0 ? (int)Math.Min(180f, cc * 60) : 45);
 			if ((flags & 4) != 0) target.AddBuff(BuffID.Confused, cc > 0 ? (int)(cc * 60) : 120);
 		}

@@ -10,8 +10,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 EXT = '/Volumes/T7 Shield/league_of_legends_cilent/extracted/champions'
 OUT = os.path.join(HERE, '..', 'nothing_mod/Content/LoL/Sounds')
 SPELLS = json.load(open(os.path.join(HERE, 'spell_data/spells.json')))
-CAST = re.compile(r'(oncast|_cast|windup|start|activate|swing|launch|fire)', re.I)
-HIT = re.compile(r'(onhit|_hit|impact|explode|detonate|land)', re.I)
+# ordered by preference: earlier patterns win
+CAST = ['oncast$', '_cast', 'windup', 'onmissilelaunch', 'missilelaunch', 'onmissilecast', 'onbuffactivate', 'buffactivate', 'start', 'activate', 'swing', 'launch', 'fire', 'loop']
+HIT = ['onhit$', '_hit', 'impact', 'explode', 'detonate', 'land', 'damage', 'onbuffactivate', 'buffactivate']
 
 def strings(alias):
     names = set()
@@ -43,18 +44,25 @@ def do(alias):
     res = {}
     for slot, sp in zip('QWER', SPELLS[alias]):
         script = sp['n'] if sp else alias + slot
-        for kind, rx in (('cast', CAST), ('hit', HIT)):
-            cands = [n for h, n in names.items() if h in evids and re.search(r'(?<![A-Za-z])' + re.escape(script) + r'(?![a-z])', n, re.I) and rx.search(n)]
-            for n in sorted(cands, key=len):
-                wems = [w for w in B.event_sounds(ev, B.fnv1_32(n)) if w in au['didx']]
-                if not wems: continue
+        key = script if script else alias + slot
+        for kind, pats in (('cast', CAST), ('hit', HIT)):
+            # event name = Play_sfx_<Alias>_<Spell...>_<Event>; the spell part may extend the script name (AhriQMissile, LuxLightBindingMis ...)
+            rx = re.compile(r'^Play_sfx_' + re.escape(alias) + r'_' + re.escape(key) + r'|^Play_sfx_' + re.escape(alias) + r'_' + re.escape(alias) + slot + r'(?![a-z])', re.I)
+            cands = [n for h, n in names.items() if h in evids and rx.search(n) and not re.search(r'basicattack|critattack', n, re.I)]
+            picked = None
+            for pat in pats:
+                for n in sorted(cands, key=len):
+                    if re.search(pat, n, re.I) and not (kind == 'cast' and re.search(r'(_hit$|onhit$|damage)', n, re.I)):
+                        wems = [w for w in B.event_sounds(ev, B.fnv1_32(n)) if w in au['didx']]
+                        if wems: picked = (n, wems[0]); break
+                if picked: break
+            if picked:
                 out = f'{alias}_{slot}_{kind}'
                 tmp = tempfile.mktemp(suffix='.wem')
-                open(tmp, 'wb').write(B.wem_bytes(au, wems[0]))
+                open(tmp, 'wb').write(B.wem_bytes(au, picked[1]))
                 os.makedirs(OUT, exist_ok=True)
                 if decode(tmp, f'{OUT}/{out}.ogg'): res[f'{slot}_{kind}'] = out
                 os.remove(tmp)
-                break
     return res
 
 if __name__ == '__main__':

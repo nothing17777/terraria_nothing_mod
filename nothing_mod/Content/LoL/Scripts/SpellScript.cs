@@ -36,6 +36,13 @@ namespace nothing_mod.Content.LoL
 		public int Flags;                // 1 slow, 2 stun/root/knock-up, 4 fear/charm/silence
 		public float DmgMult = 1f;       // multiplier on the computed spell damage
 		public float SpeedMult = 1f, WidthMult = 1f, RangeMult = 1f;
+		// extra effects (apply to enemies hit unless noted)
+		public float Knockback;          // px/tick pushed away from the caster (negative = pulled toward the caster)
+		public float BurnSec, PoisonSec, BleedSec; // damage over time (OnFire / Venom / Bleeding)
+		public float Lifesteal;          // fraction of damage dealt healed to the caster (omnivamp / drain)
+		public int Chain;                // extra enemies the hit jumps to (60% damage each)
+		public float InvisibleSec;       // caster turns invisible (stealth)
+		public float SlowSec;            // slow duration override when Flags has 1
 		public string Note;              // one line: what the real spell does, for future work
 
 		public SpellScript(SpellShape shape) { Shape = shape; }

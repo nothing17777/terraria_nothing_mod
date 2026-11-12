@@ -19,6 +19,7 @@ namespace nothing_mod.Content.LoL
 
 			if (sc.HealFrac > 0) p.Heal((int)(p.statLifeMax2 * sc.HealFrac));
 			if (sc.Shield) p.AddBuff(BuffID.Endurance, 60 * 3);
+			if (sc.InvisibleSec > 0) p.AddBuff(BuffID.Invisibility, (int)(sc.InvisibleSec * 60));
 			if (sc.SpeedBuff) p.AddBuff(BuffID.Swiftness, 60 * 3);
 
 			float speed = (rs != null && rs.Speed > 0 ? MathHelper.Clamp(rs.Speed / 150f, 5f, 36f) : Math.Max(6f, rangePx / 50f)) * sc.SpeedMult;

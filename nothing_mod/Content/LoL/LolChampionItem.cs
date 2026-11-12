@@ -58,7 +58,7 @@ namespace nothing_mod.Content.LoL
 			}
 			tooltips.Add(new TooltipLine(Mod, "LolKeys", $"Hold {LolKeyLabel.Of(0)} / {LolKeyLabel.Of(1)} / {LolKeyLabel.Of(2)} / {LolKeyLabel.Of(3)} to aim, release to cast Q / W / E / R") { OverrideColor = Color.LightGray });
 			foreach (var s in d.Spells) {
-				string cd = s.Key == "P" ? "" : $" ({s.Cooldown:0.#}s)";
+				string cd = s.Key == "P" ? "" : $" ({LolPlayer.SpellCooldown:0.#}s)";
 				string[] slot = { "P", "Q", "W", "E", "R" };
 				tooltips.Add(new TooltipLine(Mod, "LolSpell" + s.Key, $"[{s.Key}] {s.Name}{cd}") { OverrideColor = d.EffectColor });
 				Add("D" + s.Key, s.Desc, Color.Gray);

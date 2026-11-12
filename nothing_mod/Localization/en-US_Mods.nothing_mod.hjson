@@ -2862,6 +2862,7 @@ Projectiles: {
 	AhriFoxFire.DisplayName: Ahri Fox Fire
 	AhriOrb.DisplayName: Ahri Orb
 	AhriSpiritBolt.DisplayName: Ahri Spirit Bolt
+	LolScriptProjectile.DisplayName: Lol Script Projectile
 }
 
 Keybinds: {

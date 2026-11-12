@@ -90,9 +90,9 @@ namespace nothing_mod.Content.LoL
 				AnimFrame = Math.Min(nf - 1, (int)((1f - castTime / CastLength) * nf));
 				castTime -= 1f / 60f;
 			}
-			else if (Player.itemAnimation > 0 && Player.HeldItem.ModItem is LolChampionItem) {
+			else if (attackAnim > 0) {
 				AnimRow = 2;
-				AnimFrame = Math.Min(nf - 1, (int)((1f - Player.itemAnimation / (float)Math.Max(1, Player.itemAnimationMax)) * nf));
+				AnimFrame = Math.Min(nf - 1, (int)((1f - attackAnim / 0.4f) * nf));
 			}
 			else if (Math.Abs(Player.velocity.X) > 0.3f) { AnimRow = 1; AnimFrame = (int)(animClock * 12f * nf / 8f) % nf; }
 			else { AnimRow = 0; AnimFrame = (int)(animClock * 6f * nf / 8f) % nf; }
@@ -127,13 +127,67 @@ namespace nothing_mod.Content.LoL
 			}
 		}
 
+		// ---- basic attack (League style): left-click attacks toward the cursor, right-click on an enemy walks into range and keeps attacking it
+		int attackCd; float attackAnim;
+		NPC attackTarget;
+		const int AttackTicks = 36;
+
+		void AutoAttack(Vector2 at) {
+			if (attackCd > 0 || Active == null) return;
+			attackCd = AttackTicks; attackAnim = 0.4f;
+			Vector2 dir = at - Player.Center;
+			if (dir == Vector2.Zero) dir = new Vector2(Player.direction, 0);
+			dir.Normalize();
+			Player.direction = dir.X >= 0 ? 1 : -1;
+			ChampionDef d = Active.Def;
+			int dmg = Player.GetWeaponDamage(Active.Item);
+			var src = Player.GetSource_ItemUse(Active.Item);
+			int type = ModContent.ProjectileType<LolAbilityProjectile>();
+			if (d.Magic == 1 || d.Ranged == 1) {
+				Projectile.NewProjectile(src, Player.Center, dir * 12f + Player.velocity, type, dmg, Active.Item.knockBack, Player.whoAmI, 0f, d.Hue * 8f, 50);
+				Terraria.Audio.SoundEngine.PlaySound(SoundID.Item8, Player.Center);
+			}
+			else { // melee: short sweeping cone in front
+				Projectile.NewProjectile(src, Player.Center, dir * 4f + Player.velocity, type, dmg, Active.Item.knockBack, Player.whoAmI, 3f, d.Hue * 8f, 100 * 1000);
+				Terraria.Audio.SoundEngine.PlaySound(SoundID.Item1, Player.Center);
+			}
+		}
+
+		float AttackRangePx() => Active != null && (Active.Def.Magic == 1 || Active.Def.Ranged == 1) ? 520f : 90f;
+
+		void BasicAttackControls() {
+			if (attackCd > 0) attackCd--;
+			if (attackAnim > 0) attackAnim -= 1f / 60f;
+			if (Main.playerInventory || Player.mouseInterface) return;
+			if (Main.mouseLeft) { // we handle attacking ourselves: stop the held vanilla item from also firing
+				Player.controlUseItem = false;
+				attackTarget = null;
+				AutoAttack(Main.MouseWorld);
+			}
+			if (Main.mouseRight && ClickMove) {
+				NPC best = null; float bd = 48f;
+				foreach (NPC n in Main.npc) {
+					if (!n.active || n.friendly || n.dontTakeDamage || n.life <= 0) continue;
+					float dist = n.Hitbox.Distance(Main.MouseWorld);
+					if (dist < bd) { bd = dist; best = n; }
+				}
+				if (best != null) attackTarget = best;
+			}
+			if (attackTarget != null) {
+				if (!attackTarget.active || attackTarget.life <= 0 || attackTarget.friendly) attackTarget = null;
+				else if (Vector2.Distance(attackTarget.Center, Player.Center) <= AttackRangePx()) { MoveTarget = null; AutoAttack(attackTarget.Center); }
+				else MoveTarget = attackTarget.Center;
+			}
+		}
+
 		public override void SetControls() {
+			if (Player.whoAmI == Main.myPlayer && Active != null && !Player.dead) BasicAttackControls(); else attackTarget = null;
 			if (Player.whoAmI != Main.myPlayer || Active == null || Player.dead) { MoveTarget = null; return; }
 			// W = up (flight), E = grapple, R = mount in vanilla: force them off after the engine has read the keyboard
 			if (!ClickMove) { MoveTarget = null; return; } // WASD mode: normal Terraria movement and flight
 			Player.controlUp = false; Player.controlHook = false; Player.controlMount = false;
 			Player.controlLeft = Player.controlRight = false; // click mode: A/D off, right-click walks
-			if (Main.mouseRight && !Player.mouseInterface && !Main.playerInventory) MoveTarget = Main.MouseWorld;
+			if (Main.mouseRight && attackTarget == null && !Player.mouseInterface && !Main.playerInventory) MoveTarget = Main.MouseWorld;
 			if (MoveTarget is not Vector2 t) return;
 			float dx = t.X - Player.Center.X, dy = t.Y - Player.Center.Y;
 			bool canFly = Player.wingsLogic > 0 && Player.wingTime > 0; // has wings with flight time left
@@ -165,7 +219,7 @@ namespace nothing_mod.Content.LoL
 			Mod.Logger.Info($"[LoL] CAST {sp.Key} {sp.Name} arch={sp.Arch} range={sp.Range}");
 			RealSpell rs = Real(champ, slot);
 			int ri = slot == 3 ? 1 : 2; // representative rank: Q/W/E rank 3, R rank 2 (the mod has no levelling)
-			float cd = rs != null && rs.Cd[ri] > 0 ? Math.Max(1f, rs.Cd[ri]) : SpellCooldown; // real League cooldown
+			float cd = SpellCooldown; // every spell: flat 2 s cooldown (user request)
 			Cooldown[slot] = CooldownMax[slot] = cd;
 			castRow = 3 + slot; castTime = 0.55f;
 
@@ -185,6 +239,7 @@ namespace nothing_mod.Content.LoL
 
 			if (LolSpecial.TryCast(this, champ, sp, slot, dir, mouse, dmg, kb, src, out float specialCd)) {
 				Cooldown[slot] = CooldownMax[slot] = specialCd;
+				LolSound.Play(champ.Name.Replace("Champion", ""), slot, "cast", Player.Center); // Ahri's real cast sounds
 				return;
 			}
 
