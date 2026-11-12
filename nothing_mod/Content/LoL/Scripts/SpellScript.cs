@@ -43,6 +43,19 @@ namespace nothing_mod.Content.LoL
 		public int Chain;                // extra enemies the hit jumps to (60% damage each)
 		public float InvisibleSec;       // caster turns invisible (stealth)
 		public float SlowSec;            // slow duration override when Flags has 1
+		// more effects
+		public float CastDelaySec;       // Skillshot / Homing / Boomerang / Beam: wind-up before the missile or beam fires (shown as a warning)
+		public int PierceLimit;          // Skillshot: stops after this many enemies (0 = use Pierce true/false)
+		public float LowHealthBonus;     // extra damage fraction at 0% target health (scales linearly): 1 = up to +100% on a nearly dead enemy
+		public float ExecuteFrac;        // enemies below this life fraction die (non-bosses), e.g. 0.2
+		public float ArmorShredSec;      // armor / resistance reduction on enemies hit (Ichor)
+		public float InvulnSec;          // caster cannot be hurt (untargetable / stasis / death prevention)
+		public float BlockSec;           // caster destroys hostile projectiles that touch them (spell shield / wind wall / reflect)
+		public bool Cleanse;             // removes the caster's debuffs
+		public float TrailSec;           // Skillshot: leaves a damaging zone behind that lingers this long
+		public SpellShape? RecastShape;  // pressing the key again within 4 s plays this shape instead (no extra cooldown); null = no recast
+		public bool EmpowerNextAttack;   // the next basic attack within 6 s is stronger and carries this spell's Flags
+		public float EmpowerDmgMult = 1.6f;
 		public string Note;              // one line: what the real spell does, for future work
 
 		public SpellScript(SpellShape shape) { Shape = shape; }

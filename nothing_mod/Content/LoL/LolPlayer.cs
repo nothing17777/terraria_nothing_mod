@@ -74,12 +74,27 @@ namespace nothing_mod.Content.LoL
 				if (Cooldown[i] > 0) Cooldown[i] = Math.Max(0, Cooldown[i] - 1f / 60f);
 			if (RWindow > 0) { RWindow -= 1f / 60f; if (RWindow <= 0 && RCharges > 0) { RCharges = 0; Cooldown[3] = CooldownMax[3] = SpellCooldown; } }
 			UpdateAnimation();
+			UpdateScriptEffects();
 			if (Player.whoAmI == Main.myPlayer && Active?.Name != loggedActive) {
 				loggedActive = Active?.Name;
 				Mod.Logger.Info($"[LoL] active champion: {loggedActive ?? "none"}");
 			}
 		}
 		string loggedActive;
+		// effects driven by spell scripts
+		public int BlockTicks, EmpowerTicks, EmpowerFlags; public float EmpowerMult = 1f;
+		int recastSlot = -1; float recastTime;
+		SpellScript lastRecastScript;
+
+		void UpdateScriptEffects() {
+			if (BlockTicks > 0) {
+				BlockTicks--;
+				foreach (Projectile pr in Main.projectile)
+					if (pr.active && pr.hostile && !pr.friendly && Vector2.Distance(pr.Center, Player.Center) < 70f) pr.Kill();
+			}
+			if (EmpowerTicks > 0) EmpowerTicks--;
+			if (recastSlot >= 0 && (recastTime -= 1f / 60f) <= 0) { Cooldown[recastSlot] = CooldownMax[recastSlot] = SpellCooldown; recastSlot = -1; }
+		}
 
 		void UpdateAnimation() {
 			const float CastLength = 0.55f;
@@ -141,14 +156,16 @@ namespace nothing_mod.Content.LoL
 			Player.direction = dir.X >= 0 ? 1 : -1;
 			ChampionDef d = Active.Def;
 			int dmg = Player.GetWeaponDamage(Active.Item);
+			float flags = 0f;
+			if (EmpowerTicks > 0) { dmg = (int)(dmg * EmpowerMult); flags = EmpowerFlags; EmpowerTicks = 0; } // spell-empowered attack
 			var src = Player.GetSource_ItemUse(Active.Item);
 			int type = ModContent.ProjectileType<LolAbilityProjectile>();
 			if (d.Magic == 1 || d.Ranged == 1) {
-				Projectile.NewProjectile(src, Player.Center, dir * 12f + Player.velocity, type, dmg, Active.Item.knockBack, Player.whoAmI, 0f, d.Hue * 8f, 50);
+				Projectile.NewProjectile(src, Player.Center, dir * 12f + Player.velocity, type, dmg, Active.Item.knockBack, Player.whoAmI, 0f, d.Hue * 8f + flags, 50);
 				Terraria.Audio.SoundEngine.PlaySound(SoundID.Item8, Player.Center);
 			}
 			else { // melee: short sweeping cone in front
-				Projectile.NewProjectile(src, Player.Center, dir * 4f + Player.velocity, type, dmg, Active.Item.knockBack, Player.whoAmI, 3f, d.Hue * 8f, 100 * 1000);
+				Projectile.NewProjectile(src, Player.Center, dir * 4f + Player.velocity, type, dmg, Active.Item.knockBack, Player.whoAmI, 3f, d.Hue * 8f + flags, 100 * 1000);
 				Terraria.Audio.SoundEngine.PlaySound(SoundID.Item1, Player.Center);
 			}
 		}
@@ -245,7 +262,17 @@ namespace nothing_mod.Content.LoL
 
 			SpellScript script = LolScripts.Get(champ.Name.Replace("Champion", ""), slot);
 			if (script != null) { // per-champion script (Content/LoL/Scripts): shape from the script, numbers from the real spell data
-				LolScriptCaster.Cast(this, champ, script, rs, slot, dir, mouse, dmg, kb, src, rangePx);
+				SpellScript use = script;
+				if (script.RecastShape != null) {
+					if (recastSlot == slot && recastTime > 0) { // second press: play the recast shape, then the normal cooldown
+						use = (SpellScript)script.GetType().GetMethod("MemberwiseClone", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic).Invoke(script, null);
+						use.Shape = script.RecastShape.Value; use.RecastShape = null;
+						recastSlot = -1;
+						Cooldown[slot] = CooldownMax[slot] = SpellCooldown;
+					}
+					else { recastSlot = slot; recastTime = 4f; Cooldown[slot] = CooldownMax[slot] = 0.35f; }
+				}
+				LolScriptCaster.Cast(this, champ, use, rs, slot, dir, mouse, dmg, kb, src, rangePx);
 				return;
 			}
 

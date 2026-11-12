@@ -19,6 +19,10 @@ namespace nothing_mod.Content.LoL
 
 			if (sc.HealFrac > 0) p.Heal((int)(p.statLifeMax2 * sc.HealFrac));
 			if (sc.Shield) p.AddBuff(BuffID.Endurance, 60 * 3);
+			if (sc.InvulnSec > 0) { p.SetImmuneTimeForAllTypes((int)(sc.InvulnSec * 60f)); p.AddBuff(BuffID.Invisibility, (int)(sc.InvulnSec * 60f)); }
+			if (sc.BlockSec > 0) lp.BlockTicks = (int)(sc.BlockSec * 60f);
+			if (sc.Cleanse) for (int b = 0; b < Player.MaxBuffs; b++) if (p.buffType[b] > 0 && Main.debuff[p.buffType[b]]) p.DelBuff(b--);
+			if (sc.EmpowerNextAttack) { lp.EmpowerTicks = 360; lp.EmpowerFlags = sc.Flags; lp.EmpowerMult = sc.EmpowerDmgMult; }
 			if (sc.InvisibleSec > 0) p.AddBuff(BuffID.Invisibility, (int)(sc.InvisibleSec * 60));
 			if (sc.SpeedBuff) p.AddBuff(BuffID.Swiftness, 60 * 3);
 

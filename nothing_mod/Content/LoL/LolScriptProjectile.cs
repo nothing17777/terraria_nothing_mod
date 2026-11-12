@@ -22,6 +22,7 @@ namespace nothing_mod.Content.LoL
 		Color Col => Champ?.Def.EffectColor ?? Color.White;
 		int timer;
 		float outDist;
+		int windup; Vector2 launchVel;
 
 		public override void SetDefaults() {
 			Projectile.width = Projectile.height = 20;
@@ -44,10 +45,17 @@ namespace nothing_mod.Content.LoL
 			Projectile.width = Projectile.height = size;
 			Projectile.Center = c;
 			if (sc != null) Projectile.localNPCHitCooldown = Math.Max(6, (int)(sc.HitIntervalSec * 60f));
+			if (sc != null && sc.CastDelaySec > 0 && Shape is SpellShape.Skillshot or SpellShape.Homing or SpellShape.Boomerang or SpellShape.Beam) {
+				windup = (int)(sc.CastDelaySec * 60f);
+				launchVel = Projectile.velocity;
+				if (Shape != SpellShape.Beam) Projectile.velocity = Vector2.Zero;
+				Projectile.timeLeft += windup;
+				Projectile.friendly = false;
+			}
 			switch (Shape) {
 				case SpellShape.Skillshot:
 				case SpellShape.Homing:
-					Projectile.penetrate = sc != null && sc.Pierce ? -1 : 1;
+					Projectile.penetrate = sc != null && sc.PierceLimit > 0 ? sc.PierceLimit : sc != null && sc.Pierce ? -1 : 1;
 					Projectile.tileCollide = true;
 					break;
 				case SpellShape.Boomerang: Projectile.localNPCHitCooldown = 10000; break; // every enemy once per leg (reset on return)
@@ -62,6 +70,20 @@ namespace nothing_mod.Content.LoL
 			timer++;
 			SpellScript sc = Script;
 			Player o = Owner;
+			if (windup > 0) { // wind-up: the missile waits at the caster, then launches
+				if (timer < windup) {
+					if (Shape != SpellShape.Beam) Projectile.Center = o.Center;
+					return;
+				}
+				if (timer == windup) { Projectile.friendly = true; if (Shape != SpellShape.Beam) Projectile.velocity = launchVel; }
+				timer -= windup; windup = -1; // continue as if just spawned
+			}
+			if (windup < 0 && Projectile.friendly == false) Projectile.friendly = true;
+			if (sc != null && sc.TrailSec > 0 && Shape == SpellShape.Skillshot && Projectile.localAI[0] == 0 && timer % 8 == 0 && Main.myPlayer == Projectile.owner) {
+				int zi = Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.Center, Vector2.Zero, Projectile.type, Math.Max(1, Projectile.damage / 3), 0f, Projectile.owner,
+					(float)SpellShape.Zone, Slot, Math.Max(40, Size * 2) * 1000 + Math.Min(999, (int)(sc.TrailSec * 60f)));
+				Main.projectile[zi].localAI[0] = 2; // trail piece: no on-hit extras
+			}
 			switch (Shape) {
 				case SpellShape.Skillshot:
 					Projectile.rotation = Projectile.velocity.ToRotation();
@@ -146,12 +168,20 @@ namespace nothing_mod.Content.LoL
 			return Collision.CheckAABBvLineCollision(targetHitbox.TopLeft(), targetHitbox.Size(), Owner.Center, end, Math.Max(16, Size), ref w);
 		}
 
+		public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers) {
+			SpellScript sc = Script;
+			if (sc == null || Projectile.localAI[0] == 2) return;
+			if (sc.LowHealthBonus > 0 && target.lifeMax > 0) modifiers.SourceDamage *= 1f + sc.LowHealthBonus * (1f - Math.Clamp(target.life / (float)target.lifeMax, 0f, 1f));
+			if (sc.ExecuteFrac > 0 && !target.boss && target.life <= target.lifeMax * sc.ExecuteFrac) modifiers.SetInstantKill();
+		}
+
 		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) {
 			if (Alias != null && Main.myPlayer == Projectile.owner) LolSound.Play(Alias, Slot, "hit", target.Center, 0.7f);
 			SpellScript sc = Script;
 			int flags = sc?.Flags ?? 0;
 			float cc = Real?.CcDur ?? 0f;
-			if (sc != null) {
+			if (sc != null && Projectile.localAI[0] != 2) {
+				if (sc.ArmorShredSec > 0) target.AddBuff(BuffID.Ichor, (int)(sc.ArmorShredSec * 60));
 				if (sc.Knockback != 0 && !target.boss) {
 					Vector2 away = (target.Center - Owner.Center).SafeNormalize(Vector2.UnitX);
 					target.velocity = away * sc.Knockback * (target.knockBackResist > 0 ? 1f : 0f) + new Vector2(0, -1.5f * Math.Abs(sc.Knockback) * 0.15f);
