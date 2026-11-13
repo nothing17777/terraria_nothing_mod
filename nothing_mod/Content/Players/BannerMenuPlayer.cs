@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using nothing_mod.Content.Systems;
@@ -8,8 +10,9 @@ using nothing_mod.Content.Systems;
 namespace nothing_mod.Content.Players
 {
 	// 1.4.5 Banner Menu: banners from kills are stored here instead of going into the inventory.
-	// Counts are owned by the client and saved with the player file, so there is no server-side copy to sync;
-	// the "came from loot" flag travels with the world item (see BannerLootItem).
+	// Counts are owned by the client (saved in the player file); the server keeps a mirror, sent as the full
+	// table on join (SyncPlayer) and whenever it changes (CopyClientState/SendClientChanges).
+	// The "came from loot" flag travels with the world item (see BannerLootItem).
 	public class BannerMenuPlayer : ModPlayer
 	{
 		public readonly Dictionary<int, int> Stored = new(); // banner item type -> count
@@ -44,6 +47,48 @@ namespace nothing_mod.Content.Players
 			else
 				Stored[type] = have - amount;
 			Fresh.Remove(type);
+		}
+
+		public override void CopyClientState(ModPlayer targetCopy) {
+			var c = (BannerMenuPlayer)targetCopy;
+			c.Stored.Clear();
+			foreach (var kv in Stored)
+				c.Stored[kv.Key] = kv.Value;
+		}
+
+		public override void SyncPlayer(int toWho, int fromWho, bool newPlayer) {
+			if (Main.netMode == NetmodeID.MultiplayerClient && Player.whoAmI == Main.myPlayer)
+				SendStored(toWho, fromWho);
+		}
+
+		public override void SendClientChanges(ModPlayer clientPlayer) {
+			var old = ((BannerMenuPlayer)clientPlayer).Stored;
+			if (old.Count != Stored.Count || Stored.Any(kv => !old.TryGetValue(kv.Key, out int v) || v != kv.Value))
+				SendStored(-1, Player.whoAmI);
+		}
+
+		private void SendStored(int toWho, int fromWho) {
+			ModPacket p = Mod.GetPacket();
+			p.Write((byte)nothing_mod.PacketType.BannerSync);
+			p.Write(Stored.Count);
+			foreach (var kv in Stored) {
+				p.Write(kv.Key);
+				p.Write(kv.Value);
+			}
+			p.Send(toWho, fromWho);
+		}
+
+		// Server side: replace the sender's mirror with what the client reported.
+		public static void ReceiveStored(BinaryReader reader, int sender) {
+			int n = reader.ReadInt32();
+			var mp = Main.player[sender].GetModPlayer<BannerMenuPlayer>();
+			mp.Stored.Clear();
+			for (int i = 0; i < n; i++) {
+				int type = reader.ReadInt32();
+				int count = reader.ReadInt32();
+				if (count > 0 && type > 0 && type < ItemLoader.ItemCount)
+					mp.Stored[type] = count;
+			}
 		}
 
 		public override void SaveData(TagCompound tag)

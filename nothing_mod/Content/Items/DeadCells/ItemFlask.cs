@@ -10,7 +10,6 @@ namespace nothing_mod.Content.Items.DeadCells
 {
 	public class ItemFlask : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.Bottle;
 
 		public override void SetDefaults()
 		{

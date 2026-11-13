@@ -5,10 +5,9 @@ using nothing_mod.Content.Projectiles.Palworld;
 
 namespace nothing_mod.Content.Buffs.Palworld
 {
-	// Minion upkeep buff. Icon is a placeholder (Imp minion buff).
+	// Minion upkeep buff. 
 	public class TrustyCattivaBuff : ModBuff
 	{
-		public override string Texture => "Terraria/Images/Buff_" + BuffID.ImpMinion;
 
 		public override void SetStaticDefaults()
 		{

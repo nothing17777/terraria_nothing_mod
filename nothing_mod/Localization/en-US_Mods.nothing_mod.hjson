@@ -3161,6 +3161,30 @@ Buffs: {
 		Description: Trusty Digtoise is helping you mine (UNVERIFIED text)
 	}
 
+	AlchemicEnhancement: {
+		DisplayName: Alchemic Enhancement
+		Description: Fresh buffs last longer
+	}
+
+	ChilletMountBuff: {
+		DisplayName: Chillet
+		Description: Empowers your attacks while mounted
+	}
+
+	ChilletIgnisMountBuff: {
+		DisplayName: Chillet Ignis
+		Description: Empowers your attacks while mounted
+	}
+
+	TrustyChilletMountBuff: {
+		DisplayName: Trusty Chillet
+		Description: Empowers your attacks while mounted
+	}
+
+	TrustyChilletIgnisMountBuff: {
+		DisplayName: Trusty Chillet Ignis
+		Description: Empowers your attacks while mounted
+	}
 }
 
 Projectiles: {
@@ -3246,4 +3270,12 @@ UI: {
 		Button: Banners
 		Hint: Click: take 1. Shift+click: take a full stack.
 	}
+}
+
+
+Mounts: {
+	ChilletMount.DisplayName: Chillet
+	ChilletIgnisMount.DisplayName: Chillet Ignis
+	TrustyChilletMount.DisplayName: Trusty Chillet
+	TrustyChilletIgnisMount.DisplayName: Trusty Chillet Ignis
 }

@@ -1,0 +1,36 @@
+// Merge into Localization/en-US_Mods.nothing_mod.hjson. New entries for the Dead Cells / Palworld TODO pass.
+// Buff names are the wiki names; the mount-buff descriptions reuse the item tooltip line (UNVERIFIED).
+
+Buffs: {
+	AlchemicEnhancement: {
+		DisplayName: Alchemic Enhancement
+		Description: Fresh buffs last longer
+	}
+
+	ChilletMountBuff: {
+		DisplayName: Chillet
+		Description: Empowers your attacks while mounted
+	}
+
+	ChilletIgnisMountBuff: {
+		DisplayName: Chillet Ignis
+		Description: Empowers your attacks while mounted
+	}
+
+	TrustyChilletMountBuff: {
+		DisplayName: Trusty Chillet
+		Description: Empowers your attacks while mounted
+	}
+
+	TrustyChilletIgnisMountBuff: {
+		DisplayName: Trusty Chillet Ignis
+		Description: Empowers your attacks while mounted
+	}
+}
+
+Mounts: {
+	ChilletMount.DisplayName: Chillet
+	ChilletIgnisMount.DisplayName: Chillet Ignis
+	TrustyChilletMount.DisplayName: Trusty Chillet
+	TrustyChilletIgnisMount.DisplayName: Trusty Chillet Ignis
+}

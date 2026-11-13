@@ -10,7 +10,6 @@ namespace nothing_mod.Content.Items.DeadCells
 {
 	public class AlchemyFlask : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.AlchemyTable;
 
 		public override void SetDefaults()
 		{
@@ -20,6 +19,11 @@ namespace nothing_mod.Content.Items.DeadCells
 			Item.rare = ItemRarityID.Blue;
 			Item.value = Item.sellPrice(gold: 2);
 		}
-		// TODO: obtained by throwing an Alchemy Table into Shimmer (Shimmer transmutation not hooked). Alchemic Enhancement buff ("Fresh buffs last longer") not implemented.
+		public override void SetStaticDefaults()
+		{
+			// Wiki: obtained by throwing an Alchemy Table or Bewitching Table into Shimmer. (The wiki's post-Skeletron gating is not applied; UNVERIFIED.)
+			ItemID.Sets.ShimmerTransformToItem[ItemID.AlchemyTable] = Type;
+			ItemID.Sets.ShimmerTransformToItem[ItemID.BewitchingTable] = Type;
+		}
 	}
 }

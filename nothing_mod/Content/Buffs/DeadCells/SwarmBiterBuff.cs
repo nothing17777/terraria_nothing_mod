@@ -6,10 +6,9 @@ using nothing_mod.Content.Projectiles.DeadCells;
 
 namespace nothing_mod.Content.Buffs.DeadCells
 {
-	// Pet buff. Icon is a placeholder (Baby Slime / light pet buff).
+	// Pet buff. 
 	public class SwarmBiterBuff : ModBuff
 	{
-		public override string Texture => "Terraria/Images/Buff_" + BuffID.PetBunny;
 
 		public override void SetStaticDefaults()
 		{

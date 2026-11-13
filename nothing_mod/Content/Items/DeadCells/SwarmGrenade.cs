@@ -12,7 +12,6 @@ namespace nothing_mod.Content.Items.DeadCells
 {
 	public class SwarmGrenade : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.Grenade;
 
 		public override void SetDefaults()
 		{

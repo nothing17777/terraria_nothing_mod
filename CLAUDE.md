@@ -39,7 +39,8 @@ Goal: bring Terraria 1.4.5.x content into this 1.4.4.9 mod. Source of truth is t
 - Done (compiles, untested in-game): mana rework, Bleeding on enemies, whip tag rules, /bossdamage, loadout keybinds, all whips/weapons/accessories/armor, balance, recipes, NPC/shop edits (`Systems/Patch145*.cs`, `Players/`).
 - Skipped (need engine edits, custom items or draw layers): pylons in boss fights, Shimmer and Invisibility Potion rule changes, dash keybind, Mana Cloak rework, squinting eyes.
 - Done (untested): crafting search bar, Banner Menu, dash keybind, pylons in boss fights, Mana Cloak, Dead Cells and Palworld items (placeholder art, many effects TODO).
-- Not done: squinting eyes, Slime Crown shimmer, Dead Cells/Palworld acquisition (shops, chests, fishing), server-side banner counts.
+- Added later (untested): squint eyes, Slime Crown shimmer, server banner mirror, item sources (`Sources145*.cs`), changelog audit extras (`Patch145Extra*.cs`, status in `tools/patch145_audit.json`), Dead Cells/Palworld effects.
+- Not done: Item Flask storage, Chillet mount art, Chippy's set drop (Red Hat Skeletron), Cattiva/Foxparks/Digtoise/Chillet Egg acquisition, projectile/AI rewrites listed as todo in the audit json.
 
 ## Current content
 - Void Blade: melee sword, 35 damage, fires a Void Bolt. Recipe: 8 Iron Bar + 3 Fallen Star at an Anvil.

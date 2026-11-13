@@ -5,10 +5,9 @@ using nothing_mod.Content.Projectiles.DeadCells;
 
 namespace nothing_mod.Content.Buffs.DeadCells
 {
-	// Minion upkeep buff. Icon is a placeholder (Imp minion buff).
+	// Minion upkeep buff. 
 	public class MushroomBoiBuff : ModBuff
 	{
-		public override string Texture => "Terraria/Images/Buff_" + BuffID.ImpMinion;
 
 		public override void SetStaticDefaults()
 		{

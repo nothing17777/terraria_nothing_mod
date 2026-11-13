@@ -7,10 +7,9 @@ using nothing_mod.Content.Projectiles.NewWeapons;
 
 namespace nothing_mod.Content.Projectiles.Palworld
 {
-	// Trusty Foxparks minion. Simplified hover + contact damage, sprite placeholder. TODO: ground AI, petting, pal skills.
+	// Foxparks minion (wiki): no contact damage; shoots fireballs. Hovers instead of walking; no petting yet.
 	public class TrustyFoxparksMinion : ModProjectile
 	{
-		public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.BabySlime;
 
 		public override void SetStaticDefaults()
 		{
@@ -23,7 +22,7 @@ namespace nothing_mod.Content.Projectiles.Palworld
 		{
 			Projectile.width = 24;
 			Projectile.height = 24;
-			Projectile.friendly = true;
+			Projectile.friendly = false; // damage comes from its fireballs / flames
 			Projectile.minion = true;
 			Projectile.minionSlots = 0f;
 			Projectile.DamageType = DamageClass.Summon;
@@ -35,20 +34,16 @@ namespace nothing_mod.Content.Projectiles.Palworld
 		}
 
 		public override bool? CanCutTiles() => false;
-		public override bool MinionContactDamage() => true;
+		public override bool MinionContactDamage() => false; // wiki: no contact damage
 
 		public override void AI()
 		{
 			Player owner = Main.player[Projectile.owner];
 			if (!SimpleMinionAI.Upkeep(Projectile, owner, ModContent.BuffType<TrustyFoxparksBuff>()))
 				return;
-			NPC target = SimpleMinionAI.FindTarget(Projectile, owner, 31.25f * 16f);
-			if (target != null)
-				SimpleMinionAI.MoveToward(Projectile, target.Center, 8f, 20f);
-			else
-				SimpleMinionAI.MoveToward(Projectile, SimpleMinionAI.IdlePosition(Projectile, owner), 10f, 20f);
-			Projectile.rotation = Projectile.velocity.X * 0.05f;
-			Projectile.spriteDirection = Projectile.velocity.X >= 0 ? 1 : -1;
+			FoxparksAI.Run(Projectile, owner, true);
 		}
+
+		public override bool PreDraw(ref Color lightColor) => FoxparksAI.Draw(Projectile);
 	}
 }

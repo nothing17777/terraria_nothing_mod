@@ -25,6 +25,10 @@ namespace nothing_mod.Content.Players
 		private int attackTimer;
 		private int manaAtItemCheck;
 		private uint missingManaTick = uint.MaxValue;
+		private uint squintUntil;
+
+		// True for a few ticks after a cast made without enough mana (read by SquintEyes).
+		public bool Squinting => Main.GameUpdateCount <= squintUntil;
 
 		public override void PostUpdateEquips() {
 			// Run before vanilla's UpdateManaRegen: park vanilla's regen delay high so it regenerates nothing,
@@ -100,15 +104,19 @@ namespace nothing_mod.Content.Players
 		public override float UseSpeedMultiplier(Item item) {
 			if (item.mana <= 0)
 				return 1f;
-			if (missingManaTick == Main.GameUpdateCount)
+			if (missingManaTick == Main.GameUpdateCount) {
+				squintUntil = Main.GameUpdateCount + 10;
 				return EmptyManaSpeed;
+			}
 			// Mana Flower may drink a potion instead, so there only the hook flag above counts.
-			if (!Player.manaFlower && Player.manaCost > 0f && manaAtItemCheck < (int)(item.mana * Player.manaCost))
+			if (!Player.manaFlower && Player.manaCost > 0f && manaAtItemCheck < (int)(item.mana * Player.manaCost)) {
+				squintUntil = Main.GameUpdateCount + 10;
 				return EmptyManaSpeed;
+			}
 			return 1f;
 		}
 
-		// TODO: the "squint" facial animation when casting without mana (cosmetic, needs a draw layer).
+		// The squint animation is in SquintEyes.cs.
 	}
 
 	// Mana stars (Star, Soul Cake, Sugar Plum) also grant Mana Surge when picked up.

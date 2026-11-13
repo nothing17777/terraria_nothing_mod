@@ -10,10 +10,10 @@ namespace nothing_mod.Content.Projectiles.Palworld
 	// Trusty Cattiva minion. Simplified hover + contact damage, sprite placeholder. TODO: ground AI, petting, pal skills.
 	public class TrustyCattivaMinion : ModProjectile
 	{
-		public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.BabySlime;
 
 		public override void SetStaticDefaults()
 		{
+			Main.projFrames[Type] = 28;
 			Main.projPet[Type] = true;
 			ProjectileID.Sets.MinionSacrificable[Type] = true;
 			ProjectileID.Sets.MinionTargettingFeature[Type] = true;

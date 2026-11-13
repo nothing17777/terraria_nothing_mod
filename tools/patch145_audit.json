@@ -1,0 +1,224 @@
+[
+ {
+  "section": "1.4.5.7 Ranged",
+  "change": "Nano Bullet damage 15->10",
+  "status": "done",
+  "reason": "Patch145ExtraItems (guarded on old value); +25% total damage effect not ported"
+ },
+ {
+  "section": "1.4.5.7 Equipment",
+  "change": "Arcane Flower +5% dmg/crit",
+  "status": "done",
+  "reason": "Patch145ExtraItems; UNVERIFIED vanilla baseline"
+ },
+ {
+  "section": "1.4.5.7 Equipment",
+  "change": "Mana Regeneration Band 30/s + life regen",
+  "status": "done",
+  "reason": "Patch145ExtraItems; magnitudes UNVERIFIED"
+ },
+ {
+  "section": "1.4.5.0 Equipment",
+  "change": "Meteor armor removes Laser Rifle mana cost",
+  "status": "done",
+  "reason": "Patch145ExtraItems"
+ },
+ {
+  "section": "1.4.5.0 Melee",
+  "change": "Purple Clubberfish 50% Confused; Bee Keeper 100%",
+  "status": "done",
+  "reason": "durations UNVERIFIED"
+ },
+ {
+  "section": "1.4.5.0 Melee",
+  "change": "Anchor / Golem Fist 33% Confused",
+  "status": "done",
+  "reason": "Patch145ExtraProjectiles; explosion/pierce not ported"
+ },
+ {
+  "section": "1.4.5.0 Melee",
+  "change": "Falcon Blade/Exotic Scimitar/Cutlass hit ramp +12% max 50%",
+  "status": "done",
+  "reason": "Patch145ExtraPlayer"
+ },
+ {
+  "section": "1.4.5.7 Tools",
+  "change": "Skeletron Hand velocity +7%",
+  "status": "done",
+  "reason": "range part UNVERIFIED"
+ },
+ {
+  "section": "1.4.5.0 Ranged",
+  "change": "Spiky Ball autoreuse, lifetime +33%",
+  "status": "done",
+  "reason": "Patch145ExtraItems/Projectiles"
+ },
+ {
+  "section": "1.4.5.0 Ranged",
+  "change": "Candy Corn lifetime 10s->5s",
+  "status": "done",
+  "reason": "assumes 600 tick base; local immunity not ported"
+ },
+ {
+  "section": "1.4.5.0 Magic",
+  "change": "Magic Dagger pierce 2",
+  "status": "done",
+  "reason": "Patch145ExtraProjectiles"
+ },
+ {
+  "section": "1.4.5.0 Equipment",
+  "change": "Molten armor + Lava Shark fire block immunity",
+  "status": "done",
+  "reason": "fireWalk; lava vision/jump not ported"
+ },
+ {
+  "section": "1.4.5.0 Equipment",
+  "change": "Slimy Saddle +10 / Pogo Stick +20 safe fall blocks",
+  "status": "done",
+  "reason": "extraFall while mounted"
+ },
+ {
+  "section": "1.4.5.7 Buffs",
+  "change": "Flask of Nanites +5% melee/whip damage",
+  "status": "done",
+  "reason": "Patch145ExtraPlayer"
+ },
+ {
+  "section": "1.4.5.0 Buffs",
+  "change": "Wet grants Fire/Hellfire/Burning immunity",
+  "status": "done",
+  "reason": "player only"
+ },
+ {
+  "section": "1.4.5.7 Buffs",
+  "change": "Warmth Potion shortens Chilled 75% / Frozen 50%",
+  "status": "done",
+  "reason": "extra buff decay"
+ },
+ {
+  "section": "1.4.5.0 Bosses",
+  "change": "Skeletron/Prime daytime enrage not dodgeable",
+  "status": "done",
+  "reason": "blackBelt/shadowDodge disabled"
+ },
+ {
+  "section": "1.4.5.0 Villagers",
+  "change": "Cyborg attack rate +200%",
+  "status": "done",
+  "reason": "cooldown/3"
+ },
+ {
+  "section": "1.4.5.0 Enemies",
+  "change": "Flying Dutchman / Martian Saucer Expert+ HP 85%",
+  "status": "done",
+  "reason": "formula UNVERIFIED for Master"
+ },
+ {
+  "section": "1.4.5.0 Drops",
+  "change": "Compass 2%->1%, Depth Meter 1%->0.5%",
+  "status": "done",
+  "reason": "guarded retune"
+ },
+ {
+  "section": "1.4.5.7 Global",
+  "change": "Rocket self damage flat 60",
+  "status": "skipped",
+  "reason": "needs hurt-source detection, unverified hook"
+ },
+ {
+  "section": "1.4.5.0 Equipment",
+  "change": "Discount Card applies to Nurse/Stylist",
+  "status": "skipped",
+  "reason": "no Nurse price hook in tModLoader.xml"
+ },
+ {
+  "section": "1.4.5.0 Equipment",
+  "change": "Dead Man's Sweater trap damage/debuff reduction",
+  "status": "skipped",
+  "reason": "cannot identify trap damage source"
+ },
+ {
+  "section": "1.4.5.0 Equipment",
+  "change": "Yoyo Counterweight/String changes",
+  "status": "skipped",
+  "reason": "per-projectile tuning, values unverifiable"
+ },
+ {
+  "section": "1.4.5.0 Equipment",
+  "change": "Paladin's Shield / Honeycomb / BoC proc rules",
+  "status": "skipped",
+  "reason": "vanilla internal logic"
+ },
+ {
+  "section": "1.4.5.7 Melee",
+  "change": "Chlorophyte Saber/Claymore, Kraken, Chik, Paladin's Hammer, Format:C crit rework",
+  "status": "todo",
+  "reason": "new projectile behaviour"
+ },
+ {
+  "section": "1.4.5.7 Ranged",
+  "change": "Marrow split, Venom bullet/arrow/flask Potent Venom, Shroomite ammo bonus, Magic Quiver arrows",
+  "status": "todo",
+  "reason": "Potent Venom buff and ammo damage hooks not present"
+ },
+ {
+  "section": "1.4.5.7 Magic",
+  "change": "Leaf Blower, Book of Skulls, Unholy Trident, Magical Harp, Blood Thorn rework",
+  "status": "todo",
+  "reason": "projectile AI rewrites"
+ },
+ {
+  "section": "1.4.5.7 Summon",
+  "change": "Electric Eel, Constellation, Durendal, Vulgar Display, Blade Staff tag penalty, Pals",
+  "status": "todo",
+  "reason": "tag mechanics / pals"
+ },
+ {
+  "section": "1.4.5.0 Ranged",
+  "change": "Chain Gun ammo save 67%",
+  "status": "skipped",
+  "reason": "vanilla 50% path unknown, double-roll risk"
+ },
+ {
+  "section": "1.4.5.0 Equipment",
+  "change": "Hermes Boots slow debuffs, Roller Skates rework, Soaring Insignia Velociraptor",
+  "status": "skipped",
+  "reason": "engine movement code"
+ },
+ {
+  "section": "1.4.5.7 Tools",
+  "change": "Dual Hook velocities",
+  "status": "skipped",
+  "reason": "no numeric values in changelog"
+ },
+ {
+  "section": "1.4.5.0 Enemies",
+  "change": "Pirate Deadeye/Crossbower/Captain nerfs, Nailhead, Santa-NK1, Moss Zombie spawn",
+  "status": "skipped",
+  "reason": "NPC AI/projectile internals, values not data-driven"
+ },
+ {
+  "section": "1.4.5.7 Bosses",
+  "change": "Moon Lord, Deerclops, Empress fixes",
+  "status": "skipped",
+  "reason": "boss AI"
+ },
+ {
+  "section": "1.4.5.0 Villagers",
+  "change": "Guide regen, Dryad ward, Party Girl 20 villagers, boss bonuses",
+  "status": "skipped",
+  "reason": "no GlobalNPC hook / vanilla internals"
+ },
+ {
+  "section": "1.4.5.0 Buffs",
+  "change": "Tipsy, Stinky luck, Lovestruck happiness, Slimed 3s, Midas 30-50%",
+  "status": "skipped",
+  "reason": "engine-side or new systems"
+ },
+ {
+  "section": "1.4.5.0 Drops",
+  "change": "War Table from Ogres, Lamia set, Pigronata, Pearls, Terragrim, crates",
+  "status": "skipped",
+  "reason": "rates not given or tile/chest drops"
+ }
+]

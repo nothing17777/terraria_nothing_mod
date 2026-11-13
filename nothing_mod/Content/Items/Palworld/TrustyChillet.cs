@@ -5,12 +5,12 @@ using Terraria.ObjectData;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
+using nothing_mod.Content.Mounts;
 
 namespace nothing_mod.Content.Items.Palworld
 {
 	public class TrustyChillet : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.ReindeerBells;
 
 		public override void SetDefaults()
 		{
@@ -23,9 +23,9 @@ namespace nothing_mod.Content.Items.Palworld
 			Item.UseSound = SoundID.Item79;
 			Item.rare = ItemRarityID.Blue;
 			Item.value = Item.sellPrice(silver: 1);
-			Item.mountType = MountID.Bunny; // placeholder mount
+			Item.mountType = ModContent.MountType<TrustyChilletMount>();
 		}
-		// TODO: real Chillet mount (ModMount), attack empowerment, Rocket Slam double-tap, petting. Mounts as a Bunny for now. Rarity UNVERIFIED. Speed boost TODO.
+		// Mount: see Content/Mounts (placeholder Bunny art). Rocket Slam / +10% damage: ChilletPlayer. Petting not implemented. Rarity UNVERIFIED.
 
 		public override void AddRecipes()
 		{

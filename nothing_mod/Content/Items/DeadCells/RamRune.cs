@@ -11,7 +11,6 @@ namespace nothing_mod.Content.Items.DeadCells
 {
 	public class RamRune : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.ObsidianShield;
 
 		public override void SetDefaults()
 		{

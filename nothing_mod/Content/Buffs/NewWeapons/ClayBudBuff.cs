@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace nothing_mod.Content.Buffs.NewWeapons
 {
-	// Minion upkeep buff. Icon is a placeholder (Imp minion buff).
+	// Minion upkeep buff. 
 	public class ClayBudBuff : ModBuff
 	{
 		public override string Texture => "Terraria/Images/Buff_" + BuffID.ImpMinion;

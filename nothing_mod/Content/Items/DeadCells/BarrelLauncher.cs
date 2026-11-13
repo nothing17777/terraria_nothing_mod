@@ -12,7 +12,6 @@ namespace nothing_mod.Content.Items.DeadCells
 {
 	public class BarrelLauncher : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.GrenadeLauncher;
 
 		public override void SetDefaults()
 		{

@@ -12,7 +12,6 @@ namespace nothing_mod.Content.Items.DeadCells
 {
 	public class BarnacleStaff : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.QueenSpiderStaff;
 
 		public override void SetDefaults()
 		{

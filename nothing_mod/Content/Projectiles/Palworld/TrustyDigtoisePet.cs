@@ -6,13 +6,13 @@ using nothing_mod.Content.Projectiles.NewWeapons;
 
 namespace nothing_mod.Content.Projectiles.Palworld
 {
-	// Trusty Digtoise. Simplified follower. TODO: mining at player's pickaxe power.
+	// Digtoise pet. Left click with the item orders it to mine (see DigtoiseAI); it follows the player otherwise.
 	public class TrustyDigtoisePet : ModProjectile
 	{
-		public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.BabySlime;
 
 		public override void SetStaticDefaults()
 		{
+			Main.projFrames[Type] = 11;
 			Main.projPet[Type] = true;
 		}
 
@@ -30,6 +30,9 @@ namespace nothing_mod.Content.Projectiles.Palworld
 
 		public override bool? CanDamage() => false;
 
+		public override bool? CanCutTiles() => false;
+		public override bool OnTileCollide(Vector2 oldVelocity) => false;
+
 		public override void AI()
 		{
 			Player owner = Main.player[Projectile.owner];
@@ -40,9 +43,11 @@ namespace nothing_mod.Content.Projectiles.Palworld
 			}
 			Projectile.timeLeft = 2;
 			if (Projectile.Distance(owner.Center) > 2000f)
+			{
 				Projectile.Center = owner.Center;
-			SimpleMinionAI.MoveToward(Projectile, owner.Center + new Vector2(-owner.direction * 40f, -30f), 8f, 20f);
-			Projectile.spriteDirection = Projectile.velocity.X >= 0 ? 1 : -1;
+				Projectile.ai[0] = 0f;
+			}
+			DigtoiseAI.Run(Projectile, owner, true);
 		}
 	}
 }

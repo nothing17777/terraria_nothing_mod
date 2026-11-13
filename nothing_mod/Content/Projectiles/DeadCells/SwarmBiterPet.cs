@@ -9,10 +9,10 @@ namespace nothing_mod.Content.Projectiles.DeadCells
 	// Swarm Biter pet. Simplified follower, sprite placeholder.
 	public class SwarmBiterPet : ModProjectile
 	{
-		public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.BabySlime;
 
 		public override void SetStaticDefaults()
 		{
+			Main.projFrames[Type] = 5;
 			Main.projPet[Type] = true;
 		}
 

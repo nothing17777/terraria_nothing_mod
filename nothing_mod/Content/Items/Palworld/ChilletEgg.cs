@@ -10,7 +10,6 @@ namespace nothing_mod.Content.Items.Palworld
 {
 	public class ChilletEgg : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.Present;
 
 		public override void SetDefaults()
 		{

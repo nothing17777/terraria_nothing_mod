@@ -10,7 +10,6 @@ namespace nothing_mod.Content.Items.Palworld
 {
 	public class LittleKinshipPeach : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.Peach;
 
 		public override void SetDefaults()
 		{

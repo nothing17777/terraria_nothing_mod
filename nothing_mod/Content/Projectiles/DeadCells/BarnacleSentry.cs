@@ -13,10 +13,10 @@ namespace nothing_mod.Content.Projectiles.DeadCells
 	// Simplified: stationary sentry that spits poison at the nearest enemy. Wiki: floats in midair, carried up by balloons. Sprite placeholder.
 	public class BarnacleSentry : ModProjectile
 	{
-		public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.BabySlime;
 
 		public override void SetStaticDefaults()
 		{
+			Main.projFrames[Type] = 4;
 			ProjectileID.Sets.MinionTargettingFeature[Type] = true;
 		}
 

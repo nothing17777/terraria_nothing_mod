@@ -11,7 +11,11 @@ namespace nothing_mod.Content.Projectiles.DeadCells
 	// Poison spit. Sprite placeholder (Poison Dart / Stinger).
 	public class BarnacleSpit : ModProjectile
 	{
-		public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.PoisonDart;
+
+		public override void SetStaticDefaults()
+		{
+			Main.projFrames[Type] = 4;
+		}
 
 		public override void SetDefaults()
 		{

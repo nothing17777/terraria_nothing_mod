@@ -12,7 +12,6 @@ namespace nothing_mod.Content.Items.DeadCells
 {
 	public class MushroomStaff : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.SlimeStaff;
 
 		public override void SetDefaults()
 		{

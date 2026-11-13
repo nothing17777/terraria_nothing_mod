@@ -12,7 +12,6 @@ namespace nothing_mod.Content.Items.Palworld
 {
 	public class Cattiva : ModItem
 	{
-		public override string Texture => "Terraria/Images/Item_" + ItemID.PiggyBank;
 
 		public override void SetDefaults()
 		{

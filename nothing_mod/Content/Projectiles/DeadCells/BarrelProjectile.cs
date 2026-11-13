@@ -11,7 +11,6 @@ namespace nothing_mod.Content.Projectiles.DeadCells
 	// Bounces off blocks, explodes on enemy contact or after 3s. After the first bounce it glows and deals 133% damage (wiki). Sprite placeholder (Grenade).
 	public class BarrelProjectile : ModProjectile
 	{
-		public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.Grenade;
 
 		public override void SetDefaults()
 		{

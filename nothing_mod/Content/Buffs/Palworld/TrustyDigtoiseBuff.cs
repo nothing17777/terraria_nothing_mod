@@ -6,7 +6,7 @@ using nothing_mod.Content.Projectiles.Palworld;
 
 namespace nothing_mod.Content.Buffs.Palworld
 {
-	// Pet buff. Icon is a placeholder (Baby Slime / light pet buff).
+	// Pet buff. 
 	public class TrustyDigtoiseBuff : ModBuff
 	{
 		public override string Texture => "Terraria/Images/Buff_" + BuffID.PetBunny;
