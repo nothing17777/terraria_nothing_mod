@@ -36,7 +36,10 @@ Goal: bring Terraria 1.4.5.x content into this 1.4.4.9 mod. Source of truth is t
 - New content: `Content/Items/{Whips,NewWeapons,Accessories,Armor}`, with matching Projectiles/Buffs folders.
 - Item icons are the real wiki images. Swing/projectile art, armor equip sheets and Rainbow Glowstick (animated gif) are still placeholders.
 - terraria.wiki.gg blocks curl (403 bot check). Images were fetched from inside Chrome (Claude in Chrome) and saved through a temporary localhost receiver, which needs Chrome's local-network "Allow" prompt.
-- Not started: mana rework, Bleeding on enemies, crafting search bar, banner menu, Dead Cells / Palworld content, drops and shop sources for new items.
+- Done (compiles, untested in-game): mana rework, Bleeding on enemies, whip tag rules, /bossdamage, loadout keybinds, all whips/weapons/accessories/armor, balance, recipes, NPC/shop edits (`Systems/Patch145*.cs`, `Players/`).
+- Skipped (need engine edits, custom items or draw layers): pylons in boss fights, Shimmer and Invisibility Potion rule changes, dash keybind, Mana Cloak rework, squinting eyes.
+- Done (untested): crafting search bar, Banner Menu, dash keybind, pylons in boss fights, Mana Cloak, Dead Cells and Palworld items (placeholder art, many effects TODO).
+- Not done: squinting eyes, Slime Crown shimmer, Dead Cells/Palworld acquisition (shops, chests, fishing), server-side banner counts.
 
 ## Current content
 - Void Blade: melee sword, 35 damage, fires a Void Bolt. Recipe: 8 Iron Bar + 3 Fallen Star at an Anvil.

@@ -1,0 +1,10 @@
+// Merge into Localization/en-US_Mods.nothing_mod.hjson (under the top level, next to Keybinds)
+
+UI: {
+	CraftSearch.Hint: Search recipes...
+	BannerMenu: {
+		Title: Banner Menu
+		Button: Banners
+		Hint: Click: take 1. Shift+click: take a full stack.
+	}
+}

@@ -1,0 +1,15 @@
+// Merge into Localization/en-US_Mods.nothing_mod.hjson
+
+Keybinds: {
+	Dash.DisplayName: Dash
+}
+
+Configs: {
+	NothingClientConfig: {
+		DisplayName: nothing's mod (client)
+		DoubleTapDashing: {
+			Label: Double Tap Dashing
+			Tooltip: Dash by double tapping a direction. Turn off to dash only with the Dash keybind.
+		}
+	}
+}
