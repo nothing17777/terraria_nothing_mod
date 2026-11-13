@@ -8,11 +8,9 @@ using Terraria.ModLoader;
 
 namespace nothing_mod.Content.Items.DeadCells
 {
-	// Placeable flask. Tile art placeholder (Pots 2x2). TODO: ability to place an item inside (display-jar behaviour).
+	// Placeable flask. Tile art is a simple generated 2x2 flask (vanilla Tile_ textures cannot be requested by mods). TODO: ability to place an item inside (display-jar behaviour).
 	public class ItemFlaskTile : ModTile
 	{
-		public override string Texture => "Terraria/Images/Tile_" + TileID.Pots;
-
 		public override void SetStaticDefaults()
 		{
 			Main.tileFrameImportant[Type] = true;
