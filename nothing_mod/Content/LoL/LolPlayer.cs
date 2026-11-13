@@ -34,6 +34,11 @@ namespace nothing_mod.Content.LoL
 		// The champion weapon that currently transforms the player: held one first, else first in inventory.
 		public LolChampionItem Active;
 		public const float SpellCooldown = 2f;
+		public const int BonusMinionSlots = 10;
+
+		// Carried champions retain their spells and bonuses, but other held items keep normal controls.
+		bool UseChampionControls => Active != null &&
+			(Player.HeldItem.IsAir || Player.HeldItem.ModItem is LolChampionItem);
 
 		// Animation state read by LolModelLayer: sheet row (0 idle, 1 run, 2 attack, 3-6 spells) and frame.
 		public int AnimRow, AnimFrame;
@@ -65,11 +70,16 @@ namespace nothing_mod.Content.LoL
 
 		public override void ResetEffects() { Haste = 0; Lifesteal = 0; }
 
-		public override void PostUpdate() {
+		public override void PostUpdateEquips() {
 			Active = Player.HeldItem.ModItem as LolChampionItem;
 			if (Active == null)
 				for (int n = 0; n < 50; n++)
 					if (Player.inventory[n].ModItem is LolChampionItem c) { Active = c; break; }
+			// Apply once for the active champion; inventory copies do not stack the bonus.
+			if (Active != null) Player.maxMinions += BonusMinionSlots;
+		}
+
+		public override void PostUpdate() {
 			for (int i = 0; i < 4; i++)
 				if (Cooldown[i] > 0) Cooldown[i] = Math.Max(0, Cooldown[i] - 1f / 60f);
 			if (RWindow > 0) { RWindow -= 1f / 60f; if (RWindow <= 0 && RCharges > 0) { RCharges = 0; Cooldown[3] = CooldownMax[3] = SpellCooldown; } }
@@ -115,7 +125,7 @@ namespace nothing_mod.Content.LoL
 
 		public override void ProcessTriggers(TriggersSet triggersSet) {
 			AimSlot = -1;
-			if (Active != null && ClickMove) { // WASD mode leaves vanilla controls untouched
+			if (UseChampionControls && ClickMove) { // Other held items and WASD mode keep vanilla controls
 				// vanilla binds that share keys with Q/W/E/R: W = Up, E = Grapple, R = Mount (also Quick Heal/Mana/Buff, Smart Select)
 				foreach (string vanilla in new[] { "Up", "Grapple", "QuickMount", "QuickHeal", "QuickMana", "QuickBuff", "SmartSelect" })
 					if (triggersSet.KeyStatus.ContainsKey(vanilla)) triggersSet.KeyStatus[vanilla] = false;
@@ -198,8 +208,8 @@ namespace nothing_mod.Content.LoL
 		}
 
 		public override void SetControls() {
-			if (Player.whoAmI == Main.myPlayer && Active != null && !Player.dead) BasicAttackControls(); else attackTarget = null;
-			if (Player.whoAmI != Main.myPlayer || Active == null || Player.dead) { MoveTarget = null; return; }
+			if (Player.whoAmI == Main.myPlayer && UseChampionControls && !Player.dead) BasicAttackControls(); else attackTarget = null;
+			if (Player.whoAmI != Main.myPlayer || !UseChampionControls || Player.dead) { MoveTarget = null; return; }
 			// W = up (flight), E = grapple, R = mount in vanilla: force them off after the engine has read the keyboard
 			if (!ClickMove) { MoveTarget = null; return; } // WASD mode: normal Terraria movement and flight
 			Player.controlUp = false; Player.controlHook = false; Player.controlMount = false;

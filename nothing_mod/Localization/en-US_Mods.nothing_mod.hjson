@@ -1,4 +1,13 @@
 Items: {
+	EventideLantern: {
+		DisplayName: Eventide Lantern
+		Tooltip:
+			'''
+			Releases three twilight sparks that seek nearby enemies
+			'A little light for things that lurk in the dark'
+			'''
+	}
+
 	AllBuffsPotion: {
 		DisplayName: All-Buffs Potion
 		Tooltip: Grants nearly every buff potion effect for 10 minutes
@@ -3188,6 +3197,7 @@ Buffs: {
 }
 
 Projectiles: {
+	EventideSpark.DisplayName: Twilight Spark
 	VoidBolt.DisplayName: Void Bolt
 	AcornShot.DisplayName: Acorn
 	SlimeSpearProj.DisplayName: Slime Spear

@@ -57,6 +57,7 @@ namespace nothing_mod.Content.LoL
 				}
 			}
 			tooltips.Add(new TooltipLine(Mod, "LolKeys", $"Hold {LolKeyLabel.Of(0)} / {LolKeyLabel.Of(1)} / {LolKeyLabel.Of(2)} / {LolKeyLabel.Of(3)} to aim, release to cast Q / W / E / R") { OverrideColor = Color.LightGray });
+			tooltips.Add(new TooltipLine(Mod, "LolMinionSlots", $"+{LolPlayer.BonusMinionSlots} summon slots while held or carried in your main inventory (does not stack)") { OverrideColor = Color.LightGreen });
 			foreach (var s in d.Spells) {
 				string cd = s.Key == "P" ? "" : $" ({LolPlayer.SpellCooldown:0.#}s)";
 				string[] slot = { "P", "Q", "W", "E", "R" };
