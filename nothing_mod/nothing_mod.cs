@@ -3,6 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using nothing_mod.Content.Players;
+using nothing_mod.Content.Systems;
 
 namespace nothing_mod
 {
@@ -12,10 +13,15 @@ namespace nothing_mod
 		public enum PacketType : byte
 		{
 			BannerSync,
+			BossSummon,
 		}
 
 		public override void HandlePacket(BinaryReader reader, int whoAmI) {
 			switch ((PacketType)reader.ReadByte()) {
+				case PacketType.BossSummon:
+					if (Main.netMode == NetmodeID.Server)
+						UnrestrictedBossSummons.ReceiveSummon(reader, whoAmI);
+					break;
 				case PacketType.BannerSync:
 					if (Main.netMode == NetmodeID.Server) // clients only report to the server
 						BannerMenuPlayer.ReceiveStored(reader, whoAmI);

@@ -13,12 +13,14 @@ namespace nothing_mod.Content.LoL
 	public abstract class LolChampionItem : ModItem
 	{
 		protected abstract string Alias { get; }
+		public string ChampionKey => Alias;
+		public virtual int ChampionLevel => 1;
 		public ChampionDef Def => LolData.Champions[Alias];
 
-		public override LocalizedText DisplayName => this.GetLocalization("DisplayName", () => $"{Def.Name}, {Def.Title}");
+		public override LocalizedText DisplayName => this.GetLocalization("DisplayName", () => ChampionLevel == 1 ? $"{Def.Name}, {Def.Title}" : $"{Def.Name}, {Def.Title} (Level {ChampionLevel})");
 
 		public override void SetDefaults() {
-			Item.damage = 45;
+			Item.damage = LolChampionProgression.DamageAt(ChampionLevel);
 			Item.DamageType = Def.Magic == 1 ? DamageClass.Magic : (Def.Ranged == 1 ? DamageClass.Ranged : DamageClass.Melee);
 			Item.width = 40;
 			Item.height = 40;
@@ -49,6 +51,7 @@ namespace nothing_mod.Content.LoL
 
 		public override void ModifyTooltips(List<TooltipLine> tooltips) {
 			var d = Def;
+			tooltips.Add(new TooltipLine(Mod, "LolLevel", $"Champion level {ChampionLevel} / {LolChampionProgression.MaxLevel}") { OverrideColor = d.EffectColor });
 			void Add(string name, string text, Color? c = null) {
 				foreach (string l in LolText.Wrap(text)) {
 					var line = new TooltipLine(Mod, "Lol" + name, l);
@@ -66,12 +69,6 @@ namespace nothing_mod.Content.LoL
 			}
 		}
 
-		public override void AddRecipes() {
-			Recipe r = CreateRecipe();
-			r.AddIngredient(ItemID.FallenStar, 1);
-			r.AddIngredient(ItemID.GoldCoin, 5);
-			r.AddTile(TileID.Anvils);
-			r.Register();
-		}
+		public override void AddRecipes() => LolChampionProgression.AddRecipe(this);
 	}
 }

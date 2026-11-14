@@ -23,7 +23,7 @@ namespace nothing_mod.Content.LoL
 		protected override void Draw(ref PlayerDrawSet drawInfo) {
 			Player p = drawInfo.drawPlayer;
 			var lp = p.GetModPlayer<LolPlayer>();
-			string alias = lp.Active.Name.Replace("Champion", "");
+			string alias = lp.Active.ChampionKey;
 			Vector2 feet = (p.Bottom + new Vector2(0, p.gfxOffY) - Main.screenPosition).Floor();
 			bool left = p.direction == -1;
 			var fx = left ? SpriteEffects.FlipHorizontally : SpriteEffects.None;

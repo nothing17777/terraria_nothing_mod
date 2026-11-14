@@ -5,3 +5,4 @@ downloads/
 tools/xnbtool_bin/
 tModLoader.targets
 tools/bin/
+compile_temp/

@@ -16,7 +16,7 @@ namespace nothing_mod.Content.LoL
 		int Size => (int)Projectile.ai[2] / 1000;
 		Player Owner => Main.player[Projectile.owner];
 		LolChampionItem Champ => Owner.GetModPlayer<LolPlayer>().Active;
-		string Alias => Champ?.Name.Replace("Champion", "");
+		string Alias => Champ?.ChampionKey;
 		SpellScript Script => Alias == null ? null : LolScripts.Get(Alias, Slot);
 		RealSpell Real => Alias != null && LolSpellData.Spells.TryGetValue(Alias, out RealSpell[] a) && Slot < a.Length ? a[Slot] : null;
 		Color Col => Champ?.Def.EffectColor ?? Color.White;

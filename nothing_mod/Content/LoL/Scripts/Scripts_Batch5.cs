@@ -9,7 +9,7 @@ namespace nothing_mod.Content.LoL
 				new SpellScript(SpellShape.Homing) { Flags = 1, SlowSec = 3f, Note = "Q Seismic Shard: targeted shard through the ground, damage + steals move speed 3s (slow)" },
 				new SpellScript(SpellShape.Cone) { DmgMult = 0.8f, EmpowerNextAttack = true, Note = "W Thunderclap: empowered attack; for a few seconds attacks create aftershock area in front (only the next attack is empowered, repeated aftershocks missing)" },
 				new SpellScript(SpellShape.SelfBurst) { DurationSec = 0.4f, Flags = 1, Note = "E Ground Slam: shockwave around caster, damage scales with armor, reduces attack speed (slow stand-in)" },
-				new SpellScript(SpellShape.Dash) { DashTiles = 40f, Flags = 2, Note = "R Unstoppable Force: high-speed launch to location, knocks enemies up on impact" },
+				new SpellScript(SpellShape.Dash) { DashTiles = 15f, Flags = 2, Note = "R Unstoppable Force: high-speed launch to location, knocks enemies up on impact" },
 			};
 			t["Malzahar"] = new[] {
 				new SpellScript(SpellShape.Skillshot) { Count = 2, SpreadDeg = 14f, Pierce = true, Flags = 4, CastDelaySec = 0.5f, Note = "Q Call of the Void: two portals open, short delay, then fire piercing waves that silence" },

@@ -76,7 +76,7 @@ namespace nothing_mod.Content.LoL
 					break;
 				}
 			}
-			if (!LolSound.Play(champ.Name.Replace("Champion", ""), slot, "cast", p.Center))
+			if (!LolSound.Play(champ.ChampionKey, slot, "cast", p.Center))
 				Terraria.Audio.SoundEngine.PlaySound(SoundID.Item20, p.Center);
 		}
 	}

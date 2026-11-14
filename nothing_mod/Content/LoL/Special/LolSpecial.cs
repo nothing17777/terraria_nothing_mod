@@ -14,7 +14,7 @@ namespace nothing_mod.Content.LoL.Special
 			Player p = lp.Player;
 			int me = p.whoAmI;
 			float range = LolPlayer.RangePx(sp);
-			if (champ.Name != "AhriChampion") return false;
+			if (champ.ChampionKey != "Ahri") return false;
 			switch (slot) {
 				case 0: // Orb of Deception
 					Projectile.NewProjectile(src, p.Center, dir, ModContent.ProjectileType<AhriOrb>(), dmg, kb, me, range);

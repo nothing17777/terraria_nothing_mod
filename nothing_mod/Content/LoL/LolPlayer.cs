@@ -109,7 +109,7 @@ namespace nothing_mod.Content.LoL
 		void UpdateAnimation() {
 			const float CastLength = 0.55f;
 			animClock += 1f / 60f;
-			int nf = LolAnimData.Sheets.TryGetValue(Active?.Name.Replace("Champion", "") ?? "", out AnimDef ad) ? ad.Frames : 8;
+			int nf = LolAnimData.Sheets.TryGetValue(Active?.ChampionKey ?? "", out AnimDef ad) ? ad.Frames : 8;
 			if (castTime > 0) {
 				AnimRow = castRow;
 				AnimFrame = Math.Min(nf - 1, (int)((1f - castTime / CastLength) * nf));
@@ -240,7 +240,7 @@ namespace nothing_mod.Content.LoL
 		}
 
 		static RealSpell Real(LolChampionItem champ, int slot) =>
-			LolSpellData.Spells.TryGetValue(champ.Name.Replace("Champion", ""), out RealSpell[] a) && slot < a.Length ? a[slot] : null;
+			LolSpellData.Spells.TryGetValue(champ.ChampionKey, out RealSpell[] a) && slot < a.Length ? a[slot] : null;
 
 		void Cast(LolChampionItem champ, SpellDef sp, int slot) {
 			Mod.Logger.Info($"[LoL] CAST {sp.Key} {sp.Name} arch={sp.Arch} range={sp.Range}");
@@ -266,11 +266,11 @@ namespace nothing_mod.Content.LoL
 
 			if (LolSpecial.TryCast(this, champ, sp, slot, dir, mouse, dmg, kb, src, out float specialCd)) {
 				Cooldown[slot] = CooldownMax[slot] = specialCd;
-				LolSound.Play(champ.Name.Replace("Champion", ""), slot, "cast", Player.Center); // Ahri's real cast sounds
+				LolSound.Play(champ.ChampionKey, slot, "cast", Player.Center); // Ahri's real cast sounds
 				return;
 			}
 
-			SpellScript script = LolScripts.Get(champ.Name.Replace("Champion", ""), slot);
+			SpellScript script = LolScripts.Get(champ.ChampionKey, slot);
 			if (script != null) { // per-champion script (Content/LoL/Scripts): shape from the script, numbers from the real spell data
 				SpellScript use = script;
 				if (script.RecastShape != null) {
@@ -331,7 +331,7 @@ namespace nothing_mod.Content.LoL
 					break;
 				}
 			}
-			if (!LolSound.Play(champ.Name.Replace("Champion", ""), slot, "cast", Player.Center))
+			if (!LolSound.Play(champ.ChampionKey, slot, "cast", Player.Center))
 				Terraria.Audio.SoundEngine.PlaySound(SoundID.Item20, Player.Center);
 		}
 

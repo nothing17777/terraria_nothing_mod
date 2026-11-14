@@ -74,7 +74,7 @@ namespace nothing_mod.Content.LoL
 				SpellDef sp = champ.Def.Spells[i + 1];
 				var rect = new Rectangle((int)(x0 + i * 44), (int)y, 40, 40);
 				sb.Draw(TextureAssets.MagicPixel.Value, rect, Color.Black * 0.6f);
-				string path = $"nothing_mod/Content/LoL/Abilities/{champ.Name.Replace("Champion", "")}_{sp.Key}";
+				string path = $"nothing_mod/Content/LoL/Abilities/{champ.ChampionKey}_{sp.Key}";
 				if (sp.HasIcon == 1 && ModContent.HasAsset(path)) {
 					var tex = ModContent.Request<Texture2D>(path).Value;
 					sb.Draw(tex, rect, lp.Cooldown[i] > 0 ? Color.Gray : Color.White);

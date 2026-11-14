@@ -2843,206 +2843,6277 @@ Items: {
 		DisplayName: Abyssal Mask
 		Tooltip: ""
 	}
+
 	MushroomStaff: {
 		DisplayName: Mushroom Staff
-		Tooltip: '''
-		Summons a mushroom boi to fight for you
-		'Get Mushed Boi!'
-		'''
+		Tooltip:
+			'''
+			Summons a mushroom boi to fight for you
+			'Get Mushed Boi!'
+			'''
 	}
 
 	BarrelLauncher: {
 		DisplayName: Barrel Launcher
-		Tooltip: '''
-		Barrels deal more damage when bounced.
-		'Derelict Distillery, 2020 Vintage'
-		'''
+		Tooltip:
+			'''
+			Barrels deal more damage when bounced.
+			'Derelict Distillery, 2020 Vintage'
+			'''
 	}
 
 	KillingDeck: {
 		DisplayName: Killing Deck
-		Tooltip: '''
-		'A Dead Man's Hand for your opponents, mon chéri'
-		'''
+		Tooltip: "'A Dead Man's Hand for your opponents, mon chéri'"
 	}
 
 	Flint: {
 		DisplayName: Flint
-		Tooltip: '''
-		'A helping hand from a former prison warden, fallen to the Malaise'
-		'''
+		Tooltip: "'A helping hand from a former prison warden, fallen to the Malaise'"
 	}
 
 	BarnacleStaff: {
 		DisplayName: Barnacle Staff
-		Tooltip: '''
-		Summons a sentry
-		Summons a hanging barnacle to poison enemies
-		'''
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons a hanging barnacle to poison enemies
+			'''
 	}
 
 	RamRune: {
 		DisplayName: Ram Rune
-		Tooltip: '''
-		Jump while holding DOWN to slam downward
-		Slamming into the ground will deal damage to nearby enemies
-		'Pound the ground like the heroes of old'
-		'''
+		Tooltip:
+			'''
+			Jump while holding DOWN to slam downward
+			Slamming into the ground will deal damage to nearby enemies
+			'Pound the ground like the heroes of old'
+			'''
 	}
 
 	SwarmGrenade: {
 		DisplayName: Swarm Grenade
-		Tooltip: '''
-		Summons a pet swarm biter
-		'Careful, I hear they bite!'
-		'''
+		Tooltip:
+			'''
+			Summons a pet swarm biter
+			'Careful, I hear they bite!'
+			'''
 	}
 
 	ItemFlask: {
 		DisplayName: Item Flask
-		Tooltip: '''
-		Right click to place item in item flask
-		Press Up/Down to cycle through placement styles
-		'Preserve your most treasured possessions within viscous fluids'
-		'''
+		Tooltip:
+			'''
+			Right click to place item in item flask
+			Press Up/Down to cycle through placement styles
+			'Preserve your most treasured possessions within viscous fluids'
+			'''
 	}
 
 	AlchemyFlask: {
 		DisplayName: Alchemy Flask
-		Tooltip: '''
-		Usable when placed
-		Fresh buffs last longer
-		'A mysterious bottle from far away'
-		'''
+		Tooltip:
+			'''
+			Usable when placed
+			Fresh buffs last longer
+			'A mysterious bottle from far away'
+			'''
 	}
 
 	Cattiva: {
 		DisplayName: Cattiva
-		Tooltip: '''
-		Summons Cattiva to fight for you
-		A lovely pal that also helps your mining efforts
-		Right click to pet it!
-		'''
+		Tooltip:
+			'''
+			Summons Cattiva to fight for you
+			A lovely pal that also helps your mining efforts
+			Right click to pet it!
+			'''
 	}
 
 	Foxparks: {
 		DisplayName: Foxparks
-		Tooltip: '''
-		Summons Foxparks to fight for you
-		Use to use Foxparks' Huggy Fire skill, shooting flames!
-		Right click to pet it!
-		'''
+		Tooltip:
+			'''
+			Summons Foxparks to fight for you
+			Use to use Foxparks' Huggy Fire skill, shooting flames!
+			Right click to pet it!
+			'''
 	}
 
 	Chillet: {
 		DisplayName: Chillet
-		Tooltip: '''
-		Summons Chillet for a ride!
-		Empowers your attacks while mounted.
-		Double tap a direction to use Rocket Slam!
-		Right click to pet it!
-		'''
+		Tooltip:
+			'''
+			Summons Chillet for a ride!
+			Empowers your attacks while mounted.
+			Double tap a direction to use Rocket Slam!
+			Right click to pet it!
+			'''
 	}
 
 	ChilletIgnis: {
 		DisplayName: Chillet Ignis
-		Tooltip: '''
-		Summons Chillet Ignis for a ride!
-		Empowers your attacks while mounted.
-		Double tap a direction to use Rocket Slam!
-		Right click to pet it!
-		'''
+		Tooltip:
+			'''
+			Summons Chillet Ignis for a ride!
+			Empowers your attacks while mounted.
+			Double tap a direction to use Rocket Slam!
+			Right click to pet it!
+			'''
 	}
 
 	Digtoise: {
 		DisplayName: Digtoise
-		Tooltip: '''
-		Summons Digtoise to help mining!
-		Use to direct Digtoise
-		Interact away to recall Digtoise
-		Right click to pet it!
-		'''
+		Tooltip:
+			'''
+			Summons Digtoise to help mining!
+			Use to direct Digtoise
+			Interact away to recall Digtoise
+			Right click to pet it!
+			'''
 	}
 
 	ChilletEgg: {
 		DisplayName: Huge Dragon Egg
-		Tooltip: '''
-		May hatch into something wonderful!
-		Right click to open
-		'''
+		Tooltip:
+			'''
+			May hatch into something wonderful!
+			Right click to open
+			'''
 	}
 
 	TrustyCattiva: {
 		DisplayName: Trusty Cattiva
-		Tooltip: '''
-		Summons Trusty Cattiva to fight for you
-		A lovely pal that also helps your mining efforts
-		Right click to pet it!
-		Its trust empowers it, and improved its 'Punch Flurry'!
-		'''
+		Tooltip:
+			'''
+			Summons Trusty Cattiva to fight for you
+			A lovely pal that also helps your mining efforts
+			Right click to pet it!
+			Its trust empowers it, and improved its 'Punch Flurry'!
+			'''
 	}
 
 	TrustyFoxparks: {
 		DisplayName: Trusty Foxparks
-		Tooltip: '''
-		Summons Trusty Foxparks to fight for you
-		Use to use Foxparks' Huggy Fire skill, shooting flames!
-		Right click to pet it!
-		Its trust empowers it, and it learned 'Spirit Fire'!
-		'''
+		Tooltip:
+			'''
+			Summons Trusty Foxparks to fight for you
+			Use to use Foxparks' Huggy Fire skill, shooting flames!
+			Right click to pet it!
+			Its trust empowers it, and it learned 'Spirit Fire'!
+			'''
 	}
 
 	TrustyChillet: {
 		DisplayName: Trusty Chillet
-		Tooltip: '''
-		Summons Trusty Chillet for a ride!
-		Empowers your attacks while mounted.
-		Double tap a direction to use Rocket Slam!
-		Right click to pet it!
-		Its trust empowers it, and increases its speed!
-		'''
+		Tooltip:
+			'''
+			Summons Trusty Chillet for a ride!
+			Empowers your attacks while mounted.
+			Double tap a direction to use Rocket Slam!
+			Right click to pet it!
+			Its trust empowers it, and increases its speed!
+			'''
 	}
 
 	TrustyChilletIgnis: {
 		DisplayName: Trusty Chillet Ignis
-		Tooltip: '''
-		Summons Trusty Chillet Ignis for a ride!
-		Empowers your attacks while mounted.
-		Double tap a direction to use Rocket Slam!
-		Right click to pet it!
-		Its trust empowers it, and increases its speed!
-		'''
+		Tooltip:
+			'''
+			Summons Trusty Chillet Ignis for a ride!
+			Empowers your attacks while mounted.
+			Double tap a direction to use Rocket Slam!
+			Right click to pet it!
+			Its trust empowers it, and increases its speed!
+			'''
 	}
 
 	TrustyDigtoise: {
 		DisplayName: Trusty Digtoise
-		Tooltip: '''
-		Summons Trusty Digtoise to help mining!
-		Use to direct Digtoise
-		Interact away to recall Digtoise
-		Right click to pet it!
-		Its trust empowers it, and it now matches your pickaxe power!
-		'''
+		Tooltip:
+			'''
+			Summons Trusty Digtoise to help mining!
+			Use to direct Digtoise
+			Interact away to recall Digtoise
+			Right click to pet it!
+			Its trust empowers it, and it now matches your pickaxe power!
+			'''
 	}
 
 	LittleKinshipPeach: {
 		DisplayName: Little Kinship Peach
-		Tooltip: '''
-		A small fruit filled with kindness
-		It is said that a Pal who eats it will open its heart to humans
-		Choose carefully which Pal you give it to
-		'''
+		Tooltip:
+			'''
+			A small fruit filled with kindness
+			It is said that a Pal who eats it will open its heart to humans
+			Choose carefully which Pal you give it to
+			'''
 	}
 
 	KinshipPeach: {
 		DisplayName: Kinship Peach
-		Tooltip: '''
-		A rarely seen magical fruit
-		It is said that a Pal who eats it will open its heart to humans
-		Choose carefully which Pal you give it to
-		'''
+		Tooltip:
+			'''
+			A rarely seen magical fruit
+			It is said that a Pal who eats it will open its heart to humans
+			Choose carefully which Pal you give it to
+			'''
 	}
 
+	AatroxChampionLevel2: {
+		DisplayName: Aatrox, the Darkin Blade (Level 2)
+		Tooltip: ""
+	}
+
+	AatroxChampionLevel3: {
+		DisplayName: Aatrox, the Darkin Blade (Level 3)
+		Tooltip: ""
+	}
+
+	AatroxChampionLevel4: {
+		DisplayName: Aatrox, the Darkin Blade (Level 4)
+		Tooltip: ""
+	}
+
+	AatroxChampionLevel5: {
+		DisplayName: Aatrox, the Darkin Blade (Level 5)
+		Tooltip: ""
+	}
+
+	AatroxChampionLevel6: {
+		DisplayName: Aatrox, the Darkin Blade (Level 6)
+		Tooltip: ""
+	}
+
+	AatroxChampionLevel7: {
+		DisplayName: Aatrox, the Darkin Blade (Level 7)
+		Tooltip: ""
+	}
+
+	AatroxChampionLevel8: {
+		DisplayName: Aatrox, the Darkin Blade (Level 8)
+		Tooltip: ""
+	}
+
+	AhriChampionLevel2: {
+		DisplayName: Ahri, the Nine-Tailed Fox (Level 2)
+		Tooltip: ""
+	}
+
+	AhriChampionLevel3: {
+		DisplayName: Ahri, the Nine-Tailed Fox (Level 3)
+		Tooltip: ""
+	}
+
+	AhriChampionLevel4: {
+		DisplayName: Ahri, the Nine-Tailed Fox (Level 4)
+		Tooltip: ""
+	}
+
+	AhriChampionLevel5: {
+		DisplayName: Ahri, the Nine-Tailed Fox (Level 5)
+		Tooltip: ""
+	}
+
+	AhriChampionLevel6: {
+		DisplayName: Ahri, the Nine-Tailed Fox (Level 6)
+		Tooltip: ""
+	}
+
+	AhriChampionLevel7: {
+		DisplayName: Ahri, the Nine-Tailed Fox (Level 7)
+		Tooltip: ""
+	}
+
+	AhriChampionLevel8: {
+		DisplayName: Ahri, the Nine-Tailed Fox (Level 8)
+		Tooltip: ""
+	}
+
+	AkaliChampionLevel2: {
+		DisplayName: Akali, the Rogue Assassin (Level 2)
+		Tooltip: ""
+	}
+
+	AkaliChampionLevel3: {
+		DisplayName: Akali, the Rogue Assassin (Level 3)
+		Tooltip: ""
+	}
+
+	AkaliChampionLevel4: {
+		DisplayName: Akali, the Rogue Assassin (Level 4)
+		Tooltip: ""
+	}
+
+	AkaliChampionLevel5: {
+		DisplayName: Akali, the Rogue Assassin (Level 5)
+		Tooltip: ""
+	}
+
+	AkaliChampionLevel6: {
+		DisplayName: Akali, the Rogue Assassin (Level 6)
+		Tooltip: ""
+	}
+
+	AkaliChampionLevel7: {
+		DisplayName: Akali, the Rogue Assassin (Level 7)
+		Tooltip: ""
+	}
+
+	AkaliChampionLevel8: {
+		DisplayName: Akali, the Rogue Assassin (Level 8)
+		Tooltip: ""
+	}
+
+	AkshanChampionLevel2: {
+		DisplayName: Akshan, the Rogue Sentinel (Level 2)
+		Tooltip: ""
+	}
+
+	AkshanChampionLevel3: {
+		DisplayName: Akshan, the Rogue Sentinel (Level 3)
+		Tooltip: ""
+	}
+
+	AkshanChampionLevel4: {
+		DisplayName: Akshan, the Rogue Sentinel (Level 4)
+		Tooltip: ""
+	}
+
+	AkshanChampionLevel5: {
+		DisplayName: Akshan, the Rogue Sentinel (Level 5)
+		Tooltip: ""
+	}
+
+	AkshanChampionLevel6: {
+		DisplayName: Akshan, the Rogue Sentinel (Level 6)
+		Tooltip: ""
+	}
+
+	AkshanChampionLevel7: {
+		DisplayName: Akshan, the Rogue Sentinel (Level 7)
+		Tooltip: ""
+	}
+
+	AkshanChampionLevel8: {
+		DisplayName: Akshan, the Rogue Sentinel (Level 8)
+		Tooltip: ""
+	}
+
+	AlistarChampionLevel2: {
+		DisplayName: Alistar, the Minotaur (Level 2)
+		Tooltip: ""
+	}
+
+	AlistarChampionLevel3: {
+		DisplayName: Alistar, the Minotaur (Level 3)
+		Tooltip: ""
+	}
+
+	AlistarChampionLevel4: {
+		DisplayName: Alistar, the Minotaur (Level 4)
+		Tooltip: ""
+	}
+
+	AlistarChampionLevel5: {
+		DisplayName: Alistar, the Minotaur (Level 5)
+		Tooltip: ""
+	}
+
+	AlistarChampionLevel6: {
+		DisplayName: Alistar, the Minotaur (Level 6)
+		Tooltip: ""
+	}
+
+	AlistarChampionLevel7: {
+		DisplayName: Alistar, the Minotaur (Level 7)
+		Tooltip: ""
+	}
+
+	AlistarChampionLevel8: {
+		DisplayName: Alistar, the Minotaur (Level 8)
+		Tooltip: ""
+	}
+
+	AmbessaChampionLevel2: {
+		DisplayName: Ambessa, Matriarch of War (Level 2)
+		Tooltip: ""
+	}
+
+	AmbessaChampionLevel3: {
+		DisplayName: Ambessa, Matriarch of War (Level 3)
+		Tooltip: ""
+	}
+
+	AmbessaChampionLevel4: {
+		DisplayName: Ambessa, Matriarch of War (Level 4)
+		Tooltip: ""
+	}
+
+	AmbessaChampionLevel5: {
+		DisplayName: Ambessa, Matriarch of War (Level 5)
+		Tooltip: ""
+	}
+
+	AmbessaChampionLevel6: {
+		DisplayName: Ambessa, Matriarch of War (Level 6)
+		Tooltip: ""
+	}
+
+	AmbessaChampionLevel7: {
+		DisplayName: Ambessa, Matriarch of War (Level 7)
+		Tooltip: ""
+	}
+
+	AmbessaChampionLevel8: {
+		DisplayName: Ambessa, Matriarch of War (Level 8)
+		Tooltip: ""
+	}
+
+	AmumuChampionLevel2: {
+		DisplayName: Amumu, the Sad Mummy (Level 2)
+		Tooltip: ""
+	}
+
+	AmumuChampionLevel3: {
+		DisplayName: Amumu, the Sad Mummy (Level 3)
+		Tooltip: ""
+	}
+
+	AmumuChampionLevel4: {
+		DisplayName: Amumu, the Sad Mummy (Level 4)
+		Tooltip: ""
+	}
+
+	AmumuChampionLevel5: {
+		DisplayName: Amumu, the Sad Mummy (Level 5)
+		Tooltip: ""
+	}
+
+	AmumuChampionLevel6: {
+		DisplayName: Amumu, the Sad Mummy (Level 6)
+		Tooltip: ""
+	}
+
+	AmumuChampionLevel7: {
+		DisplayName: Amumu, the Sad Mummy (Level 7)
+		Tooltip: ""
+	}
+
+	AmumuChampionLevel8: {
+		DisplayName: Amumu, the Sad Mummy (Level 8)
+		Tooltip: ""
+	}
+
+	AniviaChampionLevel2: {
+		DisplayName: Anivia, the Cryophoenix (Level 2)
+		Tooltip: ""
+	}
+
+	AniviaChampionLevel3: {
+		DisplayName: Anivia, the Cryophoenix (Level 3)
+		Tooltip: ""
+	}
+
+	AniviaChampionLevel4: {
+		DisplayName: Anivia, the Cryophoenix (Level 4)
+		Tooltip: ""
+	}
+
+	AniviaChampionLevel5: {
+		DisplayName: Anivia, the Cryophoenix (Level 5)
+		Tooltip: ""
+	}
+
+	AniviaChampionLevel6: {
+		DisplayName: Anivia, the Cryophoenix (Level 6)
+		Tooltip: ""
+	}
+
+	AniviaChampionLevel7: {
+		DisplayName: Anivia, the Cryophoenix (Level 7)
+		Tooltip: ""
+	}
+
+	AniviaChampionLevel8: {
+		DisplayName: Anivia, the Cryophoenix (Level 8)
+		Tooltip: ""
+	}
+
+	AnnieChampionLevel2: {
+		DisplayName: Annie, the Dark Child (Level 2)
+		Tooltip: ""
+	}
+
+	AnnieChampionLevel3: {
+		DisplayName: Annie, the Dark Child (Level 3)
+		Tooltip: ""
+	}
+
+	AnnieChampionLevel4: {
+		DisplayName: Annie, the Dark Child (Level 4)
+		Tooltip: ""
+	}
+
+	AnnieChampionLevel5: {
+		DisplayName: Annie, the Dark Child (Level 5)
+		Tooltip: ""
+	}
+
+	AnnieChampionLevel6: {
+		DisplayName: Annie, the Dark Child (Level 6)
+		Tooltip: ""
+	}
+
+	AnnieChampionLevel7: {
+		DisplayName: Annie, the Dark Child (Level 7)
+		Tooltip: ""
+	}
+
+	AnnieChampionLevel8: {
+		DisplayName: Annie, the Dark Child (Level 8)
+		Tooltip: ""
+	}
+
+	ApheliosChampionLevel2: {
+		DisplayName: Aphelios, the Weapon of the Faithful (Level 2)
+		Tooltip: ""
+	}
+
+	ApheliosChampionLevel3: {
+		DisplayName: Aphelios, the Weapon of the Faithful (Level 3)
+		Tooltip: ""
+	}
+
+	ApheliosChampionLevel4: {
+		DisplayName: Aphelios, the Weapon of the Faithful (Level 4)
+		Tooltip: ""
+	}
+
+	ApheliosChampionLevel5: {
+		DisplayName: Aphelios, the Weapon of the Faithful (Level 5)
+		Tooltip: ""
+	}
+
+	ApheliosChampionLevel6: {
+		DisplayName: Aphelios, the Weapon of the Faithful (Level 6)
+		Tooltip: ""
+	}
+
+	ApheliosChampionLevel7: {
+		DisplayName: Aphelios, the Weapon of the Faithful (Level 7)
+		Tooltip: ""
+	}
+
+	ApheliosChampionLevel8: {
+		DisplayName: Aphelios, the Weapon of the Faithful (Level 8)
+		Tooltip: ""
+	}
+
+	AsheChampionLevel2: {
+		DisplayName: Ashe, the Frost Archer (Level 2)
+		Tooltip: ""
+	}
+
+	AsheChampionLevel3: {
+		DisplayName: Ashe, the Frost Archer (Level 3)
+		Tooltip: ""
+	}
+
+	AsheChampionLevel4: {
+		DisplayName: Ashe, the Frost Archer (Level 4)
+		Tooltip: ""
+	}
+
+	AsheChampionLevel5: {
+		DisplayName: Ashe, the Frost Archer (Level 5)
+		Tooltip: ""
+	}
+
+	AsheChampionLevel6: {
+		DisplayName: Ashe, the Frost Archer (Level 6)
+		Tooltip: ""
+	}
+
+	AsheChampionLevel7: {
+		DisplayName: Ashe, the Frost Archer (Level 7)
+		Tooltip: ""
+	}
+
+	AsheChampionLevel8: {
+		DisplayName: Ashe, the Frost Archer (Level 8)
+		Tooltip: ""
+	}
+
+	AurelionSolChampionLevel2: {
+		DisplayName: Aurelion Sol, The Star Forger (Level 2)
+		Tooltip: ""
+	}
+
+	AurelionSolChampionLevel3: {
+		DisplayName: Aurelion Sol, The Star Forger (Level 3)
+		Tooltip: ""
+	}
+
+	AurelionSolChampionLevel4: {
+		DisplayName: Aurelion Sol, The Star Forger (Level 4)
+		Tooltip: ""
+	}
+
+	AurelionSolChampionLevel5: {
+		DisplayName: Aurelion Sol, The Star Forger (Level 5)
+		Tooltip: ""
+	}
+
+	AurelionSolChampionLevel6: {
+		DisplayName: Aurelion Sol, The Star Forger (Level 6)
+		Tooltip: ""
+	}
+
+	AurelionSolChampionLevel7: {
+		DisplayName: Aurelion Sol, The Star Forger (Level 7)
+		Tooltip: ""
+	}
+
+	AurelionSolChampionLevel8: {
+		DisplayName: Aurelion Sol, The Star Forger (Level 8)
+		Tooltip: ""
+	}
+
+	AuroraChampionLevel2: {
+		DisplayName: Aurora, the Witch Between Worlds (Level 2)
+		Tooltip: ""
+	}
+
+	AuroraChampionLevel3: {
+		DisplayName: Aurora, the Witch Between Worlds (Level 3)
+		Tooltip: ""
+	}
+
+	AuroraChampionLevel4: {
+		DisplayName: Aurora, the Witch Between Worlds (Level 4)
+		Tooltip: ""
+	}
+
+	AuroraChampionLevel5: {
+		DisplayName: Aurora, the Witch Between Worlds (Level 5)
+		Tooltip: ""
+	}
+
+	AuroraChampionLevel6: {
+		DisplayName: Aurora, the Witch Between Worlds (Level 6)
+		Tooltip: ""
+	}
+
+	AuroraChampionLevel7: {
+		DisplayName: Aurora, the Witch Between Worlds (Level 7)
+		Tooltip: ""
+	}
+
+	AuroraChampionLevel8: {
+		DisplayName: Aurora, the Witch Between Worlds (Level 8)
+		Tooltip: ""
+	}
+
+	AzirChampionLevel2: {
+		DisplayName: Azir, the Emperor of the Sands (Level 2)
+		Tooltip: ""
+	}
+
+	AzirChampionLevel3: {
+		DisplayName: Azir, the Emperor of the Sands (Level 3)
+		Tooltip: ""
+	}
+
+	AzirChampionLevel4: {
+		DisplayName: Azir, the Emperor of the Sands (Level 4)
+		Tooltip: ""
+	}
+
+	AzirChampionLevel5: {
+		DisplayName: Azir, the Emperor of the Sands (Level 5)
+		Tooltip: ""
+	}
+
+	AzirChampionLevel6: {
+		DisplayName: Azir, the Emperor of the Sands (Level 6)
+		Tooltip: ""
+	}
+
+	AzirChampionLevel7: {
+		DisplayName: Azir, the Emperor of the Sands (Level 7)
+		Tooltip: ""
+	}
+
+	AzirChampionLevel8: {
+		DisplayName: Azir, the Emperor of the Sands (Level 8)
+		Tooltip: ""
+	}
+
+	BardChampionLevel2: {
+		DisplayName: Bard, the Wandering Caretaker (Level 2)
+		Tooltip: ""
+	}
+
+	BardChampionLevel3: {
+		DisplayName: Bard, the Wandering Caretaker (Level 3)
+		Tooltip: ""
+	}
+
+	BardChampionLevel4: {
+		DisplayName: Bard, the Wandering Caretaker (Level 4)
+		Tooltip: ""
+	}
+
+	BardChampionLevel5: {
+		DisplayName: Bard, the Wandering Caretaker (Level 5)
+		Tooltip: ""
+	}
+
+	BardChampionLevel6: {
+		DisplayName: Bard, the Wandering Caretaker (Level 6)
+		Tooltip: ""
+	}
+
+	BardChampionLevel7: {
+		DisplayName: Bard, the Wandering Caretaker (Level 7)
+		Tooltip: ""
+	}
+
+	BardChampionLevel8: {
+		DisplayName: Bard, the Wandering Caretaker (Level 8)
+		Tooltip: ""
+	}
+
+	BelvethChampionLevel2: {
+		DisplayName: Bel'Veth, the Empress of the Void (Level 2)
+		Tooltip: ""
+	}
+
+	BelvethChampionLevel3: {
+		DisplayName: Bel'Veth, the Empress of the Void (Level 3)
+		Tooltip: ""
+	}
+
+	BelvethChampionLevel4: {
+		DisplayName: Bel'Veth, the Empress of the Void (Level 4)
+		Tooltip: ""
+	}
+
+	BelvethChampionLevel5: {
+		DisplayName: Bel'Veth, the Empress of the Void (Level 5)
+		Tooltip: ""
+	}
+
+	BelvethChampionLevel6: {
+		DisplayName: Bel'Veth, the Empress of the Void (Level 6)
+		Tooltip: ""
+	}
+
+	BelvethChampionLevel7: {
+		DisplayName: Bel'Veth, the Empress of the Void (Level 7)
+		Tooltip: ""
+	}
+
+	BelvethChampionLevel8: {
+		DisplayName: Bel'Veth, the Empress of the Void (Level 8)
+		Tooltip: ""
+	}
+
+	BlitzcrankChampionLevel2: {
+		DisplayName: Blitzcrank, the Great Steam Golem (Level 2)
+		Tooltip: ""
+	}
+
+	BlitzcrankChampionLevel3: {
+		DisplayName: Blitzcrank, the Great Steam Golem (Level 3)
+		Tooltip: ""
+	}
+
+	BlitzcrankChampionLevel4: {
+		DisplayName: Blitzcrank, the Great Steam Golem (Level 4)
+		Tooltip: ""
+	}
+
+	BlitzcrankChampionLevel5: {
+		DisplayName: Blitzcrank, the Great Steam Golem (Level 5)
+		Tooltip: ""
+	}
+
+	BlitzcrankChampionLevel6: {
+		DisplayName: Blitzcrank, the Great Steam Golem (Level 6)
+		Tooltip: ""
+	}
+
+	BlitzcrankChampionLevel7: {
+		DisplayName: Blitzcrank, the Great Steam Golem (Level 7)
+		Tooltip: ""
+	}
+
+	BlitzcrankChampionLevel8: {
+		DisplayName: Blitzcrank, the Great Steam Golem (Level 8)
+		Tooltip: ""
+	}
+
+	BrandChampionLevel2: {
+		DisplayName: Brand, the Burning Vengeance (Level 2)
+		Tooltip: ""
+	}
+
+	BrandChampionLevel3: {
+		DisplayName: Brand, the Burning Vengeance (Level 3)
+		Tooltip: ""
+	}
+
+	BrandChampionLevel4: {
+		DisplayName: Brand, the Burning Vengeance (Level 4)
+		Tooltip: ""
+	}
+
+	BrandChampionLevel5: {
+		DisplayName: Brand, the Burning Vengeance (Level 5)
+		Tooltip: ""
+	}
+
+	BrandChampionLevel6: {
+		DisplayName: Brand, the Burning Vengeance (Level 6)
+		Tooltip: ""
+	}
+
+	BrandChampionLevel7: {
+		DisplayName: Brand, the Burning Vengeance (Level 7)
+		Tooltip: ""
+	}
+
+	BrandChampionLevel8: {
+		DisplayName: Brand, the Burning Vengeance (Level 8)
+		Tooltip: ""
+	}
+
+	BraumChampionLevel2: {
+		DisplayName: Braum, the Heart of the Freljord (Level 2)
+		Tooltip: ""
+	}
+
+	BraumChampionLevel3: {
+		DisplayName: Braum, the Heart of the Freljord (Level 3)
+		Tooltip: ""
+	}
+
+	BraumChampionLevel4: {
+		DisplayName: Braum, the Heart of the Freljord (Level 4)
+		Tooltip: ""
+	}
+
+	BraumChampionLevel5: {
+		DisplayName: Braum, the Heart of the Freljord (Level 5)
+		Tooltip: ""
+	}
+
+	BraumChampionLevel6: {
+		DisplayName: Braum, the Heart of the Freljord (Level 6)
+		Tooltip: ""
+	}
+
+	BraumChampionLevel7: {
+		DisplayName: Braum, the Heart of the Freljord (Level 7)
+		Tooltip: ""
+	}
+
+	BraumChampionLevel8: {
+		DisplayName: Braum, the Heart of the Freljord (Level 8)
+		Tooltip: ""
+	}
+
+	BriarChampionLevel2: {
+		DisplayName: Briar, the Restrained Hunger (Level 2)
+		Tooltip: ""
+	}
+
+	BriarChampionLevel3: {
+		DisplayName: Briar, the Restrained Hunger (Level 3)
+		Tooltip: ""
+	}
+
+	BriarChampionLevel4: {
+		DisplayName: Briar, the Restrained Hunger (Level 4)
+		Tooltip: ""
+	}
+
+	BriarChampionLevel5: {
+		DisplayName: Briar, the Restrained Hunger (Level 5)
+		Tooltip: ""
+	}
+
+	BriarChampionLevel6: {
+		DisplayName: Briar, the Restrained Hunger (Level 6)
+		Tooltip: ""
+	}
+
+	BriarChampionLevel7: {
+		DisplayName: Briar, the Restrained Hunger (Level 7)
+		Tooltip: ""
+	}
+
+	BriarChampionLevel8: {
+		DisplayName: Briar, the Restrained Hunger (Level 8)
+		Tooltip: ""
+	}
+
+	CaitlynChampionLevel2: {
+		DisplayName: Caitlyn, the Sheriff of Piltover (Level 2)
+		Tooltip: ""
+	}
+
+	CaitlynChampionLevel3: {
+		DisplayName: Caitlyn, the Sheriff of Piltover (Level 3)
+		Tooltip: ""
+	}
+
+	CaitlynChampionLevel4: {
+		DisplayName: Caitlyn, the Sheriff of Piltover (Level 4)
+		Tooltip: ""
+	}
+
+	CaitlynChampionLevel5: {
+		DisplayName: Caitlyn, the Sheriff of Piltover (Level 5)
+		Tooltip: ""
+	}
+
+	CaitlynChampionLevel6: {
+		DisplayName: Caitlyn, the Sheriff of Piltover (Level 6)
+		Tooltip: ""
+	}
+
+	CaitlynChampionLevel7: {
+		DisplayName: Caitlyn, the Sheriff of Piltover (Level 7)
+		Tooltip: ""
+	}
+
+	CaitlynChampionLevel8: {
+		DisplayName: Caitlyn, the Sheriff of Piltover (Level 8)
+		Tooltip: ""
+	}
+
+	CamilleChampionLevel2: {
+		DisplayName: Camille, the Steel Shadow (Level 2)
+		Tooltip: ""
+	}
+
+	CamilleChampionLevel3: {
+		DisplayName: Camille, the Steel Shadow (Level 3)
+		Tooltip: ""
+	}
+
+	CamilleChampionLevel4: {
+		DisplayName: Camille, the Steel Shadow (Level 4)
+		Tooltip: ""
+	}
+
+	CamilleChampionLevel5: {
+		DisplayName: Camille, the Steel Shadow (Level 5)
+		Tooltip: ""
+	}
+
+	CamilleChampionLevel6: {
+		DisplayName: Camille, the Steel Shadow (Level 6)
+		Tooltip: ""
+	}
+
+	CamilleChampionLevel7: {
+		DisplayName: Camille, the Steel Shadow (Level 7)
+		Tooltip: ""
+	}
+
+	CamilleChampionLevel8: {
+		DisplayName: Camille, the Steel Shadow (Level 8)
+		Tooltip: ""
+	}
+
+	CassiopeiaChampionLevel2: {
+		DisplayName: Cassiopeia, the Serpent's Embrace (Level 2)
+		Tooltip: ""
+	}
+
+	CassiopeiaChampionLevel3: {
+		DisplayName: Cassiopeia, the Serpent's Embrace (Level 3)
+		Tooltip: ""
+	}
+
+	CassiopeiaChampionLevel4: {
+		DisplayName: Cassiopeia, the Serpent's Embrace (Level 4)
+		Tooltip: ""
+	}
+
+	CassiopeiaChampionLevel5: {
+		DisplayName: Cassiopeia, the Serpent's Embrace (Level 5)
+		Tooltip: ""
+	}
+
+	CassiopeiaChampionLevel6: {
+		DisplayName: Cassiopeia, the Serpent's Embrace (Level 6)
+		Tooltip: ""
+	}
+
+	CassiopeiaChampionLevel7: {
+		DisplayName: Cassiopeia, the Serpent's Embrace (Level 7)
+		Tooltip: ""
+	}
+
+	CassiopeiaChampionLevel8: {
+		DisplayName: Cassiopeia, the Serpent's Embrace (Level 8)
+		Tooltip: ""
+	}
+
+	ChogathChampionLevel2: {
+		DisplayName: Cho'Gath, the Terror of the Void (Level 2)
+		Tooltip: ""
+	}
+
+	ChogathChampionLevel3: {
+		DisplayName: Cho'Gath, the Terror of the Void (Level 3)
+		Tooltip: ""
+	}
+
+	ChogathChampionLevel4: {
+		DisplayName: Cho'Gath, the Terror of the Void (Level 4)
+		Tooltip: ""
+	}
+
+	ChogathChampionLevel5: {
+		DisplayName: Cho'Gath, the Terror of the Void (Level 5)
+		Tooltip: ""
+	}
+
+	ChogathChampionLevel6: {
+		DisplayName: Cho'Gath, the Terror of the Void (Level 6)
+		Tooltip: ""
+	}
+
+	ChogathChampionLevel7: {
+		DisplayName: Cho'Gath, the Terror of the Void (Level 7)
+		Tooltip: ""
+	}
+
+	ChogathChampionLevel8: {
+		DisplayName: Cho'Gath, the Terror of the Void (Level 8)
+		Tooltip: ""
+	}
+
+	CorkiChampionLevel2: {
+		DisplayName: Corki, the Daring Bombardier (Level 2)
+		Tooltip: ""
+	}
+
+	CorkiChampionLevel3: {
+		DisplayName: Corki, the Daring Bombardier (Level 3)
+		Tooltip: ""
+	}
+
+	CorkiChampionLevel4: {
+		DisplayName: Corki, the Daring Bombardier (Level 4)
+		Tooltip: ""
+	}
+
+	CorkiChampionLevel5: {
+		DisplayName: Corki, the Daring Bombardier (Level 5)
+		Tooltip: ""
+	}
+
+	CorkiChampionLevel6: {
+		DisplayName: Corki, the Daring Bombardier (Level 6)
+		Tooltip: ""
+	}
+
+	CorkiChampionLevel7: {
+		DisplayName: Corki, the Daring Bombardier (Level 7)
+		Tooltip: ""
+	}
+
+	CorkiChampionLevel8: {
+		DisplayName: Corki, the Daring Bombardier (Level 8)
+		Tooltip: ""
+	}
+
+	DariusChampionLevel2: {
+		DisplayName: Darius, the Hand of Noxus (Level 2)
+		Tooltip: ""
+	}
+
+	DariusChampionLevel3: {
+		DisplayName: Darius, the Hand of Noxus (Level 3)
+		Tooltip: ""
+	}
+
+	DariusChampionLevel4: {
+		DisplayName: Darius, the Hand of Noxus (Level 4)
+		Tooltip: ""
+	}
+
+	DariusChampionLevel5: {
+		DisplayName: Darius, the Hand of Noxus (Level 5)
+		Tooltip: ""
+	}
+
+	DariusChampionLevel6: {
+		DisplayName: Darius, the Hand of Noxus (Level 6)
+		Tooltip: ""
+	}
+
+	DariusChampionLevel7: {
+		DisplayName: Darius, the Hand of Noxus (Level 7)
+		Tooltip: ""
+	}
+
+	DariusChampionLevel8: {
+		DisplayName: Darius, the Hand of Noxus (Level 8)
+		Tooltip: ""
+	}
+
+	DianaChampionLevel2: {
+		DisplayName: Diana, Scorn of the Moon (Level 2)
+		Tooltip: ""
+	}
+
+	DianaChampionLevel3: {
+		DisplayName: Diana, Scorn of the Moon (Level 3)
+		Tooltip: ""
+	}
+
+	DianaChampionLevel4: {
+		DisplayName: Diana, Scorn of the Moon (Level 4)
+		Tooltip: ""
+	}
+
+	DianaChampionLevel5: {
+		DisplayName: Diana, Scorn of the Moon (Level 5)
+		Tooltip: ""
+	}
+
+	DianaChampionLevel6: {
+		DisplayName: Diana, Scorn of the Moon (Level 6)
+		Tooltip: ""
+	}
+
+	DianaChampionLevel7: {
+		DisplayName: Diana, Scorn of the Moon (Level 7)
+		Tooltip: ""
+	}
+
+	DianaChampionLevel8: {
+		DisplayName: Diana, Scorn of the Moon (Level 8)
+		Tooltip: ""
+	}
+
+	DravenChampionLevel2: {
+		DisplayName: Draven, the Glorious Executioner (Level 2)
+		Tooltip: ""
+	}
+
+	DravenChampionLevel3: {
+		DisplayName: Draven, the Glorious Executioner (Level 3)
+		Tooltip: ""
+	}
+
+	DravenChampionLevel4: {
+		DisplayName: Draven, the Glorious Executioner (Level 4)
+		Tooltip: ""
+	}
+
+	DravenChampionLevel5: {
+		DisplayName: Draven, the Glorious Executioner (Level 5)
+		Tooltip: ""
+	}
+
+	DravenChampionLevel6: {
+		DisplayName: Draven, the Glorious Executioner (Level 6)
+		Tooltip: ""
+	}
+
+	DravenChampionLevel7: {
+		DisplayName: Draven, the Glorious Executioner (Level 7)
+		Tooltip: ""
+	}
+
+	DravenChampionLevel8: {
+		DisplayName: Draven, the Glorious Executioner (Level 8)
+		Tooltip: ""
+	}
+
+	DrMundoChampionLevel2: {
+		DisplayName: Dr. Mundo, the Madman of Zaun (Level 2)
+		Tooltip: ""
+	}
+
+	DrMundoChampionLevel3: {
+		DisplayName: Dr. Mundo, the Madman of Zaun (Level 3)
+		Tooltip: ""
+	}
+
+	DrMundoChampionLevel4: {
+		DisplayName: Dr. Mundo, the Madman of Zaun (Level 4)
+		Tooltip: ""
+	}
+
+	DrMundoChampionLevel5: {
+		DisplayName: Dr. Mundo, the Madman of Zaun (Level 5)
+		Tooltip: ""
+	}
+
+	DrMundoChampionLevel6: {
+		DisplayName: Dr. Mundo, the Madman of Zaun (Level 6)
+		Tooltip: ""
+	}
+
+	DrMundoChampionLevel7: {
+		DisplayName: Dr. Mundo, the Madman of Zaun (Level 7)
+		Tooltip: ""
+	}
+
+	DrMundoChampionLevel8: {
+		DisplayName: Dr. Mundo, the Madman of Zaun (Level 8)
+		Tooltip: ""
+	}
+
+	EkkoChampionLevel2: {
+		DisplayName: Ekko, the Boy Who Shattered Time (Level 2)
+		Tooltip: ""
+	}
+
+	EkkoChampionLevel3: {
+		DisplayName: Ekko, the Boy Who Shattered Time (Level 3)
+		Tooltip: ""
+	}
+
+	EkkoChampionLevel4: {
+		DisplayName: Ekko, the Boy Who Shattered Time (Level 4)
+		Tooltip: ""
+	}
+
+	EkkoChampionLevel5: {
+		DisplayName: Ekko, the Boy Who Shattered Time (Level 5)
+		Tooltip: ""
+	}
+
+	EkkoChampionLevel6: {
+		DisplayName: Ekko, the Boy Who Shattered Time (Level 6)
+		Tooltip: ""
+	}
+
+	EkkoChampionLevel7: {
+		DisplayName: Ekko, the Boy Who Shattered Time (Level 7)
+		Tooltip: ""
+	}
+
+	EkkoChampionLevel8: {
+		DisplayName: Ekko, the Boy Who Shattered Time (Level 8)
+		Tooltip: ""
+	}
+
+	EliseChampionLevel2: {
+		DisplayName: Elise, the Spider Queen (Level 2)
+		Tooltip: ""
+	}
+
+	EliseChampionLevel3: {
+		DisplayName: Elise, the Spider Queen (Level 3)
+		Tooltip: ""
+	}
+
+	EliseChampionLevel4: {
+		DisplayName: Elise, the Spider Queen (Level 4)
+		Tooltip: ""
+	}
+
+	EliseChampionLevel5: {
+		DisplayName: Elise, the Spider Queen (Level 5)
+		Tooltip: ""
+	}
+
+	EliseChampionLevel6: {
+		DisplayName: Elise, the Spider Queen (Level 6)
+		Tooltip: ""
+	}
+
+	EliseChampionLevel7: {
+		DisplayName: Elise, the Spider Queen (Level 7)
+		Tooltip: ""
+	}
+
+	EliseChampionLevel8: {
+		DisplayName: Elise, the Spider Queen (Level 8)
+		Tooltip: ""
+	}
+
+	EvelynnChampionLevel2: {
+		DisplayName: Evelynn, Agony's Embrace (Level 2)
+		Tooltip: ""
+	}
+
+	EvelynnChampionLevel3: {
+		DisplayName: Evelynn, Agony's Embrace (Level 3)
+		Tooltip: ""
+	}
+
+	EvelynnChampionLevel4: {
+		DisplayName: Evelynn, Agony's Embrace (Level 4)
+		Tooltip: ""
+	}
+
+	EvelynnChampionLevel5: {
+		DisplayName: Evelynn, Agony's Embrace (Level 5)
+		Tooltip: ""
+	}
+
+	EvelynnChampionLevel6: {
+		DisplayName: Evelynn, Agony's Embrace (Level 6)
+		Tooltip: ""
+	}
+
+	EvelynnChampionLevel7: {
+		DisplayName: Evelynn, Agony's Embrace (Level 7)
+		Tooltip: ""
+	}
+
+	EvelynnChampionLevel8: {
+		DisplayName: Evelynn, Agony's Embrace (Level 8)
+		Tooltip: ""
+	}
+
+	EzrealChampionLevel2: {
+		DisplayName: Ezreal, the Prodigal Explorer (Level 2)
+		Tooltip: ""
+	}
+
+	EzrealChampionLevel3: {
+		DisplayName: Ezreal, the Prodigal Explorer (Level 3)
+		Tooltip: ""
+	}
+
+	EzrealChampionLevel4: {
+		DisplayName: Ezreal, the Prodigal Explorer (Level 4)
+		Tooltip: ""
+	}
+
+	EzrealChampionLevel5: {
+		DisplayName: Ezreal, the Prodigal Explorer (Level 5)
+		Tooltip: ""
+	}
+
+	EzrealChampionLevel6: {
+		DisplayName: Ezreal, the Prodigal Explorer (Level 6)
+		Tooltip: ""
+	}
+
+	EzrealChampionLevel7: {
+		DisplayName: Ezreal, the Prodigal Explorer (Level 7)
+		Tooltip: ""
+	}
+
+	EzrealChampionLevel8: {
+		DisplayName: Ezreal, the Prodigal Explorer (Level 8)
+		Tooltip: ""
+	}
+
+	FiddleSticksChampionLevel2: {
+		DisplayName: Fiddlesticks, the Ancient Fear (Level 2)
+		Tooltip: ""
+	}
+
+	FiddleSticksChampionLevel3: {
+		DisplayName: Fiddlesticks, the Ancient Fear (Level 3)
+		Tooltip: ""
+	}
+
+	FiddleSticksChampionLevel4: {
+		DisplayName: Fiddlesticks, the Ancient Fear (Level 4)
+		Tooltip: ""
+	}
+
+	FiddleSticksChampionLevel5: {
+		DisplayName: Fiddlesticks, the Ancient Fear (Level 5)
+		Tooltip: ""
+	}
+
+	FiddleSticksChampionLevel6: {
+		DisplayName: Fiddlesticks, the Ancient Fear (Level 6)
+		Tooltip: ""
+	}
+
+	FiddleSticksChampionLevel7: {
+		DisplayName: Fiddlesticks, the Ancient Fear (Level 7)
+		Tooltip: ""
+	}
+
+	FiddleSticksChampionLevel8: {
+		DisplayName: Fiddlesticks, the Ancient Fear (Level 8)
+		Tooltip: ""
+	}
+
+	FioraChampionLevel2: {
+		DisplayName: Fiora, the Grand Duelist (Level 2)
+		Tooltip: ""
+	}
+
+	FioraChampionLevel3: {
+		DisplayName: Fiora, the Grand Duelist (Level 3)
+		Tooltip: ""
+	}
+
+	FioraChampionLevel4: {
+		DisplayName: Fiora, the Grand Duelist (Level 4)
+		Tooltip: ""
+	}
+
+	FioraChampionLevel5: {
+		DisplayName: Fiora, the Grand Duelist (Level 5)
+		Tooltip: ""
+	}
+
+	FioraChampionLevel6: {
+		DisplayName: Fiora, the Grand Duelist (Level 6)
+		Tooltip: ""
+	}
+
+	FioraChampionLevel7: {
+		DisplayName: Fiora, the Grand Duelist (Level 7)
+		Tooltip: ""
+	}
+
+	FioraChampionLevel8: {
+		DisplayName: Fiora, the Grand Duelist (Level 8)
+		Tooltip: ""
+	}
+
+	FizzChampionLevel2: {
+		DisplayName: Fizz, the Tidal Trickster (Level 2)
+		Tooltip: ""
+	}
+
+	FizzChampionLevel3: {
+		DisplayName: Fizz, the Tidal Trickster (Level 3)
+		Tooltip: ""
+	}
+
+	FizzChampionLevel4: {
+		DisplayName: Fizz, the Tidal Trickster (Level 4)
+		Tooltip: ""
+	}
+
+	FizzChampionLevel5: {
+		DisplayName: Fizz, the Tidal Trickster (Level 5)
+		Tooltip: ""
+	}
+
+	FizzChampionLevel6: {
+		DisplayName: Fizz, the Tidal Trickster (Level 6)
+		Tooltip: ""
+	}
+
+	FizzChampionLevel7: {
+		DisplayName: Fizz, the Tidal Trickster (Level 7)
+		Tooltip: ""
+	}
+
+	FizzChampionLevel8: {
+		DisplayName: Fizz, the Tidal Trickster (Level 8)
+		Tooltip: ""
+	}
+
+	GalioChampionLevel2: {
+		DisplayName: Galio, the Colossus (Level 2)
+		Tooltip: ""
+	}
+
+	GalioChampionLevel3: {
+		DisplayName: Galio, the Colossus (Level 3)
+		Tooltip: ""
+	}
+
+	GalioChampionLevel4: {
+		DisplayName: Galio, the Colossus (Level 4)
+		Tooltip: ""
+	}
+
+	GalioChampionLevel5: {
+		DisplayName: Galio, the Colossus (Level 5)
+		Tooltip: ""
+	}
+
+	GalioChampionLevel6: {
+		DisplayName: Galio, the Colossus (Level 6)
+		Tooltip: ""
+	}
+
+	GalioChampionLevel7: {
+		DisplayName: Galio, the Colossus (Level 7)
+		Tooltip: ""
+	}
+
+	GalioChampionLevel8: {
+		DisplayName: Galio, the Colossus (Level 8)
+		Tooltip: ""
+	}
+
+	GangplankChampionLevel2: {
+		DisplayName: Gangplank, the Saltwater Scourge (Level 2)
+		Tooltip: ""
+	}
+
+	GangplankChampionLevel3: {
+		DisplayName: Gangplank, the Saltwater Scourge (Level 3)
+		Tooltip: ""
+	}
+
+	GangplankChampionLevel4: {
+		DisplayName: Gangplank, the Saltwater Scourge (Level 4)
+		Tooltip: ""
+	}
+
+	GangplankChampionLevel5: {
+		DisplayName: Gangplank, the Saltwater Scourge (Level 5)
+		Tooltip: ""
+	}
+
+	GangplankChampionLevel6: {
+		DisplayName: Gangplank, the Saltwater Scourge (Level 6)
+		Tooltip: ""
+	}
+
+	GangplankChampionLevel7: {
+		DisplayName: Gangplank, the Saltwater Scourge (Level 7)
+		Tooltip: ""
+	}
+
+	GangplankChampionLevel8: {
+		DisplayName: Gangplank, the Saltwater Scourge (Level 8)
+		Tooltip: ""
+	}
+
+	GarenChampionLevel2: {
+		DisplayName: Garen, The Might of Demacia (Level 2)
+		Tooltip: ""
+	}
+
+	GarenChampionLevel3: {
+		DisplayName: Garen, The Might of Demacia (Level 3)
+		Tooltip: ""
+	}
+
+	GarenChampionLevel4: {
+		DisplayName: Garen, The Might of Demacia (Level 4)
+		Tooltip: ""
+	}
+
+	GarenChampionLevel5: {
+		DisplayName: Garen, The Might of Demacia (Level 5)
+		Tooltip: ""
+	}
+
+	GarenChampionLevel6: {
+		DisplayName: Garen, The Might of Demacia (Level 6)
+		Tooltip: ""
+	}
+
+	GarenChampionLevel7: {
+		DisplayName: Garen, The Might of Demacia (Level 7)
+		Tooltip: ""
+	}
+
+	GarenChampionLevel8: {
+		DisplayName: Garen, The Might of Demacia (Level 8)
+		Tooltip: ""
+	}
+
+	GnarChampionLevel2: {
+		DisplayName: Gnar, the Missing Link (Level 2)
+		Tooltip: ""
+	}
+
+	GnarChampionLevel3: {
+		DisplayName: Gnar, the Missing Link (Level 3)
+		Tooltip: ""
+	}
+
+	GnarChampionLevel4: {
+		DisplayName: Gnar, the Missing Link (Level 4)
+		Tooltip: ""
+	}
+
+	GnarChampionLevel5: {
+		DisplayName: Gnar, the Missing Link (Level 5)
+		Tooltip: ""
+	}
+
+	GnarChampionLevel6: {
+		DisplayName: Gnar, the Missing Link (Level 6)
+		Tooltip: ""
+	}
+
+	GnarChampionLevel7: {
+		DisplayName: Gnar, the Missing Link (Level 7)
+		Tooltip: ""
+	}
+
+	GnarChampionLevel8: {
+		DisplayName: Gnar, the Missing Link (Level 8)
+		Tooltip: ""
+	}
+
+	GragasChampionLevel2: {
+		DisplayName: Gragas, the Rabble Rouser (Level 2)
+		Tooltip: ""
+	}
+
+	GragasChampionLevel3: {
+		DisplayName: Gragas, the Rabble Rouser (Level 3)
+		Tooltip: ""
+	}
+
+	GragasChampionLevel4: {
+		DisplayName: Gragas, the Rabble Rouser (Level 4)
+		Tooltip: ""
+	}
+
+	GragasChampionLevel5: {
+		DisplayName: Gragas, the Rabble Rouser (Level 5)
+		Tooltip: ""
+	}
+
+	GragasChampionLevel6: {
+		DisplayName: Gragas, the Rabble Rouser (Level 6)
+		Tooltip: ""
+	}
+
+	GragasChampionLevel7: {
+		DisplayName: Gragas, the Rabble Rouser (Level 7)
+		Tooltip: ""
+	}
+
+	GragasChampionLevel8: {
+		DisplayName: Gragas, the Rabble Rouser (Level 8)
+		Tooltip: ""
+	}
+
+	GravesChampionLevel2: {
+		DisplayName: Graves, the Outlaw (Level 2)
+		Tooltip: ""
+	}
+
+	GravesChampionLevel3: {
+		DisplayName: Graves, the Outlaw (Level 3)
+		Tooltip: ""
+	}
+
+	GravesChampionLevel4: {
+		DisplayName: Graves, the Outlaw (Level 4)
+		Tooltip: ""
+	}
+
+	GravesChampionLevel5: {
+		DisplayName: Graves, the Outlaw (Level 5)
+		Tooltip: ""
+	}
+
+	GravesChampionLevel6: {
+		DisplayName: Graves, the Outlaw (Level 6)
+		Tooltip: ""
+	}
+
+	GravesChampionLevel7: {
+		DisplayName: Graves, the Outlaw (Level 7)
+		Tooltip: ""
+	}
+
+	GravesChampionLevel8: {
+		DisplayName: Graves, the Outlaw (Level 8)
+		Tooltip: ""
+	}
+
+	GwenChampionLevel2: {
+		DisplayName: Gwen, The Hallowed Seamstress (Level 2)
+		Tooltip: ""
+	}
+
+	GwenChampionLevel3: {
+		DisplayName: Gwen, The Hallowed Seamstress (Level 3)
+		Tooltip: ""
+	}
+
+	GwenChampionLevel4: {
+		DisplayName: Gwen, The Hallowed Seamstress (Level 4)
+		Tooltip: ""
+	}
+
+	GwenChampionLevel5: {
+		DisplayName: Gwen, The Hallowed Seamstress (Level 5)
+		Tooltip: ""
+	}
+
+	GwenChampionLevel6: {
+		DisplayName: Gwen, The Hallowed Seamstress (Level 6)
+		Tooltip: ""
+	}
+
+	GwenChampionLevel7: {
+		DisplayName: Gwen, The Hallowed Seamstress (Level 7)
+		Tooltip: ""
+	}
+
+	GwenChampionLevel8: {
+		DisplayName: Gwen, The Hallowed Seamstress (Level 8)
+		Tooltip: ""
+	}
+
+	HecarimChampionLevel2: {
+		DisplayName: Hecarim, the Shadow of War (Level 2)
+		Tooltip: ""
+	}
+
+	HecarimChampionLevel3: {
+		DisplayName: Hecarim, the Shadow of War (Level 3)
+		Tooltip: ""
+	}
+
+	HecarimChampionLevel4: {
+		DisplayName: Hecarim, the Shadow of War (Level 4)
+		Tooltip: ""
+	}
+
+	HecarimChampionLevel5: {
+		DisplayName: Hecarim, the Shadow of War (Level 5)
+		Tooltip: ""
+	}
+
+	HecarimChampionLevel6: {
+		DisplayName: Hecarim, the Shadow of War (Level 6)
+		Tooltip: ""
+	}
+
+	HecarimChampionLevel7: {
+		DisplayName: Hecarim, the Shadow of War (Level 7)
+		Tooltip: ""
+	}
+
+	HecarimChampionLevel8: {
+		DisplayName: Hecarim, the Shadow of War (Level 8)
+		Tooltip: ""
+	}
+
+	HeimerdingerChampionLevel2: {
+		DisplayName: Heimerdinger, the Revered Inventor (Level 2)
+		Tooltip: ""
+	}
+
+	HeimerdingerChampionLevel3: {
+		DisplayName: Heimerdinger, the Revered Inventor (Level 3)
+		Tooltip: ""
+	}
+
+	HeimerdingerChampionLevel4: {
+		DisplayName: Heimerdinger, the Revered Inventor (Level 4)
+		Tooltip: ""
+	}
+
+	HeimerdingerChampionLevel5: {
+		DisplayName: Heimerdinger, the Revered Inventor (Level 5)
+		Tooltip: ""
+	}
+
+	HeimerdingerChampionLevel6: {
+		DisplayName: Heimerdinger, the Revered Inventor (Level 6)
+		Tooltip: ""
+	}
+
+	HeimerdingerChampionLevel7: {
+		DisplayName: Heimerdinger, the Revered Inventor (Level 7)
+		Tooltip: ""
+	}
+
+	HeimerdingerChampionLevel8: {
+		DisplayName: Heimerdinger, the Revered Inventor (Level 8)
+		Tooltip: ""
+	}
+
+	HweiChampionLevel2: {
+		DisplayName: Hwei, the Visionary (Level 2)
+		Tooltip: ""
+	}
+
+	HweiChampionLevel3: {
+		DisplayName: Hwei, the Visionary (Level 3)
+		Tooltip: ""
+	}
+
+	HweiChampionLevel4: {
+		DisplayName: Hwei, the Visionary (Level 4)
+		Tooltip: ""
+	}
+
+	HweiChampionLevel5: {
+		DisplayName: Hwei, the Visionary (Level 5)
+		Tooltip: ""
+	}
+
+	HweiChampionLevel6: {
+		DisplayName: Hwei, the Visionary (Level 6)
+		Tooltip: ""
+	}
+
+	HweiChampionLevel7: {
+		DisplayName: Hwei, the Visionary (Level 7)
+		Tooltip: ""
+	}
+
+	HweiChampionLevel8: {
+		DisplayName: Hwei, the Visionary (Level 8)
+		Tooltip: ""
+	}
+
+	IllaoiChampionLevel2: {
+		DisplayName: Illaoi, the Kraken Priestess (Level 2)
+		Tooltip: ""
+	}
+
+	IllaoiChampionLevel3: {
+		DisplayName: Illaoi, the Kraken Priestess (Level 3)
+		Tooltip: ""
+	}
+
+	IllaoiChampionLevel4: {
+		DisplayName: Illaoi, the Kraken Priestess (Level 4)
+		Tooltip: ""
+	}
+
+	IllaoiChampionLevel5: {
+		DisplayName: Illaoi, the Kraken Priestess (Level 5)
+		Tooltip: ""
+	}
+
+	IllaoiChampionLevel6: {
+		DisplayName: Illaoi, the Kraken Priestess (Level 6)
+		Tooltip: ""
+	}
+
+	IllaoiChampionLevel7: {
+		DisplayName: Illaoi, the Kraken Priestess (Level 7)
+		Tooltip: ""
+	}
+
+	IllaoiChampionLevel8: {
+		DisplayName: Illaoi, the Kraken Priestess (Level 8)
+		Tooltip: ""
+	}
+
+	IreliaChampionLevel2: {
+		DisplayName: Irelia, the Blade Dancer (Level 2)
+		Tooltip: ""
+	}
+
+	IreliaChampionLevel3: {
+		DisplayName: Irelia, the Blade Dancer (Level 3)
+		Tooltip: ""
+	}
+
+	IreliaChampionLevel4: {
+		DisplayName: Irelia, the Blade Dancer (Level 4)
+		Tooltip: ""
+	}
+
+	IreliaChampionLevel5: {
+		DisplayName: Irelia, the Blade Dancer (Level 5)
+		Tooltip: ""
+	}
+
+	IreliaChampionLevel6: {
+		DisplayName: Irelia, the Blade Dancer (Level 6)
+		Tooltip: ""
+	}
+
+	IreliaChampionLevel7: {
+		DisplayName: Irelia, the Blade Dancer (Level 7)
+		Tooltip: ""
+	}
+
+	IreliaChampionLevel8: {
+		DisplayName: Irelia, the Blade Dancer (Level 8)
+		Tooltip: ""
+	}
+
+	IvernChampionLevel2: {
+		DisplayName: Ivern, the Green Father (Level 2)
+		Tooltip: ""
+	}
+
+	IvernChampionLevel3: {
+		DisplayName: Ivern, the Green Father (Level 3)
+		Tooltip: ""
+	}
+
+	IvernChampionLevel4: {
+		DisplayName: Ivern, the Green Father (Level 4)
+		Tooltip: ""
+	}
+
+	IvernChampionLevel5: {
+		DisplayName: Ivern, the Green Father (Level 5)
+		Tooltip: ""
+	}
+
+	IvernChampionLevel6: {
+		DisplayName: Ivern, the Green Father (Level 6)
+		Tooltip: ""
+	}
+
+	IvernChampionLevel7: {
+		DisplayName: Ivern, the Green Father (Level 7)
+		Tooltip: ""
+	}
+
+	IvernChampionLevel8: {
+		DisplayName: Ivern, the Green Father (Level 8)
+		Tooltip: ""
+	}
+
+	JannaChampionLevel2: {
+		DisplayName: Janna, the Storm's Fury (Level 2)
+		Tooltip: ""
+	}
+
+	JannaChampionLevel3: {
+		DisplayName: Janna, the Storm's Fury (Level 3)
+		Tooltip: ""
+	}
+
+	JannaChampionLevel4: {
+		DisplayName: Janna, the Storm's Fury (Level 4)
+		Tooltip: ""
+	}
+
+	JannaChampionLevel5: {
+		DisplayName: Janna, the Storm's Fury (Level 5)
+		Tooltip: ""
+	}
+
+	JannaChampionLevel6: {
+		DisplayName: Janna, the Storm's Fury (Level 6)
+		Tooltip: ""
+	}
+
+	JannaChampionLevel7: {
+		DisplayName: Janna, the Storm's Fury (Level 7)
+		Tooltip: ""
+	}
+
+	JannaChampionLevel8: {
+		DisplayName: Janna, the Storm's Fury (Level 8)
+		Tooltip: ""
+	}
+
+	JarvanIVChampionLevel2: {
+		DisplayName: Jarvan IV, the Exemplar of Demacia (Level 2)
+		Tooltip: ""
+	}
+
+	JarvanIVChampionLevel3: {
+		DisplayName: Jarvan IV, the Exemplar of Demacia (Level 3)
+		Tooltip: ""
+	}
+
+	JarvanIVChampionLevel4: {
+		DisplayName: Jarvan IV, the Exemplar of Demacia (Level 4)
+		Tooltip: ""
+	}
+
+	JarvanIVChampionLevel5: {
+		DisplayName: Jarvan IV, the Exemplar of Demacia (Level 5)
+		Tooltip: ""
+	}
+
+	JarvanIVChampionLevel6: {
+		DisplayName: Jarvan IV, the Exemplar of Demacia (Level 6)
+		Tooltip: ""
+	}
+
+	JarvanIVChampionLevel7: {
+		DisplayName: Jarvan IV, the Exemplar of Demacia (Level 7)
+		Tooltip: ""
+	}
+
+	JarvanIVChampionLevel8: {
+		DisplayName: Jarvan IV, the Exemplar of Demacia (Level 8)
+		Tooltip: ""
+	}
+
+	JaxChampionLevel2: {
+		DisplayName: Jax, Grandmaster at Arms (Level 2)
+		Tooltip: ""
+	}
+
+	JaxChampionLevel3: {
+		DisplayName: Jax, Grandmaster at Arms (Level 3)
+		Tooltip: ""
+	}
+
+	JaxChampionLevel4: {
+		DisplayName: Jax, Grandmaster at Arms (Level 4)
+		Tooltip: ""
+	}
+
+	JaxChampionLevel5: {
+		DisplayName: Jax, Grandmaster at Arms (Level 5)
+		Tooltip: ""
+	}
+
+	JaxChampionLevel6: {
+		DisplayName: Jax, Grandmaster at Arms (Level 6)
+		Tooltip: ""
+	}
+
+	JaxChampionLevel7: {
+		DisplayName: Jax, Grandmaster at Arms (Level 7)
+		Tooltip: ""
+	}
+
+	JaxChampionLevel8: {
+		DisplayName: Jax, Grandmaster at Arms (Level 8)
+		Tooltip: ""
+	}
+
+	JayceChampionLevel2: {
+		DisplayName: Jayce, the Defender of Tomorrow (Level 2)
+		Tooltip: ""
+	}
+
+	JayceChampionLevel3: {
+		DisplayName: Jayce, the Defender of Tomorrow (Level 3)
+		Tooltip: ""
+	}
+
+	JayceChampionLevel4: {
+		DisplayName: Jayce, the Defender of Tomorrow (Level 4)
+		Tooltip: ""
+	}
+
+	JayceChampionLevel5: {
+		DisplayName: Jayce, the Defender of Tomorrow (Level 5)
+		Tooltip: ""
+	}
+
+	JayceChampionLevel6: {
+		DisplayName: Jayce, the Defender of Tomorrow (Level 6)
+		Tooltip: ""
+	}
+
+	JayceChampionLevel7: {
+		DisplayName: Jayce, the Defender of Tomorrow (Level 7)
+		Tooltip: ""
+	}
+
+	JayceChampionLevel8: {
+		DisplayName: Jayce, the Defender of Tomorrow (Level 8)
+		Tooltip: ""
+	}
+
+	JhinChampionLevel2: {
+		DisplayName: Jhin, the Virtuoso (Level 2)
+		Tooltip: ""
+	}
+
+	JhinChampionLevel3: {
+		DisplayName: Jhin, the Virtuoso (Level 3)
+		Tooltip: ""
+	}
+
+	JhinChampionLevel4: {
+		DisplayName: Jhin, the Virtuoso (Level 4)
+		Tooltip: ""
+	}
+
+	JhinChampionLevel5: {
+		DisplayName: Jhin, the Virtuoso (Level 5)
+		Tooltip: ""
+	}
+
+	JhinChampionLevel6: {
+		DisplayName: Jhin, the Virtuoso (Level 6)
+		Tooltip: ""
+	}
+
+	JhinChampionLevel7: {
+		DisplayName: Jhin, the Virtuoso (Level 7)
+		Tooltip: ""
+	}
+
+	JhinChampionLevel8: {
+		DisplayName: Jhin, the Virtuoso (Level 8)
+		Tooltip: ""
+	}
+
+	JinxChampionLevel2: {
+		DisplayName: Jinx, the Loose Cannon (Level 2)
+		Tooltip: ""
+	}
+
+	JinxChampionLevel3: {
+		DisplayName: Jinx, the Loose Cannon (Level 3)
+		Tooltip: ""
+	}
+
+	JinxChampionLevel4: {
+		DisplayName: Jinx, the Loose Cannon (Level 4)
+		Tooltip: ""
+	}
+
+	JinxChampionLevel5: {
+		DisplayName: Jinx, the Loose Cannon (Level 5)
+		Tooltip: ""
+	}
+
+	JinxChampionLevel6: {
+		DisplayName: Jinx, the Loose Cannon (Level 6)
+		Tooltip: ""
+	}
+
+	JinxChampionLevel7: {
+		DisplayName: Jinx, the Loose Cannon (Level 7)
+		Tooltip: ""
+	}
+
+	JinxChampionLevel8: {
+		DisplayName: Jinx, the Loose Cannon (Level 8)
+		Tooltip: ""
+	}
+
+	KaisaChampionLevel2: {
+		DisplayName: Kai'Sa, Daughter of the Void (Level 2)
+		Tooltip: ""
+	}
+
+	KaisaChampionLevel3: {
+		DisplayName: Kai'Sa, Daughter of the Void (Level 3)
+		Tooltip: ""
+	}
+
+	KaisaChampionLevel4: {
+		DisplayName: Kai'Sa, Daughter of the Void (Level 4)
+		Tooltip: ""
+	}
+
+	KaisaChampionLevel5: {
+		DisplayName: Kai'Sa, Daughter of the Void (Level 5)
+		Tooltip: ""
+	}
+
+	KaisaChampionLevel6: {
+		DisplayName: Kai'Sa, Daughter of the Void (Level 6)
+		Tooltip: ""
+	}
+
+	KaisaChampionLevel7: {
+		DisplayName: Kai'Sa, Daughter of the Void (Level 7)
+		Tooltip: ""
+	}
+
+	KaisaChampionLevel8: {
+		DisplayName: Kai'Sa, Daughter of the Void (Level 8)
+		Tooltip: ""
+	}
+
+	KalistaChampionLevel2: {
+		DisplayName: Kalista, the Spear of Vengeance (Level 2)
+		Tooltip: ""
+	}
+
+	KalistaChampionLevel3: {
+		DisplayName: Kalista, the Spear of Vengeance (Level 3)
+		Tooltip: ""
+	}
+
+	KalistaChampionLevel4: {
+		DisplayName: Kalista, the Spear of Vengeance (Level 4)
+		Tooltip: ""
+	}
+
+	KalistaChampionLevel5: {
+		DisplayName: Kalista, the Spear of Vengeance (Level 5)
+		Tooltip: ""
+	}
+
+	KalistaChampionLevel6: {
+		DisplayName: Kalista, the Spear of Vengeance (Level 6)
+		Tooltip: ""
+	}
+
+	KalistaChampionLevel7: {
+		DisplayName: Kalista, the Spear of Vengeance (Level 7)
+		Tooltip: ""
+	}
+
+	KalistaChampionLevel8: {
+		DisplayName: Kalista, the Spear of Vengeance (Level 8)
+		Tooltip: ""
+	}
+
+	KarmaChampionLevel2: {
+		DisplayName: Karma, the Enlightened One (Level 2)
+		Tooltip: ""
+	}
+
+	KarmaChampionLevel3: {
+		DisplayName: Karma, the Enlightened One (Level 3)
+		Tooltip: ""
+	}
+
+	KarmaChampionLevel4: {
+		DisplayName: Karma, the Enlightened One (Level 4)
+		Tooltip: ""
+	}
+
+	KarmaChampionLevel5: {
+		DisplayName: Karma, the Enlightened One (Level 5)
+		Tooltip: ""
+	}
+
+	KarmaChampionLevel6: {
+		DisplayName: Karma, the Enlightened One (Level 6)
+		Tooltip: ""
+	}
+
+	KarmaChampionLevel7: {
+		DisplayName: Karma, the Enlightened One (Level 7)
+		Tooltip: ""
+	}
+
+	KarmaChampionLevel8: {
+		DisplayName: Karma, the Enlightened One (Level 8)
+		Tooltip: ""
+	}
+
+	KarthusChampionLevel2: {
+		DisplayName: Karthus, the Deathsinger (Level 2)
+		Tooltip: ""
+	}
+
+	KarthusChampionLevel3: {
+		DisplayName: Karthus, the Deathsinger (Level 3)
+		Tooltip: ""
+	}
+
+	KarthusChampionLevel4: {
+		DisplayName: Karthus, the Deathsinger (Level 4)
+		Tooltip: ""
+	}
+
+	KarthusChampionLevel5: {
+		DisplayName: Karthus, the Deathsinger (Level 5)
+		Tooltip: ""
+	}
+
+	KarthusChampionLevel6: {
+		DisplayName: Karthus, the Deathsinger (Level 6)
+		Tooltip: ""
+	}
+
+	KarthusChampionLevel7: {
+		DisplayName: Karthus, the Deathsinger (Level 7)
+		Tooltip: ""
+	}
+
+	KarthusChampionLevel8: {
+		DisplayName: Karthus, the Deathsinger (Level 8)
+		Tooltip: ""
+	}
+
+	KassadinChampionLevel2: {
+		DisplayName: Kassadin, the Void Walker (Level 2)
+		Tooltip: ""
+	}
+
+	KassadinChampionLevel3: {
+		DisplayName: Kassadin, the Void Walker (Level 3)
+		Tooltip: ""
+	}
+
+	KassadinChampionLevel4: {
+		DisplayName: Kassadin, the Void Walker (Level 4)
+		Tooltip: ""
+	}
+
+	KassadinChampionLevel5: {
+		DisplayName: Kassadin, the Void Walker (Level 5)
+		Tooltip: ""
+	}
+
+	KassadinChampionLevel6: {
+		DisplayName: Kassadin, the Void Walker (Level 6)
+		Tooltip: ""
+	}
+
+	KassadinChampionLevel7: {
+		DisplayName: Kassadin, the Void Walker (Level 7)
+		Tooltip: ""
+	}
+
+	KassadinChampionLevel8: {
+		DisplayName: Kassadin, the Void Walker (Level 8)
+		Tooltip: ""
+	}
+
+	KatarinaChampionLevel2: {
+		DisplayName: Katarina, the Sinister Blade (Level 2)
+		Tooltip: ""
+	}
+
+	KatarinaChampionLevel3: {
+		DisplayName: Katarina, the Sinister Blade (Level 3)
+		Tooltip: ""
+	}
+
+	KatarinaChampionLevel4: {
+		DisplayName: Katarina, the Sinister Blade (Level 4)
+		Tooltip: ""
+	}
+
+	KatarinaChampionLevel5: {
+		DisplayName: Katarina, the Sinister Blade (Level 5)
+		Tooltip: ""
+	}
+
+	KatarinaChampionLevel6: {
+		DisplayName: Katarina, the Sinister Blade (Level 6)
+		Tooltip: ""
+	}
+
+	KatarinaChampionLevel7: {
+		DisplayName: Katarina, the Sinister Blade (Level 7)
+		Tooltip: ""
+	}
+
+	KatarinaChampionLevel8: {
+		DisplayName: Katarina, the Sinister Blade (Level 8)
+		Tooltip: ""
+	}
+
+	KayleChampionLevel2: {
+		DisplayName: Kayle, the Righteous (Level 2)
+		Tooltip: ""
+	}
+
+	KayleChampionLevel3: {
+		DisplayName: Kayle, the Righteous (Level 3)
+		Tooltip: ""
+	}
+
+	KayleChampionLevel4: {
+		DisplayName: Kayle, the Righteous (Level 4)
+		Tooltip: ""
+	}
+
+	KayleChampionLevel5: {
+		DisplayName: Kayle, the Righteous (Level 5)
+		Tooltip: ""
+	}
+
+	KayleChampionLevel6: {
+		DisplayName: Kayle, the Righteous (Level 6)
+		Tooltip: ""
+	}
+
+	KayleChampionLevel7: {
+		DisplayName: Kayle, the Righteous (Level 7)
+		Tooltip: ""
+	}
+
+	KayleChampionLevel8: {
+		DisplayName: Kayle, the Righteous (Level 8)
+		Tooltip: ""
+	}
+
+	KaynChampionLevel2: {
+		DisplayName: Kayn, the Shadow Reaper (Level 2)
+		Tooltip: ""
+	}
+
+	KaynChampionLevel3: {
+		DisplayName: Kayn, the Shadow Reaper (Level 3)
+		Tooltip: ""
+	}
+
+	KaynChampionLevel4: {
+		DisplayName: Kayn, the Shadow Reaper (Level 4)
+		Tooltip: ""
+	}
+
+	KaynChampionLevel5: {
+		DisplayName: Kayn, the Shadow Reaper (Level 5)
+		Tooltip: ""
+	}
+
+	KaynChampionLevel6: {
+		DisplayName: Kayn, the Shadow Reaper (Level 6)
+		Tooltip: ""
+	}
+
+	KaynChampionLevel7: {
+		DisplayName: Kayn, the Shadow Reaper (Level 7)
+		Tooltip: ""
+	}
+
+	KaynChampionLevel8: {
+		DisplayName: Kayn, the Shadow Reaper (Level 8)
+		Tooltip: ""
+	}
+
+	KennenChampionLevel2: {
+		DisplayName: Kennen, the Heart of the Tempest (Level 2)
+		Tooltip: ""
+	}
+
+	KennenChampionLevel3: {
+		DisplayName: Kennen, the Heart of the Tempest (Level 3)
+		Tooltip: ""
+	}
+
+	KennenChampionLevel4: {
+		DisplayName: Kennen, the Heart of the Tempest (Level 4)
+		Tooltip: ""
+	}
+
+	KennenChampionLevel5: {
+		DisplayName: Kennen, the Heart of the Tempest (Level 5)
+		Tooltip: ""
+	}
+
+	KennenChampionLevel6: {
+		DisplayName: Kennen, the Heart of the Tempest (Level 6)
+		Tooltip: ""
+	}
+
+	KennenChampionLevel7: {
+		DisplayName: Kennen, the Heart of the Tempest (Level 7)
+		Tooltip: ""
+	}
+
+	KennenChampionLevel8: {
+		DisplayName: Kennen, the Heart of the Tempest (Level 8)
+		Tooltip: ""
+	}
+
+	KhazixChampionLevel2: {
+		DisplayName: Kha'Zix, the Voidreaver (Level 2)
+		Tooltip: ""
+	}
+
+	KhazixChampionLevel3: {
+		DisplayName: Kha'Zix, the Voidreaver (Level 3)
+		Tooltip: ""
+	}
+
+	KhazixChampionLevel4: {
+		DisplayName: Kha'Zix, the Voidreaver (Level 4)
+		Tooltip: ""
+	}
+
+	KhazixChampionLevel5: {
+		DisplayName: Kha'Zix, the Voidreaver (Level 5)
+		Tooltip: ""
+	}
+
+	KhazixChampionLevel6: {
+		DisplayName: Kha'Zix, the Voidreaver (Level 6)
+		Tooltip: ""
+	}
+
+	KhazixChampionLevel7: {
+		DisplayName: Kha'Zix, the Voidreaver (Level 7)
+		Tooltip: ""
+	}
+
+	KhazixChampionLevel8: {
+		DisplayName: Kha'Zix, the Voidreaver (Level 8)
+		Tooltip: ""
+	}
+
+	KindredChampionLevel2: {
+		DisplayName: Kindred, The Eternal Hunters (Level 2)
+		Tooltip: ""
+	}
+
+	KindredChampionLevel3: {
+		DisplayName: Kindred, The Eternal Hunters (Level 3)
+		Tooltip: ""
+	}
+
+	KindredChampionLevel4: {
+		DisplayName: Kindred, The Eternal Hunters (Level 4)
+		Tooltip: ""
+	}
+
+	KindredChampionLevel5: {
+		DisplayName: Kindred, The Eternal Hunters (Level 5)
+		Tooltip: ""
+	}
+
+	KindredChampionLevel6: {
+		DisplayName: Kindred, The Eternal Hunters (Level 6)
+		Tooltip: ""
+	}
+
+	KindredChampionLevel7: {
+		DisplayName: Kindred, The Eternal Hunters (Level 7)
+		Tooltip: ""
+	}
+
+	KindredChampionLevel8: {
+		DisplayName: Kindred, The Eternal Hunters (Level 8)
+		Tooltip: ""
+	}
+
+	KledChampionLevel2: {
+		DisplayName: Kled, the Cantankerous Cavalier (Level 2)
+		Tooltip: ""
+	}
+
+	KledChampionLevel3: {
+		DisplayName: Kled, the Cantankerous Cavalier (Level 3)
+		Tooltip: ""
+	}
+
+	KledChampionLevel4: {
+		DisplayName: Kled, the Cantankerous Cavalier (Level 4)
+		Tooltip: ""
+	}
+
+	KledChampionLevel5: {
+		DisplayName: Kled, the Cantankerous Cavalier (Level 5)
+		Tooltip: ""
+	}
+
+	KledChampionLevel6: {
+		DisplayName: Kled, the Cantankerous Cavalier (Level 6)
+		Tooltip: ""
+	}
+
+	KledChampionLevel7: {
+		DisplayName: Kled, the Cantankerous Cavalier (Level 7)
+		Tooltip: ""
+	}
+
+	KledChampionLevel8: {
+		DisplayName: Kled, the Cantankerous Cavalier (Level 8)
+		Tooltip: ""
+	}
+
+	KogMawChampionLevel2: {
+		DisplayName: Kog'Maw, the Mouth of the Abyss (Level 2)
+		Tooltip: ""
+	}
+
+	KogMawChampionLevel3: {
+		DisplayName: Kog'Maw, the Mouth of the Abyss (Level 3)
+		Tooltip: ""
+	}
+
+	KogMawChampionLevel4: {
+		DisplayName: Kog'Maw, the Mouth of the Abyss (Level 4)
+		Tooltip: ""
+	}
+
+	KogMawChampionLevel5: {
+		DisplayName: Kog'Maw, the Mouth of the Abyss (Level 5)
+		Tooltip: ""
+	}
+
+	KogMawChampionLevel6: {
+		DisplayName: Kog'Maw, the Mouth of the Abyss (Level 6)
+		Tooltip: ""
+	}
+
+	KogMawChampionLevel7: {
+		DisplayName: Kog'Maw, the Mouth of the Abyss (Level 7)
+		Tooltip: ""
+	}
+
+	KogMawChampionLevel8: {
+		DisplayName: Kog'Maw, the Mouth of the Abyss (Level 8)
+		Tooltip: ""
+	}
+
+	KSanteChampionLevel2: {
+		DisplayName: K'Sante, the Pride of Nazumah (Level 2)
+		Tooltip: ""
+	}
+
+	KSanteChampionLevel3: {
+		DisplayName: K'Sante, the Pride of Nazumah (Level 3)
+		Tooltip: ""
+	}
+
+	KSanteChampionLevel4: {
+		DisplayName: K'Sante, the Pride of Nazumah (Level 4)
+		Tooltip: ""
+	}
+
+	KSanteChampionLevel5: {
+		DisplayName: K'Sante, the Pride of Nazumah (Level 5)
+		Tooltip: ""
+	}
+
+	KSanteChampionLevel6: {
+		DisplayName: K'Sante, the Pride of Nazumah (Level 6)
+		Tooltip: ""
+	}
+
+	KSanteChampionLevel7: {
+		DisplayName: K'Sante, the Pride of Nazumah (Level 7)
+		Tooltip: ""
+	}
+
+	KSanteChampionLevel8: {
+		DisplayName: K'Sante, the Pride of Nazumah (Level 8)
+		Tooltip: ""
+	}
+
+	LeblancChampionLevel2: {
+		DisplayName: LeBlanc, the Deceiver (Level 2)
+		Tooltip: ""
+	}
+
+	LeblancChampionLevel3: {
+		DisplayName: LeBlanc, the Deceiver (Level 3)
+		Tooltip: ""
+	}
+
+	LeblancChampionLevel4: {
+		DisplayName: LeBlanc, the Deceiver (Level 4)
+		Tooltip: ""
+	}
+
+	LeblancChampionLevel5: {
+		DisplayName: LeBlanc, the Deceiver (Level 5)
+		Tooltip: ""
+	}
+
+	LeblancChampionLevel6: {
+		DisplayName: LeBlanc, the Deceiver (Level 6)
+		Tooltip: ""
+	}
+
+	LeblancChampionLevel7: {
+		DisplayName: LeBlanc, the Deceiver (Level 7)
+		Tooltip: ""
+	}
+
+	LeblancChampionLevel8: {
+		DisplayName: LeBlanc, the Deceiver (Level 8)
+		Tooltip: ""
+	}
+
+	LeeSinChampionLevel2: {
+		DisplayName: Lee Sin, the Blind Monk (Level 2)
+		Tooltip: ""
+	}
+
+	LeeSinChampionLevel3: {
+		DisplayName: Lee Sin, the Blind Monk (Level 3)
+		Tooltip: ""
+	}
+
+	LeeSinChampionLevel4: {
+		DisplayName: Lee Sin, the Blind Monk (Level 4)
+		Tooltip: ""
+	}
+
+	LeeSinChampionLevel5: {
+		DisplayName: Lee Sin, the Blind Monk (Level 5)
+		Tooltip: ""
+	}
+
+	LeeSinChampionLevel6: {
+		DisplayName: Lee Sin, the Blind Monk (Level 6)
+		Tooltip: ""
+	}
+
+	LeeSinChampionLevel7: {
+		DisplayName: Lee Sin, the Blind Monk (Level 7)
+		Tooltip: ""
+	}
+
+	LeeSinChampionLevel8: {
+		DisplayName: Lee Sin, the Blind Monk (Level 8)
+		Tooltip: ""
+	}
+
+	LeonaChampionLevel2: {
+		DisplayName: Leona, the Radiant Dawn (Level 2)
+		Tooltip: ""
+	}
+
+	LeonaChampionLevel3: {
+		DisplayName: Leona, the Radiant Dawn (Level 3)
+		Tooltip: ""
+	}
+
+	LeonaChampionLevel4: {
+		DisplayName: Leona, the Radiant Dawn (Level 4)
+		Tooltip: ""
+	}
+
+	LeonaChampionLevel5: {
+		DisplayName: Leona, the Radiant Dawn (Level 5)
+		Tooltip: ""
+	}
+
+	LeonaChampionLevel6: {
+		DisplayName: Leona, the Radiant Dawn (Level 6)
+		Tooltip: ""
+	}
+
+	LeonaChampionLevel7: {
+		DisplayName: Leona, the Radiant Dawn (Level 7)
+		Tooltip: ""
+	}
+
+	LeonaChampionLevel8: {
+		DisplayName: Leona, the Radiant Dawn (Level 8)
+		Tooltip: ""
+	}
+
+	LilliaChampionLevel2: {
+		DisplayName: Lillia, the Bashful Bloom (Level 2)
+		Tooltip: ""
+	}
+
+	LilliaChampionLevel3: {
+		DisplayName: Lillia, the Bashful Bloom (Level 3)
+		Tooltip: ""
+	}
+
+	LilliaChampionLevel4: {
+		DisplayName: Lillia, the Bashful Bloom (Level 4)
+		Tooltip: ""
+	}
+
+	LilliaChampionLevel5: {
+		DisplayName: Lillia, the Bashful Bloom (Level 5)
+		Tooltip: ""
+	}
+
+	LilliaChampionLevel6: {
+		DisplayName: Lillia, the Bashful Bloom (Level 6)
+		Tooltip: ""
+	}
+
+	LilliaChampionLevel7: {
+		DisplayName: Lillia, the Bashful Bloom (Level 7)
+		Tooltip: ""
+	}
+
+	LilliaChampionLevel8: {
+		DisplayName: Lillia, the Bashful Bloom (Level 8)
+		Tooltip: ""
+	}
+
+	LissandraChampionLevel2: {
+		DisplayName: Lissandra, the Ice Witch (Level 2)
+		Tooltip: ""
+	}
+
+	LissandraChampionLevel3: {
+		DisplayName: Lissandra, the Ice Witch (Level 3)
+		Tooltip: ""
+	}
+
+	LissandraChampionLevel4: {
+		DisplayName: Lissandra, the Ice Witch (Level 4)
+		Tooltip: ""
+	}
+
+	LissandraChampionLevel5: {
+		DisplayName: Lissandra, the Ice Witch (Level 5)
+		Tooltip: ""
+	}
+
+	LissandraChampionLevel6: {
+		DisplayName: Lissandra, the Ice Witch (Level 6)
+		Tooltip: ""
+	}
+
+	LissandraChampionLevel7: {
+		DisplayName: Lissandra, the Ice Witch (Level 7)
+		Tooltip: ""
+	}
+
+	LissandraChampionLevel8: {
+		DisplayName: Lissandra, the Ice Witch (Level 8)
+		Tooltip: ""
+	}
+
+	LockeChampionLevel2: {
+		DisplayName: Locke, the Ashen Exorcist (Level 2)
+		Tooltip: ""
+	}
+
+	LockeChampionLevel3: {
+		DisplayName: Locke, the Ashen Exorcist (Level 3)
+		Tooltip: ""
+	}
+
+	LockeChampionLevel4: {
+		DisplayName: Locke, the Ashen Exorcist (Level 4)
+		Tooltip: ""
+	}
+
+	LockeChampionLevel5: {
+		DisplayName: Locke, the Ashen Exorcist (Level 5)
+		Tooltip: ""
+	}
+
+	LockeChampionLevel6: {
+		DisplayName: Locke, the Ashen Exorcist (Level 6)
+		Tooltip: ""
+	}
+
+	LockeChampionLevel7: {
+		DisplayName: Locke, the Ashen Exorcist (Level 7)
+		Tooltip: ""
+	}
+
+	LockeChampionLevel8: {
+		DisplayName: Locke, the Ashen Exorcist (Level 8)
+		Tooltip: ""
+	}
+
+	LucianChampionLevel2: {
+		DisplayName: Lucian, the Purifier (Level 2)
+		Tooltip: ""
+	}
+
+	LucianChampionLevel3: {
+		DisplayName: Lucian, the Purifier (Level 3)
+		Tooltip: ""
+	}
+
+	LucianChampionLevel4: {
+		DisplayName: Lucian, the Purifier (Level 4)
+		Tooltip: ""
+	}
+
+	LucianChampionLevel5: {
+		DisplayName: Lucian, the Purifier (Level 5)
+		Tooltip: ""
+	}
+
+	LucianChampionLevel6: {
+		DisplayName: Lucian, the Purifier (Level 6)
+		Tooltip: ""
+	}
+
+	LucianChampionLevel7: {
+		DisplayName: Lucian, the Purifier (Level 7)
+		Tooltip: ""
+	}
+
+	LucianChampionLevel8: {
+		DisplayName: Lucian, the Purifier (Level 8)
+		Tooltip: ""
+	}
+
+	LuluChampionLevel2: {
+		DisplayName: Lulu, the Fae Sorceress (Level 2)
+		Tooltip: ""
+	}
+
+	LuluChampionLevel3: {
+		DisplayName: Lulu, the Fae Sorceress (Level 3)
+		Tooltip: ""
+	}
+
+	LuluChampionLevel4: {
+		DisplayName: Lulu, the Fae Sorceress (Level 4)
+		Tooltip: ""
+	}
+
+	LuluChampionLevel5: {
+		DisplayName: Lulu, the Fae Sorceress (Level 5)
+		Tooltip: ""
+	}
+
+	LuluChampionLevel6: {
+		DisplayName: Lulu, the Fae Sorceress (Level 6)
+		Tooltip: ""
+	}
+
+	LuluChampionLevel7: {
+		DisplayName: Lulu, the Fae Sorceress (Level 7)
+		Tooltip: ""
+	}
+
+	LuluChampionLevel8: {
+		DisplayName: Lulu, the Fae Sorceress (Level 8)
+		Tooltip: ""
+	}
+
+	LuxChampionLevel2: {
+		DisplayName: Lux, the Lady of Luminosity (Level 2)
+		Tooltip: ""
+	}
+
+	LuxChampionLevel3: {
+		DisplayName: Lux, the Lady of Luminosity (Level 3)
+		Tooltip: ""
+	}
+
+	LuxChampionLevel4: {
+		DisplayName: Lux, the Lady of Luminosity (Level 4)
+		Tooltip: ""
+	}
+
+	LuxChampionLevel5: {
+		DisplayName: Lux, the Lady of Luminosity (Level 5)
+		Tooltip: ""
+	}
+
+	LuxChampionLevel6: {
+		DisplayName: Lux, the Lady of Luminosity (Level 6)
+		Tooltip: ""
+	}
+
+	LuxChampionLevel7: {
+		DisplayName: Lux, the Lady of Luminosity (Level 7)
+		Tooltip: ""
+	}
+
+	LuxChampionLevel8: {
+		DisplayName: Lux, the Lady of Luminosity (Level 8)
+		Tooltip: ""
+	}
+
+	MalphiteChampionLevel2: {
+		DisplayName: Malphite, Shard of the Monolith (Level 2)
+		Tooltip: ""
+	}
+
+	MalphiteChampionLevel3: {
+		DisplayName: Malphite, Shard of the Monolith (Level 3)
+		Tooltip: ""
+	}
+
+	MalphiteChampionLevel4: {
+		DisplayName: Malphite, Shard of the Monolith (Level 4)
+		Tooltip: ""
+	}
+
+	MalphiteChampionLevel5: {
+		DisplayName: Malphite, Shard of the Monolith (Level 5)
+		Tooltip: ""
+	}
+
+	MalphiteChampionLevel6: {
+		DisplayName: Malphite, Shard of the Monolith (Level 6)
+		Tooltip: ""
+	}
+
+	MalphiteChampionLevel7: {
+		DisplayName: Malphite, Shard of the Monolith (Level 7)
+		Tooltip: ""
+	}
+
+	MalphiteChampionLevel8: {
+		DisplayName: Malphite, Shard of the Monolith (Level 8)
+		Tooltip: ""
+	}
+
+	MalzaharChampionLevel2: {
+		DisplayName: Malzahar, the Prophet of the Void (Level 2)
+		Tooltip: ""
+	}
+
+	MalzaharChampionLevel3: {
+		DisplayName: Malzahar, the Prophet of the Void (Level 3)
+		Tooltip: ""
+	}
+
+	MalzaharChampionLevel4: {
+		DisplayName: Malzahar, the Prophet of the Void (Level 4)
+		Tooltip: ""
+	}
+
+	MalzaharChampionLevel5: {
+		DisplayName: Malzahar, the Prophet of the Void (Level 5)
+		Tooltip: ""
+	}
+
+	MalzaharChampionLevel6: {
+		DisplayName: Malzahar, the Prophet of the Void (Level 6)
+		Tooltip: ""
+	}
+
+	MalzaharChampionLevel7: {
+		DisplayName: Malzahar, the Prophet of the Void (Level 7)
+		Tooltip: ""
+	}
+
+	MalzaharChampionLevel8: {
+		DisplayName: Malzahar, the Prophet of the Void (Level 8)
+		Tooltip: ""
+	}
+
+	MaokaiChampionLevel2: {
+		DisplayName: Maokai, the Twisted Treant (Level 2)
+		Tooltip: ""
+	}
+
+	MaokaiChampionLevel3: {
+		DisplayName: Maokai, the Twisted Treant (Level 3)
+		Tooltip: ""
+	}
+
+	MaokaiChampionLevel4: {
+		DisplayName: Maokai, the Twisted Treant (Level 4)
+		Tooltip: ""
+	}
+
+	MaokaiChampionLevel5: {
+		DisplayName: Maokai, the Twisted Treant (Level 5)
+		Tooltip: ""
+	}
+
+	MaokaiChampionLevel6: {
+		DisplayName: Maokai, the Twisted Treant (Level 6)
+		Tooltip: ""
+	}
+
+	MaokaiChampionLevel7: {
+		DisplayName: Maokai, the Twisted Treant (Level 7)
+		Tooltip: ""
+	}
+
+	MaokaiChampionLevel8: {
+		DisplayName: Maokai, the Twisted Treant (Level 8)
+		Tooltip: ""
+	}
+
+	MasterYiChampionLevel2: {
+		DisplayName: Master Yi, the Wuju Bladesman (Level 2)
+		Tooltip: ""
+	}
+
+	MasterYiChampionLevel3: {
+		DisplayName: Master Yi, the Wuju Bladesman (Level 3)
+		Tooltip: ""
+	}
+
+	MasterYiChampionLevel4: {
+		DisplayName: Master Yi, the Wuju Bladesman (Level 4)
+		Tooltip: ""
+	}
+
+	MasterYiChampionLevel5: {
+		DisplayName: Master Yi, the Wuju Bladesman (Level 5)
+		Tooltip: ""
+	}
+
+	MasterYiChampionLevel6: {
+		DisplayName: Master Yi, the Wuju Bladesman (Level 6)
+		Tooltip: ""
+	}
+
+	MasterYiChampionLevel7: {
+		DisplayName: Master Yi, the Wuju Bladesman (Level 7)
+		Tooltip: ""
+	}
+
+	MasterYiChampionLevel8: {
+		DisplayName: Master Yi, the Wuju Bladesman (Level 8)
+		Tooltip: ""
+	}
+
+	MelChampionLevel2: {
+		DisplayName: Mel, the Soul's Reflection (Level 2)
+		Tooltip: ""
+	}
+
+	MelChampionLevel3: {
+		DisplayName: Mel, the Soul's Reflection (Level 3)
+		Tooltip: ""
+	}
+
+	MelChampionLevel4: {
+		DisplayName: Mel, the Soul's Reflection (Level 4)
+		Tooltip: ""
+	}
+
+	MelChampionLevel5: {
+		DisplayName: Mel, the Soul's Reflection (Level 5)
+		Tooltip: ""
+	}
+
+	MelChampionLevel6: {
+		DisplayName: Mel, the Soul's Reflection (Level 6)
+		Tooltip: ""
+	}
+
+	MelChampionLevel7: {
+		DisplayName: Mel, the Soul's Reflection (Level 7)
+		Tooltip: ""
+	}
+
+	MelChampionLevel8: {
+		DisplayName: Mel, the Soul's Reflection (Level 8)
+		Tooltip: ""
+	}
+
+	MilioChampionLevel2: {
+		DisplayName: Milio, The Gentle Flame (Level 2)
+		Tooltip: ""
+	}
+
+	MilioChampionLevel3: {
+		DisplayName: Milio, The Gentle Flame (Level 3)
+		Tooltip: ""
+	}
+
+	MilioChampionLevel4: {
+		DisplayName: Milio, The Gentle Flame (Level 4)
+		Tooltip: ""
+	}
+
+	MilioChampionLevel5: {
+		DisplayName: Milio, The Gentle Flame (Level 5)
+		Tooltip: ""
+	}
+
+	MilioChampionLevel6: {
+		DisplayName: Milio, The Gentle Flame (Level 6)
+		Tooltip: ""
+	}
+
+	MilioChampionLevel7: {
+		DisplayName: Milio, The Gentle Flame (Level 7)
+		Tooltip: ""
+	}
+
+	MilioChampionLevel8: {
+		DisplayName: Milio, The Gentle Flame (Level 8)
+		Tooltip: ""
+	}
+
+	MissFortuneChampionLevel2: {
+		DisplayName: Miss Fortune, the Bounty Hunter (Level 2)
+		Tooltip: ""
+	}
+
+	MissFortuneChampionLevel3: {
+		DisplayName: Miss Fortune, the Bounty Hunter (Level 3)
+		Tooltip: ""
+	}
+
+	MissFortuneChampionLevel4: {
+		DisplayName: Miss Fortune, the Bounty Hunter (Level 4)
+		Tooltip: ""
+	}
+
+	MissFortuneChampionLevel5: {
+		DisplayName: Miss Fortune, the Bounty Hunter (Level 5)
+		Tooltip: ""
+	}
+
+	MissFortuneChampionLevel6: {
+		DisplayName: Miss Fortune, the Bounty Hunter (Level 6)
+		Tooltip: ""
+	}
+
+	MissFortuneChampionLevel7: {
+		DisplayName: Miss Fortune, the Bounty Hunter (Level 7)
+		Tooltip: ""
+	}
+
+	MissFortuneChampionLevel8: {
+		DisplayName: Miss Fortune, the Bounty Hunter (Level 8)
+		Tooltip: ""
+	}
+
+	MonkeyKingChampionLevel2: {
+		DisplayName: Wukong, the Monkey King (Level 2)
+		Tooltip: ""
+	}
+
+	MonkeyKingChampionLevel3: {
+		DisplayName: Wukong, the Monkey King (Level 3)
+		Tooltip: ""
+	}
+
+	MonkeyKingChampionLevel4: {
+		DisplayName: Wukong, the Monkey King (Level 4)
+		Tooltip: ""
+	}
+
+	MonkeyKingChampionLevel5: {
+		DisplayName: Wukong, the Monkey King (Level 5)
+		Tooltip: ""
+	}
+
+	MonkeyKingChampionLevel6: {
+		DisplayName: Wukong, the Monkey King (Level 6)
+		Tooltip: ""
+	}
+
+	MonkeyKingChampionLevel7: {
+		DisplayName: Wukong, the Monkey King (Level 7)
+		Tooltip: ""
+	}
+
+	MonkeyKingChampionLevel8: {
+		DisplayName: Wukong, the Monkey King (Level 8)
+		Tooltip: ""
+	}
+
+	MordekaiserChampionLevel2: {
+		DisplayName: Mordekaiser, the Iron Revenant (Level 2)
+		Tooltip: ""
+	}
+
+	MordekaiserChampionLevel3: {
+		DisplayName: Mordekaiser, the Iron Revenant (Level 3)
+		Tooltip: ""
+	}
+
+	MordekaiserChampionLevel4: {
+		DisplayName: Mordekaiser, the Iron Revenant (Level 4)
+		Tooltip: ""
+	}
+
+	MordekaiserChampionLevel5: {
+		DisplayName: Mordekaiser, the Iron Revenant (Level 5)
+		Tooltip: ""
+	}
+
+	MordekaiserChampionLevel6: {
+		DisplayName: Mordekaiser, the Iron Revenant (Level 6)
+		Tooltip: ""
+	}
+
+	MordekaiserChampionLevel7: {
+		DisplayName: Mordekaiser, the Iron Revenant (Level 7)
+		Tooltip: ""
+	}
+
+	MordekaiserChampionLevel8: {
+		DisplayName: Mordekaiser, the Iron Revenant (Level 8)
+		Tooltip: ""
+	}
+
+	MorganaChampionLevel2: {
+		DisplayName: Morgana, the Fallen (Level 2)
+		Tooltip: ""
+	}
+
+	MorganaChampionLevel3: {
+		DisplayName: Morgana, the Fallen (Level 3)
+		Tooltip: ""
+	}
+
+	MorganaChampionLevel4: {
+		DisplayName: Morgana, the Fallen (Level 4)
+		Tooltip: ""
+	}
+
+	MorganaChampionLevel5: {
+		DisplayName: Morgana, the Fallen (Level 5)
+		Tooltip: ""
+	}
+
+	MorganaChampionLevel6: {
+		DisplayName: Morgana, the Fallen (Level 6)
+		Tooltip: ""
+	}
+
+	MorganaChampionLevel7: {
+		DisplayName: Morgana, the Fallen (Level 7)
+		Tooltip: ""
+	}
+
+	MorganaChampionLevel8: {
+		DisplayName: Morgana, the Fallen (Level 8)
+		Tooltip: ""
+	}
+
+	NaafiriChampionLevel2: {
+		DisplayName: Naafiri, the Hound of a Hundred Bites (Level 2)
+		Tooltip: ""
+	}
+
+	NaafiriChampionLevel3: {
+		DisplayName: Naafiri, the Hound of a Hundred Bites (Level 3)
+		Tooltip: ""
+	}
+
+	NaafiriChampionLevel4: {
+		DisplayName: Naafiri, the Hound of a Hundred Bites (Level 4)
+		Tooltip: ""
+	}
+
+	NaafiriChampionLevel5: {
+		DisplayName: Naafiri, the Hound of a Hundred Bites (Level 5)
+		Tooltip: ""
+	}
+
+	NaafiriChampionLevel6: {
+		DisplayName: Naafiri, the Hound of a Hundred Bites (Level 6)
+		Tooltip: ""
+	}
+
+	NaafiriChampionLevel7: {
+		DisplayName: Naafiri, the Hound of a Hundred Bites (Level 7)
+		Tooltip: ""
+	}
+
+	NaafiriChampionLevel8: {
+		DisplayName: Naafiri, the Hound of a Hundred Bites (Level 8)
+		Tooltip: ""
+	}
+
+	NamiChampionLevel2: {
+		DisplayName: Nami, the Tidecaller (Level 2)
+		Tooltip: ""
+	}
+
+	NamiChampionLevel3: {
+		DisplayName: Nami, the Tidecaller (Level 3)
+		Tooltip: ""
+	}
+
+	NamiChampionLevel4: {
+		DisplayName: Nami, the Tidecaller (Level 4)
+		Tooltip: ""
+	}
+
+	NamiChampionLevel5: {
+		DisplayName: Nami, the Tidecaller (Level 5)
+		Tooltip: ""
+	}
+
+	NamiChampionLevel6: {
+		DisplayName: Nami, the Tidecaller (Level 6)
+		Tooltip: ""
+	}
+
+	NamiChampionLevel7: {
+		DisplayName: Nami, the Tidecaller (Level 7)
+		Tooltip: ""
+	}
+
+	NamiChampionLevel8: {
+		DisplayName: Nami, the Tidecaller (Level 8)
+		Tooltip: ""
+	}
+
+	NasusChampionLevel2: {
+		DisplayName: Nasus, the Curator of the Sands (Level 2)
+		Tooltip: ""
+	}
+
+	NasusChampionLevel3: {
+		DisplayName: Nasus, the Curator of the Sands (Level 3)
+		Tooltip: ""
+	}
+
+	NasusChampionLevel4: {
+		DisplayName: Nasus, the Curator of the Sands (Level 4)
+		Tooltip: ""
+	}
+
+	NasusChampionLevel5: {
+		DisplayName: Nasus, the Curator of the Sands (Level 5)
+		Tooltip: ""
+	}
+
+	NasusChampionLevel6: {
+		DisplayName: Nasus, the Curator of the Sands (Level 6)
+		Tooltip: ""
+	}
+
+	NasusChampionLevel7: {
+		DisplayName: Nasus, the Curator of the Sands (Level 7)
+		Tooltip: ""
+	}
+
+	NasusChampionLevel8: {
+		DisplayName: Nasus, the Curator of the Sands (Level 8)
+		Tooltip: ""
+	}
+
+	NautilusChampionLevel2: {
+		DisplayName: Nautilus, the Titan of the Depths (Level 2)
+		Tooltip: ""
+	}
+
+	NautilusChampionLevel3: {
+		DisplayName: Nautilus, the Titan of the Depths (Level 3)
+		Tooltip: ""
+	}
+
+	NautilusChampionLevel4: {
+		DisplayName: Nautilus, the Titan of the Depths (Level 4)
+		Tooltip: ""
+	}
+
+	NautilusChampionLevel5: {
+		DisplayName: Nautilus, the Titan of the Depths (Level 5)
+		Tooltip: ""
+	}
+
+	NautilusChampionLevel6: {
+		DisplayName: Nautilus, the Titan of the Depths (Level 6)
+		Tooltip: ""
+	}
+
+	NautilusChampionLevel7: {
+		DisplayName: Nautilus, the Titan of the Depths (Level 7)
+		Tooltip: ""
+	}
+
+	NautilusChampionLevel8: {
+		DisplayName: Nautilus, the Titan of the Depths (Level 8)
+		Tooltip: ""
+	}
+
+	NeekoChampionLevel2: {
+		DisplayName: Neeko, the Curious Chameleon (Level 2)
+		Tooltip: ""
+	}
+
+	NeekoChampionLevel3: {
+		DisplayName: Neeko, the Curious Chameleon (Level 3)
+		Tooltip: ""
+	}
+
+	NeekoChampionLevel4: {
+		DisplayName: Neeko, the Curious Chameleon (Level 4)
+		Tooltip: ""
+	}
+
+	NeekoChampionLevel5: {
+		DisplayName: Neeko, the Curious Chameleon (Level 5)
+		Tooltip: ""
+	}
+
+	NeekoChampionLevel6: {
+		DisplayName: Neeko, the Curious Chameleon (Level 6)
+		Tooltip: ""
+	}
+
+	NeekoChampionLevel7: {
+		DisplayName: Neeko, the Curious Chameleon (Level 7)
+		Tooltip: ""
+	}
+
+	NeekoChampionLevel8: {
+		DisplayName: Neeko, the Curious Chameleon (Level 8)
+		Tooltip: ""
+	}
+
+	NidaleeChampionLevel2: {
+		DisplayName: Nidalee, the Bestial Huntress (Level 2)
+		Tooltip: ""
+	}
+
+	NidaleeChampionLevel3: {
+		DisplayName: Nidalee, the Bestial Huntress (Level 3)
+		Tooltip: ""
+	}
+
+	NidaleeChampionLevel4: {
+		DisplayName: Nidalee, the Bestial Huntress (Level 4)
+		Tooltip: ""
+	}
+
+	NidaleeChampionLevel5: {
+		DisplayName: Nidalee, the Bestial Huntress (Level 5)
+		Tooltip: ""
+	}
+
+	NidaleeChampionLevel6: {
+		DisplayName: Nidalee, the Bestial Huntress (Level 6)
+		Tooltip: ""
+	}
+
+	NidaleeChampionLevel7: {
+		DisplayName: Nidalee, the Bestial Huntress (Level 7)
+		Tooltip: ""
+	}
+
+	NidaleeChampionLevel8: {
+		DisplayName: Nidalee, the Bestial Huntress (Level 8)
+		Tooltip: ""
+	}
+
+	NilahChampionLevel2: {
+		DisplayName: Nilah, the Joy Unbound (Level 2)
+		Tooltip: ""
+	}
+
+	NilahChampionLevel3: {
+		DisplayName: Nilah, the Joy Unbound (Level 3)
+		Tooltip: ""
+	}
+
+	NilahChampionLevel4: {
+		DisplayName: Nilah, the Joy Unbound (Level 4)
+		Tooltip: ""
+	}
+
+	NilahChampionLevel5: {
+		DisplayName: Nilah, the Joy Unbound (Level 5)
+		Tooltip: ""
+	}
+
+	NilahChampionLevel6: {
+		DisplayName: Nilah, the Joy Unbound (Level 6)
+		Tooltip: ""
+	}
+
+	NilahChampionLevel7: {
+		DisplayName: Nilah, the Joy Unbound (Level 7)
+		Tooltip: ""
+	}
+
+	NilahChampionLevel8: {
+		DisplayName: Nilah, the Joy Unbound (Level 8)
+		Tooltip: ""
+	}
+
+	NocturneChampionLevel2: {
+		DisplayName: Nocturne, the Eternal Nightmare (Level 2)
+		Tooltip: ""
+	}
+
+	NocturneChampionLevel3: {
+		DisplayName: Nocturne, the Eternal Nightmare (Level 3)
+		Tooltip: ""
+	}
+
+	NocturneChampionLevel4: {
+		DisplayName: Nocturne, the Eternal Nightmare (Level 4)
+		Tooltip: ""
+	}
+
+	NocturneChampionLevel5: {
+		DisplayName: Nocturne, the Eternal Nightmare (Level 5)
+		Tooltip: ""
+	}
+
+	NocturneChampionLevel6: {
+		DisplayName: Nocturne, the Eternal Nightmare (Level 6)
+		Tooltip: ""
+	}
+
+	NocturneChampionLevel7: {
+		DisplayName: Nocturne, the Eternal Nightmare (Level 7)
+		Tooltip: ""
+	}
+
+	NocturneChampionLevel8: {
+		DisplayName: Nocturne, the Eternal Nightmare (Level 8)
+		Tooltip: ""
+	}
+
+	NunuChampionLevel2: {
+		DisplayName: Nunu & Willump, the Boy and His Yeti (Level 2)
+		Tooltip: ""
+	}
+
+	NunuChampionLevel3: {
+		DisplayName: Nunu & Willump, the Boy and His Yeti (Level 3)
+		Tooltip: ""
+	}
+
+	NunuChampionLevel4: {
+		DisplayName: Nunu & Willump, the Boy and His Yeti (Level 4)
+		Tooltip: ""
+	}
+
+	NunuChampionLevel5: {
+		DisplayName: Nunu & Willump, the Boy and His Yeti (Level 5)
+		Tooltip: ""
+	}
+
+	NunuChampionLevel6: {
+		DisplayName: Nunu & Willump, the Boy and His Yeti (Level 6)
+		Tooltip: ""
+	}
+
+	NunuChampionLevel7: {
+		DisplayName: Nunu & Willump, the Boy and His Yeti (Level 7)
+		Tooltip: ""
+	}
+
+	NunuChampionLevel8: {
+		DisplayName: Nunu & Willump, the Boy and His Yeti (Level 8)
+		Tooltip: ""
+	}
+
+	OlafChampionLevel2: {
+		DisplayName: Olaf, the Berserker (Level 2)
+		Tooltip: ""
+	}
+
+	OlafChampionLevel3: {
+		DisplayName: Olaf, the Berserker (Level 3)
+		Tooltip: ""
+	}
+
+	OlafChampionLevel4: {
+		DisplayName: Olaf, the Berserker (Level 4)
+		Tooltip: ""
+	}
+
+	OlafChampionLevel5: {
+		DisplayName: Olaf, the Berserker (Level 5)
+		Tooltip: ""
+	}
+
+	OlafChampionLevel6: {
+		DisplayName: Olaf, the Berserker (Level 6)
+		Tooltip: ""
+	}
+
+	OlafChampionLevel7: {
+		DisplayName: Olaf, the Berserker (Level 7)
+		Tooltip: ""
+	}
+
+	OlafChampionLevel8: {
+		DisplayName: Olaf, the Berserker (Level 8)
+		Tooltip: ""
+	}
+
+	OriannaChampionLevel2: {
+		DisplayName: Orianna, the Lady of Clockwork (Level 2)
+		Tooltip: ""
+	}
+
+	OriannaChampionLevel3: {
+		DisplayName: Orianna, the Lady of Clockwork (Level 3)
+		Tooltip: ""
+	}
+
+	OriannaChampionLevel4: {
+		DisplayName: Orianna, the Lady of Clockwork (Level 4)
+		Tooltip: ""
+	}
+
+	OriannaChampionLevel5: {
+		DisplayName: Orianna, the Lady of Clockwork (Level 5)
+		Tooltip: ""
+	}
+
+	OriannaChampionLevel6: {
+		DisplayName: Orianna, the Lady of Clockwork (Level 6)
+		Tooltip: ""
+	}
+
+	OriannaChampionLevel7: {
+		DisplayName: Orianna, the Lady of Clockwork (Level 7)
+		Tooltip: ""
+	}
+
+	OriannaChampionLevel8: {
+		DisplayName: Orianna, the Lady of Clockwork (Level 8)
+		Tooltip: ""
+	}
+
+	OrnnChampionLevel2: {
+		DisplayName: Ornn, The Fire below the Mountain (Level 2)
+		Tooltip: ""
+	}
+
+	OrnnChampionLevel3: {
+		DisplayName: Ornn, The Fire below the Mountain (Level 3)
+		Tooltip: ""
+	}
+
+	OrnnChampionLevel4: {
+		DisplayName: Ornn, The Fire below the Mountain (Level 4)
+		Tooltip: ""
+	}
+
+	OrnnChampionLevel5: {
+		DisplayName: Ornn, The Fire below the Mountain (Level 5)
+		Tooltip: ""
+	}
+
+	OrnnChampionLevel6: {
+		DisplayName: Ornn, The Fire below the Mountain (Level 6)
+		Tooltip: ""
+	}
+
+	OrnnChampionLevel7: {
+		DisplayName: Ornn, The Fire below the Mountain (Level 7)
+		Tooltip: ""
+	}
+
+	OrnnChampionLevel8: {
+		DisplayName: Ornn, The Fire below the Mountain (Level 8)
+		Tooltip: ""
+	}
+
+	PantheonChampionLevel2: {
+		DisplayName: Pantheon, the Unbreakable Spear (Level 2)
+		Tooltip: ""
+	}
+
+	PantheonChampionLevel3: {
+		DisplayName: Pantheon, the Unbreakable Spear (Level 3)
+		Tooltip: ""
+	}
+
+	PantheonChampionLevel4: {
+		DisplayName: Pantheon, the Unbreakable Spear (Level 4)
+		Tooltip: ""
+	}
+
+	PantheonChampionLevel5: {
+		DisplayName: Pantheon, the Unbreakable Spear (Level 5)
+		Tooltip: ""
+	}
+
+	PantheonChampionLevel6: {
+		DisplayName: Pantheon, the Unbreakable Spear (Level 6)
+		Tooltip: ""
+	}
+
+	PantheonChampionLevel7: {
+		DisplayName: Pantheon, the Unbreakable Spear (Level 7)
+		Tooltip: ""
+	}
+
+	PantheonChampionLevel8: {
+		DisplayName: Pantheon, the Unbreakable Spear (Level 8)
+		Tooltip: ""
+	}
+
+	PoppyChampionLevel2: {
+		DisplayName: Poppy, Keeper of the Hammer (Level 2)
+		Tooltip: ""
+	}
+
+	PoppyChampionLevel3: {
+		DisplayName: Poppy, Keeper of the Hammer (Level 3)
+		Tooltip: ""
+	}
+
+	PoppyChampionLevel4: {
+		DisplayName: Poppy, Keeper of the Hammer (Level 4)
+		Tooltip: ""
+	}
+
+	PoppyChampionLevel5: {
+		DisplayName: Poppy, Keeper of the Hammer (Level 5)
+		Tooltip: ""
+	}
+
+	PoppyChampionLevel6: {
+		DisplayName: Poppy, Keeper of the Hammer (Level 6)
+		Tooltip: ""
+	}
+
+	PoppyChampionLevel7: {
+		DisplayName: Poppy, Keeper of the Hammer (Level 7)
+		Tooltip: ""
+	}
+
+	PoppyChampionLevel8: {
+		DisplayName: Poppy, Keeper of the Hammer (Level 8)
+		Tooltip: ""
+	}
+
+	PykeChampionLevel2: {
+		DisplayName: Pyke, the Bloodharbor Ripper (Level 2)
+		Tooltip: ""
+	}
+
+	PykeChampionLevel3: {
+		DisplayName: Pyke, the Bloodharbor Ripper (Level 3)
+		Tooltip: ""
+	}
+
+	PykeChampionLevel4: {
+		DisplayName: Pyke, the Bloodharbor Ripper (Level 4)
+		Tooltip: ""
+	}
+
+	PykeChampionLevel5: {
+		DisplayName: Pyke, the Bloodharbor Ripper (Level 5)
+		Tooltip: ""
+	}
+
+	PykeChampionLevel6: {
+		DisplayName: Pyke, the Bloodharbor Ripper (Level 6)
+		Tooltip: ""
+	}
+
+	PykeChampionLevel7: {
+		DisplayName: Pyke, the Bloodharbor Ripper (Level 7)
+		Tooltip: ""
+	}
+
+	PykeChampionLevel8: {
+		DisplayName: Pyke, the Bloodharbor Ripper (Level 8)
+		Tooltip: ""
+	}
+
+	QiyanaChampionLevel2: {
+		DisplayName: Qiyana, Empress of the Elements (Level 2)
+		Tooltip: ""
+	}
+
+	QiyanaChampionLevel3: {
+		DisplayName: Qiyana, Empress of the Elements (Level 3)
+		Tooltip: ""
+	}
+
+	QiyanaChampionLevel4: {
+		DisplayName: Qiyana, Empress of the Elements (Level 4)
+		Tooltip: ""
+	}
+
+	QiyanaChampionLevel5: {
+		DisplayName: Qiyana, Empress of the Elements (Level 5)
+		Tooltip: ""
+	}
+
+	QiyanaChampionLevel6: {
+		DisplayName: Qiyana, Empress of the Elements (Level 6)
+		Tooltip: ""
+	}
+
+	QiyanaChampionLevel7: {
+		DisplayName: Qiyana, Empress of the Elements (Level 7)
+		Tooltip: ""
+	}
+
+	QiyanaChampionLevel8: {
+		DisplayName: Qiyana, Empress of the Elements (Level 8)
+		Tooltip: ""
+	}
+
+	QuinnChampionLevel2: {
+		DisplayName: Quinn, Demacia's Wings (Level 2)
+		Tooltip: ""
+	}
+
+	QuinnChampionLevel3: {
+		DisplayName: Quinn, Demacia's Wings (Level 3)
+		Tooltip: ""
+	}
+
+	QuinnChampionLevel4: {
+		DisplayName: Quinn, Demacia's Wings (Level 4)
+		Tooltip: ""
+	}
+
+	QuinnChampionLevel5: {
+		DisplayName: Quinn, Demacia's Wings (Level 5)
+		Tooltip: ""
+	}
+
+	QuinnChampionLevel6: {
+		DisplayName: Quinn, Demacia's Wings (Level 6)
+		Tooltip: ""
+	}
+
+	QuinnChampionLevel7: {
+		DisplayName: Quinn, Demacia's Wings (Level 7)
+		Tooltip: ""
+	}
+
+	QuinnChampionLevel8: {
+		DisplayName: Quinn, Demacia's Wings (Level 8)
+		Tooltip: ""
+	}
+
+	RakanChampionLevel2: {
+		DisplayName: Rakan, The Charmer (Level 2)
+		Tooltip: ""
+	}
+
+	RakanChampionLevel3: {
+		DisplayName: Rakan, The Charmer (Level 3)
+		Tooltip: ""
+	}
+
+	RakanChampionLevel4: {
+		DisplayName: Rakan, The Charmer (Level 4)
+		Tooltip: ""
+	}
+
+	RakanChampionLevel5: {
+		DisplayName: Rakan, The Charmer (Level 5)
+		Tooltip: ""
+	}
+
+	RakanChampionLevel6: {
+		DisplayName: Rakan, The Charmer (Level 6)
+		Tooltip: ""
+	}
+
+	RakanChampionLevel7: {
+		DisplayName: Rakan, The Charmer (Level 7)
+		Tooltip: ""
+	}
+
+	RakanChampionLevel8: {
+		DisplayName: Rakan, The Charmer (Level 8)
+		Tooltip: ""
+	}
+
+	RammusChampionLevel2: {
+		DisplayName: Rammus, the Armordillo (Level 2)
+		Tooltip: ""
+	}
+
+	RammusChampionLevel3: {
+		DisplayName: Rammus, the Armordillo (Level 3)
+		Tooltip: ""
+	}
+
+	RammusChampionLevel4: {
+		DisplayName: Rammus, the Armordillo (Level 4)
+		Tooltip: ""
+	}
+
+	RammusChampionLevel5: {
+		DisplayName: Rammus, the Armordillo (Level 5)
+		Tooltip: ""
+	}
+
+	RammusChampionLevel6: {
+		DisplayName: Rammus, the Armordillo (Level 6)
+		Tooltip: ""
+	}
+
+	RammusChampionLevel7: {
+		DisplayName: Rammus, the Armordillo (Level 7)
+		Tooltip: ""
+	}
+
+	RammusChampionLevel8: {
+		DisplayName: Rammus, the Armordillo (Level 8)
+		Tooltip: ""
+	}
+
+	RekSaiChampionLevel2: {
+		DisplayName: Rek'Sai, the Void Burrower (Level 2)
+		Tooltip: ""
+	}
+
+	RekSaiChampionLevel3: {
+		DisplayName: Rek'Sai, the Void Burrower (Level 3)
+		Tooltip: ""
+	}
+
+	RekSaiChampionLevel4: {
+		DisplayName: Rek'Sai, the Void Burrower (Level 4)
+		Tooltip: ""
+	}
+
+	RekSaiChampionLevel5: {
+		DisplayName: Rek'Sai, the Void Burrower (Level 5)
+		Tooltip: ""
+	}
+
+	RekSaiChampionLevel6: {
+		DisplayName: Rek'Sai, the Void Burrower (Level 6)
+		Tooltip: ""
+	}
+
+	RekSaiChampionLevel7: {
+		DisplayName: Rek'Sai, the Void Burrower (Level 7)
+		Tooltip: ""
+	}
+
+	RekSaiChampionLevel8: {
+		DisplayName: Rek'Sai, the Void Burrower (Level 8)
+		Tooltip: ""
+	}
+
+	RellChampionLevel2: {
+		DisplayName: Rell, the Iron Maiden (Level 2)
+		Tooltip: ""
+	}
+
+	RellChampionLevel3: {
+		DisplayName: Rell, the Iron Maiden (Level 3)
+		Tooltip: ""
+	}
+
+	RellChampionLevel4: {
+		DisplayName: Rell, the Iron Maiden (Level 4)
+		Tooltip: ""
+	}
+
+	RellChampionLevel5: {
+		DisplayName: Rell, the Iron Maiden (Level 5)
+		Tooltip: ""
+	}
+
+	RellChampionLevel6: {
+		DisplayName: Rell, the Iron Maiden (Level 6)
+		Tooltip: ""
+	}
+
+	RellChampionLevel7: {
+		DisplayName: Rell, the Iron Maiden (Level 7)
+		Tooltip: ""
+	}
+
+	RellChampionLevel8: {
+		DisplayName: Rell, the Iron Maiden (Level 8)
+		Tooltip: ""
+	}
+
+	RenataChampionLevel2: {
+		DisplayName: Renata Glasc, the Chem-Baroness (Level 2)
+		Tooltip: ""
+	}
+
+	RenataChampionLevel3: {
+		DisplayName: Renata Glasc, the Chem-Baroness (Level 3)
+		Tooltip: ""
+	}
+
+	RenataChampionLevel4: {
+		DisplayName: Renata Glasc, the Chem-Baroness (Level 4)
+		Tooltip: ""
+	}
+
+	RenataChampionLevel5: {
+		DisplayName: Renata Glasc, the Chem-Baroness (Level 5)
+		Tooltip: ""
+	}
+
+	RenataChampionLevel6: {
+		DisplayName: Renata Glasc, the Chem-Baroness (Level 6)
+		Tooltip: ""
+	}
+
+	RenataChampionLevel7: {
+		DisplayName: Renata Glasc, the Chem-Baroness (Level 7)
+		Tooltip: ""
+	}
+
+	RenataChampionLevel8: {
+		DisplayName: Renata Glasc, the Chem-Baroness (Level 8)
+		Tooltip: ""
+	}
+
+	RenektonChampionLevel2: {
+		DisplayName: Renekton, the Butcher of the Sands (Level 2)
+		Tooltip: ""
+	}
+
+	RenektonChampionLevel3: {
+		DisplayName: Renekton, the Butcher of the Sands (Level 3)
+		Tooltip: ""
+	}
+
+	RenektonChampionLevel4: {
+		DisplayName: Renekton, the Butcher of the Sands (Level 4)
+		Tooltip: ""
+	}
+
+	RenektonChampionLevel5: {
+		DisplayName: Renekton, the Butcher of the Sands (Level 5)
+		Tooltip: ""
+	}
+
+	RenektonChampionLevel6: {
+		DisplayName: Renekton, the Butcher of the Sands (Level 6)
+		Tooltip: ""
+	}
+
+	RenektonChampionLevel7: {
+		DisplayName: Renekton, the Butcher of the Sands (Level 7)
+		Tooltip: ""
+	}
+
+	RenektonChampionLevel8: {
+		DisplayName: Renekton, the Butcher of the Sands (Level 8)
+		Tooltip: ""
+	}
+
+	RengarChampionLevel2: {
+		DisplayName: Rengar, the Pridestalker (Level 2)
+		Tooltip: ""
+	}
+
+	RengarChampionLevel3: {
+		DisplayName: Rengar, the Pridestalker (Level 3)
+		Tooltip: ""
+	}
+
+	RengarChampionLevel4: {
+		DisplayName: Rengar, the Pridestalker (Level 4)
+		Tooltip: ""
+	}
+
+	RengarChampionLevel5: {
+		DisplayName: Rengar, the Pridestalker (Level 5)
+		Tooltip: ""
+	}
+
+	RengarChampionLevel6: {
+		DisplayName: Rengar, the Pridestalker (Level 6)
+		Tooltip: ""
+	}
+
+	RengarChampionLevel7: {
+		DisplayName: Rengar, the Pridestalker (Level 7)
+		Tooltip: ""
+	}
+
+	RengarChampionLevel8: {
+		DisplayName: Rengar, the Pridestalker (Level 8)
+		Tooltip: ""
+	}
+
+	RivenChampionLevel2: {
+		DisplayName: Riven, the Exile (Level 2)
+		Tooltip: ""
+	}
+
+	RivenChampionLevel3: {
+		DisplayName: Riven, the Exile (Level 3)
+		Tooltip: ""
+	}
+
+	RivenChampionLevel4: {
+		DisplayName: Riven, the Exile (Level 4)
+		Tooltip: ""
+	}
+
+	RivenChampionLevel5: {
+		DisplayName: Riven, the Exile (Level 5)
+		Tooltip: ""
+	}
+
+	RivenChampionLevel6: {
+		DisplayName: Riven, the Exile (Level 6)
+		Tooltip: ""
+	}
+
+	RivenChampionLevel7: {
+		DisplayName: Riven, the Exile (Level 7)
+		Tooltip: ""
+	}
+
+	RivenChampionLevel8: {
+		DisplayName: Riven, the Exile (Level 8)
+		Tooltip: ""
+	}
+
+	RumbleChampionLevel2: {
+		DisplayName: Rumble, the Mechanized Menace (Level 2)
+		Tooltip: ""
+	}
+
+	RumbleChampionLevel3: {
+		DisplayName: Rumble, the Mechanized Menace (Level 3)
+		Tooltip: ""
+	}
+
+	RumbleChampionLevel4: {
+		DisplayName: Rumble, the Mechanized Menace (Level 4)
+		Tooltip: ""
+	}
+
+	RumbleChampionLevel5: {
+		DisplayName: Rumble, the Mechanized Menace (Level 5)
+		Tooltip: ""
+	}
+
+	RumbleChampionLevel6: {
+		DisplayName: Rumble, the Mechanized Menace (Level 6)
+		Tooltip: ""
+	}
+
+	RumbleChampionLevel7: {
+		DisplayName: Rumble, the Mechanized Menace (Level 7)
+		Tooltip: ""
+	}
+
+	RumbleChampionLevel8: {
+		DisplayName: Rumble, the Mechanized Menace (Level 8)
+		Tooltip: ""
+	}
+
+	RyzeChampionLevel2: {
+		DisplayName: Ryze, the Rune Mage (Level 2)
+		Tooltip: ""
+	}
+
+	RyzeChampionLevel3: {
+		DisplayName: Ryze, the Rune Mage (Level 3)
+		Tooltip: ""
+	}
+
+	RyzeChampionLevel4: {
+		DisplayName: Ryze, the Rune Mage (Level 4)
+		Tooltip: ""
+	}
+
+	RyzeChampionLevel5: {
+		DisplayName: Ryze, the Rune Mage (Level 5)
+		Tooltip: ""
+	}
+
+	RyzeChampionLevel6: {
+		DisplayName: Ryze, the Rune Mage (Level 6)
+		Tooltip: ""
+	}
+
+	RyzeChampionLevel7: {
+		DisplayName: Ryze, the Rune Mage (Level 7)
+		Tooltip: ""
+	}
+
+	RyzeChampionLevel8: {
+		DisplayName: Ryze, the Rune Mage (Level 8)
+		Tooltip: ""
+	}
+
+	SamiraChampionLevel2: {
+		DisplayName: Samira, the Desert Rose (Level 2)
+		Tooltip: ""
+	}
+
+	SamiraChampionLevel3: {
+		DisplayName: Samira, the Desert Rose (Level 3)
+		Tooltip: ""
+	}
+
+	SamiraChampionLevel4: {
+		DisplayName: Samira, the Desert Rose (Level 4)
+		Tooltip: ""
+	}
+
+	SamiraChampionLevel5: {
+		DisplayName: Samira, the Desert Rose (Level 5)
+		Tooltip: ""
+	}
+
+	SamiraChampionLevel6: {
+		DisplayName: Samira, the Desert Rose (Level 6)
+		Tooltip: ""
+	}
+
+	SamiraChampionLevel7: {
+		DisplayName: Samira, the Desert Rose (Level 7)
+		Tooltip: ""
+	}
+
+	SamiraChampionLevel8: {
+		DisplayName: Samira, the Desert Rose (Level 8)
+		Tooltip: ""
+	}
+
+	SejuaniChampionLevel2: {
+		DisplayName: Sejuani, Fury of the North (Level 2)
+		Tooltip: ""
+	}
+
+	SejuaniChampionLevel3: {
+		DisplayName: Sejuani, Fury of the North (Level 3)
+		Tooltip: ""
+	}
+
+	SejuaniChampionLevel4: {
+		DisplayName: Sejuani, Fury of the North (Level 4)
+		Tooltip: ""
+	}
+
+	SejuaniChampionLevel5: {
+		DisplayName: Sejuani, Fury of the North (Level 5)
+		Tooltip: ""
+	}
+
+	SejuaniChampionLevel6: {
+		DisplayName: Sejuani, Fury of the North (Level 6)
+		Tooltip: ""
+	}
+
+	SejuaniChampionLevel7: {
+		DisplayName: Sejuani, Fury of the North (Level 7)
+		Tooltip: ""
+	}
+
+	SejuaniChampionLevel8: {
+		DisplayName: Sejuani, Fury of the North (Level 8)
+		Tooltip: ""
+	}
+
+	SennaChampionLevel2: {
+		DisplayName: Senna, the Redeemer (Level 2)
+		Tooltip: ""
+	}
+
+	SennaChampionLevel3: {
+		DisplayName: Senna, the Redeemer (Level 3)
+		Tooltip: ""
+	}
+
+	SennaChampionLevel4: {
+		DisplayName: Senna, the Redeemer (Level 4)
+		Tooltip: ""
+	}
+
+	SennaChampionLevel5: {
+		DisplayName: Senna, the Redeemer (Level 5)
+		Tooltip: ""
+	}
+
+	SennaChampionLevel6: {
+		DisplayName: Senna, the Redeemer (Level 6)
+		Tooltip: ""
+	}
+
+	SennaChampionLevel7: {
+		DisplayName: Senna, the Redeemer (Level 7)
+		Tooltip: ""
+	}
+
+	SennaChampionLevel8: {
+		DisplayName: Senna, the Redeemer (Level 8)
+		Tooltip: ""
+	}
+
+	SeraphineChampionLevel2: {
+		DisplayName: Seraphine, the Starry-Eyed Songstress (Level 2)
+		Tooltip: ""
+	}
+
+	SeraphineChampionLevel3: {
+		DisplayName: Seraphine, the Starry-Eyed Songstress (Level 3)
+		Tooltip: ""
+	}
+
+	SeraphineChampionLevel4: {
+		DisplayName: Seraphine, the Starry-Eyed Songstress (Level 4)
+		Tooltip: ""
+	}
+
+	SeraphineChampionLevel5: {
+		DisplayName: Seraphine, the Starry-Eyed Songstress (Level 5)
+		Tooltip: ""
+	}
+
+	SeraphineChampionLevel6: {
+		DisplayName: Seraphine, the Starry-Eyed Songstress (Level 6)
+		Tooltip: ""
+	}
+
+	SeraphineChampionLevel7: {
+		DisplayName: Seraphine, the Starry-Eyed Songstress (Level 7)
+		Tooltip: ""
+	}
+
+	SeraphineChampionLevel8: {
+		DisplayName: Seraphine, the Starry-Eyed Songstress (Level 8)
+		Tooltip: ""
+	}
+
+	SettChampionLevel2: {
+		DisplayName: Sett, the Boss (Level 2)
+		Tooltip: ""
+	}
+
+	SettChampionLevel3: {
+		DisplayName: Sett, the Boss (Level 3)
+		Tooltip: ""
+	}
+
+	SettChampionLevel4: {
+		DisplayName: Sett, the Boss (Level 4)
+		Tooltip: ""
+	}
+
+	SettChampionLevel5: {
+		DisplayName: Sett, the Boss (Level 5)
+		Tooltip: ""
+	}
+
+	SettChampionLevel6: {
+		DisplayName: Sett, the Boss (Level 6)
+		Tooltip: ""
+	}
+
+	SettChampionLevel7: {
+		DisplayName: Sett, the Boss (Level 7)
+		Tooltip: ""
+	}
+
+	SettChampionLevel8: {
+		DisplayName: Sett, the Boss (Level 8)
+		Tooltip: ""
+	}
+
+	ShacoChampionLevel2: {
+		DisplayName: Shaco, the Demon Jester (Level 2)
+		Tooltip: ""
+	}
+
+	ShacoChampionLevel3: {
+		DisplayName: Shaco, the Demon Jester (Level 3)
+		Tooltip: ""
+	}
+
+	ShacoChampionLevel4: {
+		DisplayName: Shaco, the Demon Jester (Level 4)
+		Tooltip: ""
+	}
+
+	ShacoChampionLevel5: {
+		DisplayName: Shaco, the Demon Jester (Level 5)
+		Tooltip: ""
+	}
+
+	ShacoChampionLevel6: {
+		DisplayName: Shaco, the Demon Jester (Level 6)
+		Tooltip: ""
+	}
+
+	ShacoChampionLevel7: {
+		DisplayName: Shaco, the Demon Jester (Level 7)
+		Tooltip: ""
+	}
+
+	ShacoChampionLevel8: {
+		DisplayName: Shaco, the Demon Jester (Level 8)
+		Tooltip: ""
+	}
+
+	ShenChampionLevel2: {
+		DisplayName: Shen, the Eye of Twilight (Level 2)
+		Tooltip: ""
+	}
+
+	ShenChampionLevel3: {
+		DisplayName: Shen, the Eye of Twilight (Level 3)
+		Tooltip: ""
+	}
+
+	ShenChampionLevel4: {
+		DisplayName: Shen, the Eye of Twilight (Level 4)
+		Tooltip: ""
+	}
+
+	ShenChampionLevel5: {
+		DisplayName: Shen, the Eye of Twilight (Level 5)
+		Tooltip: ""
+	}
+
+	ShenChampionLevel6: {
+		DisplayName: Shen, the Eye of Twilight (Level 6)
+		Tooltip: ""
+	}
+
+	ShenChampionLevel7: {
+		DisplayName: Shen, the Eye of Twilight (Level 7)
+		Tooltip: ""
+	}
+
+	ShenChampionLevel8: {
+		DisplayName: Shen, the Eye of Twilight (Level 8)
+		Tooltip: ""
+	}
+
+	ShyvanaChampionLevel2: {
+		DisplayName: Shyvana, the Half-Dragon (Level 2)
+		Tooltip: ""
+	}
+
+	ShyvanaChampionLevel3: {
+		DisplayName: Shyvana, the Half-Dragon (Level 3)
+		Tooltip: ""
+	}
+
+	ShyvanaChampionLevel4: {
+		DisplayName: Shyvana, the Half-Dragon (Level 4)
+		Tooltip: ""
+	}
+
+	ShyvanaChampionLevel5: {
+		DisplayName: Shyvana, the Half-Dragon (Level 5)
+		Tooltip: ""
+	}
+
+	ShyvanaChampionLevel6: {
+		DisplayName: Shyvana, the Half-Dragon (Level 6)
+		Tooltip: ""
+	}
+
+	ShyvanaChampionLevel7: {
+		DisplayName: Shyvana, the Half-Dragon (Level 7)
+		Tooltip: ""
+	}
+
+	ShyvanaChampionLevel8: {
+		DisplayName: Shyvana, the Half-Dragon (Level 8)
+		Tooltip: ""
+	}
+
+	SingedChampionLevel2: {
+		DisplayName: Singed, the Mad Chemist (Level 2)
+		Tooltip: ""
+	}
+
+	SingedChampionLevel3: {
+		DisplayName: Singed, the Mad Chemist (Level 3)
+		Tooltip: ""
+	}
+
+	SingedChampionLevel4: {
+		DisplayName: Singed, the Mad Chemist (Level 4)
+		Tooltip: ""
+	}
+
+	SingedChampionLevel5: {
+		DisplayName: Singed, the Mad Chemist (Level 5)
+		Tooltip: ""
+	}
+
+	SingedChampionLevel6: {
+		DisplayName: Singed, the Mad Chemist (Level 6)
+		Tooltip: ""
+	}
+
+	SingedChampionLevel7: {
+		DisplayName: Singed, the Mad Chemist (Level 7)
+		Tooltip: ""
+	}
+
+	SingedChampionLevel8: {
+		DisplayName: Singed, the Mad Chemist (Level 8)
+		Tooltip: ""
+	}
+
+	SionChampionLevel2: {
+		DisplayName: Sion, The Undead Juggernaut (Level 2)
+		Tooltip: ""
+	}
+
+	SionChampionLevel3: {
+		DisplayName: Sion, The Undead Juggernaut (Level 3)
+		Tooltip: ""
+	}
+
+	SionChampionLevel4: {
+		DisplayName: Sion, The Undead Juggernaut (Level 4)
+		Tooltip: ""
+	}
+
+	SionChampionLevel5: {
+		DisplayName: Sion, The Undead Juggernaut (Level 5)
+		Tooltip: ""
+	}
+
+	SionChampionLevel6: {
+		DisplayName: Sion, The Undead Juggernaut (Level 6)
+		Tooltip: ""
+	}
+
+	SionChampionLevel7: {
+		DisplayName: Sion, The Undead Juggernaut (Level 7)
+		Tooltip: ""
+	}
+
+	SionChampionLevel8: {
+		DisplayName: Sion, The Undead Juggernaut (Level 8)
+		Tooltip: ""
+	}
+
+	SivirChampionLevel2: {
+		DisplayName: Sivir, the Battle Mistress (Level 2)
+		Tooltip: ""
+	}
+
+	SivirChampionLevel3: {
+		DisplayName: Sivir, the Battle Mistress (Level 3)
+		Tooltip: ""
+	}
+
+	SivirChampionLevel4: {
+		DisplayName: Sivir, the Battle Mistress (Level 4)
+		Tooltip: ""
+	}
+
+	SivirChampionLevel5: {
+		DisplayName: Sivir, the Battle Mistress (Level 5)
+		Tooltip: ""
+	}
+
+	SivirChampionLevel6: {
+		DisplayName: Sivir, the Battle Mistress (Level 6)
+		Tooltip: ""
+	}
+
+	SivirChampionLevel7: {
+		DisplayName: Sivir, the Battle Mistress (Level 7)
+		Tooltip: ""
+	}
+
+	SivirChampionLevel8: {
+		DisplayName: Sivir, the Battle Mistress (Level 8)
+		Tooltip: ""
+	}
+
+	SkarnerChampionLevel2: {
+		DisplayName: Skarner, the Primordial Sovereign (Level 2)
+		Tooltip: ""
+	}
+
+	SkarnerChampionLevel3: {
+		DisplayName: Skarner, the Primordial Sovereign (Level 3)
+		Tooltip: ""
+	}
+
+	SkarnerChampionLevel4: {
+		DisplayName: Skarner, the Primordial Sovereign (Level 4)
+		Tooltip: ""
+	}
+
+	SkarnerChampionLevel5: {
+		DisplayName: Skarner, the Primordial Sovereign (Level 5)
+		Tooltip: ""
+	}
+
+	SkarnerChampionLevel6: {
+		DisplayName: Skarner, the Primordial Sovereign (Level 6)
+		Tooltip: ""
+	}
+
+	SkarnerChampionLevel7: {
+		DisplayName: Skarner, the Primordial Sovereign (Level 7)
+		Tooltip: ""
+	}
+
+	SkarnerChampionLevel8: {
+		DisplayName: Skarner, the Primordial Sovereign (Level 8)
+		Tooltip: ""
+	}
+
+	SmolderChampionLevel2: {
+		DisplayName: Smolder, the Fiery Fledgling (Level 2)
+		Tooltip: ""
+	}
+
+	SmolderChampionLevel3: {
+		DisplayName: Smolder, the Fiery Fledgling (Level 3)
+		Tooltip: ""
+	}
+
+	SmolderChampionLevel4: {
+		DisplayName: Smolder, the Fiery Fledgling (Level 4)
+		Tooltip: ""
+	}
+
+	SmolderChampionLevel5: {
+		DisplayName: Smolder, the Fiery Fledgling (Level 5)
+		Tooltip: ""
+	}
+
+	SmolderChampionLevel6: {
+		DisplayName: Smolder, the Fiery Fledgling (Level 6)
+		Tooltip: ""
+	}
+
+	SmolderChampionLevel7: {
+		DisplayName: Smolder, the Fiery Fledgling (Level 7)
+		Tooltip: ""
+	}
+
+	SmolderChampionLevel8: {
+		DisplayName: Smolder, the Fiery Fledgling (Level 8)
+		Tooltip: ""
+	}
+
+	SonaChampionLevel2: {
+		DisplayName: Sona, Maven of the Strings (Level 2)
+		Tooltip: ""
+	}
+
+	SonaChampionLevel3: {
+		DisplayName: Sona, Maven of the Strings (Level 3)
+		Tooltip: ""
+	}
+
+	SonaChampionLevel4: {
+		DisplayName: Sona, Maven of the Strings (Level 4)
+		Tooltip: ""
+	}
+
+	SonaChampionLevel5: {
+		DisplayName: Sona, Maven of the Strings (Level 5)
+		Tooltip: ""
+	}
+
+	SonaChampionLevel6: {
+		DisplayName: Sona, Maven of the Strings (Level 6)
+		Tooltip: ""
+	}
+
+	SonaChampionLevel7: {
+		DisplayName: Sona, Maven of the Strings (Level 7)
+		Tooltip: ""
+	}
+
+	SonaChampionLevel8: {
+		DisplayName: Sona, Maven of the Strings (Level 8)
+		Tooltip: ""
+	}
+
+	SorakaChampionLevel2: {
+		DisplayName: Soraka, the Starchild (Level 2)
+		Tooltip: ""
+	}
+
+	SorakaChampionLevel3: {
+		DisplayName: Soraka, the Starchild (Level 3)
+		Tooltip: ""
+	}
+
+	SorakaChampionLevel4: {
+		DisplayName: Soraka, the Starchild (Level 4)
+		Tooltip: ""
+	}
+
+	SorakaChampionLevel5: {
+		DisplayName: Soraka, the Starchild (Level 5)
+		Tooltip: ""
+	}
+
+	SorakaChampionLevel6: {
+		DisplayName: Soraka, the Starchild (Level 6)
+		Tooltip: ""
+	}
+
+	SorakaChampionLevel7: {
+		DisplayName: Soraka, the Starchild (Level 7)
+		Tooltip: ""
+	}
+
+	SorakaChampionLevel8: {
+		DisplayName: Soraka, the Starchild (Level 8)
+		Tooltip: ""
+	}
+
+	SwainChampionLevel2: {
+		DisplayName: Swain, the Noxian Grand General (Level 2)
+		Tooltip: ""
+	}
+
+	SwainChampionLevel3: {
+		DisplayName: Swain, the Noxian Grand General (Level 3)
+		Tooltip: ""
+	}
+
+	SwainChampionLevel4: {
+		DisplayName: Swain, the Noxian Grand General (Level 4)
+		Tooltip: ""
+	}
+
+	SwainChampionLevel5: {
+		DisplayName: Swain, the Noxian Grand General (Level 5)
+		Tooltip: ""
+	}
+
+	SwainChampionLevel6: {
+		DisplayName: Swain, the Noxian Grand General (Level 6)
+		Tooltip: ""
+	}
+
+	SwainChampionLevel7: {
+		DisplayName: Swain, the Noxian Grand General (Level 7)
+		Tooltip: ""
+	}
+
+	SwainChampionLevel8: {
+		DisplayName: Swain, the Noxian Grand General (Level 8)
+		Tooltip: ""
+	}
+
+	SylasChampionLevel2: {
+		DisplayName: Sylas, the Unshackled (Level 2)
+		Tooltip: ""
+	}
+
+	SylasChampionLevel3: {
+		DisplayName: Sylas, the Unshackled (Level 3)
+		Tooltip: ""
+	}
+
+	SylasChampionLevel4: {
+		DisplayName: Sylas, the Unshackled (Level 4)
+		Tooltip: ""
+	}
+
+	SylasChampionLevel5: {
+		DisplayName: Sylas, the Unshackled (Level 5)
+		Tooltip: ""
+	}
+
+	SylasChampionLevel6: {
+		DisplayName: Sylas, the Unshackled (Level 6)
+		Tooltip: ""
+	}
+
+	SylasChampionLevel7: {
+		DisplayName: Sylas, the Unshackled (Level 7)
+		Tooltip: ""
+	}
+
+	SylasChampionLevel8: {
+		DisplayName: Sylas, the Unshackled (Level 8)
+		Tooltip: ""
+	}
+
+	SyndraChampionLevel2: {
+		DisplayName: Syndra, the Dark Sovereign (Level 2)
+		Tooltip: ""
+	}
+
+	SyndraChampionLevel3: {
+		DisplayName: Syndra, the Dark Sovereign (Level 3)
+		Tooltip: ""
+	}
+
+	SyndraChampionLevel4: {
+		DisplayName: Syndra, the Dark Sovereign (Level 4)
+		Tooltip: ""
+	}
+
+	SyndraChampionLevel5: {
+		DisplayName: Syndra, the Dark Sovereign (Level 5)
+		Tooltip: ""
+	}
+
+	SyndraChampionLevel6: {
+		DisplayName: Syndra, the Dark Sovereign (Level 6)
+		Tooltip: ""
+	}
+
+	SyndraChampionLevel7: {
+		DisplayName: Syndra, the Dark Sovereign (Level 7)
+		Tooltip: ""
+	}
+
+	SyndraChampionLevel8: {
+		DisplayName: Syndra, the Dark Sovereign (Level 8)
+		Tooltip: ""
+	}
+
+	TahmKenchChampionLevel2: {
+		DisplayName: Tahm Kench, The River King (Level 2)
+		Tooltip: ""
+	}
+
+	TahmKenchChampionLevel3: {
+		DisplayName: Tahm Kench, The River King (Level 3)
+		Tooltip: ""
+	}
+
+	TahmKenchChampionLevel4: {
+		DisplayName: Tahm Kench, The River King (Level 4)
+		Tooltip: ""
+	}
+
+	TahmKenchChampionLevel5: {
+		DisplayName: Tahm Kench, The River King (Level 5)
+		Tooltip: ""
+	}
+
+	TahmKenchChampionLevel6: {
+		DisplayName: Tahm Kench, The River King (Level 6)
+		Tooltip: ""
+	}
+
+	TahmKenchChampionLevel7: {
+		DisplayName: Tahm Kench, The River King (Level 7)
+		Tooltip: ""
+	}
+
+	TahmKenchChampionLevel8: {
+		DisplayName: Tahm Kench, The River King (Level 8)
+		Tooltip: ""
+	}
+
+	TaliyahChampionLevel2: {
+		DisplayName: Taliyah, the Stoneweaver (Level 2)
+		Tooltip: ""
+	}
+
+	TaliyahChampionLevel3: {
+		DisplayName: Taliyah, the Stoneweaver (Level 3)
+		Tooltip: ""
+	}
+
+	TaliyahChampionLevel4: {
+		DisplayName: Taliyah, the Stoneweaver (Level 4)
+		Tooltip: ""
+	}
+
+	TaliyahChampionLevel5: {
+		DisplayName: Taliyah, the Stoneweaver (Level 5)
+		Tooltip: ""
+	}
+
+	TaliyahChampionLevel6: {
+		DisplayName: Taliyah, the Stoneweaver (Level 6)
+		Tooltip: ""
+	}
+
+	TaliyahChampionLevel7: {
+		DisplayName: Taliyah, the Stoneweaver (Level 7)
+		Tooltip: ""
+	}
+
+	TaliyahChampionLevel8: {
+		DisplayName: Taliyah, the Stoneweaver (Level 8)
+		Tooltip: ""
+	}
+
+	TalonChampionLevel2: {
+		DisplayName: Talon, the Blade's Shadow (Level 2)
+		Tooltip: ""
+	}
+
+	TalonChampionLevel3: {
+		DisplayName: Talon, the Blade's Shadow (Level 3)
+		Tooltip: ""
+	}
+
+	TalonChampionLevel4: {
+		DisplayName: Talon, the Blade's Shadow (Level 4)
+		Tooltip: ""
+	}
+
+	TalonChampionLevel5: {
+		DisplayName: Talon, the Blade's Shadow (Level 5)
+		Tooltip: ""
+	}
+
+	TalonChampionLevel6: {
+		DisplayName: Talon, the Blade's Shadow (Level 6)
+		Tooltip: ""
+	}
+
+	TalonChampionLevel7: {
+		DisplayName: Talon, the Blade's Shadow (Level 7)
+		Tooltip: ""
+	}
+
+	TalonChampionLevel8: {
+		DisplayName: Talon, the Blade's Shadow (Level 8)
+		Tooltip: ""
+	}
+
+	TaricChampionLevel2: {
+		DisplayName: Taric, the Shield of Valoran (Level 2)
+		Tooltip: ""
+	}
+
+	TaricChampionLevel3: {
+		DisplayName: Taric, the Shield of Valoran (Level 3)
+		Tooltip: ""
+	}
+
+	TaricChampionLevel4: {
+		DisplayName: Taric, the Shield of Valoran (Level 4)
+		Tooltip: ""
+	}
+
+	TaricChampionLevel5: {
+		DisplayName: Taric, the Shield of Valoran (Level 5)
+		Tooltip: ""
+	}
+
+	TaricChampionLevel6: {
+		DisplayName: Taric, the Shield of Valoran (Level 6)
+		Tooltip: ""
+	}
+
+	TaricChampionLevel7: {
+		DisplayName: Taric, the Shield of Valoran (Level 7)
+		Tooltip: ""
+	}
+
+	TaricChampionLevel8: {
+		DisplayName: Taric, the Shield of Valoran (Level 8)
+		Tooltip: ""
+	}
+
+	TeemoChampionLevel2: {
+		DisplayName: Teemo, the Swift Scout (Level 2)
+		Tooltip: ""
+	}
+
+	TeemoChampionLevel3: {
+		DisplayName: Teemo, the Swift Scout (Level 3)
+		Tooltip: ""
+	}
+
+	TeemoChampionLevel4: {
+		DisplayName: Teemo, the Swift Scout (Level 4)
+		Tooltip: ""
+	}
+
+	TeemoChampionLevel5: {
+		DisplayName: Teemo, the Swift Scout (Level 5)
+		Tooltip: ""
+	}
+
+	TeemoChampionLevel6: {
+		DisplayName: Teemo, the Swift Scout (Level 6)
+		Tooltip: ""
+	}
+
+	TeemoChampionLevel7: {
+		DisplayName: Teemo, the Swift Scout (Level 7)
+		Tooltip: ""
+	}
+
+	TeemoChampionLevel8: {
+		DisplayName: Teemo, the Swift Scout (Level 8)
+		Tooltip: ""
+	}
+
+	ThreshChampionLevel2: {
+		DisplayName: Thresh, the Chain Warden (Level 2)
+		Tooltip: ""
+	}
+
+	ThreshChampionLevel3: {
+		DisplayName: Thresh, the Chain Warden (Level 3)
+		Tooltip: ""
+	}
+
+	ThreshChampionLevel4: {
+		DisplayName: Thresh, the Chain Warden (Level 4)
+		Tooltip: ""
+	}
+
+	ThreshChampionLevel5: {
+		DisplayName: Thresh, the Chain Warden (Level 5)
+		Tooltip: ""
+	}
+
+	ThreshChampionLevel6: {
+		DisplayName: Thresh, the Chain Warden (Level 6)
+		Tooltip: ""
+	}
+
+	ThreshChampionLevel7: {
+		DisplayName: Thresh, the Chain Warden (Level 7)
+		Tooltip: ""
+	}
+
+	ThreshChampionLevel8: {
+		DisplayName: Thresh, the Chain Warden (Level 8)
+		Tooltip: ""
+	}
+
+	TristanaChampionLevel2: {
+		DisplayName: Tristana, the Yordle Gunner (Level 2)
+		Tooltip: ""
+	}
+
+	TristanaChampionLevel3: {
+		DisplayName: Tristana, the Yordle Gunner (Level 3)
+		Tooltip: ""
+	}
+
+	TristanaChampionLevel4: {
+		DisplayName: Tristana, the Yordle Gunner (Level 4)
+		Tooltip: ""
+	}
+
+	TristanaChampionLevel5: {
+		DisplayName: Tristana, the Yordle Gunner (Level 5)
+		Tooltip: ""
+	}
+
+	TristanaChampionLevel6: {
+		DisplayName: Tristana, the Yordle Gunner (Level 6)
+		Tooltip: ""
+	}
+
+	TristanaChampionLevel7: {
+		DisplayName: Tristana, the Yordle Gunner (Level 7)
+		Tooltip: ""
+	}
+
+	TristanaChampionLevel8: {
+		DisplayName: Tristana, the Yordle Gunner (Level 8)
+		Tooltip: ""
+	}
+
+	TrundleChampionLevel2: {
+		DisplayName: Trundle, the Troll King (Level 2)
+		Tooltip: ""
+	}
+
+	TrundleChampionLevel3: {
+		DisplayName: Trundle, the Troll King (Level 3)
+		Tooltip: ""
+	}
+
+	TrundleChampionLevel4: {
+		DisplayName: Trundle, the Troll King (Level 4)
+		Tooltip: ""
+	}
+
+	TrundleChampionLevel5: {
+		DisplayName: Trundle, the Troll King (Level 5)
+		Tooltip: ""
+	}
+
+	TrundleChampionLevel6: {
+		DisplayName: Trundle, the Troll King (Level 6)
+		Tooltip: ""
+	}
+
+	TrundleChampionLevel7: {
+		DisplayName: Trundle, the Troll King (Level 7)
+		Tooltip: ""
+	}
+
+	TrundleChampionLevel8: {
+		DisplayName: Trundle, the Troll King (Level 8)
+		Tooltip: ""
+	}
+
+	TryndamereChampionLevel2: {
+		DisplayName: Tryndamere, the Barbarian King (Level 2)
+		Tooltip: ""
+	}
+
+	TryndamereChampionLevel3: {
+		DisplayName: Tryndamere, the Barbarian King (Level 3)
+		Tooltip: ""
+	}
+
+	TryndamereChampionLevel4: {
+		DisplayName: Tryndamere, the Barbarian King (Level 4)
+		Tooltip: ""
+	}
+
+	TryndamereChampionLevel5: {
+		DisplayName: Tryndamere, the Barbarian King (Level 5)
+		Tooltip: ""
+	}
+
+	TryndamereChampionLevel6: {
+		DisplayName: Tryndamere, the Barbarian King (Level 6)
+		Tooltip: ""
+	}
+
+	TryndamereChampionLevel7: {
+		DisplayName: Tryndamere, the Barbarian King (Level 7)
+		Tooltip: ""
+	}
+
+	TryndamereChampionLevel8: {
+		DisplayName: Tryndamere, the Barbarian King (Level 8)
+		Tooltip: ""
+	}
+
+	TwistedFateChampionLevel2: {
+		DisplayName: Twisted Fate, the Card Master (Level 2)
+		Tooltip: ""
+	}
+
+	TwistedFateChampionLevel3: {
+		DisplayName: Twisted Fate, the Card Master (Level 3)
+		Tooltip: ""
+	}
+
+	TwistedFateChampionLevel4: {
+		DisplayName: Twisted Fate, the Card Master (Level 4)
+		Tooltip: ""
+	}
+
+	TwistedFateChampionLevel5: {
+		DisplayName: Twisted Fate, the Card Master (Level 5)
+		Tooltip: ""
+	}
+
+	TwistedFateChampionLevel6: {
+		DisplayName: Twisted Fate, the Card Master (Level 6)
+		Tooltip: ""
+	}
+
+	TwistedFateChampionLevel7: {
+		DisplayName: Twisted Fate, the Card Master (Level 7)
+		Tooltip: ""
+	}
+
+	TwistedFateChampionLevel8: {
+		DisplayName: Twisted Fate, the Card Master (Level 8)
+		Tooltip: ""
+	}
+
+	TwitchChampionLevel2: {
+		DisplayName: Twitch, the Plague Rat (Level 2)
+		Tooltip: ""
+	}
+
+	TwitchChampionLevel3: {
+		DisplayName: Twitch, the Plague Rat (Level 3)
+		Tooltip: ""
+	}
+
+	TwitchChampionLevel4: {
+		DisplayName: Twitch, the Plague Rat (Level 4)
+		Tooltip: ""
+	}
+
+	TwitchChampionLevel5: {
+		DisplayName: Twitch, the Plague Rat (Level 5)
+		Tooltip: ""
+	}
+
+	TwitchChampionLevel6: {
+		DisplayName: Twitch, the Plague Rat (Level 6)
+		Tooltip: ""
+	}
+
+	TwitchChampionLevel7: {
+		DisplayName: Twitch, the Plague Rat (Level 7)
+		Tooltip: ""
+	}
+
+	TwitchChampionLevel8: {
+		DisplayName: Twitch, the Plague Rat (Level 8)
+		Tooltip: ""
+	}
+
+	UdyrChampionLevel2: {
+		DisplayName: Udyr, the Spirit Walker (Level 2)
+		Tooltip: ""
+	}
+
+	UdyrChampionLevel3: {
+		DisplayName: Udyr, the Spirit Walker (Level 3)
+		Tooltip: ""
+	}
+
+	UdyrChampionLevel4: {
+		DisplayName: Udyr, the Spirit Walker (Level 4)
+		Tooltip: ""
+	}
+
+	UdyrChampionLevel5: {
+		DisplayName: Udyr, the Spirit Walker (Level 5)
+		Tooltip: ""
+	}
+
+	UdyrChampionLevel6: {
+		DisplayName: Udyr, the Spirit Walker (Level 6)
+		Tooltip: ""
+	}
+
+	UdyrChampionLevel7: {
+		DisplayName: Udyr, the Spirit Walker (Level 7)
+		Tooltip: ""
+	}
+
+	UdyrChampionLevel8: {
+		DisplayName: Udyr, the Spirit Walker (Level 8)
+		Tooltip: ""
+	}
+
+	UrgotChampionLevel2: {
+		DisplayName: Urgot, the Dreadnought (Level 2)
+		Tooltip: ""
+	}
+
+	UrgotChampionLevel3: {
+		DisplayName: Urgot, the Dreadnought (Level 3)
+		Tooltip: ""
+	}
+
+	UrgotChampionLevel4: {
+		DisplayName: Urgot, the Dreadnought (Level 4)
+		Tooltip: ""
+	}
+
+	UrgotChampionLevel5: {
+		DisplayName: Urgot, the Dreadnought (Level 5)
+		Tooltip: ""
+	}
+
+	UrgotChampionLevel6: {
+		DisplayName: Urgot, the Dreadnought (Level 6)
+		Tooltip: ""
+	}
+
+	UrgotChampionLevel7: {
+		DisplayName: Urgot, the Dreadnought (Level 7)
+		Tooltip: ""
+	}
+
+	UrgotChampionLevel8: {
+		DisplayName: Urgot, the Dreadnought (Level 8)
+		Tooltip: ""
+	}
+
+	VarusChampionLevel2: {
+		DisplayName: Varus, the Arrow of Retribution (Level 2)
+		Tooltip: ""
+	}
+
+	VarusChampionLevel3: {
+		DisplayName: Varus, the Arrow of Retribution (Level 3)
+		Tooltip: ""
+	}
+
+	VarusChampionLevel4: {
+		DisplayName: Varus, the Arrow of Retribution (Level 4)
+		Tooltip: ""
+	}
+
+	VarusChampionLevel5: {
+		DisplayName: Varus, the Arrow of Retribution (Level 5)
+		Tooltip: ""
+	}
+
+	VarusChampionLevel6: {
+		DisplayName: Varus, the Arrow of Retribution (Level 6)
+		Tooltip: ""
+	}
+
+	VarusChampionLevel7: {
+		DisplayName: Varus, the Arrow of Retribution (Level 7)
+		Tooltip: ""
+	}
+
+	VarusChampionLevel8: {
+		DisplayName: Varus, the Arrow of Retribution (Level 8)
+		Tooltip: ""
+	}
+
+	VayneChampionLevel2: {
+		DisplayName: Vayne, the Night Hunter (Level 2)
+		Tooltip: ""
+	}
+
+	VayneChampionLevel3: {
+		DisplayName: Vayne, the Night Hunter (Level 3)
+		Tooltip: ""
+	}
+
+	VayneChampionLevel4: {
+		DisplayName: Vayne, the Night Hunter (Level 4)
+		Tooltip: ""
+	}
+
+	VayneChampionLevel5: {
+		DisplayName: Vayne, the Night Hunter (Level 5)
+		Tooltip: ""
+	}
+
+	VayneChampionLevel6: {
+		DisplayName: Vayne, the Night Hunter (Level 6)
+		Tooltip: ""
+	}
+
+	VayneChampionLevel7: {
+		DisplayName: Vayne, the Night Hunter (Level 7)
+		Tooltip: ""
+	}
+
+	VayneChampionLevel8: {
+		DisplayName: Vayne, the Night Hunter (Level 8)
+		Tooltip: ""
+	}
+
+	VeigarChampionLevel2: {
+		DisplayName: Veigar, the Tiny Master of Evil (Level 2)
+		Tooltip: ""
+	}
+
+	VeigarChampionLevel3: {
+		DisplayName: Veigar, the Tiny Master of Evil (Level 3)
+		Tooltip: ""
+	}
+
+	VeigarChampionLevel4: {
+		DisplayName: Veigar, the Tiny Master of Evil (Level 4)
+		Tooltip: ""
+	}
+
+	VeigarChampionLevel5: {
+		DisplayName: Veigar, the Tiny Master of Evil (Level 5)
+		Tooltip: ""
+	}
+
+	VeigarChampionLevel6: {
+		DisplayName: Veigar, the Tiny Master of Evil (Level 6)
+		Tooltip: ""
+	}
+
+	VeigarChampionLevel7: {
+		DisplayName: Veigar, the Tiny Master of Evil (Level 7)
+		Tooltip: ""
+	}
+
+	VeigarChampionLevel8: {
+		DisplayName: Veigar, the Tiny Master of Evil (Level 8)
+		Tooltip: ""
+	}
+
+	VelkozChampionLevel2: {
+		DisplayName: Vel'Koz, the Eye of the Void (Level 2)
+		Tooltip: ""
+	}
+
+	VelkozChampionLevel3: {
+		DisplayName: Vel'Koz, the Eye of the Void (Level 3)
+		Tooltip: ""
+	}
+
+	VelkozChampionLevel4: {
+		DisplayName: Vel'Koz, the Eye of the Void (Level 4)
+		Tooltip: ""
+	}
+
+	VelkozChampionLevel5: {
+		DisplayName: Vel'Koz, the Eye of the Void (Level 5)
+		Tooltip: ""
+	}
+
+	VelkozChampionLevel6: {
+		DisplayName: Vel'Koz, the Eye of the Void (Level 6)
+		Tooltip: ""
+	}
+
+	VelkozChampionLevel7: {
+		DisplayName: Vel'Koz, the Eye of the Void (Level 7)
+		Tooltip: ""
+	}
+
+	VelkozChampionLevel8: {
+		DisplayName: Vel'Koz, the Eye of the Void (Level 8)
+		Tooltip: ""
+	}
+
+	VexChampionLevel2: {
+		DisplayName: Vex, the Gloomist (Level 2)
+		Tooltip: ""
+	}
+
+	VexChampionLevel3: {
+		DisplayName: Vex, the Gloomist (Level 3)
+		Tooltip: ""
+	}
+
+	VexChampionLevel4: {
+		DisplayName: Vex, the Gloomist (Level 4)
+		Tooltip: ""
+	}
+
+	VexChampionLevel5: {
+		DisplayName: Vex, the Gloomist (Level 5)
+		Tooltip: ""
+	}
+
+	VexChampionLevel6: {
+		DisplayName: Vex, the Gloomist (Level 6)
+		Tooltip: ""
+	}
+
+	VexChampionLevel7: {
+		DisplayName: Vex, the Gloomist (Level 7)
+		Tooltip: ""
+	}
+
+	VexChampionLevel8: {
+		DisplayName: Vex, the Gloomist (Level 8)
+		Tooltip: ""
+	}
+
+	ViChampionLevel2: {
+		DisplayName: Vi, the Piltover Enforcer (Level 2)
+		Tooltip: ""
+	}
+
+	ViChampionLevel3: {
+		DisplayName: Vi, the Piltover Enforcer (Level 3)
+		Tooltip: ""
+	}
+
+	ViChampionLevel4: {
+		DisplayName: Vi, the Piltover Enforcer (Level 4)
+		Tooltip: ""
+	}
+
+	ViChampionLevel5: {
+		DisplayName: Vi, the Piltover Enforcer (Level 5)
+		Tooltip: ""
+	}
+
+	ViChampionLevel6: {
+		DisplayName: Vi, the Piltover Enforcer (Level 6)
+		Tooltip: ""
+	}
+
+	ViChampionLevel7: {
+		DisplayName: Vi, the Piltover Enforcer (Level 7)
+		Tooltip: ""
+	}
+
+	ViChampionLevel8: {
+		DisplayName: Vi, the Piltover Enforcer (Level 8)
+		Tooltip: ""
+	}
+
+	ViegoChampionLevel2: {
+		DisplayName: Viego, The Ruined King (Level 2)
+		Tooltip: ""
+	}
+
+	ViegoChampionLevel3: {
+		DisplayName: Viego, The Ruined King (Level 3)
+		Tooltip: ""
+	}
+
+	ViegoChampionLevel4: {
+		DisplayName: Viego, The Ruined King (Level 4)
+		Tooltip: ""
+	}
+
+	ViegoChampionLevel5: {
+		DisplayName: Viego, The Ruined King (Level 5)
+		Tooltip: ""
+	}
+
+	ViegoChampionLevel6: {
+		DisplayName: Viego, The Ruined King (Level 6)
+		Tooltip: ""
+	}
+
+	ViegoChampionLevel7: {
+		DisplayName: Viego, The Ruined King (Level 7)
+		Tooltip: ""
+	}
+
+	ViegoChampionLevel8: {
+		DisplayName: Viego, The Ruined King (Level 8)
+		Tooltip: ""
+	}
+
+	ViktorChampionLevel2: {
+		DisplayName: Viktor, the Herald of the Arcane (Level 2)
+		Tooltip: ""
+	}
+
+	ViktorChampionLevel3: {
+		DisplayName: Viktor, the Herald of the Arcane (Level 3)
+		Tooltip: ""
+	}
+
+	ViktorChampionLevel4: {
+		DisplayName: Viktor, the Herald of the Arcane (Level 4)
+		Tooltip: ""
+	}
+
+	ViktorChampionLevel5: {
+		DisplayName: Viktor, the Herald of the Arcane (Level 5)
+		Tooltip: ""
+	}
+
+	ViktorChampionLevel6: {
+		DisplayName: Viktor, the Herald of the Arcane (Level 6)
+		Tooltip: ""
+	}
+
+	ViktorChampionLevel7: {
+		DisplayName: Viktor, the Herald of the Arcane (Level 7)
+		Tooltip: ""
+	}
+
+	ViktorChampionLevel8: {
+		DisplayName: Viktor, the Herald of the Arcane (Level 8)
+		Tooltip: ""
+	}
+
+	VladimirChampionLevel2: {
+		DisplayName: Vladimir, the Crimson Reaper (Level 2)
+		Tooltip: ""
+	}
+
+	VladimirChampionLevel3: {
+		DisplayName: Vladimir, the Crimson Reaper (Level 3)
+		Tooltip: ""
+	}
+
+	VladimirChampionLevel4: {
+		DisplayName: Vladimir, the Crimson Reaper (Level 4)
+		Tooltip: ""
+	}
+
+	VladimirChampionLevel5: {
+		DisplayName: Vladimir, the Crimson Reaper (Level 5)
+		Tooltip: ""
+	}
+
+	VladimirChampionLevel6: {
+		DisplayName: Vladimir, the Crimson Reaper (Level 6)
+		Tooltip: ""
+	}
+
+	VladimirChampionLevel7: {
+		DisplayName: Vladimir, the Crimson Reaper (Level 7)
+		Tooltip: ""
+	}
+
+	VladimirChampionLevel8: {
+		DisplayName: Vladimir, the Crimson Reaper (Level 8)
+		Tooltip: ""
+	}
+
+	VolibearChampionLevel2: {
+		DisplayName: Volibear, the Relentless Storm (Level 2)
+		Tooltip: ""
+	}
+
+	VolibearChampionLevel3: {
+		DisplayName: Volibear, the Relentless Storm (Level 3)
+		Tooltip: ""
+	}
+
+	VolibearChampionLevel4: {
+		DisplayName: Volibear, the Relentless Storm (Level 4)
+		Tooltip: ""
+	}
+
+	VolibearChampionLevel5: {
+		DisplayName: Volibear, the Relentless Storm (Level 5)
+		Tooltip: ""
+	}
+
+	VolibearChampionLevel6: {
+		DisplayName: Volibear, the Relentless Storm (Level 6)
+		Tooltip: ""
+	}
+
+	VolibearChampionLevel7: {
+		DisplayName: Volibear, the Relentless Storm (Level 7)
+		Tooltip: ""
+	}
+
+	VolibearChampionLevel8: {
+		DisplayName: Volibear, the Relentless Storm (Level 8)
+		Tooltip: ""
+	}
+
+	WarwickChampionLevel2: {
+		DisplayName: Warwick, the Uncaged Wrath of Zaun (Level 2)
+		Tooltip: ""
+	}
+
+	WarwickChampionLevel3: {
+		DisplayName: Warwick, the Uncaged Wrath of Zaun (Level 3)
+		Tooltip: ""
+	}
+
+	WarwickChampionLevel4: {
+		DisplayName: Warwick, the Uncaged Wrath of Zaun (Level 4)
+		Tooltip: ""
+	}
+
+	WarwickChampionLevel5: {
+		DisplayName: Warwick, the Uncaged Wrath of Zaun (Level 5)
+		Tooltip: ""
+	}
+
+	WarwickChampionLevel6: {
+		DisplayName: Warwick, the Uncaged Wrath of Zaun (Level 6)
+		Tooltip: ""
+	}
+
+	WarwickChampionLevel7: {
+		DisplayName: Warwick, the Uncaged Wrath of Zaun (Level 7)
+		Tooltip: ""
+	}
+
+	WarwickChampionLevel8: {
+		DisplayName: Warwick, the Uncaged Wrath of Zaun (Level 8)
+		Tooltip: ""
+	}
+
+	XayahChampionLevel2: {
+		DisplayName: Xayah, the Rebel (Level 2)
+		Tooltip: ""
+	}
+
+	XayahChampionLevel3: {
+		DisplayName: Xayah, the Rebel (Level 3)
+		Tooltip: ""
+	}
+
+	XayahChampionLevel4: {
+		DisplayName: Xayah, the Rebel (Level 4)
+		Tooltip: ""
+	}
+
+	XayahChampionLevel5: {
+		DisplayName: Xayah, the Rebel (Level 5)
+		Tooltip: ""
+	}
+
+	XayahChampionLevel6: {
+		DisplayName: Xayah, the Rebel (Level 6)
+		Tooltip: ""
+	}
+
+	XayahChampionLevel7: {
+		DisplayName: Xayah, the Rebel (Level 7)
+		Tooltip: ""
+	}
+
+	XayahChampionLevel8: {
+		DisplayName: Xayah, the Rebel (Level 8)
+		Tooltip: ""
+	}
+
+	XerathChampionLevel2: {
+		DisplayName: Xerath, the Magus Ascendant (Level 2)
+		Tooltip: ""
+	}
+
+	XerathChampionLevel3: {
+		DisplayName: Xerath, the Magus Ascendant (Level 3)
+		Tooltip: ""
+	}
+
+	XerathChampionLevel4: {
+		DisplayName: Xerath, the Magus Ascendant (Level 4)
+		Tooltip: ""
+	}
+
+	XerathChampionLevel5: {
+		DisplayName: Xerath, the Magus Ascendant (Level 5)
+		Tooltip: ""
+	}
+
+	XerathChampionLevel6: {
+		DisplayName: Xerath, the Magus Ascendant (Level 6)
+		Tooltip: ""
+	}
+
+	XerathChampionLevel7: {
+		DisplayName: Xerath, the Magus Ascendant (Level 7)
+		Tooltip: ""
+	}
+
+	XerathChampionLevel8: {
+		DisplayName: Xerath, the Magus Ascendant (Level 8)
+		Tooltip: ""
+	}
+
+	XinZhaoChampionLevel2: {
+		DisplayName: Xin Zhao, the Seneschal of Demacia (Level 2)
+		Tooltip: ""
+	}
+
+	XinZhaoChampionLevel3: {
+		DisplayName: Xin Zhao, the Seneschal of Demacia (Level 3)
+		Tooltip: ""
+	}
+
+	XinZhaoChampionLevel4: {
+		DisplayName: Xin Zhao, the Seneschal of Demacia (Level 4)
+		Tooltip: ""
+	}
+
+	XinZhaoChampionLevel5: {
+		DisplayName: Xin Zhao, the Seneschal of Demacia (Level 5)
+		Tooltip: ""
+	}
+
+	XinZhaoChampionLevel6: {
+		DisplayName: Xin Zhao, the Seneschal of Demacia (Level 6)
+		Tooltip: ""
+	}
+
+	XinZhaoChampionLevel7: {
+		DisplayName: Xin Zhao, the Seneschal of Demacia (Level 7)
+		Tooltip: ""
+	}
+
+	XinZhaoChampionLevel8: {
+		DisplayName: Xin Zhao, the Seneschal of Demacia (Level 8)
+		Tooltip: ""
+	}
+
+	YasuoChampionLevel2: {
+		DisplayName: Yasuo, the Unforgiven (Level 2)
+		Tooltip: ""
+	}
+
+	YasuoChampionLevel3: {
+		DisplayName: Yasuo, the Unforgiven (Level 3)
+		Tooltip: ""
+	}
+
+	YasuoChampionLevel4: {
+		DisplayName: Yasuo, the Unforgiven (Level 4)
+		Tooltip: ""
+	}
+
+	YasuoChampionLevel5: {
+		DisplayName: Yasuo, the Unforgiven (Level 5)
+		Tooltip: ""
+	}
+
+	YasuoChampionLevel6: {
+		DisplayName: Yasuo, the Unforgiven (Level 6)
+		Tooltip: ""
+	}
+
+	YasuoChampionLevel7: {
+		DisplayName: Yasuo, the Unforgiven (Level 7)
+		Tooltip: ""
+	}
+
+	YasuoChampionLevel8: {
+		DisplayName: Yasuo, the Unforgiven (Level 8)
+		Tooltip: ""
+	}
+
+	YoneChampionLevel2: {
+		DisplayName: Yone, the Unforgotten (Level 2)
+		Tooltip: ""
+	}
+
+	YoneChampionLevel3: {
+		DisplayName: Yone, the Unforgotten (Level 3)
+		Tooltip: ""
+	}
+
+	YoneChampionLevel4: {
+		DisplayName: Yone, the Unforgotten (Level 4)
+		Tooltip: ""
+	}
+
+	YoneChampionLevel5: {
+		DisplayName: Yone, the Unforgotten (Level 5)
+		Tooltip: ""
+	}
+
+	YoneChampionLevel6: {
+		DisplayName: Yone, the Unforgotten (Level 6)
+		Tooltip: ""
+	}
+
+	YoneChampionLevel7: {
+		DisplayName: Yone, the Unforgotten (Level 7)
+		Tooltip: ""
+	}
+
+	YoneChampionLevel8: {
+		DisplayName: Yone, the Unforgotten (Level 8)
+		Tooltip: ""
+	}
+
+	YorickChampionLevel2: {
+		DisplayName: Yorick, Shepherd of Souls (Level 2)
+		Tooltip: ""
+	}
+
+	YorickChampionLevel3: {
+		DisplayName: Yorick, Shepherd of Souls (Level 3)
+		Tooltip: ""
+	}
+
+	YorickChampionLevel4: {
+		DisplayName: Yorick, Shepherd of Souls (Level 4)
+		Tooltip: ""
+	}
+
+	YorickChampionLevel5: {
+		DisplayName: Yorick, Shepherd of Souls (Level 5)
+		Tooltip: ""
+	}
+
+	YorickChampionLevel6: {
+		DisplayName: Yorick, Shepherd of Souls (Level 6)
+		Tooltip: ""
+	}
+
+	YorickChampionLevel7: {
+		DisplayName: Yorick, Shepherd of Souls (Level 7)
+		Tooltip: ""
+	}
+
+	YorickChampionLevel8: {
+		DisplayName: Yorick, Shepherd of Souls (Level 8)
+		Tooltip: ""
+	}
+
+	YunaraChampionLevel2: {
+		DisplayName: Yunara, the Unbroken Faith (Level 2)
+		Tooltip: ""
+	}
+
+	YunaraChampionLevel3: {
+		DisplayName: Yunara, the Unbroken Faith (Level 3)
+		Tooltip: ""
+	}
+
+	YunaraChampionLevel4: {
+		DisplayName: Yunara, the Unbroken Faith (Level 4)
+		Tooltip: ""
+	}
+
+	YunaraChampionLevel5: {
+		DisplayName: Yunara, the Unbroken Faith (Level 5)
+		Tooltip: ""
+	}
+
+	YunaraChampionLevel6: {
+		DisplayName: Yunara, the Unbroken Faith (Level 6)
+		Tooltip: ""
+	}
+
+	YunaraChampionLevel7: {
+		DisplayName: Yunara, the Unbroken Faith (Level 7)
+		Tooltip: ""
+	}
+
+	YunaraChampionLevel8: {
+		DisplayName: Yunara, the Unbroken Faith (Level 8)
+		Tooltip: ""
+	}
+
+	YuumiChampionLevel2: {
+		DisplayName: Yuumi, the Magical Cat (Level 2)
+		Tooltip: ""
+	}
+
+	YuumiChampionLevel3: {
+		DisplayName: Yuumi, the Magical Cat (Level 3)
+		Tooltip: ""
+	}
+
+	YuumiChampionLevel4: {
+		DisplayName: Yuumi, the Magical Cat (Level 4)
+		Tooltip: ""
+	}
+
+	YuumiChampionLevel5: {
+		DisplayName: Yuumi, the Magical Cat (Level 5)
+		Tooltip: ""
+	}
+
+	YuumiChampionLevel6: {
+		DisplayName: Yuumi, the Magical Cat (Level 6)
+		Tooltip: ""
+	}
+
+	YuumiChampionLevel7: {
+		DisplayName: Yuumi, the Magical Cat (Level 7)
+		Tooltip: ""
+	}
+
+	YuumiChampionLevel8: {
+		DisplayName: Yuumi, the Magical Cat (Level 8)
+		Tooltip: ""
+	}
+
+	ZaahenChampionLevel2: {
+		DisplayName: Zaahen, The Unsundered (Level 2)
+		Tooltip: ""
+	}
+
+	ZaahenChampionLevel3: {
+		DisplayName: Zaahen, The Unsundered (Level 3)
+		Tooltip: ""
+	}
+
+	ZaahenChampionLevel4: {
+		DisplayName: Zaahen, The Unsundered (Level 4)
+		Tooltip: ""
+	}
+
+	ZaahenChampionLevel5: {
+		DisplayName: Zaahen, The Unsundered (Level 5)
+		Tooltip: ""
+	}
+
+	ZaahenChampionLevel6: {
+		DisplayName: Zaahen, The Unsundered (Level 6)
+		Tooltip: ""
+	}
+
+	ZaahenChampionLevel7: {
+		DisplayName: Zaahen, The Unsundered (Level 7)
+		Tooltip: ""
+	}
+
+	ZaahenChampionLevel8: {
+		DisplayName: Zaahen, The Unsundered (Level 8)
+		Tooltip: ""
+	}
+
+	ZacChampionLevel2: {
+		DisplayName: Zac, the Secret Weapon (Level 2)
+		Tooltip: ""
+	}
+
+	ZacChampionLevel3: {
+		DisplayName: Zac, the Secret Weapon (Level 3)
+		Tooltip: ""
+	}
+
+	ZacChampionLevel4: {
+		DisplayName: Zac, the Secret Weapon (Level 4)
+		Tooltip: ""
+	}
+
+	ZacChampionLevel5: {
+		DisplayName: Zac, the Secret Weapon (Level 5)
+		Tooltip: ""
+	}
+
+	ZacChampionLevel6: {
+		DisplayName: Zac, the Secret Weapon (Level 6)
+		Tooltip: ""
+	}
+
+	ZacChampionLevel7: {
+		DisplayName: Zac, the Secret Weapon (Level 7)
+		Tooltip: ""
+	}
+
+	ZacChampionLevel8: {
+		DisplayName: Zac, the Secret Weapon (Level 8)
+		Tooltip: ""
+	}
+
+	ZedChampionLevel2: {
+		DisplayName: Zed, the Master of Shadows (Level 2)
+		Tooltip: ""
+	}
+
+	ZedChampionLevel3: {
+		DisplayName: Zed, the Master of Shadows (Level 3)
+		Tooltip: ""
+	}
+
+	ZedChampionLevel4: {
+		DisplayName: Zed, the Master of Shadows (Level 4)
+		Tooltip: ""
+	}
+
+	ZedChampionLevel5: {
+		DisplayName: Zed, the Master of Shadows (Level 5)
+		Tooltip: ""
+	}
+
+	ZedChampionLevel6: {
+		DisplayName: Zed, the Master of Shadows (Level 6)
+		Tooltip: ""
+	}
+
+	ZedChampionLevel7: {
+		DisplayName: Zed, the Master of Shadows (Level 7)
+		Tooltip: ""
+	}
+
+	ZedChampionLevel8: {
+		DisplayName: Zed, the Master of Shadows (Level 8)
+		Tooltip: ""
+	}
+
+	ZeriChampionLevel2: {
+		DisplayName: Zeri, The Spark of Zaun (Level 2)
+		Tooltip: ""
+	}
+
+	ZeriChampionLevel3: {
+		DisplayName: Zeri, The Spark of Zaun (Level 3)
+		Tooltip: ""
+	}
+
+	ZeriChampionLevel4: {
+		DisplayName: Zeri, The Spark of Zaun (Level 4)
+		Tooltip: ""
+	}
+
+	ZeriChampionLevel5: {
+		DisplayName: Zeri, The Spark of Zaun (Level 5)
+		Tooltip: ""
+	}
+
+	ZeriChampionLevel6: {
+		DisplayName: Zeri, The Spark of Zaun (Level 6)
+		Tooltip: ""
+	}
+
+	ZeriChampionLevel7: {
+		DisplayName: Zeri, The Spark of Zaun (Level 7)
+		Tooltip: ""
+	}
+
+	ZeriChampionLevel8: {
+		DisplayName: Zeri, The Spark of Zaun (Level 8)
+		Tooltip: ""
+	}
+
+	ZiggsChampionLevel2: {
+		DisplayName: Ziggs, the Hexplosives Expert (Level 2)
+		Tooltip: ""
+	}
+
+	ZiggsChampionLevel3: {
+		DisplayName: Ziggs, the Hexplosives Expert (Level 3)
+		Tooltip: ""
+	}
+
+	ZiggsChampionLevel4: {
+		DisplayName: Ziggs, the Hexplosives Expert (Level 4)
+		Tooltip: ""
+	}
+
+	ZiggsChampionLevel5: {
+		DisplayName: Ziggs, the Hexplosives Expert (Level 5)
+		Tooltip: ""
+	}
+
+	ZiggsChampionLevel6: {
+		DisplayName: Ziggs, the Hexplosives Expert (Level 6)
+		Tooltip: ""
+	}
+
+	ZiggsChampionLevel7: {
+		DisplayName: Ziggs, the Hexplosives Expert (Level 7)
+		Tooltip: ""
+	}
+
+	ZiggsChampionLevel8: {
+		DisplayName: Ziggs, the Hexplosives Expert (Level 8)
+		Tooltip: ""
+	}
+
+	ZileanChampionLevel2: {
+		DisplayName: Zilean, the Chronokeeper (Level 2)
+		Tooltip: ""
+	}
+
+	ZileanChampionLevel3: {
+		DisplayName: Zilean, the Chronokeeper (Level 3)
+		Tooltip: ""
+	}
+
+	ZileanChampionLevel4: {
+		DisplayName: Zilean, the Chronokeeper (Level 4)
+		Tooltip: ""
+	}
+
+	ZileanChampionLevel5: {
+		DisplayName: Zilean, the Chronokeeper (Level 5)
+		Tooltip: ""
+	}
+
+	ZileanChampionLevel6: {
+		DisplayName: Zilean, the Chronokeeper (Level 6)
+		Tooltip: ""
+	}
+
+	ZileanChampionLevel7: {
+		DisplayName: Zilean, the Chronokeeper (Level 7)
+		Tooltip: ""
+	}
+
+	ZileanChampionLevel8: {
+		DisplayName: Zilean, the Chronokeeper (Level 8)
+		Tooltip: ""
+	}
+
+	ZoeChampionLevel2: {
+		DisplayName: Zoe, the Aspect of Twilight (Level 2)
+		Tooltip: ""
+	}
+
+	ZoeChampionLevel3: {
+		DisplayName: Zoe, the Aspect of Twilight (Level 3)
+		Tooltip: ""
+	}
+
+	ZoeChampionLevel4: {
+		DisplayName: Zoe, the Aspect of Twilight (Level 4)
+		Tooltip: ""
+	}
+
+	ZoeChampionLevel5: {
+		DisplayName: Zoe, the Aspect of Twilight (Level 5)
+		Tooltip: ""
+	}
+
+	ZoeChampionLevel6: {
+		DisplayName: Zoe, the Aspect of Twilight (Level 6)
+		Tooltip: ""
+	}
+
+	ZoeChampionLevel7: {
+		DisplayName: Zoe, the Aspect of Twilight (Level 7)
+		Tooltip: ""
+	}
+
+	ZoeChampionLevel8: {
+		DisplayName: Zoe, the Aspect of Twilight (Level 8)
+		Tooltip: ""
+	}
+
+	ZyraChampionLevel2: {
+		DisplayName: Zyra, Rise of the Thorns (Level 2)
+		Tooltip: ""
+	}
+
+	ZyraChampionLevel3: {
+		DisplayName: Zyra, Rise of the Thorns (Level 3)
+		Tooltip: ""
+	}
+
+	ZyraChampionLevel4: {
+		DisplayName: Zyra, Rise of the Thorns (Level 4)
+		Tooltip: ""
+	}
+
+	ZyraChampionLevel5: {
+		DisplayName: Zyra, Rise of the Thorns (Level 5)
+		Tooltip: ""
+	}
+
+	ZyraChampionLevel6: {
+		DisplayName: Zyra, Rise of the Thorns (Level 6)
+		Tooltip: ""
+	}
+
+	ZyraChampionLevel7: {
+		DisplayName: Zyra, Rise of the Thorns (Level 7)
+		Tooltip: ""
+	}
+
+	ZyraChampionLevel8: {
+		DisplayName: Zyra, Rise of the Thorns (Level 8)
+		Tooltip: ""
+	}
 }
 
 Buffs: {
@@ -3130,6 +9201,7 @@ Buffs: {
 		DisplayName: Torch Blessing
 		Description: Mods.nothing_mod.Buffs.TorchBlessing.Description
 	}
+
 	MushroomBoiBuff: {
 		DisplayName: Mushroom Boi!
 		Description: Mushroom Boi will fight for you
@@ -3249,6 +9321,12 @@ Projectiles: {
 	TrustyFoxparksMinion.DisplayName: Trusty Foxparks
 	DigtoisePet.DisplayName: Digtoise
 	TrustyDigtoisePet.DisplayName: Trusty Digtoise
+	FlintShot.DisplayName: Flint Shot
+	FlintSlash.DisplayName: Flint Slash
+	MushroomBoiExplosion.DisplayName: Mushroom Boi Explosion
+	FoxparksFireball.DisplayName: Foxparks Fireball
+	FoxparksFlames.DisplayName: Foxparks Flames
+	RocketSlamHit.DisplayName: Rocket Slam Hit
 }
 
 Keybinds: {
@@ -3259,29 +9337,34 @@ Keybinds: {
 	SpellW.DisplayName: LoL Spell 2 (W)
 	SpellE.DisplayName: LoL Spell 3 (E)
 	SpellR.DisplayName: LoL Spell 4 (R)
+	Dash.DisplayName: Dash
 }
 
-Conditions.EchoCoatingStock: In the Graveyard, after Plantera or with a Mechanic in town
+Conditions: {
+	EchoCoatingStock: In the Graveyard, after Plantera or with a Mechanic in town
+	EyeOrKingSlime: After defeating the Eye of Cthulhu or King Slime
+}
 
-Keybinds.Dash.DisplayName: Dash
+Configs: {
+	NothingClientConfig: {
+		DisplayName: nothing's mod (client)
 
-Configs.NothingClientConfig: {
-	DisplayName: nothing's mod (client)
-	DoubleTapDashing: {
-		Label: Double Tap Dashing
-		Tooltip: Dash by double tapping a direction. Turn off to dash only with the Dash keybind.
+		DoubleTapDashing: {
+			Label: Double Tap Dashing
+			Tooltip: Dash by double tapping a direction. Turn off to dash only with the Dash keybind.
+		}
 	}
 }
 
 UI: {
 	CraftSearch.Hint: Search recipes...
+
 	BannerMenu: {
 		Title: Banner Menu
 		Button: Banners
 		Hint: Click: take 1. Shift+click: take a full stack.
 	}
 }
-
 
 Mounts: {
 	ChilletMount.DisplayName: Chillet
